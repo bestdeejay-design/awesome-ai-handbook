@@ -1,4 +1,8 @@
+[![English](https://img.shields.io/badge/English-Contributing-blue.svg)](CONTRIBUTING.md)
+[![Русский](https://img.shields.io/badge/Русский-Contributing-blue.svg)](CONTRIBUTING.ru.md)
+
 # Contributing to Awesome AI Handbook
+...
 
 Hello! 👋
 
