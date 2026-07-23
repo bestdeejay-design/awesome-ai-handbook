@@ -16,14 +16,14 @@
 
 | Задача | Модель | Размер | Квантизация | Скорость (токен/сек) | HuggingFace / Ollama |
 |---|---|---|---|---|---|
-| **Повседневный чат** | Qwen 3.5 9B | ~7.0 GB | Q4_K_M | 10–13 | [HF](https://huggingface.co/Qwen/Qwen3-9B) / [Ollama](https://ollama.com/library/qwen3:9b) |
-| **Максимальная скорость** | Qwen 3.5 4B | ~3.5 GB | Q4_K_M | 28–35 | [HF](https://huggingface.co/Qwen/Qwen3-4B) / [Ollama](https://ollama.com/library/qwen3:4b) |
-| **Кодинг** | Qwen 2.5 Coder 7B | ~4.7 GB | Q4_K_M | 22–25 | [HF](https://huggingface.co/Qwen/Qwen2.5-Coder-7B) / [Ollama](https://ollama.com/library/qwen2.5-coder:7b) |
-| **Письмо/контент** | Llama 3.3 8B | ~4.9 GB | Q4_K_M | 14–18 | [HF](https://huggingface.co/meta-llama/Llama-3.3-8B-Instruct) / [Ollama](https://ollama.com/library/llama3.3:8b) |
-| **Математика/reasoning** | Phi-4 Mini | ~2.3 GB | Q4_K_M | 25–30 | [HF](https://huggingface.co/microsoft/Phi-4-mini-instruct) / [Ollama](https://ollama.com/library/phi4-mini) |
-| **Мультимодальная (зрение)** | Gemma 4 E4B | ~2.5 GB | Q4_K_M | 30–38 | [HF](https://huggingface.co/google/gemma-3-4b-it) / [Ollama](https://ollama.com/library/gemma3:4b) |
-| **Tool calling / агенты** | LFM2.5 8B-A1B | ~5.5 GB | Q4_K_M | 35–45 | [HF](https://huggingface.co/LiquidAI/LFM2-8B-A1B) |
-| **Длинный контекст** | Qwen 3.5 9B | ~7.0 GB | Q4_K_M | 10–13 | [HF](https://huggingface.co/Qwen/Qwen3-9B) / [Ollama](https://ollama.com/library/qwen3:9b) |
+| **Повседневный чат** | Qwen 3.5 9B | 6.6 GB | Q4_K_M | 10–13 | [HF](https://huggingface.co/Qwen/Qwen3.5-9B) / [Ollama](https://ollama.com/library/qwen3.5) |
+| **Максимальная скорость** | Qwen 3.5 4B | 3.4 GB | Q4_K_M | 28–35 | [HF](https://huggingface.co/Qwen/Qwen3.5-4B) / [Ollama](https://ollama.com/library/qwen3.5) |
+| **Кодинг** | Qwen 2.5 Coder 7B | 4.7 GB | Q4_K_M | 22–25 | [HF](https://huggingface.co/Qwen/Qwen2.5-Coder-7B) / [Ollama](https://ollama.com/library/qwen2.5-coder:7b) |
+| **Письмо/контент** | Llama 3.3 8B | 4.9 GB | Q4_K_M | 14–18 | [HF](https://huggingface.co/meta-llama/Llama-3.3-8B-Instruct) / [Ollama](https://ollama.com/library/llama3.3:8b) |
+| **Математика/reasoning** | Phi-4 Mini | 2.3 GB | Q4_K_M | 25–30 | [HF](https://huggingface.co/microsoft/Phi-4-mini-instruct) / [Ollama](https://ollama.com/library/phi4-mini) |
+| **Мультимодальная (зрение)** | Gemma 4 E4B | 2.5 GB | Q4_K_M | 30–38 | [HF](https://huggingface.co/google/gemma-3-4b-it) / [Ollama](https://ollama.com/library/gemma3:4b) |
+| **Tool calling / агенты** | LFM2.5 8B-A1B | 5.5 GB | Q4_K_M | 35–45 | [HF](https://huggingface.co/LiquidAI/LFM2-8B-A1B) |
+| **Длинный контекст** | Qwen 3.5 9B | 6.6 GB | Q4_K_M | 10–13 | [HF](https://huggingface.co/Qwen/Qwen3.5-9B) / [Ollama](https://ollama.com/library/qwen3.5) |
 
 ## Как подобрать модель под ваш объем памяти
 
