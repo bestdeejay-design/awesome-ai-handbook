@@ -5,33 +5,24 @@
 
 # English
 
-🇬🇧 You are reading the **English** version.
-
-👉 **Switch to:** [Русская версия →](README.ru.md)
+> 📖 **Read in:** [Русский →](README.ru.md)
 
 The English version is being prepared based on the Russian original.
-Please check the [Russian version](README.ru.md) for complete content.
-
-# About
-
-Practical handbook covering:
-- Local model setup
-- AI agents
-- Prompt engineering
-- RAG systems
+For complete and up-to-date content, please check the [Russian version](README.ru.md).
 
 # Structure
 
-See the [Russian README](README.ru.md) for complete documentation structure.
+See the [Russian README](README.ru.md) for the full documentation structure.
 
 ```
 repository/
 ├── README.md
 ├── README.ru.md
 ├── docs/
+├── guides/
 └── examples/
 ```
 
 # License
 
-MIT — see `LICENSE` file.
+MIT — see `LICENSE` file for details.
