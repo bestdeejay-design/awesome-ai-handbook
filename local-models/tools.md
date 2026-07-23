@@ -63,6 +63,191 @@
 - ❌ Нужна максимальная скорость (MLX быстрее на 20-40%)
 - ❌ Нужна тонкая настройка инференса (llama.cpp даёт больше контроля)
 
+#### 📡 API Endpoints
+
+Ollama предоставляет HTTP API на порту 11434. Все запросы — POST, ответы в JSON.
+
+| Endpoint | Метод | Описание |
+|---|---|---|
+| `/api/chat` | POST | Чат-комплейшен (streaming) |
+| `/api/generate` | POST | Генерация текста (completion) |
+| `/api/embed` | POST | Эмбеддинги (новый API, заменяет `/api/embeddings`) |
+| `/api/embeddings` | POST | Эмбеддинги (deprecated) |
+| `/api/tags` | GET | Список локальных моделей |
+| `/api/ps` | GET | Список загруженных моделей |
+| `/api/show` | POST | Информация о модели |
+| `/api/create` | POST | Создание из Modelfile |
+| `/api/pull` | POST | Скачивание модели |
+| `/api/push` | POST | Загрузка в реестр |
+| `/api/copy` | POST | Копирование модели |
+| `/api/delete` | DELETE | Удаление модели |
+| `/api/version` | GET | Версия Ollama |
+| `/api/blobs/:digest` | HEAD/POST | Проверка/создание blob'а |
+| `/api/experimental/web_search` | POST | Веб-поиск (экспериментально) |
+| `/api/experimental/web_fetch` | POST | Получение страниц (экспериментально) |
+
+**Базовые примеры:**
+
+```bash
+# Generate (без streaming)
+curl http://localhost:11434/api/generate -d '{
+  "model": "qwen3.5:4b",
+  "prompt": "What is the meaning of life?",
+  "stream": false
+}'
+
+# Chat
+curl http://localhost:11434/api/chat -d '{
+  "model": "qwen3.5:4b",
+  "messages": [{"role": "user", "content": "Привет!"}],
+  "stream": false
+}'
+
+# JSON mode
+curl http://localhost:11434/api/chat -d '{
+  "model": "qwen3.5:4b",
+  "messages": [{"role": "user", "content": "Извлеки имя из: Меня зовут Иван"}],
+  "format": "json",
+  "stream": false
+}'
+
+# Список установленных моделей
+curl http://localhost:11434/api/tags
+
+# Загруженные модели (память, процессор)
+curl http://localhost:11434/api/ps
+
+# Выгрузить модель из памяти
+curl http://localhost:11434/api/generate -d '{
+  "model": "qwen3.5:4b",
+  "keep_alive": 0
+}'
+
+# Эмбеддинги
+curl http://localhost:11434/api/embed -d '{
+  "model": "all-minilm",
+  "input": ["текст для векторизации"]
+}'
+```
+
+**Structured output (JSON Schema):**
+
+```bash
+curl http://localhost:11434/api/chat -d '{
+  "model": "qwen3.5:4b",
+  "messages": [{"role": "user", "content": "Извлеки данные: Иван, 25, Москва"}],
+  "format": {
+    "type": "object",
+    "properties": {
+      "name": {"type": "string"},
+      "age": {"type": "integer"},
+      "city": {"type": "string"}
+    },
+    "required": ["name", "age", "city"]
+  },
+  "stream": false
+}'
+```
+
+#### 🤖 OpenAI-совместимые эндпоинты
+
+Любая библиотека для OpenAI подключается к Ollama сменой `base_url`:
+
+| Endpoint | Описание |
+|---|---|
+| `/v1/chat/completions` | Chat (OpenAI формат) |
+| `/v1/completions` | Completion (OpenAI формат) |
+| `/v1/embeddings` | Embeddings (OpenAI формат) |
+| `/v1/models` | Список моделей |
+
+```python
+from openai import OpenAI
+
+client = OpenAI(
+    base_url="http://localhost:11434/v1",
+    api_key="ollama"  # любое значение
+)
+
+response = client.chat.completions.create(
+    model="qwen3.5:4b",
+    messages=[{"role": "user", "content": "Привет!"}]
+)
+print(response.choices[0].message.content)
+```
+
+```bash
+# curl-версия
+curl http://localhost:11434/v1/chat/completions -d '{
+  "model": "qwen3.5:4b",
+  "messages": [{"role": "user", "content": "Привет!"}]
+}'
+```
+
+#### 📝 Modelfile Parameters
+
+Modelfile — конфигурация модели в Ollama (аналог Dockerfile для LLM):
+
+```dockerfile
+FROM qwen3.5:4b
+PARAMETER temperature 0.7
+PARAMETER num_ctx 8192
+SYSTEM "Ты профессиональный Python-разработчик."
+```
+
+**Все параметры PARAMETER:**
+
+| Параметр | Дефолт | Описание |
+|---|---|---|
+| `num_ctx` | 2048* | Размер контекстного окна |
+| `num_predict` | -1 (∞) | Макс. токенов генерации |
+| `temperature` | 0.8 | «Креативность» ответов |
+| `top_k` | 40 | Top-K сэмплирование |
+| `top_p` | 0.9 | Nucleus сэмплирование |
+| `min_p` | 0.0 | Min-P сэмплирование |
+| `seed` | 0 | Seed (для воспроизводимости) |
+| `stop` | — | Стоп-последовательности |
+| `repeat_penalty` | 1.1 | Штраф повторов |
+| `repeat_last_n` | 64 | Окно штрафа (0=выкл) |
+| `num_batch` | auto | Размер batch |
+| `num_thread` | auto | Количество потоков CPU |
+| `numa` | false | NUMA (Linux, multi-socket) |
+| `use_mmap` | true | Memory-mapped I/O |
+
+> *`num_ctx` в Modelfile = 2048, но через API авто-выбирается по VRAM. На M1 16GB → 4096 (см. README).
+
+**Другие инструкции Modelfile:**
+
+| Инструкция | Описание |
+|---|---|
+| `FROM` | Базовая модель (обязательная) |
+| `TEMPLATE` | Prompt-шаблон (Go template) |
+| `SYSTEM` | Системное сообщение |
+| `ADAPTER` | LoRA-адаптер |
+| `LICENSE` | Лицензия |
+| `MESSAGE` | Few-shot примеры |
+| `DRAFT` | Draft-модель (speculative decoding) |
+| `REQUIRES` | Минимальная версия Ollama |
+
+#### 🔧 Environment Variables
+
+Ключевые `OLLAMA_*` переменные для настройки:
+
+| Переменная | Дефолт | Описание |
+|---|---|---|
+| `OLLAMA_HOST` | `127.0.0.1:11434` | IP и порт сервера |
+| `OLLAMA_MODELS` | `~/.ollama/models` | Путь к моделям |
+| `OLLAMA_KEEP_ALIVE` | `5m` | Время жизни модели в памяти |
+| `OLLAMA_NUM_PARALLEL` | `1` | Параллельных запросов |
+| `OLLAMA_MAX_LOADED_MODELS` | auto | Макс. моделей на GPU |
+| `OLLAMA_LOAD_TIMEOUT` | `5m` | Таймаут загрузки |
+| `OLLAMA_KV_CACHE_TYPE` | `f16` | Квантизация KV cache (`q8_0`, `q4_0`) |
+| `OLLAMA_FLASH_ATTENTION` | false | Flash attention (экономия памяти) |
+| `OLLAMA_GPU_OVERHEAD` | `0` | Резерв VRAM (байты) |
+| `OLLAMA_MAX_QUEUE` | `512` | Макс. очередь запросов |
+| `OLLAMA_DEBUG` | false | Режим отладки |
+| `OLLAMA_NOHISTORY` | false | Отключить историю |
+| `OLLAMA_NO_CLOUD` | false | Без облачных функций |
+
 ---
 
 ### 1.2 LM Studio — лучший GUI
