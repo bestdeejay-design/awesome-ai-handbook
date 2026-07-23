@@ -1,3 +1,9 @@
+[![Русский](https://img.shields.io/badge/Русский-README-blue.svg)](README.ru.md)
+[![English](https://img.shields.io/badge/English-README-blue.svg)](README.md)
+
+# Awesome AI Handbook (русская версия) 
+...
+
 # 🧠 Awesome AI Handbook
 
 > Практический справочник по AI: от локальных моделей до своих агентов.

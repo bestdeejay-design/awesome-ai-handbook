@@ -1,15 +1,18 @@
+[![English](https://img.shields.io/badge/English-README-blue.svg)](README.md)
+[![Русский](https://img.shields.io/badge/Русский-README-blue.svg)](README.ru.md)
+
 # 🧠 Awesome AI Handbook
 
 > A practical guide to AI: from running models locally to building your own agents.
 > Not just links — guides, benchmarks, and proven approaches.
 
-**English** | **[Русский](README.ru.md)**
+> 📖 **Read in:** [Русский →](README.ru.md)
+
+The **full handbook content is in Russian** ([README.ru.md](README.ru.md)); this page is the English navigation hub.
 
 ---
 
 ## About
-
-A curated handbook for running LLMs locally and building AI agents. The **full content is in Russian** ([README.ru.md](README.ru.md)); this page is the English navigation hub.
 
 **Mission:** help everyone explore AI — from first local model run to a working agent prototype.
 
