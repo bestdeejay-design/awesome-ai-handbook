@@ -73,14 +73,14 @@ ollama run qwen3:8b
 
 | Задача | Модель | Квант. | Размер | Скорость | Ссылка |
 |---|---|---|---|---|---|
-| **Повседневный чат** ⭐ | Qwen 3.5 9B | Q4_K_M | ~7.0 GB | 10–13 tok/s | [HuggingFace](https://huggingface.co/Qwen/Qwen3-9B) / [Ollama](https://ollama.com/library/qwen3:9b) |
-| **Максимальная скорость** ⭐ | Qwen 3.5 4B | Q4_K_M | ~3.5 GB | 28–35 tok/s | [HuggingFace](https://huggingface.co/Qwen/Qwen3-4B) / [Ollama](https://ollama.com/library/qwen3:4b) |
-| **Кодинг** ⭐ | Qwen 2.5 Coder 7B | Q4_K_M | ~4.7 GB | 22–25 tok/s | [HuggingFace](https://huggingface.co/Qwen/Qwen2.5-Coder-7B) / [Ollama](https://ollama.com/library/qwen2.5-coder:7b) |
-| **Письмо / контент** ⭐ | Llama 3.3 8B | Q4_K_M | ~4.9 GB | 14–18 tok/s | [HuggingFace](https://huggingface.co/meta-llama/Llama-3.3-8B-Instruct) / [Ollama](https://ollama.com/library/llama3.3:8b) |
+| **Повседневный чат** ⭐ | Qwen 3.5 9B | Q4_K_M | ~7.0 GB | 10–13 tok/s | [HuggingFace](https://huggingface.co/Qwen/Qwen3-9B) / [Ollama](https://ollama.com/library/qwen3) |
+| **Максимальная скорость** ⭐ | Qwen 3.5 4B | Q4_K_M | ~3.5 GB | 28–35 tok/s | [HuggingFace](https://huggingface.co/Qwen/Qwen3-4B) / [Ollama](https://ollama.com/library/qwen3) |
+| **Кодинг** ⭐ | Qwen 2.5 Coder 7B | Q4_K_M | ~4.7 GB | 22–25 tok/s | [HuggingFace](https://huggingface.co/Qwen/Qwen2.5-Coder-7B) / [Ollama](https://ollama.com/library/qwen2.5-coder) |
+| **Письмо / контент** ⭐ | Llama 3.3 8B | Q4_K_M | ~4.9 GB | 14–18 tok/s | [HuggingFace](https://huggingface.co/meta-llama/Llama-3.3-8B-Instruct) / [Ollama](https://ollama.com/library/llama3.3) |
 | **Математика / reasoning** ⭐ | Phi-4 Mini | Q4_K_M | ~2.3 GB | 25–30 tok/s | [HuggingFace](https://huggingface.co/microsoft/Phi-4-mini-instruct) / [Ollama](https://ollama.com/library/phi4-mini) |
-| **Мультимодальная (зрение)** ⭐ | Gemma 4 E4B | Q4_K_M | ~2.5 GB | 30–38 tok/s | [HuggingFace](https://huggingface.co/google/gemma-3-4b-it) / [Ollama](https://ollama.com/library/gemma3:4b) |
+| **Мультимодальная (зрение)** ⭐ | Gemma 4 E4B | Q4_K_M | ~2.5 GB | 30–38 tok/s | [HuggingFace](https://huggingface.co/google/gemma-3-4b-it) / [Ollama](https://ollama.com/library/gemma3) |
 | **Tool calling / агенты** ⭐ | LFM2.5 8B-A1B | Q4_K_M | ~5.5 GB | 35–45 tok/s | [HuggingFace](https://huggingface.co/LiquidAI/LFM2-8B-A1B) |
-| **Длинный контекст** ⭐ | Qwen 3.5 9B | Q4_K_M | ~7.0 GB | 10–13 tok/s | [HuggingFace](https://huggingface.co/Qwen/Qwen3-9B) / [Ollama](https://ollama.com/library/qwen3:9b) |
+| **Длинный контекст** ⭐ | Qwen 3.5 9B | Q4_K_M | ~7.0 GB | 10–13 tok/s | [HuggingFace](https://huggingface.co/Qwen/Qwen3-9B) / [Ollama](https://ollama.com/library/qwen3) |
 
 > 💡 **Примечание**: Бенчмарки сняты на MacBook Air M1 16GB. Для NVIDIA GPU / Windows / Linux производительность будет другой — см. сравнение чипов ниже.
 
