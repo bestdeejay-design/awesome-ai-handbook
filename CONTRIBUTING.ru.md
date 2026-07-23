@@ -1,4 +1,9 @@
-# Руководство по внесению вклада в Awesome AI Handbook
+[![Русский](https://img.shields.io/badge/Русский-Contributing-blue.svg)](CONTRIBUTING.ru.md)
+[![English](https://img.shields.io/badge/English-Contributing-blue.svg)](CONTRIBUTING.md)
+
+# Руководство по внесению вклада
+...
+
 
 Привет! 👋
 
