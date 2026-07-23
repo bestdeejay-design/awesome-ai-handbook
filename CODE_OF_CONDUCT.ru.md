@@ -1,4 +1,8 @@
-# Кодекс поведения участника (Contributor Covenant)
+[![English](https://img.shields.io/badge/English-Code_of_Conduct-blue.svg)](CODE_OF_CONDUCT.md)
+[![Русский](https://img.shields.io/badge/Русский-Code_of_Conduct-blue.svg)](CODE_OF_CONDUCT.ru.md)
+
+# Кодекс поведения участника
+...
 
 ## Наше обязательство
 
