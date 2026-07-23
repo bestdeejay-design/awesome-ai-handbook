@@ -5,13 +5,49 @@
 
 **[Русский](README.ru.md)** | English
 
+# About
+
 > 📖 **Русская версия доступна [здесь](README.ru.md)**  
 > English version is being prepared based on the Russian original.
 > Please check the Russian version for complete content.
 
-## 📂 Структура репозитория
+**Description of project, its goals and philosophy here.**
+
+# Structure
 
 See the [Russian README](README.ru.md) for complete documentation structure and content.
+
+```
+repository/
+├── README.md          # This file
+├── README.ru.md       # Russian version
+├── docs/
+├── guides/
+└── examples/
+```
+
+# Contributing
+
+Guidelines for contributors, how to add new sections, formatting rules, etc.
+
+# Roadmap
+
+- [ ] Translate full content to English
+- [ ] Add more examples
+- [ ] Create video tutorials
+- [ ] Add community section
+
+# License
+
+MIT License — see `LICENSE` file for details.
+
+# Support
+
+If you find this useful:
+- ⭐ Star the repo
+- 🐛 Report issues
+- 💡 Suggest improvements
+- 🔀 Submit PRs
 
 ---
 
