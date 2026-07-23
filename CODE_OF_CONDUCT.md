@@ -1,4 +1,8 @@
+[![Русский](https://img.shields.io/badge/Русский-Code_of_Conduct-blue.svg)](CODE_OF_CONDUCT.ru.md)
+[![English](https://img.shields.io/badge/English-Code_of_Conduct-blue.svg)](CODE_OF_CONDUCT.md)
+
 # Contributor Covenant Code of Conduct
+...
 
 ## Our Pledge
 
