@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Help others find this resource – cite it in your projects and papers!"
+authors:
+- family-names: "SERGEI K."
+  given-names: "BESTDEEJAY"
+title: "awesome-ai-handbook"
+version: 1.0.0
+date-released: 2026-07-23
+url: "https://github.com/bestdeejay-design/awesome-ai-handbook"
+
+keywords:
+  - artificial intelligence
+  - machine learning
+  - handbook
+  - open-source
