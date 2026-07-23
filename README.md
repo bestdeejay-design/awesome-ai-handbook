@@ -1,3 +1,6 @@
+[![English](https://img.shields.io/badge/English-README-blue.svg)](README.md)
+[![Русский](https://img.shields.io/badge/Русский-README-blue.svg)](README.RU.md)
+
 # 🧠 Awesome AI Handbook
 
 > A practical guide to AI: from running models locally to building your own agents.
