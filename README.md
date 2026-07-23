@@ -1,5 +1,8 @@
 [![English](https://img.shields.io/badge/English-README-blue.svg)](README.md)
-[![Русский](https://img.shields.io/badge/Русский-README-blue.svg)](README.RU.md)
+[![Русский](https://img.shields.io/badge/Русский-README-blue.svg)](README.ru.md)
+
+# Awesome AI Handbook
+...
 
 # 🧠 Awesome AI Handbook
 
