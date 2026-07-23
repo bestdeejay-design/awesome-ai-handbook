@@ -92,7 +92,7 @@ ollama run qwen3:8b
 |---|---|---|---|---|---|
 | **Ollama** ⭐ | CLI + API | ✅ MIT | Metal | Разработчики, интеграции | [ollama/ollama](https://github.com/ollama/ollama) ⭐ 148K |
 | **LM Studio** ⭐ | GUI + CLI | ❌ | MLX авто | Начинающие, поиск моделей | [lmstudio-ai/lmstudio](https://github.com/lmstudio-ai/lmstudio) |
-| **mlx-lm** | Python / CLI | ✅ Apache | Нативно | Макс. скорость на Mac | [ml-explore/mlx](https://github.com/ml-explore/mlx) |
+| **MLX** (mlx-lm) | Python / CLI | ✅ Apache | Нативно | Фреймворк Apple для ML (обучение + инференс) | [ml-explore/mlx](https://github.com/ml-explore/mlx) |
 | **llama.cpp** | CLI | ✅ MIT | Metal | Полный контроль | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) ⭐ 70K+ |
 | **GPT4All** | GUI | ✅ | Metal | RAG, документы | [nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all) |
 | **Jan** | GUI | ❌ | Metal | Приватность, десктоп | [janhq/jan](https://github.com/janhq/jan) ⭐ 35K |
