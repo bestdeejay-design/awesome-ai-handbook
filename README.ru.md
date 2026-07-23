@@ -697,6 +697,17 @@ curl http://localhost:11434/api/experimental/web_search -d '{
 
 Позволяет агенту искать информацию в интернете без отдельного Search API.
 
+#### 6. Десктопные и мобильные клиенты
+
+Ollama — это сервер (как локальный OpenAI API). Для повседневного общения удобно использовать клиенты:
+
+| Инструмент | Платформа | Фишка |
+|---|---|---|
+| [**Enchanted**](https://github.com/gluonfield/enchanted) | macOS + iOS | Нативный SwiftUI, подключается к Ollama по URI, можно с iPhone до Mac |
+| [**Open WebUI**](https://github.com/open-webui/open-webui) | Веб (Docker) | RAG, мультимодальность, управление пользователями |
+| **LM Studio** | macOS/Win/Linux | GUI для скачивания и теста моделей |
+| [**Continue**](https://github.com/continuedev/continue) | VS Code / JetBrains | AI-автодополнение кода с локальной моделью |
+
 ---
 
 ### Туториалы

@@ -565,22 +565,26 @@ aider --model ollama/qwen2.5-coder:7b
 
 ---
 
-### 1.11 Enchanted — нативное macOS приложение
+### 1.11 Enchanted — клиент для macOS и iOS
 
 | Параметр | Значение |
 |----------|----------|
-| **Интерфейс** | macOS GUI (SwiftUI) |
-| **Open Source** | ❌ Закрытый |
-| **Apple Silicon** | MLX нативный |
-| **GitHub** | [AugustDev/Enchanted](https://github.com/AugustDev/Enchanted) |
+| **Интерфейс** | macOS + iOS GUI (SwiftUI) |
+| **Open Source** | ✅ MIT |
+| **Apple Silicon** | Нативный, подключается к Ollama |
+| **GitHub** | [gluonfield/enchanted](https://github.com/gluonfield/enchanted) |
 
 **Особенности:**
-- Нативное macOS приложение (SwiftUI, не Electron)
-- MLX-модели (конвертированные)
-- Минималистичный интерфейс (в стиле Apple)
-- iCloud синхронизация истории
-- Markdown-рендеринг
-- Vision-модели
+- Нативные приложения для macOS и iOS (SwiftUI)
+- Подключается к любому Ollama-серверу по URI (`http://localhost:11434`)
+- Можно стучаться с iPhone до Mac в локальной сети
+- Минималистичный интерфейс в стиле Apple
+- Markdown-рендеринг, поддержка изображений
+
+**Когда выбрать:**
+- ✅ Нужен клиент для iPhone/iPad в дополнение к Mac
+- ✅ Нравится минималистичный дизайн
+- ❌ Не нужна iOS-версия — Ollama CLI или Open WebUI проще
 
 ---
 
