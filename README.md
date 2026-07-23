@@ -3,52 +3,35 @@
 > A practical guide to AI: from running models locally to building your own agents.
 > Not just links — guides, benchmarks, and proven approaches.
 
-**[Русский](README.ru.md)** | English
+# English
+
+🇬🇧 You are reading the **English** version.
+
+👉 **Switch to:** [Русская версия →](README.ru.md)
+
+The English version is being prepared based on the Russian original.
+Please check the [Russian version](README.ru.md) for complete content.
 
 # About
 
-> 📖 **Русская версия доступна [здесь](README.ru.md)**  
-> English version is being prepared based on the Russian original.
-> Please check the Russian version for complete content.
-
-**Description of project, its goals and philosophy here.**
+Practical handbook covering:
+- Local model setup
+- AI agents
+- Prompt engineering
+- RAG systems
 
 # Structure
 
-See the [Russian README](README.ru.md) for complete documentation structure and content.
+See the [Russian README](README.ru.md) for complete documentation structure.
 
 ```
 repository/
-├── README.md          # This file
-├── README.ru.md       # Russian version
+├── README.md
+├── README.ru.md
 ├── docs/
-├── guides/
 └── examples/
 ```
 
-# Contributing
-
-Guidelines for contributors, how to add new sections, formatting rules, etc.
-
-# Roadmap
-
-- [ ] Translate full content to English
-- [ ] Add more examples
-- [ ] Create video tutorials
-- [ ] Add community section
-
 # License
 
-MIT License — see `LICENSE` file for details.
-
-# Support
-
-If you find this useful:
-- ⭐ Star the repo
-- 🐛 Report issues
-- 💡 Suggest improvements
-- 🔀 Submit PRs
-
----
-
-*This project exists so that everyone can expand their horizons in AI — regardless of technical level or hardware.*
+MIT — see `LICENSE` file.
