@@ -1,22 +1,43 @@
 # 🖥 Локальные модели
 
-Запуск больших языковых моделей (LLM) на своем собственном оборудовании.
+Запуск LLM на своём оборудовании: выбор модели, инструментов и настройка под ваше железо.
+
+[← Главная](../README.ru.md)
+
+---
 
 ## Содержание
-- [Инструменты](tools.md) - Ollama, LM Studio, MLX, llama.cpp и другие
-- [Модели](models.md) - какие модели подходят для различных задач
-- [Квантизация](quantization.md) - форматы и уровни сжатия моделей
-- [Бенчмарки](benchmarks/) - производительность на разных процессорах
-- [Устранение проблем](troubleshooting.md) - частые вопросы и решения
+
+| Документ | Описание |
+|----------|----------|
+| [running-models.md](running-models.md) | Ollama, LM Studio, HuggingFace — практикум |
+| [memory-and-context.md](memory-and-context.md) | RAM, KV cache, `num_ctx`, рекомендации по железу |
+| [catalog.md](catalog.md) | Полный каталог 50+ open-weight моделей |
+| [models.md](models.md) | Выбор модели по задаче и объёму памяти |
+| [tools.md](tools.md) | Ollama, MLX, llama.cpp, LM Studio и др. |
+| [quantization.md](quantization.md) | GGUF, MLX, TurboQuant |
+| [benchmarks/apple-silicon.md](benchmarks/apple-silicon.md) | tok/s на M1–M4 |
+| [troubleshooting.md](troubleshooting.md) | Частые проблемы и диагностика |
+
+---
 
 ## Быстрый старт
+
 ```bash
-# Установка Ollama (простейший способ начать)
 brew install ollama    # macOS
 # curl -fsSL https://ollama.com/install.sh | sh  # Linux
 
-# Запуск модели
-ollama run qwen3:8b
-
-# Готово! Спросите что-нибудь в появившемся чате.
+ollama run qwen3.5:4b        # чат
+ollama run qwen2.5-coder:7b  # кодинг
 ```
+
+Подробнее — [running-models.md](running-models.md).
+
+---
+
+## С чего начать
+
+1. **Новичок** → [running-models.md](running-models.md) → [models.md](models.md)
+2. **Выбор модели** → [memory-and-context.md](memory-and-context.md) → [catalog.md](catalog.md)
+3. **Медленно / падает** → [troubleshooting.md](troubleshooting.md)
+4. **Нужна скорость** → [tools.md](tools.md) + [benchmarks/apple-silicon.md](benchmarks/apple-silicon.md)
