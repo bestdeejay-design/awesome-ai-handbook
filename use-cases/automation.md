@@ -160,7 +160,7 @@ npx n8n
 Method: POST
 URL: http://localhost:11434/api/chat
 Body (JSON):
-{% raw %}
+
 {
   "model": "qwen3.5:4b",
   "messages": [
@@ -169,7 +169,6 @@ Body (JSON):
   ],
   "stream": false
 }
-{% endraw %}
 ```
 
 ### Workflow Examples
@@ -185,7 +184,7 @@ Body (JSON):
 
 ## 5. Telegram Bot with Local Model
 
-{% raw %}
+
 ```python
 #!/usr/bin/env python3
 """telegram_ai_bot.py — Telegram bot on local model."""
@@ -225,7 +224,6 @@ if __name__ == "__main__":
     print("🤖 AI Bot running on http://localhost:8888")
     server.serve_forever()
 ```
-{% endraw %}
 
 For a full-featured Telegram bot, use `python-telegram-bot` + Ollama.
 
