@@ -17,7 +17,3 @@
 ---
 
 [← Back to agents](../README.md)
-
----
-
-> Full content available in Russian. English version coming soon.
