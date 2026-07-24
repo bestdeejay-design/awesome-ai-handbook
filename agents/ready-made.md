@@ -6,4 +6,8 @@
 
 ---
 
-[← Back to agents](README.md)
+[← AI agents](README.md) · [Orchestrators →](orchestrators.md)
+
+Full catalog in Russian. Covers: 12+ agents across CLI, IDE plugins, AI-native IDEs, and autonomous categories with comparison tables and recommendations.
+
+[Read in Russian →](ready-made.ru.md)

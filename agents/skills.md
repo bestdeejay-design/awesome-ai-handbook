@@ -6,4 +6,8 @@
 
 ---
 
-[← Back to agents](README.md)
+[← AI agents](README.md) · [Architecture →](architecture.md)
+
+Full guide in Russian. Covers: skill types, MCP protocol, 9 platform comparisons, 5 skill maturity levels, and a complete test-graphics example (placeholder images via free APIs).
+
+[Read in Russian →](skills.ru.md)
