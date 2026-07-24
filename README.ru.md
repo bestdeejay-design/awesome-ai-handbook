@@ -42,7 +42,8 @@ ollama run qwen2.5-coder:7b  # ~4.7 GB
 # 3. Готово! Спросите что-нибудь.
 ```
 
-Дальше: [как запускать модели](local-models/running-models.md) · [что влезет в RAM](local-models/memory-and-context.md)
+Новичок? Начните с **[пошаговой установки](local-models/getting-started.ru.md)**.  
+Уже установлено: [как запускать модели](local-models/running-models.ru.md) · [что влезет в RAM](local-models/memory-and-context.ru.md)
 
 ---
 
@@ -52,13 +53,16 @@ ollama run qwen2.5-coder:7b  # ~4.7 GB
 awesome-ai-handbook/
 ├── README.ru.md              ← вы здесь
 ├── local-models/             ← локальный инференс
+│   ├── README.md             ← навигация и сценарии
+│   ├── getting-started.md    ← [NEW] подготовка окружения для новичков
 │   ├── running-models.md     ← Ollama, LM Studio, HuggingFace
-│   ├── memory-and-context.md ← RAM, KV cache, num_ctx
-│   ├── catalog.md            ← 50+ моделей
 │   ├── models.md             ← выбор по задачам
+│   ├── memory-and-context.md ← RAM, KV cache, num_ctx
+│   ├── advanced-setup.md     ← [NEW] Modelfile, API, env vars
 │   ├── tools.md              ← Ollama, MLX, llama.cpp…
 │   ├── quantization.md       ← Q4, MLX, TurboQuant
 │   ├── troubleshooting.md    ← частые проблемы
+│   ├── catalog.md            ← 50+ моделей
 │   └── benchmarks/
 │       └── apple-silicon.md  ← tok/s на M1–M4
 ├── agents/                   ← AI-агенты
@@ -87,14 +91,16 @@ awesome-ai-handbook/
 
 | Тема | Файл |
 |------|------|
-| Запуск моделей | [running-models.md](local-models/running-models.md) |
-| Память и контекст | [memory-and-context.md](local-models/memory-and-context.md) |
-| Каталог моделей | [catalog.md](local-models/catalog.md) |
-| Выбор по задаче | [models.md](local-models/models.md) |
-| Инструменты | [tools.md](local-models/tools.md) |
-| Квантизация | [quantization.md](local-models/quantization.md) |
-| Бенчмарки Mac | [benchmarks/apple-silicon.md](local-models/benchmarks/apple-silicon.md) |
-| Проблемы | [troubleshooting.md](local-models/troubleshooting.md) |
+| **Начать с нуля** 🟢 | [getting-started.md](local-models/getting-started.ru.md) |
+| Запуск моделей | [running-models.md](local-models/running-models.ru.md) |
+| Выбор по задаче | [models.md](local-models/models.ru.md) |
+| Память и контекст | [memory-and-context.md](local-models/memory-and-context.ru.md) |
+| Продвинутая настройка 🔵 | [advanced-setup.md](local-models/advanced-setup.ru.md) |
+| Инструменты | [tools.md](local-models/tools.ru.md) |
+| Квантизация | [quantization.md](local-models/quantization.ru.md) |
+| Бенчмарки Mac | [benchmarks/apple-silicon.md](local-models/benchmarks/apple-silicon.ru.md) |
+| Проблемы | [troubleshooting.md](local-models/troubleshooting.ru.md) |
+| Каталог моделей | [catalog.md](local-models/catalog.ru.md) |
 
 ### AI-агенты
 
