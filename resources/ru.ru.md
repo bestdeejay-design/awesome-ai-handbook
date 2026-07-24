@@ -47,4 +47,4 @@
 |-------------|-----------|
 | **Вернуться к списку ресурсов** | [README.ru.md](README.ru.md) |
 | **Попрактиковаться** с локальными моделями | [../local-models/README.ru.md](../local-models/README.ru.md) |
-| **Построить агента** | [../agents/README.ru.md](../agents/README.ru.md) |
+| **Построить агента** | [../agents/patterns.ru.md](../agents/patterns.ru.md) |

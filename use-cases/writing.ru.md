@@ -60,4 +60,4 @@
 | **Вернуться к списку кейсов** | [README.ru.md](README.ru.md) |
 | **Настроить модели** под свою задачу | [../local-models/models.ru.md](../local-models/models.ru.md) |
 | **Разобраться с инструментами** | [../local-models/tools.ru.md](../local-models/tools.ru.md) |
-| **Построить агента** для этого сценария | [../agents/README.ru.md](../agents/README.ru.md) |
+| **Построить агента** для этого сценария | [../agents/patterns.ru.md](../agents/patterns.ru.md) — Reflection и другие паттерны |
