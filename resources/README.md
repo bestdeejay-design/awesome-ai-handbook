@@ -1,35 +1,9 @@
-# 📖 Ресурсы
+# 📖 Resources
 
-Сообщества, курсы и материалы для изучения AI.
+> Communities, courses, and materials for learning AI.
 
-[← Главная](../README.ru.md)
-
----
-
-## Содержание
-
-| Раздел | Файл | Статус |
-|--------|------|--------|
-| **Русскоязычные** | [ru.md](ru.md) | 🚧 собираем сообществом |
-| **Англоязычные** | [en.md](en.md) | Reddit, рассылки |
-| **Курсы** | [courses.md](courses.md) | DeepLearning.AI, HF, fast.ai |
-| **Сообщества** | [communities.md](communities.md) | Discord, Reddit |
+**🇷🇺 Russian version:** [README.ru.md](README.ru.md)
 
 ---
 
-## Особое внимание: RU-ресурсы
-
-Качественных курируемых списков AI-ресурсов на русском на GitHub практически нет. Раздел [ru.md](ru.md) — **голубой океан**, который мы заполняем вместе.
-
-Добавить ресурс: [CONTRIBUTING.md](../CONTRIBUTING.md).
-
----
-
-## Практика vs теория
-
-| Цель | Куда идти |
-|------|-----------|
-| Запустить модель локально | [local-models/](../local-models/) |
-| Построить агента | [agents/](../agents/) |
-| Курсы и теория | [courses.md](courses.md) |
-| Обсуждения и новости | [communities.md](communities.md) |
+[← Back to main](../README.md)

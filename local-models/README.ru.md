@@ -2,7 +2,7 @@
 
 Запуск LLM на своём оборудовании: от первой установки до продвинутой настройки.
 
-[← Awesome AI Handbook (русская версия)](../README.ru.md) · [English version](README.en.md)
+[← Awesome AI Handbook (русская версия)](../README.ru.md) · [English version](README.md)
 
 ---
 

@@ -1,30 +1,9 @@
-# 📚 Туториалы по агентам
+# 📚 Agent Tutorials
 
-> 🚧 **В разработке** — раздел наполняется.
+> 🚧 **Under construction** — section is being filled.
 
-[← AI-агенты](../README.md)
-
----
-
-## Планируемые материалы
-
-| Туториал | Описание | Статус |
-|----------|----------|--------|
-| **Первый агент за 30 минут** | Agno + Ollama + tool calling | 🚧 |
-| **Агент для кодинга** | Чтение репозитория, правки, тесты | 🚧 |
-| **Мульти-агентная система** | Писатель + редактор на CrewAI | 🚧 |
+**🇷🇺 Russian version:** [README.ru.md](README.ru.md)
 
 ---
 
-## Пока готовы
-
-- [patterns.md](../patterns.md) — архитектурные паттерны
-- [frameworks.md](../frameworks.md) — выбор фреймворка
-- [ollama-for-agents.md](../ollama-for-agents.md) — API Ollama для агентов
-- [use-cases/coding.md](../../use-cases/coding.md) — AI для разработки
-
----
-
-## Хотите помочь?
-
-Напишите черновик туториала (Markdown + код) и откройте PR — см. [CONTRIBUTING.md](../../CONTRIBUTING.md).
+[← Back to agents](../README.md)

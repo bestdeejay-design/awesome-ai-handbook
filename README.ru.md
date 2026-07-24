@@ -106,29 +106,29 @@ awesome-ai-handbook/
 
 | Тема | Файл |
 |------|------|
-| Обзор | [agents/README.md](agents/README.md) |
-| Паттерны | [patterns.md](agents/patterns.md) |
-| Фреймворки | [frameworks.md](agents/frameworks.md) |
-| Ollama для агентов | [ollama-for-agents.md](agents/ollama-for-agents.md) |
+| Обзор | [agents/README.ru.md](agents/README.ru.md) |
+| Паттерны | [patterns.md](agents/patterns.ru.md) |
+| Фреймворки | [frameworks.md](agents/frameworks.ru.md) |
+| Ollama для агентов | [ollama-for-agents.md](agents/ollama-for-agents.ru.md) |
 | Туториалы | [tutorials/](agents/tutorials/) 🚧 |
 
 ### Практические кейсы
 
 | Кейс | Файл |
 |------|------|
-| Кодинг | [coding.md](use-cases/coding.md) |
-| RAG | [rag.md](use-cases/rag.md) |
-| Автоматизация | [automation.md](use-cases/automation.md) |
-| Письмо | [writing.md](use-cases/writing.md) |
+| Кодинг | [coding.md](use-cases/coding.ru.md) |
+| RAG | [rag.md](use-cases/rag.ru.md) |
+| Автоматизация | [automation.md](use-cases/automation.ru.md) |
+| Письмо | [writing.md](use-cases/writing.ru.md) |
 
 ### Ресурсы
 
 | Раздел | Файл |
 |--------|------|
-| RU-ресурсы 🚧 | [ru.md](resources/ru.md) |
-| EN-ресурсы | [en.md](resources/en.md) |
-| Курсы | [courses.md](resources/courses.md) |
-| Сообщества | [communities.md](resources/communities.md) |
+| RU-ресурсы 🚧 | [ru.md](resources/ru.ru.md) |
+| EN-ресурсы | [en.md](resources/en.ru.md) |
+| Курсы | [courses.md](resources/courses.ru.md) |
+| Сообщества | [communities.md](resources/communities.ru.md) |
 
 ---
 
