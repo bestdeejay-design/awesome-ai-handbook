@@ -158,14 +158,16 @@ npx n8n
 Method: POST
 URL: http://localhost:11434/api/chat
 Body (JSON):
+{% raw %}
 {
   "model": "qwen3.5:4b",
   "messages": [
-    {"role": "system", "content": "Составь краткое саммари письма (3-5 предложений)"},
+    {"role": "system", "content": "Напиши краткую сводку письма (3-5 предложений)"},
     {"role": "user", "content": "={{ $json.emailBody }}"
   ],
   "stream": false
 }
+{% endraw %}
 ```
 
 ### Примеры workflow
@@ -181,6 +183,7 @@ Body (JSON):
 
 ## 5. Telegram-бот с локальной моделью
 
+{% raw %}
 ```python
 #!/usr/bin/env python3
 """telegram_ai_bot.py — Telegram-бот на локальной модели."""
@@ -193,13 +196,12 @@ OLLAMA = "http://localhost:11434/api/chat"
 MODEL = "qwen3.5:4b"
 
 class AIBotHandler(BaseHTTPRequestHandler):
-    """Простой HTTP-сервер, который принимает запросы и отвечает через AI."""
-    
+    """Простой HTTP-сервер, принимающий запросы и отвечающий через AI."""
+
     def do_POST(self):
         content_length = int(self.headers['Content-Length'])
         body = self.rfile.read(content_length).decode()
-        
-        # Отправляем в Ollama
+
         response = requests.post(OLLAMA, json={
             "model": MODEL,
             "messages": [
@@ -208,20 +210,20 @@ class AIBotHandler(BaseHTTPRequestHandler):
             ],
             "stream": False
         })
-        
+
         answer = response.json()["message"]["content"]
-        
+
         self.send_response(200)
         self.send_header('Content-type', 'application/json')
         self.end_headers()
         self.wfile.write(f'{{"response": "{answer}"}}'.encode())
 
-# Запуск сервера на порту 8888
 if __name__ == "__main__":
     server = HTTPServer(("localhost", 8888), AIBotHandler)
-    print("🤖 AI Bot running on http://localhost:8888")
+    print("🤖 AI Bot запущен на http://localhost:8888")
     server.serve_forever()
 ```
+{% endraw %}
 
 Для полноценного Telegram-бота используйте `python-telegram-bot` + Ollama.
 

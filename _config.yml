@@ -1,4 +1,10 @@
 title: Awesome AI Handbook
 description: A practical guide to AI — from running models locally to building your own agents
 theme: minima
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+liquid:
+  error_mode: lax
 
