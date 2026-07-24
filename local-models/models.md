@@ -6,47 +6,117 @@
 
 ---
 
-[← Local models](../README.md) · [Catalog →](catalog.md)
+[← Local models](README.md) · [Catalog →](catalog.md)
 
 ---
 
-## Quick picks
+## Contents
 
-| Task | Recommended model | RAM needed |
-|------|------------------|------------|
-| Chat, general Q&A | Qwen 3.5 9B | 8-16 GB |
-| Coding | Qwen 2.5 Coder 7B | 8-16 GB |
-| Code autocomplete | CodeGemma 2B | 4-8 GB |
-| Reasoning | DeepSeek R1 Distill 7B | 8-16 GB |
-| Math | Phi-4-mini (3.8B) | 4-8 GB |
-| Vision | Llama 3.2 Vision 11B | 8-16 GB |
-| Russian language | Qwen 3.5 9B | 8-16 GB |
-| RAG embeddings | nomic-embed-text | 4 GB |
+1. [Quick picks by task](#1-quick-picks-by-task)
+2. [By hardware](#2-by-hardware)
+3. [Key considerations](#3-key-considerations)
+4. [Coding models](#4-coding-models)
+5. [Chat models](#5-chat-models)
+6. [Reasoning models](#6-reasoning-models)
+7. [Small models for 8 GB](#7-small-models-for-8-gb)
+8. [What's next](#8-whats-next)
 
-## By hardware
+---
 
-| Your RAM | Best model to run |
-|----------|-------------------|
-| 8 GB | Phi-4-mini (3.8B), Qwen 3.5 4B |
-| 16 GB | Qwen 2.5 Coder 7B, Qwen 3.5 9B |
-| 24 GB | Qwen3.6-27B (Q4), Gemma 4 26B MoE |
-| 32 GB | Llama 3.1 70B (Q3) |
-| 48 GB | Llama 3.3 70B (Q4) |
-| 64 GB | Gemma 4 31B (Q8) |
+## 1. Quick picks by task
 
-## Key considerations
+| Task | Recommended model | RAM needed | Ollama command |
+|------|------------------|------------|----------------|
+| Chat, general Q&A | Qwen 3.5 9B | 8-16 GB | `ollama run qwen3.5:9b` |
+| Coding | Qwen 2.5 Coder 7B | 8-16 GB | `ollama run qwen2.5-coder:7b` |
+| Code autocomplete (FIM) | CodeGemma 2B | 4-8 GB | `ollama run codegemma:2b` |
+| Reasoning | DeepSeek R1 Distill 7B | 8-16 GB | `ollama run deepseek-r1:7b` |
+| Math | Phi-4-mini (3.8B) | 4-8 GB | `ollama run phi4-mini` |
+| Vision | Llama 3.2 Vision 11B | 8-16 GB | `ollama run llama3.2-vision:11b` |
+| Russian language | Qwen 3.5 9B | 8-16 GB | `ollama run qwen3.5:9b` |
+| RAG embeddings | nomic-embed-text | 4 GB | `ollama run nomic-embed-text` |
 
-- **FIM** (Fill-in-Middle) — needed for code autocomplete. Qwen Coder has it.
+---
+
+## 2. By hardware
+
+| Your RAM | Best model to run | Approx. speed |
+|----------|-------------------|---------------|
+| 8 GB | Phi-4-mini (3.8B), Qwen 3.5 4B | 25-35 tok/s |
+| 16 GB ⭐ | Qwen 2.5 Coder 7B, Qwen 3.5 9B | 15-25 tok/s |
+| 24 GB | Qwen3.6-27B (Q4), Gemma 4 26B MoE | 18-28 tok/s |
+| 32 GB | Llama 3.1 70B (Q3) | 20-40 tok/s |
+| 48 GB | Llama 3.3 70B (Q4) | 10-20 tok/s |
+| 64 GB | Gemma 4 31B (Q8) | 8-15 tok/s |
+| 128 GB | DeepSeek-V4-Flash, Qwen3.5-397B | 15-30 tok/s |
+
+---
+
+## 3. Key considerations
+
+- **FIM** (Fill-in-the-Middle) — needed for code autocomplete in IDEs. Qwen Coder has it.
 - **Tool calling** — needed for agents. Qwen 3.5+, Llama 3.1+
-- **Long context** — 128K+ for working with large codebases
-- **Multimodal** — vision models for image understanding
+- **Long context** — 128K+ for working with large codebases. Qwen 3.5 supports 256K
+- **Multimodal** — vision models for image understanding (Llama 3.2 Vision, Gemma 4)
 
 ---
 
-## What's next
+## 4. Coding models
+
+| Model | Size | Context | FIM | HumanEval | Best for |
+|-------|------|---------|-----|-----------|----------|
+| **Qwen 2.5 Coder 7B** | 4.7 GB | 128K | ✅ | 82% | General coding, multi-file |
+| **Qwen 2.5 Coder 1.5B** | 1.1 GB | 32K | ✅ | 45% | Fast autocomplete, 8GB Mac |
+| **CodeGemma 2B** | 1.5 GB | 8K | ✅ | 50% | Autocomplete, low RAM |
+| **Phi-4-mini (3.8B)** | 2.5 GB | 128K | ❌ | 74% | Math + coding, small RAM |
+| **Yi-Coder 9B** | 6 GB | 128K | ✅ | 70% | Long context coding |
+
+---
+
+## 5. Chat models
+
+| Model | Size | Context | Strengths |
+|-------|------|---------|-----------|
+| **Qwen 3.5 4B** | 3.4 GB | 256K | Fast, multilingual, sweet spot for 8GB |
+| **Qwen 3.5 9B** | 6 GB | 256K | Best quality for 16GB Mac |
+| **Llama 3.3 8B** | 4.9 GB | 128K | Strong English, reasoning |
+| **Gemma 3 9B** | 6 GB | 128K | Apple Silicon optimized |
+| **Phi-4-mini (3.8B)** | 2.5 GB | 128K | Amazing for its size, math champ |
+
+---
+
+## 6. Reasoning models
+
+| Model | Size | Best for |
+|-------|------|----------|
+| DeepSeek R1 Distill 7B | 4.5 GB | 2-3x better reasoning than vanilla 7B |
+| DeepSeek R1 Distill 14B | 9 GB | Complex analysis, fits 16GB |
+| Phi-4-reasoning (14B) | 9 GB | Code + reasoning |
+| QwQ-32B | 20 GB | Math, logic (needs 24GB) |
+
+> Note: Reasoning models are slower (they "think" before answering) but give better results on complex tasks. Not suitable for real-time chat.
+
+---
+
+## 7. Small models for 8 GB
+
+For Macs with 8 GB RAM or CPU-only inference:
+
+| Model | RAM (Q4) | Speed (tok/s) | Best for |
+|-------|----------|---------------|----------|
+| Phi-4-mini (3.8B) | 2.5 GB | 28 | Coding, math |
+| Qwen 3.5 4B | 2.8 GB | 22-26 | Universal chat |
+| Llama 3.2 3B | 2.0 GB | 30-40 | Fast chat |
+| CodeGemma 2B | 1.5 GB | 35+ | Code autocomplete |
+| Qwen 2.5 Coder 1.5B | 1.1 GB | 40+ | Fast coding |
+
+---
+
+## 8. What's next
 
 | Go to | Description |
 |-------|-------------|
-| [catalog.md](catalog.md) | Full 50+ model catalog |
+| [catalog.md](catalog.md) | Full 50+ model catalog with specs |
 | [benchmarks/apple-silicon.md](benchmarks/apple-silicon.md) | Speed tests on Mac |
-| Back | [README.md](../README.md) |
+| [memory-and-context.md](memory-and-context.md) | RAM requirements explained |
+| Back | [README.md](README.md) |
