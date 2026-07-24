@@ -15,7 +15,7 @@ The **full handbook content is in Russian** ([README.ru.md](README.ru.md)); this
 ## About
 
 **Mission:** help everyone explore AI — from first local model run to a working agent prototype.  
-**49 files** · **~6 hours of reading** · **Levels: 🟢 beginner → 🔵 advanced**
+**51 files** · **~6 hours of reading** · **Levels: 🟢 beginner → 🔵 advanced**
 
 ---
 
@@ -35,7 +35,7 @@ Full Russian handbook with navigation: **[README.ru.md →](README.ru.md)**
 ## Repository structure
 
 ```
-awesome-ai-handbook/                          # 49 files
+awesome-ai-handbook/                          # 51 files
 ├── README.ru.md                              ← main Russian handbook
 ├── basics/                                   # 🟢 zero level (10 files)
 │   ├── what-is-ai.ru.md                      #   AI/ML/LLM explained
@@ -55,7 +55,9 @@ awesome-ai-handbook/                          # 49 files
 │   ├── tools.ru.md                           #   engine comparison
 │   ├── advanced-setup.ru.md                  #   🔵 Modelfile, API
 │   └── benchmarks/apple-silicon.ru.md        #   tok/s on M1–M4
-├── agents/                                   # 🤖 AI agents (13 files)
+├── agents/                                   # 🤖 AI agents (15 files)
+│   ├── ready-made.ru.md                      #   🟢 catalog of existing agents
+│   ├── skills.ru.md                          #   🟡 skills, MCP, plugins
 │   ├── tutorials/
 │   │   ├── 01-first-agent.ru.md              #   🟢 ReAct agent in 30 min
 │   │   ├── 02-agent-team.ru.md               #   🟡 multi-agent team
@@ -82,7 +84,7 @@ awesome-ai-handbook/                          # 49 files
 |---------|-------------|-------|-------|
 | Zero level | [basics/](basics/README.ru.md) | 🟢 | 10 |
 | Local models | [local-models/](local-models/README.ru.md) | 🟢→🔵 | 11 |
-| AI agents | [agents/](agents/README.ru.md) | 🟢→🔴 | 13 |
+| AI agents | [agents/](agents/README.ru.md) | 🟢→🔴 | 15 |
 | Use cases | [use-cases/](use-cases/README.ru.md) | 🟡 | 5 |
 | Resources | [resources/](resources/README.ru.md) | 🟢→🟡 | 5 |
 
