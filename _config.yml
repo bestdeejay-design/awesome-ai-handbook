@@ -1,8 +1,0 @@
-title: Awesome AI Handbook
-description: A practical guide to AI — from running models locally to building your own agents
-theme: minima
-defaults:
-  - scope:
-      path: ""
-    values:
-      render_with_liquid: false
