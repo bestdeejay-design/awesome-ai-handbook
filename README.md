@@ -14,7 +14,8 @@ The **full handbook content is in Russian** ([README.ru.md](README.ru.md)); this
 
 ## About
 
-**Mission:** help everyone explore AI — from first local model run to a working agent prototype.
+**Mission:** help everyone explore AI — from first local model run to a working agent prototype.  
+**49 files** · **~6 hours of reading** · **Levels: 🟢 beginner → 🔵 advanced**
 
 ---
 
@@ -26,39 +27,50 @@ ollama run qwen3.5:4b        # chat (~3.4 GB)
 ollama run qwen2.5-coder:7b  # coding (~4.7 GB)
 ```
 
-See [local-models/running-models.md](local-models/running-models.md) (content in Russian).
+**New to AI?** Start with [basics/](basics/README.ru.md) — no prior knowledge needed.  
+Full Russian handbook with navigation: **[README.ru.md →](README.ru.md)**
 
 ---
 
 ## Repository structure
 
 ```
-awesome-ai-handbook/
-├── README.ru.md              ← main content (Russian)
-├── local-models/             ← local inference
-│   ├── running-models.md
-│   ├── memory-and-context.md
-│   ├── catalog.md            ← 50+ models
-│   ├── models.md
-│   ├── tools.md
-│   ├── quantization.md
-│   ├── troubleshooting.md
-│   └── benchmarks/apple-silicon.md
-├── agents/
-│   ├── patterns.md
-│   ├── frameworks.md
-│   ├── ollama-for-agents.md
-│   └── tutorials/
-├── use-cases/
-│   ├── coding.md
-│   ├── rag.md
-│   ├── automation.md
-│   └── writing.md
-├── resources/
-│   ├── ru.md
-│   ├── en.md
-│   ├── courses.md
-│   └── communities.md
+awesome-ai-handbook/                          # 49 files
+├── README.ru.md                              ← main Russian handbook
+├── basics/                                   # 🟢 zero level (10 files)
+│   ├── what-is-ai.ru.md                      #   AI/ML/LLM explained
+│   ├── how-models-work.ru.md                 #   neural networks without math
+│   ├── cloud-vs-local.ru.md                  #   ChatGPT vs local models
+│   ├── hardware-guide.ru.md                  #   hardware requirements
+│   ├── glossary.ru.md                        #   35 terms
+│   ├── faq.ru.md                             #   FAQ
+│   ├── learning-path.ru.md                   #   10 steps: chat → agent
+│   ├── setup-windows.ru.md                   #   Windows installation
+│   └── setup-linux.ru.md                     #   Linux installation
+├── local-models/                             # 🔵 local inference (11 files)
+│   ├── getting-started.ru.md                 #   🟢 Mac setup guide
+│   ├── running-models.ru.md                  #   Ollama, LM Studio, HF
+│   ├── models.ru.md                          #   choosing by task
+│   ├── catalog.ru.md                         #   50+ models
+│   ├── tools.ru.md                           #   engine comparison
+│   ├── advanced-setup.ru.md                  #   🔵 Modelfile, API
+│   └── benchmarks/apple-silicon.ru.md        #   tok/s on M1–M4
+├── agents/                                   # 🤖 AI agents (13 files)
+│   ├── tutorials/
+│   │   ├── 01-first-agent.ru.md              #   🟢 ReAct agent in 30 min
+│   │   ├── 02-agent-team.ru.md               #   🟡 multi-agent team
+│   │   └── 03-coding-agent.ru.md             #   🔴 coding agent
+│   └── ...                                   #   architecture, patterns, frameworks
+├── use-cases/                                # 💼 applications (5 files)
+│   ├── coding.ru.md                          #   Continue, Aider, OpenHands
+│   ├── rag.ru.md                             #   Open WebUI, ChromaDB
+│   ├── automation.ru.md                      #   n8n, cron, Telegram bot
+│   └── writing.ru.md                         #   content pipeline
+├── resources/                                # 📖 communities & courses (5 files)
+│   ├── ru.ru.md                              #   🇷🇺 Russian resources
+│   ├── en.ru.md                              #   EN newsletters, podcasts
+│   ├── courses.ru.md                         #   free AI courses
+│   └── communities.ru.md                     #   Discord, Reddit, Telegram
 └── CONTRIBUTING.md
 ```
 
@@ -66,14 +78,15 @@ awesome-ai-handbook/
 
 ## Sections
 
-| Section | Entry point |
-|---------|-------------|
-| Local models | [local-models/README.md](local-models/README.md) |
-| AI agents | [agents/README.md](agents/README.md) |
-| Use cases | [use-cases/README.md](use-cases/README.md) |
-| Resources | [resources/README.md](resources/README.md) |
+| Section | Entry point | Level | Files |
+|---------|-------------|-------|-------|
+| Zero level | [basics/](basics/README.ru.md) | 🟢 | 10 |
+| Local models | [local-models/](local-models/README.ru.md) | 🟢→🔵 | 11 |
+| AI agents | [agents/](agents/README.ru.md) | 🟢→🔴 | 13 |
+| Use cases | [use-cases/](use-cases/README.ru.md) | 🟡 | 5 |
+| Resources | [resources/](resources/README.ru.md) | 🟢→🟡 | 5 |
 
-Full Russian handbook: **[README.ru.md](README.ru.md)**
+Full Russian handbook with complete navigation: **[README.ru.md →](README.ru.md)**
 
 ---
 
