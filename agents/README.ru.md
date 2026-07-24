@@ -151,6 +151,7 @@ OpenAI SDK (base_url=http://localhost:11434/v1)
 
 ## Связанные разделы
 
+- [basics/README.ru.md](../basics/README.ru.md) 🟢 — нулевой уровень: AI, железо, установка
 - [local-models/advanced-setup.ru.md](../local-models/advanced-setup.ru.md) — API Ollama, Modelfile
 - [local-models/tools.ru.md](../local-models/tools.ru.md) — сравнение инструментов
 - [use-cases/](../use-cases/) — примеры применения в реальных задачах

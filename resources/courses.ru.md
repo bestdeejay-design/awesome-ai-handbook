@@ -70,6 +70,7 @@
 
 | Раздел | Что вы научитесь делать |
 |--------|------------------------|
+| [basics/README.ru.md](../basics/README.ru.md) | **Разобраться «с нуля»**: AI-термины, железо, установка |
 | [local-models/getting-started.ru.md](../local-models/getting-started.ru.md) | Установить и запустить первую модель |
 | [local-models/running-models.ru.md](../local-models/running-models.ru.md) | Работать с моделями через терминал |
 | [agents/tutorials/01-first-agent.ru.md](../agents/tutorials/01-first-agent.ru.md) | Создать первого AI-агента |

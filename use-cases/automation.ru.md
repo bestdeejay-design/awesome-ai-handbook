@@ -2,6 +2,8 @@
 
 > Связка локальных моделей с бизнес-процессами, скриптами и расписаниями.
 
+🟢 **Нужны основы?** [basics/](../basics/README.ru.md) — AI-термины, железо, установка Ollama.
+
 [← Практические кейсы](README.ru.md) · [Мульти-агентные системы →](../agents/multi-agent.ru.md)
 
 ---
@@ -131,7 +133,7 @@ chmod +x ~/scripts/daily_report.sh
 echo "0 9 * * * $HOME/scripts/daily_report.sh" | crontab -
 ```
 
-**Важно:** cron использует绝对 пути. Убедитесь, что `ollama serve` запущен.
+**Важно:** cron использует абсолютные пути. Убедитесь, что `ollama serve` запущен.
 
 ---
 

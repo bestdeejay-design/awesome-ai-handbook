@@ -90,7 +90,7 @@ def react_agent(task: str, tools: list, max_steps: int = 5):
         else:
             return msg["content"]
     
-    return "Не удалось完成 задачу за отведённое число шагов"
+    return "Не удалось выполнить задачу за отведённое число шагов"
 ```
 
 ### Плюсы и минусы

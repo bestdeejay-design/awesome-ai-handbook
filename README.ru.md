@@ -15,15 +15,17 @@
 
 ## 📌 О проекте
 
-**Миссия:** помочь каждому расширить кругозор в мире AI — от первого запуска модели локально до создания собственного агента.
+**Миссия:** дать каждому готовый инструмент — от первого запуска модели до своего AI-агента для кодинга.  
+**Цель:** чтобы любой человек с «более-менее вменяемым железом» мог собрать себе локальную AI-систему.
 
 **Чем отличается от других awesome-списков:**
 - 🔧 **Практика, а не ссылки** — пошаговые гайды с кодом
 - 💻 **Реальные бенчмарки** — цифры для конкретного железа (MacBook Air M1 16 GB и не только)
-- 🤖 **Создание агентов** — туториалы «от идеи до работающего прототипа» *(в разработке)*
+- 🤖 **Создание агентов** — туториалы «от идеи до работающего прототипа» ✅
 - 🌍 **Два языка** — английский + русский, заполняем вакуум для RU-сообщества
+- 🟢 **Нулевой уровень** — раздел для тех, кто «даже не пробовал, но хочет узнать»
 
-**Для кого:** разработчики, запускающие AI локально; те, кто строит своих агентов; все, кто хочет разобраться без глубокого погружения в математику.
+**Для кого:** от людей, впервые открывающих для себя AI, до опытных разработчиков, строящих production-агентов.
 
 ---
 
@@ -33,6 +35,7 @@
 # 1. Установка Ollama
 brew install ollama    # macOS
 # Linux: curl -fsSL https://ollama.com/install.sh | sh
+# Windows: скачать с https://ollama.com/download/windows
 
 # 2. Запуск модели (автоматически скачает)
 ollama run qwen3.5:4b   # ~3.4 GB — чат
@@ -42,8 +45,8 @@ ollama run qwen2.5-coder:7b  # ~4.7 GB
 # 3. Готово! Спросите что-нибудь.
 ```
 
-Новичок? Начните с **[пошаговой установки](local-models/getting-started.ru.md)**.  
-Уже установлено: [как запускать модели](local-models/running-models.ru.md) · [что влезет в RAM](local-models/memory-and-context.ru.md)
+**Полный новичок?** Начните с раздела [`basics/`](basics/README.ru.md) — там всё с нуля.  
+Уже в теме: [запуск моделей](local-models/running-models.ru.md) · [что влезет в RAM](local-models/memory-and-context.ru.md) · [выбор модели](local-models/models.ru.md)
 
 ---
 
@@ -52,6 +55,17 @@ ollama run qwen2.5-coder:7b  # ~4.7 GB
 ```
 awesome-ai-handbook/
 ├── README.ru.md              ← вы здесь
+├── basics/                   ← 🟢 нулевой уровень (для новичков)
+│   ├── README.ru.md          ← три дорожки обучения
+│   ├── what-is-ai.ru.md      ← AI, ML, LLM — без математики
+│   ├── how-models-work.ru.md ← нейросети, трансформеры, токены
+│   ├── cloud-vs-local.ru.md  ← когда облако, когда локально
+│   ├── hardware-guide.ru.md  ← рекомендации по железу
+│   ├── glossary.ru.md        ← словарь терминов (3 уровня)
+│   ├── faq.ru.md             ← частые вопросы
+│   ├── learning-path.ru.md   ← 10 шагов от чата до агента
+│   ├── setup-windows.ru.md   ← установка на Windows
+│   └── setup-linux.ru.md     ← установка на Linux
 ├── local-models/             ← локальный инференс
 │   ├── README.md             ← навигация и сценарии
 │   ├── getting-started.md    ← [NEW] подготовка окружения для новичков
@@ -69,7 +83,7 @@ awesome-ai-handbook/
 │   ├── patterns.md           ← ReAct, Multi-Agent…
 │   ├── frameworks.md         ← LangGraph, CrewAI…
 │   ├── ollama-for-agents.md  ← tool calling, JSON schema
-│   └── tutorials/            ← гайды (🚧)
+│   └── tutorials/            ← гайды ✅
 ├── use-cases/                ← практика
 │   ├── coding.md
 │   ├── rag.md
@@ -87,7 +101,22 @@ awesome-ai-handbook/
 
 ## 🗺 Навигация по темам
 
-### Локальные модели
+### 🟢 Нулевой уровень (для новичков)
+
+| Тема | Файл |
+|------|------|
+| **С чего начать (навигатор)** | [basics/README.ru.md](basics/README.ru.md) |
+| Что такое AI, ML, LLM | [what-is-ai.ru.md](basics/what-is-ai.ru.md) |
+| Как работают нейросети | [how-models-work.ru.md](basics/how-models-work.ru.md) |
+| Когда облако, когда локально | [cloud-vs-local.ru.md](basics/cloud-vs-local.ru.md) |
+| Какое нужно железо | [hardware-guide.ru.md](basics/hardware-guide.ru.md) |
+| Словарь терминов | [glossary.ru.md](basics/glossary.ru.md) |
+| FAQ | [faq.ru.md](basics/faq.ru.md) |
+| План обучения: от чата до агента | [learning-path.ru.md](basics/learning-path.ru.md) |
+| Установка на Windows 🪟 | [setup-windows.ru.md](basics/setup-windows.ru.md) |
+| Установка на Linux 🐧 | [setup-linux.ru.md](basics/setup-linux.ru.md) |
+
+### 🔵 Локальные модели
 
 | Тема | Файл |
 |------|------|
@@ -131,7 +160,7 @@ awesome-ai-handbook/
 
 | Раздел | Файл |
 |--------|------|
-| RU-ресурсы 🚧 | [ru.md](resources/ru.ru.md) |
+| RU-ресурсы | [ru.md](resources/ru.ru.md) |
 | EN-ресурсы | [en.md](resources/en.ru.md) |
 | Курсы | [courses.md](resources/courses.ru.md) |
 | Сообщества | [communities.md](resources/communities.ru.md) |

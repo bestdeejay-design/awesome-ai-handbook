@@ -13,8 +13,26 @@
 | [**Записки AI-шника**](https://t.me/ai_notepad) | Новости AI, разборы | Техническая |
 | [**AI Daily**](https://t.me/ai_daily_news) | Ежедневные новости | Широкая |
 | [**Machine Learning по-русски**](https://t.me/ml_rus) | ML и AI статьи | Техническая |
+| [**Open Source AI**](https://t.me/opensourceai) | Open-source модели, инструменты | Техническая |
+| [**Нейронные сети**](https://t.me/neural_net) | ML / Deep Learning новости | Техническая |
+| [**Data Science Digest**](https://t.me/datasciencedigest) | DS, ML, AI дайджест | Техническая |
+| [**IT и AI**](https://t.me/IT_AI_news) | AI и IT-новости | Широкая |
+| [**Tproger AI**](https://t.me/tproger_ai) | AI-новости от Tproger | Широкая |
 
 > Знаете другие каналы? [Добавьте](../CONTRIBUTING.md).
+
+---
+
+## YouTube-каналы
+
+| Канал | О чём |
+|-------|-------|
+| [**SelfAwareAI**](https://www.youtube.com/@SelfAwareAI) | Разборы AI-новостей, модели, железо (ведущий — разработчик LocalLLaMA) |
+| [**Феерическая математика**](https://www.youtube.com/@feelmath) | Глубокое обучение, нейросети с разбором формул |
+| [**savvycom**](https://www.youtube.com/@savvycom) | Локальные модели, Ollama, кодинг с AI |
+| [**DKA Developers**](https://www.youtube.com/@DKADevelopers) | AI-агенты, автоматизация, Python |
+
+> Знаете каналы на русском? [Добавьте](../CONTRIBUTING.md).
 
 ---
 
@@ -25,6 +43,8 @@
 | **Хабр: AI/ML** | Раздел машинного обучения на Хабре | [habr.com/ru/hubs/ml/](https://habr.com/ru/hubs/ml/) |
 | **Хабр: LLM** | Статьи про языковые модели | [habr.com/ru/search/?q=llm](https://habr.com/ru/search/?q=llm) |
 | **Proglib: Deep Learning** | Подборки и переводы | [proglib.io](https://proglib.io) |
+| **Timeweb Cloud Blog** | Статьи по AI/ML, туториалы | [timeweb.com/ru/blog/](https://timeweb.com/ru/blog/) |
+| **Tproger: AI** | AI-новости, обзоры, переводы | [tproger.ru/tag/ai/](https://tproger.ru/tag/ai/) |
 
 ---
 
@@ -34,6 +54,7 @@
 
 | Раздел | Что внутри |
 |--------|-----------|
+| [basics/README.ru.md](../basics/README.ru.md) | **Нулевой уровень**: что такое AI, как работают модели, какое нужно железо |
 | [local-models/getting-started.ru.md](../local-models/getting-started.ru.md) | Пошаговая установка Ollama на русском |
 | [local-models/running-models.ru.md](../local-models/running-models.ru.md) | Запуск моделей, выбор квантизации |
 | [agents/README.ru.md](../agents/README.ru.md) | Создание AI-агентов с нуля |
@@ -62,5 +83,6 @@
 |-------------|-----------|
 | **Найти курсы** по AI | [courses.ru.md](courses.ru.md) |
 | **Присоединиться к сообществам** | [communities.ru.md](communities.ru.md) |
+| **Начать с нуля** 🟢 | [basics/README.ru.md](../basics/README.ru.md) |
 | **Начать практику** | [../local-models/README.ru.md](../local-models/README.ru.md) |
 | **Вернуться к списку ресурсов** | [README.ru.md](README.ru.md) |

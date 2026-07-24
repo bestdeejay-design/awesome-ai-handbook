@@ -17,6 +17,9 @@
 
 ---
 
+> 🟢 **Не установили Ollama?** Сначала [basics/](../../basics/setup-windows.ru.md) или [getting-started.md](../../local-models/getting-started.ru.md) — установка за 10 минут.  
+> **Не знакомы с AI-терминами?** [basics/glossary.ru.md](../../basics/glossary.ru.md) — словарь на 35 терминов.
+
 ## Шаг 1: Проверяем окружение
 
 ```bash
@@ -148,7 +151,7 @@ def agent_loop(user_input: str, max_steps: int = 5) -> str:
             print(f"  [Шаг {step + 1}] Ответ модели получен")
             return answer
     
-    return "Агент не смог完成 задачу за отведённое число шагов"
+    return "Агент не смог выполнить задачу за отведённое число шагов"
 
 
 # === Точка входа ===

@@ -3,6 +3,8 @@
 > Retrieval-Augmented Generation: Q&A по вашим файлам без отправки данных в облако.  
 > От готовых решений до собственного RAG-пайплайна на Python.
 
+🟢 **Не знакомы с AI?** [basics/](../basics/README.ru.md) — основы: что такое модели, как их запускать.
+
 [← Практические кейсы](README.ru.md) · [Memory агента →](../agents/memory.ru.md)
 
 ---

@@ -19,6 +19,7 @@
 
 ## Рекомендуемый порядок
 
+0. 🟢 **Новичок?** Сначала [basics/](../basics/README.ru.md) — основы AI, выбор железа, установка
 1. [local-models/running-models.md](../local-models/running-models.ru.md) — запустить Ollama
 2. Выберите кейс выше
 3. При необходимости — [agents/](../agents/) для многошаговых сценариев
