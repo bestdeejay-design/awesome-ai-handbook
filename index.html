@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awesome AI Handbook</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 960px; margin: 0 auto; padding: 24px; line-height: 1.6; color: #24292f; background: #fff; }
+    h1 { font-size: 2em; margin-bottom: 8px; border-bottom: 1px solid #d0d7de; padding-bottom: 12px; }
+    h2 { font-size: 1.4em; margin: 24px 0 12px; }
+    p { margin: 8px 0; color: #57606a; }
+    a { color: #0969da; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .lang { display: flex; gap: 12px; margin: 16px 0 24px; }
+    .lang a { padding: 8px 20px; background: #f6f8fa; border: 1px solid #d0d7de; border-radius: 6px; font-weight: 500; }
+    .lang a:hover { background: #eaeef2; text-decoration: none; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin: 16px 0; }
+    .card { border: 1px solid #d0d7de; border-radius: 8px; padding: 16px; background: #f6f8fa; }
+    .card:hover { border-color: #0969da; }
+    .card h3 { font-size: 1em; margin-bottom: 6px; }
+    .card p { font-size: 0.85em; margin: 0; }
+    .files { margin: 16px 0; }
+    .files a { display: inline-block; padding: 4px 12px; margin: 3px; background: #f6f8fa; border: 1px solid #d0d7de; border-radius: 4px; font-size: 0.85em; font-family: 'SFMono-Regular', monospace; }
+    .files a:hover { background: #eaeef2; text-decoration: none; }
+    hr { margin: 24px 0; border: none; border-top: 1px solid #d0d7de; }
+    .footer { font-size: 0.85em; color: #57606a; }
+  </style>
+</head>
+<body>
+  <h1>🧠 Awesome AI Handbook</h1>
+  <p>A practical guide to AI: from running models locally to building your own agents. 52 topics, ~6 hours of reading.</p>
+
+  <div class="lang">
+    <a href="README.md">📖 English</a>
+    <a href="README.ru.md">📖 Русский</a>
+  </div>
+
+  <h2>Sections</h2>
+  <div class="cards">
+    <a href="basics/README.md" class="card"><h3>🟢 Zero Level</h3><p>AI basics, hardware, installation — 10 guides</p></a>
+    <a href="local-models/README.md" class="card"><h3>🔵 Local Models</h3><p>Inference, selection, tuning — 11 guides</p></a>
+    <a href="agents/README.md" class="card"><h3>🤖 AI Agents</h3><p>Architecture, patterns, frameworks — 17 guides</p></a>
+    <a href="use-cases/README.md" class="card"><h3>💼 Use Cases</h3><p>Coding, RAG, automation — 5 guides</p></a>
+    <a href="resources/README.md" class="card"><h3>📖 Resources</h3><p>Communities, courses — 5 guides</p></a>
+  </div>
+
+  <h2>📂 All files</h2>
+  <div class="files">
+    <a href="README.md">README.md</a> <a href="README.ru.md">README.ru.md</a>
+    <a href="basics/README.md">basics/</a> <a href="local-models/README.md">local-models/</a>
+    <a href="agents/README.md">agents/</a> <a href="use-cases/README.md">use-cases/</a>
+    <a href="resources/README.md">resources/</a>
+    <a href="CONTRIBUTING.md">CONTRIBUTING.md</a> <a href="LICENSE">LICENSE</a>
+  </div>
+
+  <h2>🟢 Zero Level — basics/</h2>
+  <div class="files">
+    <a href="basics/what-is-ai.md">what-is-ai</a> <a href="basics/how-models-work.md">how-models-work</a>
+    <a href="basics/cloud-vs-local.md">cloud-vs-local</a> <a href="basics/hardware-guide.md">hardware-guide</a>
+    <a href="basics/glossary.md">glossary</a> <a href="basics/faq.md">faq</a>
+    <a href="basics/learning-path.md">learning-path</a>
+    <a href="basics/setup-windows.md">setup-windows</a> <a href="basics/setup-linux.md">setup-linux</a>
+  </div>
+
+  <h2>🔵 Local Models — local-models/</h2>
+  <div class="files">
+    <a href="local-models/getting-started.md">getting-started</a>
+    <a href="local-models/running-models.md">running-models</a>
+    <a href="local-models/models.md">models</a> <a href="local-models/catalog.md">catalog</a>
+    <a href="local-models/quantization.md">quantization</a>
+    <a href="local-models/memory-and-context.md">memory-and-context</a>
+    <a href="local-models/tools.md">tools</a> <a href="local-models/advanced-setup.md">advanced-setup</a>
+    <a href="local-models/troubleshooting.md">troubleshooting</a>
+    <a href="local-models/benchmarks/apple-silicon.md">apple-silicon</a>
+  </div>
+
+  <h2>🤖 AI Agents — agents/</h2>
+  <div class="files">
+    <a href="agents/ready-made.md">ready-made</a>
+    <a href="agents/orchestrators.md">orchestrators</a>
+    <a href="agents/skills.md">skills</a>
+    <a href="agents/architecture.md">architecture</a>
+    <a href="agents/patterns.md">patterns</a>
+    <a href="agents/frameworks.md">frameworks</a>
+    <a href="agents/multi-agent.md">multi-agent</a>
+    <a href="agents/memory.md">memory</a>
+    <a href="agents/prompting.md">prompting</a>
+    <a href="agents/ollama-for-agents.md">ollama-for-agents</a>
+    <a href="agents/safety.md">safety</a>
+    <a href="agents/evaluation.md">evaluation</a>
+    <a href="agents/tutorials/01-first-agent.md">tutorial-1</a>
+    <a href="agents/tutorials/02-agent-team.md">tutorial-2</a>
+    <a href="agents/tutorials/03-coding-agent.md">tutorial-3</a>
+  </div>
+
+  <h2>💼 Use Cases — use-cases/</h2>
+  <div class="files">
+    <a href="use-cases/coding.md">coding</a> <a href="use-cases/rag.md">rag</a>
+    <a href="use-cases/automation.md">automation</a> <a href="use-cases/writing.md">writing</a>
+  </div>
+
+  <h2>📖 Resources — resources/</h2>
+  <div class="files">
+    <a href="resources/ru.md">ru</a> <a href="resources/en.md">en</a>
+    <a href="resources/courses.md">courses</a> <a href="resources/communities.md">communities</a>
+  </div>
+
+  <hr>
+  <div class="footer">
+    <a href="https://github.com/bestdeejay-design/awesome-ai-handbook">View on GitHub →</a>
+    · <a href="LICENSE">MIT License</a>
+    · 52 topics · Bilingual (EN/RU)
+  </div>
+</body>
+</html>
