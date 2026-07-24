@@ -107,10 +107,16 @@ awesome-ai-handbook/
 | Тема | Файл |
 |------|------|
 | Обзор | [agents/README.ru.md](agents/README.ru.md) |
+| Архитектура агента | [architecture.md](agents/architecture.ru.md) |
 | Паттерны | [patterns.md](agents/patterns.ru.md) |
 | Фреймворки | [frameworks.md](agents/frameworks.ru.md) |
 | Ollama для агентов | [ollama-for-agents.md](agents/ollama-for-agents.ru.md) |
-| Туториалы | [tutorials/](agents/tutorials/) 🚧 |
+| Мульти-агентные системы | [multi-agent.md](agents/multi-agent.ru.md) |
+| Память | [memory.md](agents/memory.ru.md) |
+| Промптинг | [prompting.md](agents/prompting.ru.md) |
+| Безопасность | [safety.md](agents/safety.ru.md) |
+| Тестирование | [evaluation.md](agents/evaluation.ru.md) |
+| Туториалы | [tutorials/](agents/tutorials/) ✅ |
 
 ### Практические кейсы
 
