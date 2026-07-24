@@ -31,7 +31,7 @@
 | **IDE-плагины** | Continue, Cline, Cody | Те, кто работает в VS Code / JetBrains |
 | **AI-native IDE** | Cursor, Windsurf | Те, кто хочет IDE с AI «из коробки» |
 | **Автономные агенты** | OpenHands, AutoCodeRover | Те, кто хочет «поставил задачу — получил результат» |
-| **Агенты-оркестраторы** | Sisyphus (OhMyOpenCode) | Те, кто строит мульти-агентные команды «из коробки» |
+| **Агенты-оркестраторы** | Sisyphus (OhMyOpenAgent) | Те, кто строит мульти-агентные команды «из коробки» |
 
 **Уровни интеграции с локальными моделями:**
 - 🟢 **Полная** — агент работает с любой моделью через Ollama / OpenAI-совместимый API
@@ -55,7 +55,7 @@
 | [**Windsurf**](https://codeium.com/windsurf) | IDE 🟢 | 🟡 Огранич. | Скачать с сайта | — |
 | [**OpenHands**](https://github.com/All-Hands-AI/OpenHands) | Автоном 🟢 | 🟢 Полная | `docker pull` | 40K+ |
 | [**AutoCodeRover**](https://github.com/nus-apr/auto-code-rover) | Автоном 🟢 | 🟢 Полная | `pip install auto-code-rover` | 3K+ |
-| [**Sisyphus / OhMyOpenCode**](https://ohmyopencode.com) | Оркестратор 🟢 | 🟢 Полная | VS Code extension | — |
+| [**Sisyphus / OhMyOpenAgent**](https://github.com/code-yeongyu/oh-my-openagent) | Оркестратор 🟢 | 🟢 Полная | OpenCode plugin | — |
 | [**Copilot**](https://github.com/features/copilot) | IDE 🟢 | 🔴 Облако | Установка из маркетплейса | — |
 
 ---
@@ -226,11 +226,11 @@ docker run -it --rm \
 
 Управляют командой специализированных подагентов — сами не пишут код, но координируют тех, кто пишет.
 
-### Sisyphus (OhMyOpenCode)
+### Sisyphus (OhMyOpenAgent)
 
-**Платформа:** OhMyOpenCode · 🟢 Полная поддержка локальных моделей
+[GitHub →](https://github.com/code-yeongyu/oh-my-openagent) · 🟢 Полная поддержка локальных моделей
 
-**Что делает:** Оркестрирует работу команды AI-агентов прямо в редакторе. Получает задачу → декомпозирует → делегирует специалистам → проверяет результат.
+**Что делает:** Плагин для OpenCode / Codex CLI, добавляющий мульти-агентную архитектуру. Получает задачу → декомпозирует → делегирует специалистам → проверяет результат. Каждый агент использует модель, оптимальную под свою роль.
 
 **Ключевая фишка:** Не пытается делать всё сам. Вместо этого управляет подагентами с узкими ролями:
 
@@ -274,7 +274,7 @@ docker run -it --rm \
 | **«Хочу автономного агента, который сделает всё сам»** | [OpenHands](#openhands-) |
 | **«Нужен агент внутри редактора, сам пишет код»** | [Cline](#cline) или [Cursor](#cursor) |
 | **«Хочу IDE со встроенным AI без настройки»** | [Cursor](#cursor) или [Windsurf](#windsurf) |
-| **«Хочу мульти-агентную команду «из коробки» в редакторе»** | [Sisyphus / OhMyOpenCode](#sisyphus-ohmyopencode) |
+| **«Хочу мульти-агентную команду «из коробки» в редакторе»** | [Sisyphus / OhMyOpenAgent](#sisyphus-ohmyopenagent) |
 | **«Пробую первый раз, хочу просто посмотреть»** | [Continue](#continue-) — бесплатно и легко |
 | **«Есть кастомная локальная модель, хочу полный контроль»** | [Aider](#aider-) или [Continue](#continue-) |
 | **«Делаю PR по задаче из issue»** | [OpenHands](#openhands-) или [AutoCodeRover](#autocoderover) |
