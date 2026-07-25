@@ -4,6 +4,8 @@
 
 [← Локальные модели](../README.ru.md) · [Инструменты и сравнение движков](../tools.ru.md#3-бенчмарки-на-apple-silicon)
 
+**🇬🇧 English version:** [apple-silicon.md](apple-silicon.md)
+
 ---
 
 ## Сводная таблица производительности
@@ -83,3 +85,9 @@
 | **Сравнить инструменты** для максимальной скорости | [tools.ru.md](../tools.ru.md) |
 | **Понять, сколько памяти нужно** | [memory-and-context.ru.md](../memory-and-context.ru.md) |
 | **Вернуться к навигации** | [README.ru.md](../README.ru.md) |
+
+---
+
+**В разделе:** [getting-started](../getting-started.ru.md) · [running-models](../running-models.ru.md) · [models](../models.ru.md) · [catalog](../catalog.ru.md) · [quantization](../quantization.ru.md) · [memory-and-context](../memory-and-context.ru.md) · [tools](../tools.ru.md) · [advanced-setup](../advanced-setup.ru.md) · [troubleshooting](../troubleshooting.ru.md) · [apple-silicon](apple-silicon.ru.md)  
+**Связанные разделы:** [Нулевой уровень](../../basics/README.ru.md) · [AI-агенты](../../agents/README.ru.md) · [Use Cases](../../use-cases/README.ru.md)  
+**Навигация:** [← Локальные модели](../README.ru.md) · [↑ На главную](../../README.ru.md) · [🇬🇧 English](apple-silicon.md)

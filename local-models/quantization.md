@@ -155,3 +155,9 @@ Similar but typically 10-20% less overhead due to more efficient storage on Appl
 | **Compare tools** by quantization support | [tools.md](tools.md) |
 | **Choose a model** for your task | [models.md](models.md) |
 | **Back to navigation** | [README.md](../README.md) |
+
+---
+
+**In section:** [getting-started](getting-started.md) · [running-models](running-models.md) · [models](models.md) · [catalog](catalog.md) · [quantization](quantization.md) · [memory-and-context](memory-and-context.md) · [tools](tools.md) · [advanced-setup](advanced-setup.md) · [troubleshooting](troubleshooting.md) · [apple-silicon](benchmarks/apple-silicon.md)  
+**Related sections:** [Zero Level](../basics/README.md) · [AI Agents](../agents/README.md) · [Use Cases](../use-cases/README.md)  
+**Navigation:** [← Local Models](README.md) · [↑ Back to main](../README.md) · [🇷🇺 Русский](quantization.ru.md)

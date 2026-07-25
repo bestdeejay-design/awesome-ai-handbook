@@ -71,3 +71,9 @@ Since March 2026, Ollama can automatically switch to MLX backend on Mac with 32 
 | **Compare tools** for max speed | [tools.md](../tools.md) |
 | **How much memory do you need** | [memory-and-context.md](../memory-and-context.md) |
 | **Back to navigation** | [README.md](../README.md) |
+
+---
+
+**In section:** [getting-started](../getting-started.md) · [running-models](../running-models.md) · [models](../models.md) · [catalog](../catalog.md) · [quantization](../quantization.md) · [memory-and-context](../memory-and-context.md) · [tools](../tools.md) · [advanced-setup](../advanced-setup.md) · [troubleshooting](../troubleshooting.md) · [apple-silicon](apple-silicon.md)  
+**Related sections:** [Zero Level](../../basics/README.md) · [AI Agents](../../agents/README.md) · [Use Cases](../../use-cases/README.md)  
+**Navigation:** [← Local Models](../README.md) · [↑ Back to main](../../README.md) · [🇷🇺 Русский](apple-silicon.ru.md)

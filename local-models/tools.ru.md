@@ -2,6 +2,8 @@
 
 > Дата данных: 23 июля 2026. Все инструменты актуальны, версии указаны.
 
+**🇬🇧 English version:** [tools.md](tools.md)
+
 ---
 
 ## Содержание
@@ -1022,3 +1024,9 @@ curl http://localhost:8080/v1/audio/speech -d '{
 
 > **Последнее обновление:** 23 июля 2026
 > **Источники:** CraftRigs, Contra Collective, arXiv:2511.05502, asiai.dev, MLJourney, MacYou, GitHub, официальные сайты инструментов
+
+---
+
+**В разделе:** [getting-started](getting-started.ru.md) · [running-models](running-models.ru.md) · [models](models.ru.md) · [catalog](catalog.ru.md) · [quantization](quantization.ru.md) · [memory-and-context](memory-and-context.ru.md) · [tools](tools.ru.md) · [advanced-setup](advanced-setup.ru.md) · [troubleshooting](troubleshooting.ru.md) · [apple-silicon](benchmarks/apple-silicon.ru.md)  
+**Связанные разделы:** [Нулевой уровень](../basics/README.ru.md) · [AI-агенты](../agents/README.ru.md) · [Use Cases](../use-cases/README.ru.md)  
+**Навигация:** [← Локальные модели](README.ru.md) · [↑ На главную](../README.ru.md) · [🇬🇧 English](tools.md)

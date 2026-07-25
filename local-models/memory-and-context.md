@@ -119,3 +119,9 @@ Longer context = slower generation. Each token has to attend to all previous tok
 | [benchmarks/apple-silicon.md](benchmarks/apple-silicon.md) | Speed on Mac |
 | [tools.md](tools.md) | Compare inference engines |
 | Back | [README.md](README.md) |
+
+---
+
+**In section:** [getting-started](getting-started.md) · [running-models](running-models.md) · [models](models.md) · [catalog](catalog.md) · [quantization](quantization.md) · [memory-and-context](memory-and-context.md) · [tools](tools.md) · [advanced-setup](advanced-setup.md) · [troubleshooting](troubleshooting.md) · [apple-silicon](benchmarks/apple-silicon.md)  
+**Related sections:** [Zero Level](../basics/README.md) · [AI Agents](../agents/README.md) · [Use Cases](../use-cases/README.md)  
+**Navigation:** [← Local Models](README.md) · [↑ Back to main](../README.md) · [🇷🇺 Русский](memory-and-context.ru.md)

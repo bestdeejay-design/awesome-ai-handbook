@@ -2,6 +2,8 @@
 
 Рекомендации по выбору моделей в зависимости от ваших задач и доступного ресурса.
 
+**🇬🇧 English version:** [models.md](models.md)
+
 ## Что влияет на выбор модели
 
 При выборе модели учитывайте:
@@ -170,3 +172,9 @@ ollama run qwen3:8b
 | **Настроить Ollama** под свою задачу | [advanced-setup.md](advanced-setup.ru.md) |
 | **Запустить модель**, если ещё не | [running-models.md](running-models.ru.md) |
 | **Вернуться к выбору сценария** | [README.md](README.ru.md) |
+
+---
+
+**В разделе:** [getting-started](getting-started.ru.md) · [running-models](running-models.ru.md) · [models](models.ru.md) · [catalog](catalog.ru.md) · [quantization](quantization.ru.md) · [memory-and-context](memory-and-context.ru.md) · [tools](tools.ru.md) · [advanced-setup](advanced-setup.ru.md) · [troubleshooting](troubleshooting.ru.md) · [apple-silicon](benchmarks/apple-silicon.ru.md)  
+**Связанные разделы:** [Нулевой уровень](../basics/README.ru.md) · [AI-агенты](../agents/README.ru.md) · [Use Cases](../use-cases/README.ru.md)  
+**Навигация:** [← Локальные модели](README.ru.md) · [↑ На главную](../README.ru.md) · [🇬🇧 English](models.md)

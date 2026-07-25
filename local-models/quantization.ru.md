@@ -2,6 +2,8 @@
 
 Подробно о методах сжатия языковых моделей для запуска на ограниченном железе.
 
+**🇬🇧 English version:** [quantization.md](quantization.md)
+
 ## Что такое квантизация
 
 Квантизация - это процесс уменьшения точности представления весов нейронной сети (обычно с 32-битной плавающей точки до меньшего количества битов) для уменьшения размера модели и ускорения вычислений при минимальной потере качества.
@@ -140,3 +142,9 @@
 | **Сравнить инструменты** по поддержке квантизаций | [tools.md](tools.ru.md) |
 | **Выбрать модель** под свою задачу | [models.md](models.ru.md) |
 | **Вернуться к навигации** | [README.md](README.ru.md) |
+
+---
+
+**В разделе:** [getting-started](getting-started.ru.md) · [running-models](running-models.ru.md) · [models](models.ru.md) · [catalog](catalog.ru.md) · [quantization](quantization.ru.md) · [memory-and-context](memory-and-context.ru.md) · [tools](tools.ru.md) · [advanced-setup](advanced-setup.ru.md) · [troubleshooting](troubleshooting.ru.md) · [apple-silicon](benchmarks/apple-silicon.ru.md)  
+**Связанные разделы:** [Нулевой уровень](../basics/README.ru.md) · [AI-агенты](../agents/README.ru.md) · [Use Cases](../use-cases/README.ru.md)  
+**Навигация:** [← Локальные модели](README.ru.md) · [↑ На главную](../README.ru.md) · [🇬🇧 English](quantization.md)

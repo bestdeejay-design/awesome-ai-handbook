@@ -7,6 +7,8 @@
 
 [← Локальные модели](README.ru.md)
 
+**🇬🇧 English version:** [getting-started.md](getting-started.md)
+
 ---
 
 ## Содержание
@@ -400,3 +402,9 @@ ollama pull qwen3.5:9b    # скачать, но не запускать
 ---
 
 > **Подсказка:** Закрепите эту страницу в браузере или сохраните в закладки — вы будете возвращаться к ней при настройке новых моделей.
+
+---
+
+**В разделе:** [getting-started](getting-started.ru.md) · [running-models](running-models.ru.md) · [models](models.ru.md) · [catalog](catalog.ru.md) · [quantization](quantization.ru.md) · [memory-and-context](memory-and-context.ru.md) · [tools](tools.ru.md) · [advanced-setup](advanced-setup.ru.md) · [troubleshooting](troubleshooting.ru.md) · [apple-silicon](benchmarks/apple-silicon.ru.md)  
+**Связанные разделы:** [Нулевой уровень](../basics/README.ru.md) · [AI-агенты](../agents/README.ru.md) · [Use Cases](../use-cases/README.ru.md)  
+**Навигация:** [← Локальные модели](README.ru.md) · [↑ На главную](../README.ru.md) · [🇬🇧 English](getting-started.md)
