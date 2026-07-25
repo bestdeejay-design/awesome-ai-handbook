@@ -163,7 +163,7 @@ Body (JSON):
   "model": "qwen3.5:4b",
   "messages": [
     {"role": "system", "content": "Напиши краткую сводку письма (3-5 предложений)"},
-    {"role": "user", "content": "={{ $json.emailBody }}"
+    {"role": "user", "content": "={% raw %}{{ $json.emailBody }}{% endraw %}"
   ],
   "stream": false
 }
@@ -215,7 +215,7 @@ class AIBotHandler(BaseHTTPRequestHandler):
         self.send_response(200)
         self.send_header('Content-type', 'application/json')
         self.end_headers()
-        self.wfile.write(f'{{"response": "{answer}"}}'.encode())
+        self.wfile.write(f'{% raw %}{{"response": "{answer}"}}{% endraw %}'.encode())
 
 if __name__ == "__main__":
     server = HTTPServer(("localhost", 8888), AIBotHandler)
@@ -235,3 +235,9 @@ if __name__ == "__main__":
 | **Написать агента-исполнителя** с инструментами | [../agents/tutorials/01-first-agent.ru.md](../agents/tutorials/01-first-agent.ru.md) |
 | **Разобраться с API Ollama** | [../agents/ollama-for-agents.ru.md](../agents/ollama-for-agents.ru.md) |
 | **Вернуться к списку кейсов** | [README.ru.md](README.ru.md) |
+
+---
+
+**В разделе:** [coding](coding.ru.md) · [rag](rag.ru.md) · [automation](automation.ru.md) · [writing](writing.ru.md)  
+**Связанные разделы:** [Локальные модели](../local-models/README.ru.md) · [AI-агенты](../agents/README.ru.md) · [Нулевой уровень](../basics/README.ru.md)  
+**Навигация:** [← Use Cases](README.ru.md) · [↑ На главную](../README.ru.md) · [🇬🇧 English](automation.md)

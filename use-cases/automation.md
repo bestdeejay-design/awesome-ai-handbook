@@ -165,7 +165,7 @@ Body (JSON):
   "model": "qwen3.5:4b",
   "messages": [
     {"role": "system", "content": "Write a brief email summary (3-5 sentences)"},
-    {"role": "user", "content": "={{ $json.emailBody }}"
+    {"role": "user", "content": "={% raw %}{{ $json.emailBody }}{% endraw %}"
   ],
   "stream": false
 }
@@ -217,7 +217,7 @@ class AIBotHandler(BaseHTTPRequestHandler):
         self.send_response(200)
         self.send_header('Content-type', 'application/json')
         self.end_headers()
-        self.wfile.write(f'{{"response": "{answer}"}}'.encode())
+        self.wfile.write(f'{% raw %}{{"response": "{answer}"}}{% endraw %}'.encode())
 
 if __name__ == "__main__":
     server = HTTPServer(("localhost", 8888), AIBotHandler)
@@ -237,3 +237,9 @@ For a full-featured Telegram bot, use `python-telegram-bot` + Ollama.
 | **Write an executor agent** with tools | [../agents/tutorials/01-first-agent.md](../agents/tutorials/01-first-agent.md) |
 | **Understand Ollama API** | [../agents/ollama-for-agents.md](../agents/ollama-for-agents.md) |
 | **Back to use cases** | [README.md](README.md) |
+
+---
+
+**In section:** [coding](coding.md) · [rag](rag.md) · [automation](automation.md) · [writing](writing.md)  
+**Related sections:** [Local Models](../local-models/README.md) · [AI Agents](../agents/README.md) · [Zero Level](../basics/README.md)  
+**Navigation:** [← Use Cases](README.md) · [↑ Back to main](../README.md) · [🇷🇺 Русский](automation.ru.md)

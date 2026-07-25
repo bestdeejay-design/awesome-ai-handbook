@@ -5,6 +5,8 @@
 
 [← Локальные модели](README.ru.md) · [Начать с начала](getting-started.ru.md)
 
+**🇬🇧 English version:** [advanced-setup.md](advanced-setup.md)
+
 ---
 
 ## Содержание
@@ -187,9 +189,9 @@ FROM llama3.3:8b
 
 TEMPLATE """<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
-{{ .System }}<|eot_id|><|start_header_id|>user<|end_header_id|>
+{% raw %}{{ .System }}{% endraw %}<|eot_id|><|start_header_id|>user<|end_header_id|>
 
-{{ .Prompt }}<|eot_id|><|start_header_id|>assistant<|end_header_id|>"""
+{% raw %}{{ .Prompt }}{% endraw %}<|eot_id|><|start_header_id|>assistant<|end_header_id|>"""
 
 Обычно template не нужно менять — он уже встроен в модель. Но если модель ведёт себя странно,
 можно переопределить.
@@ -623,3 +625,9 @@ Speculative decoding даёт наибольший прирост на боль�
 | Посмотреть бенчмарки на Mac | [benchmarks/apple-silicon.md](benchmarks/apple-silicon.ru.md) |
 | Полный каталог всех моделей | [catalog.md](catalog.ru.md) |
 | Решить проблему | [troubleshooting.md](troubleshooting.ru.md) |
+
+---
+
+**В разделе:** [getting-started](getting-started.ru.md) · [running-models](running-models.ru.md) · [models](models.ru.md) · [catalog](catalog.ru.md) · [quantization](quantization.ru.md) · [memory-and-context](memory-and-context.ru.md) · [tools](tools.ru.md) · [advanced-setup](advanced-setup.ru.md) · [troubleshooting](troubleshooting.ru.md) · [apple-silicon](benchmarks/apple-silicon.ru.md)  
+**Связанные разделы:** [Нулевой уровень](../basics/README.ru.md) · [AI-агенты](../agents/README.ru.md) · [Use Cases](../use-cases/README.ru.md)  
+**Навигация:** [← Локальные модели](README.ru.md) · [↑ На главную](../README.ru.md) · [🇬🇧 English](advanced-setup.md)
