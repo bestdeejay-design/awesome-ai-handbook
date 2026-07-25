@@ -1,33 +1,37 @@
-# 💼 Практические кейсы
+# 💼 Use Cases
 
-Как применять AI в реальных задачах с локальными моделями.
+> Как применять AI в реальных задачах с локальными моделями.
 
-[← Главная](../README.ru.md)
+[← Awesome AI Handbook](../README.ru.md) · [🇬🇧 English](README.md)
 
 ---
 
-## Содержание
+## Кейсы
 
-| Кейс | Файл | Стек |
-|------|------|------|
-| **Кодинг** | [coding.md](coding.ru.md) | Continue, Aider, Ollama + Coder |
-| **RAG** | [rag.md](rag.ru.md) | Open WebUI, PrivateGPT, эмбеддинги |
-| **Автоматизация** | [automation.md](automation.ru.md) | n8n, cron, structured output |
-| **Письмо и контент** | [writing.md](writing.ru.md) | Qwen, Q5_K_M, reflection-агенты |
+| Кейс | Файл | Стек | Время |
+|------|------|------|-------|
+| **Кодинг** | [coding.ru.md](coding.ru.md) | Continue, Aider, Ollama + Coder | 5 мин |
+| **RAG** | [rag.ru.md](rag.ru.md) | Open WebUI, PrivateGPT, эмбеддинги | 7 мин |
+| **Автоматизация** | [automation.ru.md](automation.ru.md) | n8n, cron, structured output | 7 мин |
+| **Письмо и контент** | [writing.ru.md](writing.ru.md) | Qwen, Q5_K_M, reflection-агенты | 6 мин |
 
 ---
 
 ## Рекомендуемый порядок
 
-0. 🟢 **Новичок?** Сначала [basics/](../basics/README.ru.md) — основы AI, выбор железа, установка
-1. [local-models/running-models.md](../local-models/running-models.ru.md) — запустить Ollama
+0. 🟢 **Новичок?** → [basics/](../basics/README.ru.md) — основы AI, выбор железа, установка
+1. **Запустить Ollama** → [local-models/running-models.ru.md](../local-models/running-models.ru.md)
 2. Выберите кейс выше
-3. При необходимости — [agents/](../agents/) для многошаговых сценариев
+3. Для многошаговых сценариев — [agents/](../agents/)
 
 ---
 
 ## Связанные разделы
 
-- [local-models/models.md](../local-models/models.ru.md) — подбор модели под задачу
-- [local-models/tools.md](../local-models/tools.ru.md) — Continue, Aider, Open WebUI
-- [agents/ollama-for-agents.md](../agents/ollama-for-agents.ru.md) — API для пайплайнов
+- [🔵 Локальные модели](../local-models/README.ru.md) — подбор и настройка моделей
+- [🤖 AI-агенты](../agents/README.ru.md) — создание агентов для сложных кейсов
+- [🟢 Нулевой уровень](../basics/README.ru.md) — основы AI, установка
+
+---
+
+**Навигация:** [← На главную](../README.ru.md) · [📖 Каталог](../catalog.ru.md)

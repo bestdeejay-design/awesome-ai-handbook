@@ -1,41 +1,39 @@
 # 🖥 Local Models
 
-Running LLMs on your own hardware — from first installation to advanced tuning.
+> Running LLMs on your own hardware — from first installation to advanced tuning.
 
-[← Awesome AI Handbook](../README.md) · [Русская версия](README.ru.md)
+[← Awesome AI Handbook](../README.md) · [🇷🇺 Русский](README.ru.md)
 
 ---
 
-## 🤔 Where to start — choose your scenario
+## Where to Start — Choose Your Scenario
 
-### 🟢 Absolute beginner
-> Never ran a model, not familiar with the terminal, just want to try.
+### 🟢 Absolute Beginner
+> Never ran a model, not familiar with the terminal.
 
-**Start with basics:** [basics/README.md](../basics/README.md) — what AI is, how models work, what hardware you need.
+**First:** [basics/README.md](../basics/README.md) — what AI is, how models work, what hardware you need.
 
-**Then install:** [📖 Environment setup and installation](getting-started.md)
-→ Homebrew, Ollama, first model in 10 minutes
+**Then install:** [📖 Environment setup and installation](getting-started.md) — Homebrew, Ollama, first model in 10 minutes.
 
-Or skip the terminal entirely: **LM Studio** (described in [running-models.md](running-models.md))
+Or skip the terminal entirely: **LM Studio** (described in [running-models.md](running-models.md)).
 
-### 🟡 I want to understand
+### 🟡 I Want to Understand
 > Already installed Ollama, ran a model, but want to know how it works.
 
-**Route:**
 1. [▶️ How to find and run a model](running-models.md) — hands-on guide
 2. [🎯 Choosing a model for your task](models.md) — what to pick for coding / chat / RAG
 3. [💾 Memory and context](memory-and-context.md) — why models dont fit and how to fix it
 
-### 🔵 Advanced user
+### 🔵 Advanced User
 > Want maximum performance, API tuning, tool comparison.
 
-**Route:**
 1. [⚙️ Advanced Ollama setup](advanced-setup.md) — Modelfile, API, env vars
 2. [🛠 Tool comparison](tools.md) — Ollama vs LM Studio vs MLX vs llama.cpp
 3. [⚖️ Quantization](quantization.md) — Q4, Q5, Q8 — what to choose
 4. [📊 Apple Silicon benchmarks](benchmarks/apple-silicon.md) — tok/s on M1–M4
 
-### 📚 Reference (for everyone)
+### 📚 Reference (for Everyone)
+
 | Section | About |
 |---------|-------|
 | [📚 Model catalog](catalog.md) | 50+ models with specs |
@@ -43,10 +41,10 @@ Or skip the terminal entirely: **LM Studio** (described in [running-models.md](r
 
 ---
 
-## 🗺 All sections
+## Section Files
 
-| # | File | Audience | Reading time |
-|---|------|----------|-------------|
+| # | File | Audience | Time |
+|---|------|----------|------|
 | 1 | [🚀 getting-started.md](getting-started.md) | Beginners | 10 min |
 | 2 | [▶️ running-models.md](running-models.md) | Everyone | 15 min |
 | 3 | [🎯 models.md](models.md) | Everyone | 10 min |
@@ -60,11 +58,12 @@ Or skip the terminal entirely: **LM Studio** (described in [running-models.md](r
 
 ---
 
-## 📋 Section development plan
+## Related Sections
 
-- [x] Basic file structure
-- [x] Cross-linking: "whats next" links in each file
-- [ ] **Detail:** step-by-step instructions in getting-started.md
-- [ ] **Detail:** API and Modelfile examples in advanced-setup.md
-- [ ] **Detail:** verify and fix all cross-reference links
-- [x] **English version:** all section files translated
+- [🟢 Zero Level](../basics/README.md) — AI basics, installation
+- [🤖 AI Agents](../agents/README.md) — agents on local models
+- [💼 Use Cases](../use-cases/README.md) — coding, RAG, automation
+
+---
+
+**Navigation:** [← Back to main](../README.md) · [📖 Catalog](../catalog.md)
