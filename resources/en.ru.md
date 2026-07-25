@@ -89,3 +89,9 @@
 | **Выбрать курс** по AI | [courses.ru.md](courses.ru.md) |
 | **Попрактиковаться** | [../local-models/README.ru.md](../local-models/README.ru.md) |
 | **Вернуться к списку ресурсов** | [README.ru.md](README.ru.md) |
+
+---
+
+**В разделе:** [ru](ru.ru.md) · [en](en.ru.md) · [courses](courses.ru.md) · [communities](communities.ru.md)  
+**Связанные разделы:** [Нулевой уровень](../basics/README.ru.md) · [Локальные модели](../local-models/README.ru.md) · [AI-агенты](../agents/README.ru.md)  
+**Навигация:** [← Ресурсы](README.ru.md) · [↑ На главную](../README.ru.md) · [🇬🇧 English](en.md)

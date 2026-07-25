@@ -1,6 +1,8 @@
 [![Русский](https://img.shields.io/badge/Русский-Contributing-blue.svg)](CONTRIBUTING.ru.md)
 [![English](https://img.shields.io/badge/English-Contributing-blue.svg)](CONTRIBUTING.md)
 
+[← Awesome AI Handbook](README.ru.md)
+
 # Руководство по внесению вклада
 ...
 
@@ -60,3 +62,5 @@
 ---
 
 Ещё раз спасибо! Ваш вклад делает AI-сообщество сильнее. 🚀
+
+**Навигация:** [← Awesome AI Handbook](README.ru.md) · [📖 Каталог](catalog.ru.md)

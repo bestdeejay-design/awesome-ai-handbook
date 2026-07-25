@@ -1,6 +1,8 @@
 [![English](https://img.shields.io/badge/English-Code_of_Conduct-blue.svg)](CODE_OF_CONDUCT.md)
 [![Русский](https://img.shields.io/badge/Русский-Code_of_Conduct-blue.svg)](CODE_OF_CONDUCT.ru.md)
 
+[← Awesome AI Handbook](README.ru.md)
+
 # Кодекс поведения участника
 ...
 
@@ -84,3 +86,5 @@
 Ответы на часто задаваемые вопросы об этом кодексе поведения см. в разделе FAQ на
 https://www.contributor-covenant.org/faq. Переводы доступны на
 https://www.contributor-covenant.org/translations.
+
+**Навигация:** [← Awesome AI Handbook](README.ru.md) · [📖 Каталог](catalog.ru.md)

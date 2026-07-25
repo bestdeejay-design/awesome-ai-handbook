@@ -1,6 +1,8 @@
 [![English](https://img.shields.io/badge/English-Security-blue.svg)](SECURITY.md)
 [![Русский](https://img.shields.io/badge/Русский-Security-blue.svg)](SECURITY.ru.md)
 
+[← Awesome AI Handbook](README.md)
+
 # Content Quality and Security Policy
 
 ## Our Commitment
@@ -42,3 +44,5 @@ We accept reports in **English** and **Russian**.
 ## How You Can Help
 
 You can also directly contribute fixes by submitting a pull request – see our [Contributing Guide](CONTRIBUTING.md).
+
+**Navigation:** [← Awesome AI Handbook](README.md) · [📖 Catalog](catalog.md)

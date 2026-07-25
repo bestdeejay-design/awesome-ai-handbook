@@ -1,6 +1,8 @@
 [![Русский](https://img.shields.io/badge/Русский-Code_of_Conduct-blue.svg)](CODE_OF_CONDUCT.ru.md)
 [![English](https://img.shields.io/badge/English-Code_of_Conduct-blue.svg)](CODE_OF_CONDUCT.md)
 
+[← Awesome AI Handbook](README.md)
+
 # Contributor Covenant Code of Conduct
 ...
 
@@ -130,3 +132,5 @@ enforcement ladder](https://github.com/mozilla/diversity).
 For answers to common questions about this code of conduct, see the FAQ at
 https://www.contributor-covenant.org/faq. Translations are available at
 https://www.contributor-covenant.org/translations.
+
+**Navigation:** [← Awesome AI Handbook](README.md) · [📖 Catalog](catalog.md)

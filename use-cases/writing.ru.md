@@ -208,3 +208,9 @@ if __name__ == "__main__":
 | **Собрать контент-команду** из агентов | [../agents/tutorials/02-agent-team.ru.md](../agents/tutorials/02-agent-team.ru.md) |
 | **Выбрать модели** для текстов | [../local-models/catalog.ru.md](../local-models/catalog.ru.md#2-общие-чатинструкционные-модели) |
 | **Вернуться к списку кейсов** | [README.ru.md](README.ru.md) |
+
+---
+
+**В разделе:** [coding](coding.ru.md) · [rag](rag.ru.md) · [automation](automation.ru.md) · [writing](writing.ru.md)  
+**Связанные разделы:** [Локальные модели](../local-models/README.ru.md) · [AI-агенты](../agents/README.ru.md) · [Нулевой уровень](../basics/README.ru.md)  
+**Навигация:** [← Use Cases](README.ru.md) · [↑ На главную](../README.ru.md) · [🇬🇧 English](writing.md)

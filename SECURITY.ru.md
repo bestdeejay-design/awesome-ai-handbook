@@ -1,6 +1,8 @@
 [![Русский](https://img.shields.io/badge/Русский-Security-blue.svg)](SECURITY.ru.md)
 [![English](https://img.shields.io/badge/English-Security-blue.svg)](SECURITY.md)
 
+[← Awesome AI Handbook](README.ru.md)
+
 # Политика качества контента и безопасности
 
 ## Наше обязательство
@@ -42,3 +44,5 @@
 ## Как вы можете помочь
 
 Вы также можете напрямую предложить исправления через pull request — см. наше [Руководство по внесению вклада](CONTRIBUTING.ru.md).
+
+**Навигация:** [← Awesome AI Handbook](README.ru.md) · [📖 Каталог](catalog.ru.md)

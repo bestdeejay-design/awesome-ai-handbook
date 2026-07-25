@@ -1,6 +1,8 @@
 [![English](https://img.shields.io/badge/English-Contributing-blue.svg)](CONTRIBUTING.md)
 [![Русский](https://img.shields.io/badge/Русский-Contributing-blue.svg)](CONTRIBUTING.ru.md)
 
+[← Awesome AI Handbook](README.md)
+
 # Contributing to Awesome AI Handbook
 
 Hello! 👋
@@ -76,3 +78,5 @@ Open an **Issue** or start a **Discussion**. We’re here to help!
 ---
 
 Thanks again! Your contribution makes the AI community stronger. 🚀
+
+**Navigation:** [← Awesome AI Handbook](README.md) · [📖 Catalog](catalog.md)

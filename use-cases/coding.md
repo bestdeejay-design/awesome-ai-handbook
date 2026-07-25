@@ -172,3 +172,9 @@ OpenHands creates a plan → writes code → runs tests → fixes errors — ful
 | **Pick models** for coding | [../local-models/models.md](../local-models/models.md) |
 | **Configure Ollama** for coding | [../local-models/advanced-setup.md](../local-models/advanced-setup.md) |
 | **Back to use cases** | [README.md](README.md) |
+
+---
+
+**In section:** [coding](coding.md) · [rag](rag.md) · [automation](automation.md) · [writing](writing.md)  
+**Related sections:** [Local Models](../local-models/README.md) · [AI Agents](../agents/README.md) · [Zero Level](../basics/README.md)  
+**Navigation:** [← Use Cases](README.md) · [↑ Back to main](../README.md) · [🇷🇺 Русский](coding.ru.md)

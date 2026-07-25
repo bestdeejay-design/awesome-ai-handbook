@@ -90,3 +90,9 @@ for topic in topics:
 | Automate content pipelines | [automation.md](automation.md) |
 | Reflection agent pattern | [patterns.md](../agents/patterns.md) |
 | Back | [README.md](README.md) |
+
+---
+
+**In section:** [coding](coding.md) · [rag](rag.md) · [automation](automation.md) · [writing](writing.md)  
+**Related sections:** [Local Models](../local-models/README.md) · [AI Agents](../agents/README.md) · [Zero Level](../basics/README.md)  
+**Navigation:** [← Use Cases](README.md) · [↑ Back to main](../README.md) · [🇷🇺 Русский](writing.ru.md)

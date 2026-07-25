@@ -230,3 +230,9 @@ python rag_example.py
 | **Использовать RAG в агенте** (tool calling) | [../agents/ollama-for-agents.ru.md](../agents/ollama-for-agents.ru.md) |
 | **Выбрать модель** под RAG | [../local-models/models.ru.md](../local-models/models.ru.md) |
 | **Вернуться к списку кейсов** | [README.ru.md](README.ru.md) |
+
+---
+
+**В разделе:** [coding](coding.ru.md) · [rag](rag.ru.md) · [automation](automation.ru.md) · [writing](writing.ru.md)  
+**Связанные разделы:** [Локальные модели](../local-models/README.ru.md) · [AI-агенты](../agents/README.ru.md) · [Нулевой уровень](../basics/README.ru.md)  
+**Навигация:** [← Use Cases](README.ru.md) · [↑ На главную](../README.ru.md) · [🇬🇧 English](rag.md)

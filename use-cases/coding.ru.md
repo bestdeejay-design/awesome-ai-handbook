@@ -170,3 +170,9 @@ OpenHands создаёт план → пишет код → запускает �
 | **Выбрать модели** для кодинга | [../local-models/models.ru.md](../local-models/models.ru.md) |
 | **Настроить Ollama** под кодинг | [../local-models/advanced-setup.ru.md](../local-models/advanced-setup.ru.md) |
 | **Вернуться к списку кейсов** | [README.ru.md](README.ru.md) |
+
+---
+
+**В разделе:** [coding](coding.ru.md) · [rag](rag.ru.md) · [automation](automation.ru.md) · [writing](writing.ru.md)  
+**Связанные разделы:** [Локальные модели](../local-models/README.ru.md) · [AI-агенты](../agents/README.ru.md) · [Нулевой уровень](../basics/README.ru.md)  
+**Навигация:** [← Use Cases](README.ru.md) · [↑ На главную](../README.ru.md) · [🇬🇧 English](coding.md)

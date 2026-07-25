@@ -88,3 +88,9 @@ Entry format:
 | **Start from scratch** 🟢 | [basics/README.md](../basics/README.md) |
 | **Start practicing** | [../local-models/README.md](../local-models/README.md) |
 | **Return to resources list** | [README.md](README.md) |
+
+---
+
+**In section:** [ru](ru.md) · [en](en.md) · [courses](courses.md) · [communities](communities.md)  
+**Related sections:** [Zero Level](../basics/README.md) · [Local Models](../local-models/README.md) · [AI Agents](../agents/README.md)  
+**Navigation:** [← Resources](README.md) · [↑ Back to main](../README.md) · [🇷🇺 Русский](ru.ru.md)
