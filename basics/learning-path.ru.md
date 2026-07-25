@@ -2,7 +2,7 @@
 
 > 10 шагов от полного нуля до работающего локального AI-ассистента.
 
-[← FAQ](faq.ru.md) · [Установка на Windows →](setup-windows.ru.md)
+[← FAQ](faq.ru.md) · [Установка на Windows →](setup-windows.ru.md) · [🇬🇧 English](learning-path.md)
 
 ---
 
@@ -242,3 +242,9 @@ open-webui serve
 | **Установить на Linux** | [setup-linux.ru.md](setup-linux.ru.md) |
 | **Сразу к кодингу** | [`../use-cases/coding.ru.md`](../use-cases/coding.ru.md) |
 | **Вернуться к навигации** | [README.ru.md](README.ru.md) |
+
+---
+
+**В разделе:** [what-is-ai](what-is-ai.ru.md) · [how-models-work](how-models-work.ru.md) · [cloud-vs-local](cloud-vs-local.ru.md) · [hardware-guide](hardware-guide.ru.md) · [glossary](glossary.ru.md) · [faq](faq.ru.md) · [learning-path](learning-path.ru.md) · [setup-windows](setup-windows.ru.md) · [setup-linux](setup-linux.ru.md)  
+**Связанные разделы:** [Локальные модели](../local-models/README.ru.md) · [AI-агенты](../agents/README.ru.md) · [Use Cases](../use-cases/README.ru.md)  
+**Навигация:** [← Нулевой уровень](README.ru.md) · [↑ На главную](../README.ru.md) · [🇬🇧 English](learning-path.md)

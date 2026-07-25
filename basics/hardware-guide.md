@@ -2,7 +2,7 @@
 
 > Busting myths: from a 5-year-old laptop to a dedicated server.
 
-[← Cloud or Local](cloud-vs-local.md) · [Windows Install →](setup-windows.md)
+[← Cloud or Local](cloud-vs-local.md) · [Windows Install →](setup-windows.md) · [🇷🇺 Русский](hardware-guide.ru.md)
 
 ---
 
@@ -210,3 +210,9 @@ free -h | grep "Mem"
 | **Understand quantization** | [`../local-models/quantization.md`](../local-models/quantization.md) |
 | **Check Mac benchmarks** | [`../local-models/benchmarks/apple-silicon.md`](../local-models/benchmarks/apple-silicon.md) |
 | **Back to navigation** | [README.md](README.md) |
+
+---
+
+**In section:** [what-is-ai](what-is-ai.md) · [how-models-work](how-models-work.md) · [cloud-vs-local](cloud-vs-local.md) · [hardware-guide](hardware-guide.md) · [glossary](glossary.md) · [faq](faq.md) · [learning-path](learning-path.md) · [setup-windows](setup-windows.md) · [setup-linux](setup-linux.md)  
+**Related sections:** [Local Models](../local-models/README.md) · [AI Agents](../agents/README.md) · [Use Cases](../use-cases/README.md)  
+**Navigation:** [← Zero Level](README.md) · [↑ Back to main](../README.md) · [🇷🇺 Русский](hardware-guide.ru.md)

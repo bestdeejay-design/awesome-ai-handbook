@@ -2,7 +2,7 @@
 
 > What to choose: ChatGPT in browser or a model on your own computer?
 
-[← How Neural Networks Work](how-models-work.md) · [What Hardware You Need →](hardware-guide.md)
+[← How Neural Networks Work](how-models-work.md) · [What Hardware You Need →](hardware-guide.md) · [🇷🇺 Русский](cloud-vs-local.ru.md)
 
 ---
 
@@ -141,3 +141,9 @@ client = openai.OpenAI(
 | **Install Ollama on Linux** | [setup-linux.md](setup-linux.md) |
 | **Check the glossary** | [glossary.md](glossary.md) |
 | **Back to navigation** | [README.md](README.md) |
+
+---
+
+**In section:** [what-is-ai](what-is-ai.md) · [how-models-work](how-models-work.md) · [cloud-vs-local](cloud-vs-local.md) · [hardware-guide](hardware-guide.md) · [glossary](glossary.md) · [faq](faq.md) · [learning-path](learning-path.md) · [setup-windows](setup-windows.md) · [setup-linux](setup-linux.md)  
+**Related sections:** [Local Models](../local-models/README.md) · [AI Agents](../agents/README.md) · [Use Cases](../use-cases/README.md)  
+**Navigation:** [← Zero Level](README.md) · [↑ Back to main](../README.md) · [🇷🇺 Русский](cloud-vs-local.ru.md)

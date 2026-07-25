@@ -2,7 +2,7 @@
 
 > Пошаговое руководство для пользователей Linux: от CPU до мульти-GPU.
 
-[← Установка на Windows](setup-windows.ru.md) · [Пошаговый план обучения →](learning-path.ru.md)
+[← Установка на Windows](setup-windows.ru.md) · [Пошаговый план обучения →](learning-path.ru.md) · [🇬🇧 English](setup-linux.md)
 
 ---
 
@@ -242,3 +242,9 @@ docker stop ollama             # если в Docker
 | **Разобраться с квантизацией** | [`../local-models/quantization.ru.md`](../local-models/quantization.ru.md) |
 | **Вернуться к плану обучения** | [learning-path.ru.md](learning-path.ru.md) |
 | **Вернуться к навигации** | [README.ru.md](README.ru.md) |
+
+---
+
+**В разделе:** [what-is-ai](what-is-ai.ru.md) · [how-models-work](how-models-work.ru.md) · [cloud-vs-local](cloud-vs-local.ru.md) · [hardware-guide](hardware-guide.ru.md) · [glossary](glossary.ru.md) · [faq](faq.ru.md) · [learning-path](learning-path.ru.md) · [setup-windows](setup-windows.ru.md) · [setup-linux](setup-linux.ru.md)  
+**Связанные разделы:** [Локальные модели](../local-models/README.ru.md) · [AI-агенты](../agents/README.ru.md) · [Use Cases](../use-cases/README.ru.md)  
+**Навигация:** [← Нулевой уровень](README.ru.md) · [↑ На главную](../README.ru.md) · [🇬🇧 English](setup-linux.md)

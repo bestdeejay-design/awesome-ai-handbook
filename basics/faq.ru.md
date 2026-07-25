@@ -2,7 +2,7 @@
 
 > Самые популярные вопросы новичков о локальном AI.
 
-[← Словарь терминов](glossary.ru.md) · [Пошаговый план →](learning-path.ru.md)
+[← Словарь терминов](glossary.ru.md) · [Пошаговый план →](learning-path.ru.md) · [🇬🇧 English](faq.md)
 
 ---
 
@@ -206,3 +206,9 @@ OpenCode использует только облачные API. Cursor — то
 | **Сразу к кодингу** | [`../use-cases/coding.ru.md`](../use-cases/coding.ru.md) |
 | **#FAQ** | `git commit -m "add faq"` |
 | **Вернуться к навигации** | [README.ru.md](README.ru.md) |
+
+---
+
+**В разделе:** [what-is-ai](what-is-ai.ru.md) · [how-models-work](how-models-work.ru.md) · [cloud-vs-local](cloud-vs-local.ru.md) · [hardware-guide](hardware-guide.ru.md) · [glossary](glossary.ru.md) · [faq](faq.ru.md) · [learning-path](learning-path.ru.md) · [setup-windows](setup-windows.ru.md) · [setup-linux](setup-linux.ru.md)  
+**Связанные разделы:** [Локальные модели](../local-models/README.ru.md) · [AI-агенты](../agents/README.ru.md) · [Use Cases](../use-cases/README.ru.md)  
+**Навигация:** [← Нулевой уровень](README.ru.md) · [↑ На главную](../README.ru.md) · [🇬🇧 English](faq.md)

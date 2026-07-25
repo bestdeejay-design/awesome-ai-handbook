@@ -2,7 +2,7 @@
 
 > Разрушаем мифы: от 5-летнего ноутбука до専сервера.
 
-[← Облако или локально](cloud-vs-local.ru.md) · [Установка на Windows →](setup-windows.ru.md)
+[← Облако или локально](cloud-vs-local.ru.md) · [Установка на Windows →](setup-windows.ru.md) · [🇬🇧 English](hardware-guide.md)
 
 ---
 
@@ -210,3 +210,9 @@ free -h | grep "Mem"
 | **Разобраться в квантовании** | [`../local-models/quantization.ru.md`](../local-models/quantization.ru.md) |
 | **Посмотреть бенчмарки Mac** | [`../local-models/benchmarks/apple-silicon.ru.md`](../local-models/benchmarks/apple-silicon.ru.md) |
 | **Вернуться к навигации** | [README.ru.md](README.ru.md) |
+
+---
+
+**В разделе:** [what-is-ai](what-is-ai.ru.md) · [how-models-work](how-models-work.ru.md) · [cloud-vs-local](cloud-vs-local.ru.md) · [hardware-guide](hardware-guide.ru.md) · [glossary](glossary.ru.md) · [faq](faq.ru.md) · [learning-path](learning-path.ru.md) · [setup-windows](setup-windows.ru.md) · [setup-linux](setup-linux.ru.md)  
+**Связанные разделы:** [Локальные модели](../local-models/README.ru.md) · [AI-агенты](../agents/README.ru.md) · [Use Cases](../use-cases/README.ru.md)  
+**Навигация:** [← Нулевой уровень](README.ru.md) · [↑ На главную](../README.ru.md) · [🇬🇧 English](hardware-guide.md)

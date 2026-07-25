@@ -3,7 +3,7 @@
 > Все важные понятия, с которыми вы столкнётесь в мире локального AI.  
 > Уровни: 🟢 выживание → 🟡 комфортное чтение → 🔵 продвинутый новичок.
 
-[← Нулевой уровень](README.ru.md) · [FAQ →](faq.ru.md)
+[← Нулевой уровень](README.ru.md) · [FAQ →](faq.ru.md) · [🇬🇧 English](glossary.md)
 
 ---
 
@@ -85,3 +85,9 @@
 | **Пошаговый план обучения** | [learning-path.ru.md](learning-path.ru.md) |
 | **Установить Ollama** | [`../local-models/getting-started.ru.md`](../local-models/getting-started.ru.md) |
 | **Вернуться к навигации** | [README.ru.md](README.ru.md) |
+
+---
+
+**В разделе:** [what-is-ai](what-is-ai.ru.md) · [how-models-work](how-models-work.ru.md) · [cloud-vs-local](cloud-vs-local.ru.md) · [hardware-guide](hardware-guide.ru.md) · [glossary](glossary.ru.md) · [faq](faq.ru.md) · [learning-path](learning-path.ru.md) · [setup-windows](setup-windows.ru.md) · [setup-linux](setup-linux.ru.md)  
+**Связанные разделы:** [Локальные модели](../local-models/README.ru.md) · [AI-агенты](../agents/README.ru.md) · [Use Cases](../use-cases/README.ru.md)  
+**Навигация:** [← Нулевой уровень](README.ru.md) · [↑ На главную](../README.ru.md) · [🇬🇧 English](glossary.md)

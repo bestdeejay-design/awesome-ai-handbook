@@ -2,7 +2,7 @@
 
 > Что выбрать: ChatGPT в браузере или модель на своём компьютере?
 
-[← Как работают нейросети](how-models-work.ru.md) · [Какое нужно железо →](hardware-guide.ru.md)
+[← Как работают нейросети](how-models-work.ru.md) · [Какое нужно железо →](hardware-guide.ru.md) · [🇬🇧 English](cloud-vs-local.md)
 
 ---
 
@@ -141,3 +141,9 @@ client = openai.OpenAI(
 | **Установить Ollama на Linux** | [setup-linux.ru.md](setup-linux.ru.md) |
 | **Посмотреть словарь терминов** | [glossary.ru.md](glossary.ru.md) |
 | **Вернуться к навигации** | [README.ru.md](README.ru.md) |
+
+---
+
+**В разделе:** [what-is-ai](what-is-ai.ru.md) · [how-models-work](how-models-work.ru.md) · [cloud-vs-local](cloud-vs-local.ru.md) · [hardware-guide](hardware-guide.ru.md) · [glossary](glossary.ru.md) · [faq](faq.ru.md) · [learning-path](learning-path.ru.md) · [setup-windows](setup-windows.ru.md) · [setup-linux](setup-linux.ru.md)  
+**Связанные разделы:** [Локальные модели](../local-models/README.ru.md) · [AI-агенты](../agents/README.ru.md) · [Use Cases](../use-cases/README.ru.md)  
+**Навигация:** [← Нулевой уровень](README.ru.md) · [↑ На главную](../README.ru.md) · [🇬🇧 English](cloud-vs-local.md)

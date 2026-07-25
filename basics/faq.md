@@ -172,3 +172,9 @@ More: [`../agents/safety.md`](../agents/safety.md)
 | **Install Ollama** | [`../local-models/getting-started.md`](../local-models/getting-started.md) |
 | **Start coding** | [`../use-cases/coding.md`](../use-cases/coding.md) |
 | **Back to navigation** | [README.md](README.md) |
+
+---
+
+**In section:** [what-is-ai](what-is-ai.md) · [how-models-work](how-models-work.md) · [cloud-vs-local](cloud-vs-local.md) · [hardware-guide](hardware-guide.md) · [glossary](glossary.md) · [faq](faq.md) · [learning-path](learning-path.md) · [setup-windows](setup-windows.md) · [setup-linux](setup-linux.md)  
+**Related sections:** [Local Models](../local-models/README.md) · [AI Agents](../agents/README.md) · [Use Cases](../use-cases/README.md)  
+**Navigation:** [← Zero Level](README.md) · [↑ Back to main](../README.md) · [🇷🇺 Русский](faq.ru.md)
