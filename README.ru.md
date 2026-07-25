@@ -1,6 +1,3 @@
-[![Русский](https://img.shields.io/badge/Русский-README-blue.svg)](README.ru.md)
-[![English](https://img.shields.io/badge/English-README-blue.svg)](README.md)
-
 # 🧠 Awesome AI Handbook
 
 > Практический справочник по AI: от запуска первой локальной модели до своего агента.  
