@@ -182,3 +182,11 @@ When NOT to use: 1-2 step tasks, no clear expertise split needed.
 | Prompting | [prompting.md](prompting.md) |
 | Safety | [safety.md](safety.md) |
 | Back | [README.md](README.md) |
+---
+
+---
+
+**In section:** [architecture](architecture.md) · [evaluation](evaluation.md) · [frameworks](frameworks.md) · [memory](memory.md) · [multi-agent](multi-agent.md) · [ollama-for-agents](ollama-for-agents.md) · [orchestrators](orchestrators.md) · [patterns](patterns.md) · [prompting](prompting.md) · [ready-made](ready-made.md) · [safety](safety.md) · [skills](skills.md)  
+**Related sections:** [Zero Level](../basics/README.md) · [Local Models](../local-models/README.md) · [Use Cases](../use-cases/README.md) · [Resources](../resources/README.md)  
+**Navigation:** [← AI Agents](README.md) · [↑ Back to main](../README.md) · [🇷🇺 Русский](multi-agent.ru.md)
+

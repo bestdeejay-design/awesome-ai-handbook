@@ -2,7 +2,7 @@
 
 > Сравнение и примеры кода для популярных фреймворков — с фокусом на локальные модели через Ollama.
 
-[← AI-агенты](README.ru.md) · [Паттерны](patterns.ru.md) · [Ollama для агентов →](ollama-for-agents.ru.md)
+[← AI-агенты](README.ru.md) · [Паттерны](patterns.ru.md) · [Ollama для агентов →](ollama-for-agents.ru.md) · [🇬🇧 English](frameworks.md)
 
 ---
 
@@ -405,3 +405,11 @@ CrewAI (Process.hierarchical)
 | Подключить Ollama к любому фреймворку | [ollama-for-agents.md](ollama-for-agents.ru.md) |
 | Разобраться с архитектурой агента | [architecture.md](architecture.ru.md) |
 | Вернуться к навигации | [README.md](README.ru.md) |
+---
+
+---
+
+**В разделе:** [architecture](architecture.ru.md) · [evaluation](evaluation.ru.md) · [frameworks](frameworks.ru.md) · [memory](memory.ru.md) · [multi-agent](multi-agent.ru.md) · [ollama-for-agents](ollama-for-agents.ru.md) · [orchestrators](orchestrators.ru.md) · [patterns](patterns.ru.md) · [prompting](prompting.ru.md) · [ready-made](ready-made.ru.md) · [safety](safety.ru.md) · [skills](skills.ru.md)  
+**Связанные разделы:** [Нулевой уровень](../basics/README.ru.md) · [Локальные модели](../local-models/README.ru.md) · [Use Cases](../use-cases/README.ru.md) · [Ресурсы](../resources/README.ru.md)  
+**Навигация:** [← AI-агенты](README.ru.md) · [↑ На главную](../README.ru.md) · [🇬🇧 English](frameworks.md)
+

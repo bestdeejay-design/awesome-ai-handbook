@@ -2,7 +2,7 @@
 
 API и возможности Ollama, полезные при построении агентов.
 
-[← AI-агенты](README.ru.md) · [Фреймворки](frameworks.ru.md)
+[← AI-агенты](README.ru.md) · [Фреймворки](frameworks.ru.md) · [🇬🇧 English](ollama-for-agents.md)
 
 ---
 
@@ -351,3 +351,11 @@ curl http://localhost:11434/api/chat -d '{
 | Выбрать фреймворк | [frameworks.md](frameworks.ru.md) |
 | Посмотреть полный гайд по Ollama | [../local-models/advanced-setup.ru.md](../local-models/advanced-setup.ru.md) |
 | Вернуться к навигации | [README.md](README.ru.md) |
+---
+
+---
+
+**В разделе:** [architecture](architecture.ru.md) · [evaluation](evaluation.ru.md) · [frameworks](frameworks.ru.md) · [memory](memory.ru.md) · [multi-agent](multi-agent.ru.md) · [ollama-for-agents](ollama-for-agents.ru.md) · [orchestrators](orchestrators.ru.md) · [patterns](patterns.ru.md) · [prompting](prompting.ru.md) · [ready-made](ready-made.ru.md) · [safety](safety.ru.md) · [skills](skills.ru.md)  
+**Связанные разделы:** [Нулевой уровень](../basics/README.ru.md) · [Локальные модели](../local-models/README.ru.md) · [Use Cases](../use-cases/README.ru.md) · [Ресурсы](../resources/README.ru.md)  
+**Навигация:** [← AI-агенты](README.ru.md) · [↑ На главную](../README.ru.md) · [🇬🇧 English](ollama-for-agents.md)
+

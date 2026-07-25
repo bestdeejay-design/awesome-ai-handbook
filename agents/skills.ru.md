@@ -4,7 +4,7 @@
 >
 > Без скиллов агент — просто болталка. Со скиллами — инструмент, который решает реальные задачи.
 
-[← Готовые AI-агенты](ready-made.ru.md) · [Архитектура AI-агента →](architecture.ru.md)
+[← Готовые AI-агенты](ready-made.ru.md) · [Архитектура AI-агента →](architecture.ru.md) · [🇬🇧 English](skills.md)
 
 ---
 
@@ -416,3 +416,11 @@ awesome-ai-handbook/
 | **Подключить локальную модель** к агенту | [Ollama для агентов](ollama-for-agents.ru.md) |
 | **Найти MCP-сервер** под свою задачу | [mcp.directory](https://mcp.directory) (внешний) |
 | **Вернуться в агентский раздел** | [README.ru.md](README.ru.md) |
+---
+
+---
+
+**В разделе:** [architecture](architecture.ru.md) · [evaluation](evaluation.ru.md) · [frameworks](frameworks.ru.md) · [memory](memory.ru.md) · [multi-agent](multi-agent.ru.md) · [ollama-for-agents](ollama-for-agents.ru.md) · [orchestrators](orchestrators.ru.md) · [patterns](patterns.ru.md) · [prompting](prompting.ru.md) · [ready-made](ready-made.ru.md) · [safety](safety.ru.md) · [skills](skills.ru.md)  
+**Связанные разделы:** [Нулевой уровень](../basics/README.ru.md) · [Локальные модели](../local-models/README.ru.md) · [Use Cases](../use-cases/README.ru.md) · [Ресурсы](../resources/README.ru.md)  
+**Навигация:** [← AI-агенты](README.ru.md) · [↑ На главную](../README.ru.md) · [🇬🇧 English](skills.md)
+

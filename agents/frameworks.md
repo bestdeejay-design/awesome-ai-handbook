@@ -341,3 +341,11 @@ Each agent is a CrewAI role. Manager distributes tasks. More details in the [02-
 | Connect Ollama to any framework | [ollama-for-agents.md](ollama-for-agents.md) |
 | Understand agent architecture | [architecture.md](architecture.md) |
 | Back to navigation | [README.md](README.md) |
+---
+
+---
+
+**In section:** [architecture](architecture.md) · [evaluation](evaluation.md) · [frameworks](frameworks.md) · [memory](memory.md) · [multi-agent](multi-agent.md) · [ollama-for-agents](ollama-for-agents.md) · [orchestrators](orchestrators.md) · [patterns](patterns.md) · [prompting](prompting.md) · [ready-made](ready-made.md) · [safety](safety.md) · [skills](skills.md)  
+**Related sections:** [Zero Level](../basics/README.md) · [Local Models](../local-models/README.md) · [Use Cases](../use-cases/README.md) · [Resources](../resources/README.md)  
+**Navigation:** [← AI Agents](README.md) · [↑ Back to main](../README.md) · [🇷🇺 Русский](frameworks.ru.md)
+

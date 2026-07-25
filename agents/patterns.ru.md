@@ -2,7 +2,7 @@
 
 > Архитектурные паттерны для построения агентов поверх LLM — от простого ReAct до мульти-агентных систем с кодом.
 
-[← AI-агенты](README.ru.md) · [Архитектура](architecture.ru.md) · [Фреймворки →](frameworks.ru.md)
+[← AI-агенты](README.ru.md) · [Архитектура](architecture.ru.md) · [Фреймворки →](frameworks.ru.md) · [🇬🇧 English](patterns.md)
 
 ---
 
@@ -484,3 +484,11 @@ def choose_pattern(task: str):
 | Собрать команду агентов | [multi-agent.md](multi-agent.ru.md) |
 | Написать первого агента | [tutorials/01-first-agent.ru.md](tutorials/01-first-agent.ru.md) |
 | Вернуться к навигации | [README.md](README.ru.md) |
+---
+
+---
+
+**В разделе:** [architecture](architecture.ru.md) · [evaluation](evaluation.ru.md) · [frameworks](frameworks.ru.md) · [memory](memory.ru.md) · [multi-agent](multi-agent.ru.md) · [ollama-for-agents](ollama-for-agents.ru.md) · [orchestrators](orchestrators.ru.md) · [patterns](patterns.ru.md) · [prompting](prompting.ru.md) · [ready-made](ready-made.ru.md) · [safety](safety.ru.md) · [skills](skills.ru.md)  
+**Связанные разделы:** [Нулевой уровень](../basics/README.ru.md) · [Локальные модели](../local-models/README.ru.md) · [Use Cases](../use-cases/README.ru.md) · [Ресурсы](../resources/README.ru.md)  
+**Навигация:** [← AI-агенты](README.ru.md) · [↑ На главную](../README.ru.md) · [🇬🇧 English](patterns.md)
+

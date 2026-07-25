@@ -270,3 +270,11 @@ agent.run("Remember: we are making an AI handbook")
 | Secure your agents | [safety.md](safety.md) |
 | Build your own team | [tutorials/02-agent-team.md](tutorials/02-agent-team.md) |
 | Back to navigation | [README.md](README.md) |
+---
+
+---
+
+**In section:** [architecture](architecture.md) · [evaluation](evaluation.md) · [frameworks](frameworks.md) · [memory](memory.md) · [multi-agent](multi-agent.md) · [ollama-for-agents](ollama-for-agents.md) · [orchestrators](orchestrators.md) · [patterns](patterns.md) · [prompting](prompting.md) · [ready-made](ready-made.md) · [safety](safety.md) · [skills](skills.md)  
+**Related sections:** [Zero Level](../basics/README.md) · [Local Models](../local-models/README.md) · [Use Cases](../use-cases/README.md) · [Resources](../resources/README.md)  
+**Navigation:** [← AI Agents](README.md) · [↑ Back to main](../README.md) · [🇷🇺 Русский](memory.ru.md)
+

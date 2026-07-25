@@ -2,6 +2,8 @@
 
 > How to evaluate agent quality, find bugs, and improve performance.
 
+**🇷🇺 Russian version:** [evaluation.ru.md](evaluation.ru.md)
+
 [← AI Agents](README.md) · [Safety](safety.md) · [Tutorials →](tutorials/)
 
 ---
@@ -354,6 +356,10 @@ class AgentMetrics:
 | Write your first agent and test it | [tutorials/01-first-agent.md](tutorials/01-first-agent.md) |
 | Build an agent team | [tutorials/02-agent-team.md](tutorials/02-agent-team.md) |
 | Back to navigation | [README.md](README.md) |
-
+---
 
 ---
+
+**In section:** [architecture](architecture.md) · [evaluation](evaluation.md) · [frameworks](frameworks.md) · [memory](memory.md) · [multi-agent](multi-agent.md) · [ollama-for-agents](ollama-for-agents.md) · [orchestrators](orchestrators.md) · [patterns](patterns.md) · [prompting](prompting.md) · [ready-made](ready-made.md) · [safety](safety.md) · [skills](skills.md)  
+**Related sections:** [Zero Level](../basics/README.md) · [Local Models](../local-models/README.md) · [Use Cases](../use-cases/README.md) · [Resources](../resources/README.md)  
+**Navigation:** [← AI Agents](README.md) · [↑ Back to main](../README.md) · [🇷🇺 Русский](evaluation.ru.md)
