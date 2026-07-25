@@ -3,7 +3,7 @@
 > Coding-агент: читает код, находит баги, пишет тесты и делает PR.  
 > **LangGraph + Ollama** — для максимального контроля.
 
-[← Туториалы](README.ru.md) · [Команда агентов](02-agent-team.ru.md)
+[← Туториалы](README.ru.md) · [Команда агентов](02-agent-team.ru.md) · [🇬🇧 English](03-coding-agent.md)
 
 ---
 
@@ -245,3 +245,11 @@ python coding_agent.py
 | Добавить Code Review | Reflection-паттерн из [patterns.md](../patterns.ru.md) |
 | Запускать агента по расписанию | cron + скрипт |
 | Вернуться к туториалам | [README.ru.md](README.ru.md) |
+---
+
+---
+
+**В разделе:** [01-first-agent](01-first-agent.ru.md) · [02-agent-team](02-agent-team.ru.md) · [03-coding-agent](03-coding-agent.ru.md)  
+**Связанные разделы:** [AI-агенты](../README.ru.md) · [Нулевой уровень](../../basics/README.ru.md) · [Локальные модели](../../local-models/README.ru.md)  
+**Навигация:** [← Туториалы](README.ru.md) · [↑ На главную](../../README.ru.md) · [🇬🇧 English](03-coding-agent.md)
+

@@ -140,3 +140,11 @@ The PM will coordinate: analyst works first, then architect, then developer, the
 | [multi-agent.md](../multi-agent.md) | Multi-agent architecture deep dive |
 | [memory.md](../memory.md) | Setting up team memory |
 | Back | [README.md](README.md) |
+---
+
+---
+
+**In section:** [01-first-agent](01-first-agent.md) · [02-agent-team](02-agent-team.md) · [03-coding-agent](03-coding-agent.md)  
+**Related sections:** [AI Agents](../README.md) · [Zero Level](../../basics/README.md) · [Local Models](../../local-models/README.md)  
+**Navigation:** [← Tutorials](README.md) · [↑ Back to main](../../README.md) · [🇷🇺 Русский](02-agent-team.ru.md)
+

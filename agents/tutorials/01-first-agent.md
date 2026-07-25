@@ -138,3 +138,11 @@ You should see the agent think, decide whether to call search, and return an ans
 | Build a multi-agent team | [02-agent-team.md](02-agent-team.md) |
 | Study agent patterns | [patterns.md](../patterns.md) |
 | Back | [README.md](README.md) |
+---
+
+---
+
+**In section:** [01-first-agent](01-first-agent.md) · [02-agent-team](02-agent-team.md) · [03-coding-agent](03-coding-agent.md)  
+**Related sections:** [AI Agents](../README.md) · [Zero Level](../../basics/README.md) · [Local Models](../../local-models/README.md)  
+**Navigation:** [← Tutorials](README.md) · [↑ Back to main](../../README.md) · [🇷🇺 Русский](01-first-agent.ru.md)
+

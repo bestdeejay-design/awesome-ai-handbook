@@ -3,7 +3,7 @@
 > Строим мульти-агентную систему: PM, аналитик, разработчик и тестировщик работают вместе.  
 > **CrewAI + Ollama** — идеально для твоей цели.
 
-[← Туториалы](README.ru.md) · [Первый агент](01-first-agent.ru.md) · [Агент-программист →](03-coding-agent.ru.md)
+[← Туториалы](README.ru.md) · [Первый агент](01-first-agent.ru.md) · [Агент-программист →](03-coding-agent.ru.md) · [🇬🇧 English](02-agent-team.md)
 
 ---
 
@@ -301,3 +301,11 @@ result = crew.kickoff()
 | Понять архитектуру мульти-агентных систем | [../multi-agent.ru.md](../multi-agent.ru.md) |
 | Настроить память для команды | [../memory.ru.md](../memory.ru.md) |
 | Вернуться к туториалам | [README.ru.md](README.ru.md) |
+---
+
+---
+
+**В разделе:** [01-first-agent](01-first-agent.ru.md) · [02-agent-team](02-agent-team.ru.md) · [03-coding-agent](03-coding-agent.ru.md)  
+**Связанные разделы:** [AI-агенты](../README.ru.md) · [Нулевой уровень](../../basics/README.ru.md) · [Локальные модели](../../local-models/README.ru.md)  
+**Навигация:** [← Туториалы](README.ru.md) · [↑ На главную](../../README.ru.md) · [🇬🇧 English](02-agent-team.md)
+
