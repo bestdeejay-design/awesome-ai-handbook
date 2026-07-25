@@ -1,6 +1,7 @@
 title: Awesome AI Handbook
 description: A practical guide to AI — from running models locally to building your own agents
 theme: minima
+header_pages: []
 defaults:
   - scope:
       path: ""
