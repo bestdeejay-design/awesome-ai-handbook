@@ -255,3 +255,9 @@ For 8GB RAM, CPU inference, edge devices.
 
 > **Last updated:** July 23, 2026
 > **Sources:** HuggingFace model cards, Ollama library, r/LocalLLaMA, official announcements
+
+---
+
+**In section:** [getting-started](getting-started.md) · [running-models](running-models.md) · [models](models.md) · [catalog](catalog.md) · [quantization](quantization.md) · [memory-and-context](memory-and-context.md) · [tools](tools.md) · [advanced-setup](advanced-setup.md) · [troubleshooting](troubleshooting.md) · [apple-silicon](benchmarks/apple-silicon.md)  
+**Related sections:** [Zero Level](../basics/README.md) · [AI Agents](../agents/README.md) · [Use Cases](../use-cases/README.md)  
+**Navigation:** [← Local Models](README.md) · [↑ Back to main](../README.md) · [🇷🇺 Русский](catalog.ru.md)

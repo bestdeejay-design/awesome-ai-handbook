@@ -2,6 +2,8 @@
 
 > Дата данных: 23 июля 2026. Все модели — open-weight, доступные для скачивания и локального запуска.
 
+**🇬🇧 English version:** [catalog.md](catalog.md)
+
 ---
 
 ## Содержание
@@ -346,3 +348,9 @@ MoE активирует только часть параметров на ка�
 
 > **Последнее обновление:** 23 июля 2026
 > **Источники:** HuggingFace model cards, Ollama library, r/LocalLLaMA, CraftRigs, MLJourney, arXiv, официальные анонсы
+
+---
+
+**В разделе:** [getting-started](getting-started.ru.md) · [running-models](running-models.ru.md) · [models](models.ru.md) · [catalog](catalog.ru.md) · [quantization](quantization.ru.md) · [memory-and-context](memory-and-context.ru.md) · [tools](tools.ru.md) · [advanced-setup](advanced-setup.ru.md) · [troubleshooting](troubleshooting.ru.md) · [apple-silicon](benchmarks/apple-silicon.ru.md)  
+**Связанные разделы:** [Нулевой уровень](../basics/README.ru.md) · [AI-агенты](../agents/README.ru.md) · [Use Cases](../use-cases/README.ru.md)  
+**Навигация:** [← Локальные модели](README.ru.md) · [↑ На главную](../README.ru.md) · [🇬🇧 English](catalog.md)
