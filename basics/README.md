@@ -1,4 +1,4 @@
-# <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#22c55e" stroke="#16a34a" stroke-width="0.5"/></svg> Zero Level: Getting Started
+# <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Zero Level: Getting Started
 
 > For those who have never tried AI but want to learn — from basic concepts to running your first model.
 > No prior knowledge required.
@@ -9,7 +9,7 @@
 
 ## Three Learning Paths
 
-### <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#22c55e" stroke="#16a34a" stroke-width="0.5"/></svg> Quick Start (5 min)
+### <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Quick Start (5 min)
 
 "Just want to try it — no terminal, no setup."
 
@@ -20,7 +20,7 @@
 | 3 | Download Qwen 3.5 4B directly inside LM Studio |
 | 4 | Start chatting — free, local, no cloud |
 
-### <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#eab308" stroke="#ca8a04" stroke-width="0.5"/></svg> Understand It (30 min)
+### <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Understand It (30 min)
 
 "Want to learn how it works and set things up myself."
 
@@ -32,13 +32,13 @@
 | 4 | [Install Ollama](../local-models/getting-started.md) | 10 min |
 | 5 | Ask your first model questions | ∞ |
 
-### <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5"/></svg> Go Pro (2+ hours)
+### <img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Go Pro (2+ hours)
 
 "Want to build a full local system for coding and automation."
 
 | Step | Where To Go | Time |
 |-----|-----------|-------|
-| 1–3 | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#eab308" stroke="#ca8a04" stroke-width="0.5"/></svg> Track above | 20 min |
+| 1–3 | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Track above | 20 min |
 | 4 | [What hardware do I need?](hardware-guide.md) | 5 min |
 | 5 | **Install:** [Mac](../local-models/getting-started.md) · [Windows](setup-windows.md) · [Linux](setup-linux.md) | 15 min |
 | 6 | [How to run models](../local-models/running-models.md) | 15 min |
@@ -67,7 +67,7 @@
 
 ## Related Sections
 
-- [<svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5"/></svg> Local Models](../local-models/README.md) — running, choosing, tuning models
+- [<img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Local Models](../local-models/README.md) — running, choosing, tuning models
 - [<img src="https://lucide.dev/api/icons/bot" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> AI Agents](../agents/README.md) — building autonomous agents
 - [<img src="https://lucide.dev/api/icons/briefcase" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Use Cases](../use-cases/README.md) — practical AI applications
 

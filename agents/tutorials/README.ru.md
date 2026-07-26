@@ -10,9 +10,9 @@
 
 | # | Туториал | Описание | Сложность | Время |
 |---|----------|----------|-----------|-------|
-| 1 | [Первый агент за 30 минут](01-first-agent.ru.md) | ReAct агент с поиском, без фреймворков | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#22c55e" stroke="#16a34a" stroke-width="0.5"/></svg> Начальный | 30 мин |
-| 2 | [Команда агентов для проекта](02-agent-team.ru.md) | Multi-agent система: PM, аналитик, разработчик, тестировщик | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#eab308" stroke="#ca8a04" stroke-width="0.5"/></svg> Средний | 60 мин |
-| 3 | [Агент-программист](03-coding-agent.ru.md) | Coding-агент: читает код, пишет тесты, делает PR | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#ef4444" stroke="#dc2626" stroke-width="0.5"/></svg> Продвинутый | 45 мин |
+| 1 | [Первый агент за 30 минут](01-first-agent.ru.md) | ReAct агент с поиском, без фреймворков | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Начальный | 30 мин |
+| 2 | [Команда агентов для проекта](02-agent-team.ru.md) | Multi-agent система: PM, аналитик, разработчик, тестировщик | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Средний | 60 мин |
+| 3 | [Агент-программист](03-coding-agent.ru.md) | Coding-агент: читает код, пишет тесты, делает PR | <img src="assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> Продвинутый | 45 мин |
 
 ---
 
@@ -35,7 +35,7 @@
 
 ## Связанные разделы
 
-- [<svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5"/></svg> Локальные модели](../../local-models/README.ru.md) — установка Ollama, модели
+- [<img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Локальные модели](../../local-models/README.ru.md) — установка Ollama, модели
 - [<img src="https://lucide.dev/api/icons/briefcase" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Use Cases](../../use-cases/README.ru.md) — применение агентов на практике
 
 ---

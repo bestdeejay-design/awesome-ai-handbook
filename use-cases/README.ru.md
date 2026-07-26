@@ -19,7 +19,7 @@
 
 ## Рекомендуемый порядок
 
-0. <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#22c55e" stroke="#16a34a" stroke-width="0.5"/></svg> **Новичок?** → [basics/](../basics/README.ru.md) — основы AI, выбор железа, установка
+0. <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> **Новичок?** → [basics/](../basics/README.ru.md) — основы AI, выбор железа, установка
 1. **Запустить Ollama** → [local-models/running-models.ru.md](../local-models/running-models.ru.md)
 2. Выберите кейс выше
 3. Для многошаговых сценариев — [agents/](../agents/)
@@ -28,9 +28,9 @@
 
 ## Связанные разделы
 
-- [<svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5"/></svg> Локальные модели](../local-models/README.ru.md) — подбор и настройка моделей
+- [<img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Локальные модели](../local-models/README.ru.md) — подбор и настройка моделей
 - [<img src="https://lucide.dev/api/icons/bot" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> AI-агенты](../agents/README.ru.md) — создание агентов для сложных кейсов
-- [<svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#22c55e" stroke="#16a34a" stroke-width="0.5"/></svg> Нулевой уровень](../basics/README.ru.md) — основы AI, установка
+- [<img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Нулевой уровень](../basics/README.ru.md) — основы AI, установка
 
 ---
 

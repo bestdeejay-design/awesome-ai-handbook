@@ -8,7 +8,7 @@
 
 ## Where to Start — Choose Your Scenario
 
-### <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#22c55e" stroke="#16a34a" stroke-width="0.5"/></svg> Absolute Beginner
+### <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Absolute Beginner
 > Never ran a model, not familiar with the terminal.
 
 **First:** [basics/README.md](../basics/README.md) — what AI is, how models work, what hardware you need.
@@ -17,14 +17,14 @@
 
 Or skip the terminal entirely: **LM Studio** (described in [running-models.md](running-models.md)).
 
-### <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#eab308" stroke="#ca8a04" stroke-width="0.5"/></svg> I Want to Understand
+### <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> I Want to Understand
 > Already installed Ollama, ran a model, but want to know how it works.
 
 1. [<img src="https://lucide.dev/api/icons/play" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> How to find and run a model](running-models.md) — hands-on guide
 2. [<img src="https://lucide.dev/api/icons/target" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Choosing a model for your task](models.md) — what to pick for coding / chat / RAG
 3. [💾 Memory and context](memory-and-context.md) — why models dont fit and how to fix it
 
-### <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5"/></svg> Advanced User
+### <img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Advanced User
 > Want maximum performance, API tuning, tool comparison.
 
 1. [<img src="https://lucide.dev/api/icons/cog" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Advanced Ollama setup](advanced-setup.md) — Modelfile, API, env vars
@@ -60,7 +60,7 @@ Or skip the terminal entirely: **LM Studio** (described in [running-models.md](r
 
 ## Related Sections
 
-- [<svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#22c55e" stroke="#16a34a" stroke-width="0.5"/></svg> Zero Level](../basics/README.md) — AI basics, installation
+- [<img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Zero Level](../basics/README.md) — AI basics, installation
 - [<img src="https://lucide.dev/api/icons/bot" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> AI Agents](../agents/README.md) — agents on local models
 - [<img src="https://lucide.dev/api/icons/briefcase" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Use Cases](../use-cases/README.md) — coding, RAG, automation
 

@@ -8,7 +8,7 @@
 
 ## С чего начать — выберите сценарий
 
-### <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#22c55e" stroke="#16a34a" stroke-width="0.5"/></svg> Абсолютный новичок
+### <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Абсолютный новичок
 > Никогда не запускал модели, не знаком с терминалом.
 
 **Сначала:** [basics/README.ru.md](../basics/README.ru.md) — что такое AI, как работают модели, какое нужно железо.
@@ -17,14 +17,14 @@
 
 Или вообще без терминала: **LM Studio** → описание в [running-models.md](running-models.ru.md).
 
-### <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#eab308" stroke="#ca8a04" stroke-width="0.5"/></svg> Хочу разобраться
+### <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Хочу разобраться
 > Уже установил Ollama, запускал модель, но хочет понимать что и как.
 
 1. [<img src="https://lucide.dev/api/icons/play" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Как найти и запустить модель](running-models.ru.md) — практикум
 2. [<img src="https://lucide.dev/api/icons/target" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Выбор модели под задачу](models.ru.md) — что выбрать для кодинга / чата / RAG
 3. [💾 Память и контекст](memory-and-context.ru.md) — почему модель не влезает и как это исправить
 
-### <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5"/></svg> Продвинутый пользователь
+### <img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Продвинутый пользователь
 > Хочу выжать максимум, настроить API, сравнить инструменты.
 
 1. [<img src="https://lucide.dev/api/icons/cog" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Продвинутая настройка Ollama](advanced-setup.ru.md) — Modelfile, API, env vars
@@ -60,7 +60,7 @@
 
 ## Связанные разделы
 
-- [<svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#22c55e" stroke="#16a34a" stroke-width="0.5"/></svg> Нулевой уровень](../basics/README.ru.md) — основы AI, установка
+- [<img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Нулевой уровень](../basics/README.ru.md) — основы AI, установка
 - [<img src="https://lucide.dev/api/icons/bot" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> AI-агенты](../agents/README.ru.md) — агенты на локальных моделях
 - [<img src="https://lucide.dev/api/icons/briefcase" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Use Cases](../use-cases/README.ru.md) — кодинг, RAG, автоматизация
 
