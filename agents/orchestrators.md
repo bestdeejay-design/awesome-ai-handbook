@@ -1,4 +1,4 @@
-# 🎼 Sub-Agent Orchestrators: Catalog & Installation
+# <img src="https://lucide.dev/api/icons/music" alt="" width="20" height="20" style="vertical-align:middle"> Sub-Agent Orchestrators: Catalog & Installation
 
 > A sub-agent orchestrator is a system where one "lead" agent manages a team of specialized agents, each with its own model and role.  
 > This is not a framework (LangGraph, CrewAI), but a **ready-to-use configuration** that works "out of the box".
@@ -50,7 +50,7 @@ As of writing (July 2026), the **only** system with this architecture "out of th
 
 ## 2. OhMyOpenAgent (Sisyphus)
 
-[GitHub →](https://github.com/code-yeongyu/oh-my-openagent) · ⭐ 66K+ · TypeScript
+[GitHub →](https://github.com/code-yeongyu/oh-my-openagent) · <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 66K+ · TypeScript
 
 **Author:** [@code-yeongyu](https://github.com/code-yeongyu)  
 **Company:** [Sisyphus Labs](https://sisyphuslabs.ai)  
@@ -71,13 +71,13 @@ OhMyOpenAgent contains **11 built-in agents** in three layers:
 #### Execution Layer
 | Agent | Role | Models |
 |-------|------|--------|
-| **Atlas** 🏆 | Execution conductor. Reads plan, delegates tasks to sub-agents, accumulates knowledge | `claude-sonnet-4-6`, `kimi-k3` |
+| **Atlas** <img src="https://lucide.dev/api/icons/trophy" alt="" width="20" height="20" style="vertical-align:middle"> | Execution conductor. Reads plan, delegates tasks to sub-agents, accumulates knowledge | `claude-sonnet-4-6`, `kimi-k3` |
 | **Sisyphus** | Main orchestrator. `ultrawork` — entry into full autonomous work mode | `claude-opus-4-8`, `kimi-k3` |
 
 #### Worker Layer
 | Agent | Role | Models |
 |-------|------|--------|
-| **Hephaestus** 🏆 | Deep executor. Receives goal → self-researches, plans, writes code | `gpt-5.6-sol` |
+| **Hephaestus** <img src="https://lucide.dev/api/icons/trophy" alt="" width="20" height="20" style="vertical-align:middle"> | Deep executor. Receives goal → self-researches, plans, writes code | `gpt-5.6-sol` |
 | **Sisyphus-Junior** | Focused executor. Receives detailed prompt → executes | `claude-sonnet-4-6`, `kimi-k3` |
 | **Oracle** | Architecture and debugging. Read-only consultant | `gpt-5.6-sol`, `gemini-3.1-pro` |
 | **Explore** | Code researcher. Contextual grep | `gpt-5.4-mini-fast` |
@@ -110,8 +110,8 @@ OhMyOpenAgent contains **11 built-in agents** in three layers:
 |---|---|---|
 | **Agents** | 11 agents with orchestration | 8 components, no orchestration |
 | **Models** | Own model per agent | Codex CLI model |
-| **Team Mode** | ✅ Up to 8 participants | ❌ |
-| **Lifecycle hooks** | 54+ | ✅ (limited) |
+| **Team Mode** | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Up to 8 participants | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **Lifecycle hooks** | 54+ | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> (limited) |
 | **MCP** | 5 built-in + custom | Plugin-scoped MCP |
 | **Installation** | `bunx oh-my-openagent install` | `npx lazycodex-ai install` |
 | **Requirements** | Bun + OpenCode | Node.js + Codex CLI |
@@ -132,7 +132,7 @@ No full analogs of OhMyOpenAgent exist, but some systems have individual multi-a
 
 ### Claude Code (sub-agents)
 
-[GitHub →](https://github.com/anthropics/claude-code) · ⭐ 139K+
+[GitHub →](https://github.com/anthropics/claude-code) · <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 139K+
 
 **What it has:** Claude Code supports sub-agents — can spawn child agents for parallel task execution. Has `CLAUDE.md` for instructions, MCP servers.
 
@@ -140,7 +140,7 @@ No full analogs of OhMyOpenAgent exist, but some systems have individual multi-a
 
 ### Cline — Kanban mode
 
-[GitHub →](https://github.com/cline/cline) · ⭐ 65K+
+[GitHub →](https://github.com/cline/cline) · <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 65K+
 
 **What it has:** Kanban board (`npx kanban`) for parallel launch of multiple agents. Each agent works on its task independently. MCP server support.
 
@@ -148,7 +148,7 @@ No full analogs of OhMyOpenAgent exist, but some systems have individual multi-a
 
 ### Aider — Architect/Editor mode
 
-[GitHub →](https://github.com/paul-gauthier/aider) · ⭐ 48K+
+[GitHub →](https://github.com/paul-gauthier/aider) · <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 48K+
 
 **What it has:** Two-model mode: one (architect) plans changes, second (editor) writes code. Ollama support.
 
@@ -156,7 +156,7 @@ No full analogs of OhMyOpenAgent exist, but some systems have individual multi-a
 
 ### OpenHands — Agent Canvas
 
-[GitHub →](https://github.com/All-Hands-AI/OpenHands) · ⭐ 82K+
+[GitHub →](https://github.com/All-Hands-AI/OpenHands) · <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 82K+
 
 **What it has:** Web UI for launching multiple agents. ACP protocol for coordination. Different model support.
 
@@ -166,15 +166,15 @@ No full analogs of OhMyOpenAgent exist, but some systems have individual multi-a
 
 ## 4. Comparison Table
 
-| System | Agents | Role Separation | Different Models | Planner | Editions | ⭐ |
+| System | Agents | Role Separation | Different Models | Planner | Editions | <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> |
 |--------|:------:|:---------------:|:----------------:|:-------:|:--------:|:--:|
-| **OhMyOpenAgent** | **11** | ✅ Yes | ✅ Yes | ✅ Prometheus | 2 (OpenCode/Codex CLI) | 66K |
-| Claude Code | sub-agents | ❌ No | ❌ No | ❌ No | 1 | 139K |
-| Cline | N (kanban) | ❌ No | ❌ No | ❌ No | 1 | 65K |
-| Aider | 2 | ⚠️ Two roles | ⚠️ Two models | ❌ No | 1 | 48K |
-| OpenHands | N (UI) | ❌ No | ✅ Different | ❌ No | 1 | 82K |
-| CrewAI* | N (code) | ✅ Roles | ✅ Different | ⚠️ Via code | Framework | 25K |
-| AutoGen* | N (code) | ✅ Roles | ✅ Different | ⚠️ Via code | Framework | 38K |
+| **OhMyOpenAgent** | **11** | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Yes | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Yes | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Prometheus | 2 (OpenCode/Codex CLI) | 66K |
+| Claude Code | sub-agents | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> No | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> No | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> No | 1 | 139K |
+| Cline | N (kanban) | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> No | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> No | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> No | 1 | 65K |
+| Aider | 2 | <img src="https://lucide.dev/api/icons/alert-triangle" alt="" width="20" height="20" style="vertical-align:middle"> Two roles | <img src="https://lucide.dev/api/icons/alert-triangle" alt="" width="20" height="20" style="vertical-align:middle"> Two models | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> No | 1 | 48K |
+| OpenHands | N (UI) | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> No | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Different | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> No | 1 | 82K |
+| CrewAI* | N (code) | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Roles | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Different | <img src="https://lucide.dev/api/icons/alert-triangle" alt="" width="20" height="20" style="vertical-align:middle"> Via code | Framework | 25K |
+| AutoGen* | N (code) | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Roles | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Different | <img src="https://lucide.dev/api/icons/alert-triangle" alt="" width="20" height="20" style="vertical-align:middle"> Via code | Framework | 38K |
 
 > *CrewAI and AutoGen are frameworks, not ready-to-use systems. They require writing code to configure the team.
 

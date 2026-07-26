@@ -1,8 +1,8 @@
-# 💻 AI for Coding
+# <img src="https://lucide.dev/api/icons/monitor" alt="" width="20" height="20" style="vertical-align:middle"> AI for Coding
 
 > Local models and tools for software development: from autocomplete to autonomous agents.
 
-🟢 **Need the basics first?** Start with [basics/](../basics/README.md) — what AI is, how to pick a model, and install Ollama.
+<img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> **Need the basics first?** Start with [basics/](../basics/README.md) — what AI is, how to pick a model, and install Ollama.
 
 **🇷🇺 Russian version:** [coding.ru.md](coding.ru.md)
 

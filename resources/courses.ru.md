@@ -1,4 +1,4 @@
-# 🎓 Курсы
+# <img src="https://lucide.dev/api/icons/graduation-cap" alt="" width="20" height="20" style="vertical-align:middle"> Курсы
 
 > Бесплатные и открытые образовательные программы по AI — от новичка до профи.
 
@@ -47,7 +47,7 @@
 |------|----------|------|
 | [**DeepLearning.AI: AI Agents in LangGraph**](https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/) | Построение агентов с LangGraph | LangGraph, LangChain |
 | [**Multi AI Agent Systems with CrewAI**](https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/) | Мульти-агентные системы | CrewAI |
-| [**ed-donner/agents**](https://github.com/ed-donner/agents) | 6-недельный курс по агентам ⭐5.7k | OpenAI SDK, CrewAI, LangGraph |
+| [**ed-donner/agents**](https://github.com/ed-donner/agents) | 6-недельный курс по агентам <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle">5.7k | OpenAI SDK, CrewAI, LangGraph |
 | [**OpenAI Agents SDK Quickstart**](https://openai.github.io/openai-agents-python/) | Официальный гайд OpenAI | OpenAI Agents SDK |
 | Раздел **agents/** в этом handbook | От архитектуры до production | Ollama + любой фреймворк |
 

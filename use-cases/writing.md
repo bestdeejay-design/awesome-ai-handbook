@@ -1,4 +1,4 @@
-# ✍️ Writing and Content
+# <img src="https://lucide.dev/api/icons/pen-tool" alt="" width="20" height="20" style="vertical-align:middle"> Writing and Content
 
 > Text generation, copywriting, and translation with local models.
 

@@ -133,4 +133,4 @@ For answers to common questions about this code of conduct, see the FAQ at
 https://www.contributor-covenant.org/faq. Translations are available at
 https://www.contributor-covenant.org/translations.
 
-**Navigation:** [← Awesome AI Handbook](README.md) · [📖 Catalog](catalog.md)
+**Navigation:** [← Awesome AI Handbook](README.md) · [<img src="https://lucide.dev/api/icons/book-open" alt="" width="20" height="20" style="vertical-align:middle"> Catalog](catalog.md)

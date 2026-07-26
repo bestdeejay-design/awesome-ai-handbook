@@ -1,4 +1,4 @@
-# 🧩 AI Agent Patterns
+# <img src="https://lucide.dev/api/icons/puzzle" alt="" width="20" height="20" style="vertical-align:middle"> AI Agent Patterns
 
 > Architectural patterns for building agents on top of LLMs — from simple ReAct to multi-agent systems with code.
 

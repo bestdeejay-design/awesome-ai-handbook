@@ -1,9 +1,9 @@
-# 📄 RAG на своих документах
+# <img src="https://lucide.dev/api/icons/file-text" alt="" width="20" height="20" style="vertical-align:middle"> RAG на своих документах
 
 > Retrieval-Augmented Generation: Q&A по вашим файлам без отправки данных в облако.  
 > От готовых решений до собственного RAG-пайплайна на Python.
 
-🟢 **Не знакомы с AI?** [basics/](../basics/README.ru.md) — основы: что такое модели, как их запускать.
+<img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> **Не знакомы с AI?** [basics/](../basics/README.ru.md) — основы: что такое модели, как их запускать.
 
 [← Практические кейсы](README.ru.md) · [Memory агента →](../agents/memory.ru.md)
 

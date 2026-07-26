@@ -1,4 +1,4 @@
-# ❓ Часто задаваемые вопросы
+# <img src="https://lucide.dev/api/icons/help-circle" alt="" width="20" height="20" style="vertical-align:middle"> Часто задаваемые вопросы
 
 > Самые популярные вопросы новичков о локальном AI.
 

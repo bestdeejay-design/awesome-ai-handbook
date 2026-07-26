@@ -1,8 +1,8 @@
-# 💻 AI для кодинга
+# <img src="https://lucide.dev/api/icons/monitor" alt="" width="20" height="20" style="vertical-align:middle"> AI для кодинга
 
 > Локальные модели и инструменты для разработки ПО: от автодополнения до автономных агентов.
 
-🟢 **Нужно разобраться в основах?** Сначала [basics/](../basics/README.ru.md) — что такое AI, как выбрать модель и установить Ollama.
+<img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> **Нужно разобраться в основах?** Сначала [basics/](../basics/README.ru.md) — что такое AI, как выбрать модель и установить Ollama.
 
 [← Практические кейсы](README.ru.md) · [Пошаговый туториал →](../agents/tutorials/03-coding-agent.ru.md)
 

@@ -1,4 +1,4 @@
-# 🏗 Фреймворки для AI-агентов
+# <img src="https://lucide.dev/api/icons/building-2" alt="" width="20" height="20" style="vertical-align:middle"> Фреймворки для AI-агентов
 
 > Сравнение и примеры кода для популярных фреймворков — с фокусом на локальные модели через Ollama.
 
@@ -20,14 +20,14 @@
 
 ## 1. Сравнительная таблица
 
-| Фреймворк | ⭐ | Уровень | Multi-agent | Ollama | Когда брать |
+| Фреймворк | <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> | Уровень | Multi-agent | Ollama | Когда брать |
 |-----------|-----|---------|-------------|--------|-------------|
-| **Agno** | 15K+ | Начальный | Team | ✅ | Быстрый прототип, первый агент |
-| **CrewAI** | 25K+ | Средний | Crew | ✅ | Команда агентов с ролями |
-| **LangGraph** | 10K+ | Продвинутый | Графы | ✅ | Максимальный контроль |
-| **OpenAI Agents SDK** | — | Начальный | Handoff | ✅ | Если знаете OpenAI API |
-| **AutoGen** | 48K+ | Средний | GroupChat | ⚠️ | Мульти-агентные диалоги |
-| **Mastra** | 10K+ | Средний | Да | ✅ | TypeScript-проекты |
+| **Agno** | 15K+ | Начальный | Team | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | Быстрый прототип, первый агент |
+| **CrewAI** | 25K+ | Средний | Crew | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | Команда агентов с ролями |
+| **LangGraph** | 10K+ | Продвинутый | Графы | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | Максимальный контроль |
+| **OpenAI Agents SDK** | — | Начальный | Handoff | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | Если знаете OpenAI API |
+| **AutoGen** | 48K+ | Средний | GroupChat | <img src="https://lucide.dev/api/icons/alert-triangle" alt="" width="20" height="20" style="vertical-align:middle"> | Мульти-агентные диалоги |
+| **Mastra** | 10K+ | Средний | Да | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | TypeScript-проекты |
 
 > Все примеры ниже используют Ollama с моделью `qwen3.5:4b`. Убедитесь, что Ollama запущена (`ollama serve`).
 
@@ -110,10 +110,10 @@ team.run("Напиши краткий обзор последних новост
 ```
 
 **Когда Agno:**
-- ✅ Первый агент за 5 минут
-- ✅ Быстрое прототипирование
-- ✅ Простые сценарии с инструментами
-- ❌ Сложные графы и workflow
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Первый агент за 5 минут
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Быстрое прототипирование
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Простые сценарии с инструментами
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Сложные графы и workflow
 
 ---
 
@@ -197,10 +197,10 @@ crew = Crew(
 
 ### Когда CrewAI
 
-- ✅ Команда агентов с чёткими ролями
-- ✅ Последовательные или иерархические процессы
-- ✅ Быстрое создание multi-agent систем
-- ❌ Нужен полный контроль над графом (тогда LangGraph)
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Команда агентов с чёткими ролями
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Последовательные или иерархические процессы
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Быстрое создание multi-agent систем
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Нужен полный контроль над графом (тогда LangGraph)
 
 ---
 
@@ -310,10 +310,10 @@ graph.add_edge("writer", "supervisor")
 ```
 
 **Когда LangGraph:**
-- ✅ Сложные workflow с условиями и циклами
-- ✅ Нужен checkpointing (сохранение состояния между запусками)
-- ✅ Human-in-the-loop
-- ❌ Простые задачи (Agno или CrewAI проще)
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Сложные workflow с условиями и циклами
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Нужен checkpointing (сохранение состояния между запусками)
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Human-in-the-loop
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Простые задачи (Agno или CrewAI проще)
 
 ---
 

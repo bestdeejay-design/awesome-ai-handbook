@@ -5,7 +5,7 @@
 
 # Contributing to Awesome AI Handbook
 
-Hello! 👋
+Hello! <img src="https://lucide.dev/api/icons/wave" alt="" width="20" height="20" style="vertical-align:middle">
 
 Thank you for considering contributing to this handbook. Our mission is to create the most practical AI reference for Russian‑speaking developers, but we welcome contributions from everyone. We appreciate any improvements – from fixing typos to adding new guides and benchmarks.
 
@@ -77,6 +77,6 @@ Open an **Issue** or start a **Discussion**. We’re here to help!
 
 ---
 
-Thanks again! Your contribution makes the AI community stronger. 🚀
+Thanks again! Your contribution makes the AI community stronger. <img src="https://lucide.dev/api/icons/rocket" alt="" width="20" height="20" style="vertical-align:middle">
 
-**Navigation:** [← Awesome AI Handbook](README.md) · [📖 Catalog](catalog.md)
+**Navigation:** [← Awesome AI Handbook](README.md) · [<img src="https://lucide.dev/api/icons/book-open" alt="" width="20" height="20" style="vertical-align:middle"> Catalog](catalog.md)

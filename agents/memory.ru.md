@@ -1,4 +1,4 @@
-# 💾 Память и управление состоянием агентов
+# <img src="https://lucide.dev/api/icons/save" alt="" width="20" height="20" style="vertical-align:middle"> Память и управление состоянием агентов
 
 > Как агенты помнят контекст, хранят информацию между шагами и не теряют нить разговора.
 
@@ -121,9 +121,9 @@ def compress_messages(messages, max_messages=10, model="qwen3.5:4b"):
 
 ### Когда применять компрессию
 
-- ✅ Цикл агента превысил 5 шагов
-- ✅ Общий размер сообщений > 70% контекстного окна
-- ❌ На 2-3 шагах — избыточно
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Цикл агента превысил 5 шагов
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Общий размер сообщений > 70% контекстного окна
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> На 2-3 шагах — избыточно
 
 ---
 

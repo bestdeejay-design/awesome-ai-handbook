@@ -1,4 +1,4 @@
-# 📊 Тестирование AI-агентов
+# <img src="https://lucide.dev/api/icons/bar-chart-3" alt="" width="20" height="20" style="vertical-align:middle"> Тестирование AI-агентов
 
 > Как оценивать качество агентов, находить ошибки и улучшать производительность.
 

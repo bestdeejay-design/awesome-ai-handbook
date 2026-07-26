@@ -1,4 +1,4 @@
-# ⚙️ Advanced Ollama Setup
+# <img src="https://lucide.dev/api/icons/cog" alt="" width="20" height="20" style="vertical-align:middle"> Advanced Ollama Setup
 
 > Modelfile, environment variables, API tuning, running multiple models, speculative decoding.
 

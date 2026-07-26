@@ -1,4 +1,4 @@
-# 🛡 Безопасность AI-агентов
+# <img src="https://lucide.dev/api/icons/shield" alt="" width="20" height="20" style="vertical-align:middle"> Безопасность AI-агентов
 
 > Как защитить систему от ошибок агента: guardrails, лимиты, человеческий контроль и изоляция.
 

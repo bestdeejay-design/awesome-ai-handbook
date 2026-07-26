@@ -1,4 +1,4 @@
-# 📊 Testing AI Agents
+# <img src="https://lucide.dev/api/icons/bar-chart-3" alt="" width="20" height="20" style="vertical-align:middle"> Testing AI Agents
 
 > How to evaluate agent quality, find bugs, and improve performance.
 

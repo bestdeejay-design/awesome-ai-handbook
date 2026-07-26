@@ -1,4 +1,4 @@
-# 🤖 Что такое AI, ML и LLM?
+# <img src="https://lucide.dev/api/icons/bot" alt="" width="20" height="20" style="vertical-align:middle"> Что такое AI, ML и LLM?
 
 > Объясняю простыми словами, без заумных терминов и формул.
 
@@ -101,7 +101,7 @@
 | **1–3B** | 🐭 мозг мыши | Любой ноутбук, 8 GB RAM | Phi-3-mini, Qwen 2.5 1.5B |
 | **7–9B** | 🐕 золотая середина | MacBook / ПК, 16 GB RAM | Qwen 3.5 7B, Llama 3.1 8B |
 | **14–30B** | 🐒 нужно железо | 32 GB RAM или GPU | Qwen 3.5 14B, DeepSeek-R1 14B |
-| **70B+** | 🧠 человек | Сервер, 64 GB+ RAM | Llama 3 70B, DeepSeek-R1 671B |
+| **70B+** | <img src="https://lucide.dev/api/icons/brain" alt="" width="20" height="20" style="vertical-align:middle"> человек | Сервер, 64 GB+ RAM | Llama 3 70B, DeepSeek-R1 671B |
 
 > **Золотое правило:** чем больше параметров, тем умнее модель, но она требует пропорционально больше памяти. На MacBook Air 16 GB — ваш потолок 7–9B. На MacBook Pro 48 GB — можно запустить 30B.
 

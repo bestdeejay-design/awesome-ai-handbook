@@ -1,4 +1,4 @@
-# 💾 Memory and Context
+# <img src="https://lucide.dev/api/icons/save" alt="" width="20" height="20" style="vertical-align:middle"> Memory and Context
 
 > Understanding RAM requirements, KV cache, and context windows — and how to fit larger models in limited memory.
 

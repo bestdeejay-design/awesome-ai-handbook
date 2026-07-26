@@ -1,8 +1,8 @@
-# 🚀 Как найти и запустить модель
+# <img src="https://lucide.dev/api/icons/rocket" alt="" width="20" height="20" style="vertical-align:middle"> Как найти и запустить модель
 
 Практикум: от первой команды до продвинутых сценариев с HuggingFace.
 
-🟢 **Новичок?** Разберитесь с основами в [`basics/`](../basics/README.ru.md): AI-термины, железо, установка.
+<img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> **Новичок?** Разберитесь с основами в [`basics/`](../basics/README.ru.md): AI-термины, железо, установка.
 
 [← Локальные модели](README.ru.md)
 

@@ -7,7 +7,7 @@
 ...
 
 
-Привет! 👋
+Привет! <img src="https://lucide.dev/api/icons/wave" alt="" width="20" height="20" style="vertical-align:middle">
 
 Спасибо, что решили помочь сделать этот справочник лучше. Мы собираем проверенные практики, бенчмарки и туториалы по локальному AI — и без вас нам не справиться.
 
@@ -61,6 +61,6 @@
 
 ---
 
-Ещё раз спасибо! Ваш вклад делает AI-сообщество сильнее. 🚀
+Ещё раз спасибо! Ваш вклад делает AI-сообщество сильнее. <img src="https://lucide.dev/api/icons/rocket" alt="" width="20" height="20" style="vertical-align:middle">
 
-**Навигация:** [← Awesome AI Handbook](README.ru.md) · [📖 Каталог](catalog.ru.md)
+**Навигация:** [← Awesome AI Handbook](README.ru.md) · [<img src="https://lucide.dev/api/icons/book-open" alt="" width="20" height="20" style="vertical-align:middle"> Каталог](catalog.ru.md)

@@ -1,4 +1,4 @@
-# ⚠️ Common Problems
+# <img src="https://lucide.dev/api/icons/alert-triangle" alt="" width="20" height="20" style="vertical-align:middle"> Common Problems
 
 > Diagnostics and typical issues when running LLMs locally.
 

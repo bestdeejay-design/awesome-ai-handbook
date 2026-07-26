@@ -1,4 +1,4 @@
-# 🧠 How Neural Networks Work (Explained Without Formulas)
+# <img src="https://lucide.dev/api/icons/brain" alt="" width="20" height="20" style="vertical-align:middle"> How Neural Networks Work (Explained Without Formulas)
 
 > Inside LLM architecture — by analogy, without a single formula.
 

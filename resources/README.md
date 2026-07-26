@@ -10,7 +10,7 @@
 
 | Section | File | Status | Time |
 |---------|------|--------|------|
-| **Russian resources** | [ru.md](ru.md) | 🚧 community-driven | 3 min |
+| **Russian resources** | [ru.md](ru.md) | <img src="https://lucide.dev/api/icons/triangle-alert" alt="" width="20" height="20" style="vertical-align:middle"> community-driven | 3 min |
 | **English resources** | [en.md](en.md) | Reddit, newsletters, podcasts | 3 min |
 | **Courses** | [courses.md](courses.md) | DeepLearning.AI, HF, fast.ai | 3 min |
 | **Communities** | [communities.md](communities.md) | Discord, Reddit, Telegram | 3 min |

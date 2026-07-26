@@ -1,4 +1,4 @@
-# 🎯 Промптинг для AI-агентов
+# <img src="https://lucide.dev/api/icons/target" alt="" width="20" height="20" style="vertical-align:middle"> Промптинг для AI-агентов
 
 > Как писать system prompts, описывать инструменты и управлять поведением агента.
 > 80% успеха агента — это качество промптов, а не модели.
@@ -308,7 +308,7 @@ def calculate_total(items):
 
 ## 6. Анти-паттерны
 
-### ❌ Слишком длинный промпт
+### <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Слишком длинный промпт
 
 ```python
 # Плохо: 2000 слов, агент теряет суть
@@ -323,7 +323,7 @@ PROMPT = """
 """
 ```
 
-### ❌ Противоречия
+### <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Противоречия
 
 ```python
 # Плохо: «будь креативным» и «строго следуй инструкции»
@@ -333,7 +333,7 @@ PROMPT = "Будь креативным, но всегда следуй прав
 PROMPT = "Строго следуй инструкции. Креативность не требуется."
 ```
 
-### ❌ Слишком открытые инструкции
+### <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Слишком открытые инструкции
 
 ```python
 # Плохо: неясно, когда вызывать инструмент
@@ -343,7 +343,7 @@ PROMPT = "У тебя есть инструменты. Используй их."
 PROMPT = "Вызывай search_web ТОЛЬКО когда нужны актуальные (сегодняшние) данные."
 ```
 
-### ❌ Агент без границ
+### <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Агент без границ
 
 ```python
 # Плохо: агент может сделать что угодно

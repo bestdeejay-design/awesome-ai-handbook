@@ -1,4 +1,4 @@
-# 🖥 Локальные модели
+# <img src="https://lucide.dev/api/icons/monitor" alt="" width="20" height="20" style="vertical-align:middle"> Локальные модели
 
 > Запуск LLM на своём оборудовании: от первой установки до продвинутой настройки.
 
@@ -22,7 +22,7 @@
 
 1. [<img src="https://lucide.dev/api/icons/play" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Как найти и запустить модель](running-models.ru.md) — практикум
 2. [<img src="https://lucide.dev/api/icons/target" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Выбор модели под задачу](models.ru.md) — что выбрать для кодинга / чата / RAG
-3. [💾 Память и контекст](memory-and-context.ru.md) — почему модель не влезает и как это исправить
+3. [<img src="https://lucide.dev/api/icons/save" alt="" width="20" height="20" style="vertical-align:middle"> Память и контекст](memory-and-context.ru.md) — почему модель не влезает и как это исправить
 
 ### <img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Продвинутый пользователь
 > Хочу выжать максимум, настроить API, сравнить инструменты.
@@ -48,7 +48,7 @@
 | 1 | [<img src="https://lucide.dev/api/icons/rocket" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> getting-started.md](getting-started.ru.md) | Новички | 10 мин |
 | 2 | [<img src="https://lucide.dev/api/icons/play" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> running-models.md](running-models.ru.md) | Все | 15 мин |
 | 3 | [<img src="https://lucide.dev/api/icons/target" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> models.md](models.ru.md) | Все | 10 мин |
-| 4 | [💾 memory-and-context.md](memory-and-context.ru.md) | Все | 10 мин |
+| 4 | [<img src="https://lucide.dev/api/icons/save" alt="" width="20" height="20" style="vertical-align:middle"> memory-and-context.md](memory-and-context.ru.md) | Все | 10 мин |
 | 5 | [<img src="https://lucide.dev/api/icons/cog" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> advanced-setup.md](advanced-setup.ru.md) | Продвинутые | 15 мин |
 | 6 | [<img src="https://lucide.dev/api/icons/wrench" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> tools.md](tools.ru.md) | Все | 20 мин |
 | 7 | [<img src="https://lucide.dev/api/icons/scale" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> quantization.md](quantization.ru.md) | Продвинутые | 10 мин |

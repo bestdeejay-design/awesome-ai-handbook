@@ -1,4 +1,4 @@
-# 🔴 Туториал 3: Агент-программист
+# <img src="assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> Туториал 3: Агент-программист
 
 > Coding-агент: читает код, находит баги, пишет тесты и делает PR.  
 > **LangGraph + Ollama** — для максимального контроля.

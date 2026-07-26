@@ -1,4 +1,4 @@
-# ☁️ Cloud AI vs Local Models
+# <img src="https://lucide.dev/api/icons/cloud" alt="" width="20" height="20" style="vertical-align:middle"> Cloud AI vs Local Models
 
 > What to choose: ChatGPT in browser or a model on your own computer?
 
@@ -41,7 +41,7 @@
 
 ## 2. Scenarios: What to Choose When
 
-### 🟢 Definitely Local
+### <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Definitely Local
 
 | Situation | Why |
 |-----------|-----|
@@ -51,7 +51,7 @@
 | **Experiments and learning** | Can try different models, settings |
 | **Customization for your task** | Fine-tuning, Modelfile, system prompts |
 
-### 🟡 Definitely Cloud
+### <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Definitely Cloud
 
 | Situation | Why |
 |-----------|-----|
@@ -64,25 +64,25 @@
 
 ## 3. Five Ironclad Arguments for Local AI
 
-### 1. 🔒 Privacy
+### 1. <img src="https://lucide.dev/api/icons/lock" alt="" width="20" height="20" style="vertical-align:middle"> Privacy
 When you type a question in ChatGPT, it goes to OpenAI servers in the US. Corporate code, personal data, trade secrets — all leave your computer.
 
 With a local model **nothing goes anywhere**. All data — on your Mac/PC. Even if you disconnect internet, the model keeps working.
 
-### 2. 💰 Free
+### 2. <img src="https://lucide.dev/api/icons/dollar-sign" alt="" width="20" height="20" style="vertical-align:middle"> Free
 ChatGPT Plus costs $20/mo ($240/yr). Claude Pro — $20/mo. GitHub Copilot — $10/mo.
 
 Local model costs **once** (hardware cost, if you don't have it) and works free forever. Electricity costs pennies.
 
-### 3. 📡 No Internet Needed
+### 3. <img src="https://lucide.dev/api/icons/satellite" alt="" width="20" height="20" style="vertical-align:middle"> No Internet Needed
 Local model works anywhere: subway, plane, cottage, business trip, zone with bad connection.
 
-### 4. 🔧 Full Control
+### 4. <img src="https://lucide.dev/api/icons/wrench" alt="" width="20" height="20" style="vertical-align:middle"> Full Control
 You choose the model for your task. Configure its behavior. Can fine-tune on your data. Can swap model for another anytime.
 
 Cloud service can change pricing, ban certain queries, or just shut down.
 
-### 5. ♾️ No Limits
+### 5. <img src="https://lucide.dev/api/icons/infinity" alt="" width="20" height="20" style="vertical-align:middle"> No Limits
 ChatGPT free — 50 messages per 3 hours. ChatGPT Plus — 80 messages per 3 hours. With local model you can chat for hours without limits.
 
 ---
@@ -93,12 +93,12 @@ Let's be honest: local models still lag behind cloud giants in quality.
 
 | Task | Local | Cloud |
 |------|-------|-------|
-| Write complex SQL query | 🟡 Possible | ✅ Excellent |
-| Explain code to beginner | ✅ Excellent | ✅ Excellent |
-| Refactor legacy project | 🟡 Struggles | ✅ Excellent |
-| Chat in Russian | ✅ Qwen 3.5 great | ✅ Good |
-| Translation | ✅ Good | ✅ Excellent |
-| Idea generation, brainstorming | ✅ Good | ✅ Excellent |
+| Write complex SQL query | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Possible | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Excellent |
+| Explain code to beginner | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Excellent | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Excellent |
+| Refactor legacy project | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Struggles | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Excellent |
+| Chat in Russian | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Qwen 3.5 great | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Good |
+| Translation | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Good | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Excellent |
+| Idea generation, brainstorming | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Good | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Excellent |
 
 **Conclusion:** for daily tasks (coding, chat, translation, analysis) local models are **enough**. For maximum quality in complex tasks — cloud.
 

@@ -1,4 +1,4 @@
-# 🎯 Models for Different Tasks
+# <img src="https://lucide.dev/api/icons/target" alt="" width="20" height="20" style="vertical-align:middle"> Models for Different Tasks
 
 > Recommendations for choosing models based on your tasks and hardware.
 
@@ -43,7 +43,7 @@
 | Your RAM | Best model to run | Approx. speed |
 |----------|-------------------|---------------|
 | 8 GB | Phi-4-mini (3.8B), Qwen 3.5 4B | 25-35 tok/s |
-| 16 GB ⭐ | Qwen 2.5 Coder 7B, Qwen 3.5 9B | 15-25 tok/s |
+| 16 GB <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> | Qwen 2.5 Coder 7B, Qwen 3.5 9B | 15-25 tok/s |
 | 24 GB | Qwen3.6-27B (Q4), Gemma 4 26B MoE | 18-28 tok/s |
 | 32 GB | Llama 3.1 70B (Q3) | 20-40 tok/s |
 | 48 GB | Llama 3.3 70B (Q4) | 10-20 tok/s |
@@ -65,11 +65,11 @@
 
 | Model | Size | Context | FIM | HumanEval | Best for |
 |-------|------|---------|-----|-----------|----------|
-| **Qwen 2.5 Coder 7B** | 4.7 GB | 128K | ✅ | 82% | General coding, multi-file |
-| **Qwen 2.5 Coder 1.5B** | 1.1 GB | 32K | ✅ | 45% | Fast autocomplete, 8GB Mac |
-| **CodeGemma 2B** | 1.5 GB | 8K | ✅ | 50% | Autocomplete, low RAM |
-| **Phi-4-mini (3.8B)** | 2.5 GB | 128K | ❌ | 74% | Math + coding, small RAM |
-| **Yi-Coder 9B** | 6 GB | 128K | ✅ | 70% | Long context coding |
+| **Qwen 2.5 Coder 7B** | 4.7 GB | 128K | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | 82% | General coding, multi-file |
+| **Qwen 2.5 Coder 1.5B** | 1.1 GB | 32K | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | 45% | Fast autocomplete, 8GB Mac |
+| **CodeGemma 2B** | 1.5 GB | 8K | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | 50% | Autocomplete, low RAM |
+| **Phi-4-mini (3.8B)** | 2.5 GB | 128K | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | 74% | Math + coding, small RAM |
+| **Yi-Coder 9B** | 6 GB | 128K | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | 70% | Long context coding |
 
 ---
 

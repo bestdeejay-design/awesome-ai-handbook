@@ -1,4 +1,4 @@
-# 🎯 Ollama для агентов
+# <img src="https://lucide.dev/api/icons/target" alt="" width="20" height="20" style="vertical-align:middle"> Ollama для агентов
 
 API и возможности Ollama, полезные при построении агентов.
 

@@ -1,4 +1,4 @@
-# ❓ FAQ: Frequently Asked Questions
+# <img src="https://lucide.dev/api/icons/help-circle" alt="" width="20" height="20" style="vertical-align:middle"> FAQ: Frequently Asked Questions
 
 > Answers to the most common questions about local AI models, hardware, coding, and safety.
 

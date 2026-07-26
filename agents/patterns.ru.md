@@ -1,4 +1,4 @@
-# 🧩 Паттерны AI-агентов
+# <img src="https://lucide.dev/api/icons/puzzle" alt="" width="20" height="20" style="vertical-align:middle"> Паттерны AI-агентов
 
 > Архитектурные паттерны для построения агентов поверх LLM — от простого ReAct до мульти-агентных систем с кодом.
 
@@ -36,10 +36,10 @@ Answer:   Сейчас в Токио +22°C и ясно.
 
 ### Когда использовать
 
-- ✅ Задачи, где нужен поиск информации
-- ✅ Вопросы, требующие вычислений
-- ✅ Простые цепочки действий (найти → проанализировать → ответить)
-- ❌ Задачи с длинным планом (лучше Plan-and-Execute)
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Задачи, где нужен поиск информации
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Вопросы, требующие вычислений
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Простые цепочки действий (найти → проанализировать → ответить)
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Задачи с длинным планом (лучше Plan-and-Execute)
 
 ### Реализация на Python
 
@@ -130,10 +130,10 @@ ReAct подходит для **агентов-исполнителей**: ан�
 
 ### Когда использовать
 
-- ✅ Сложные задачи с 3+ шагами
-- ✅ Миграция кода, рефакторинг
-- ✅ Исследовательские задачи
-- ❌ Простые вопросы (ReAct быстрее)
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Сложные задачи с 3+ шагами
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Миграция кода, рефакторинг
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Исследовательские задачи
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Простые вопросы (ReAct быстрее)
 
 ### Реализация на Python
 
@@ -232,10 +232,10 @@ Plan-and-Execute идеален для **агента-менеджера про�
 
 ### Когда использовать
 
-- ✅ Написание текстов (статьи, документация)
-- ✅ Код, который нужно проверить перед использованием
-- ✅ Сложные рассуждения
-- ❌ Простые ответы (избыточно)
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Написание текстов (статьи, документация)
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Код, который нужно проверить перед использованием
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Сложные рассуждения
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Простые ответы (избыточно)
 
 ### Реализация на Python
 
@@ -320,10 +320,10 @@ Reflection — паттерн для **агента-ревьюера**. Он п�
 
 ### Когда использовать
 
-- ✅ Точное извлечение данных из текста
-- ✅ Классификация (выбрать категорию)
-- ✅ Перевод в JSON
-- ✅ Когда нужен гарантированный формат ответа
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Точное извлечение данных из текста
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Классификация (выбрать категорию)
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Перевод в JSON
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Когда нужен гарантированный формат ответа
 
 ### Реализация
 
@@ -382,10 +382,10 @@ Swarm (роевая):
 
 ### Когда использовать
 
-- ✅ Задачи, требующие разных экспертиз (кодинг + дизайн + DevOps)
-- ✅ Большие проекты, которые нужно декомпозировать
-- ✅ Когда нужна проверка и баланс (один пишет, второй проверяет)
-- ❌ Простые задачи (один агент справится быстрее)
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Задачи, требующие разных экспертиз (кодинг + дизайн + DevOps)
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Большие проекты, которые нужно декомпозировать
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Когда нужна проверка и баланс (один пишет, второй проверяет)
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Простые задачи (один агент справится быстрее)
 
 ### Простейшая реализация
 

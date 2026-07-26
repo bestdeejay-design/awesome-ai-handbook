@@ -1,4 +1,4 @@
-# 💾 Память и контекст
+# <img src="https://lucide.dev/api/icons/save" alt="" width="20" height="20" style="vertical-align:middle"> Память и контекст
 
 Как понять, какая модель влезет в вашу RAM, и почему «длинный контекст» съедает память быстрее, чем кажется.
 
@@ -15,15 +15,15 @@
 
 | RAM | Доступно | Комфортные модели (Q4) | Впритык (будет swap) |
 |---|---|---|---|
-| **8 GB** | ~3–4 GB | 0.8B–3B | 7B Q4 — **0.4 tok/s** ⚠️ |
-| **16 GB** ⭐ | ~8–10 GB | 3B–8B Q4/Q5 | 9B Q4, 14B Q4 — тесно |
+| **8 GB** | ~3–4 GB | 0.8B–3B | 7B Q4 — **0.4 tok/s** <img src="https://lucide.dev/api/icons/alert-triangle" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **16 GB** <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> | ~8–10 GB | 3B–8B Q4/Q5 | 9B Q4, 14B Q4 — тесно |
 | **24 GB** | ~14–17 GB | 7B–14B | 32B Q4 — впритык |
 | **32 GB** | ~22–25 GB | 14B–32B Q4 | 70B Q3 (сильные потери) |
 | **48 GB** | ~38–42 GB | 20B–40B Q4 | 70B Q4 — тесно |
 | **64 GB** | ~54–58 GB | 32B–70B Q4 | 70B Q5/Q6 |
 | **128 GB** | ~118–122 GB | 70B+ Q4–Q8 | 120B+ Q4 |
 
-> ⚡ **Что будет при swap:** генерация падает до **0.3–2.2 tok/s**. На M1 8 GB 8B-модель выдаёт 0.4 tok/s — в 200× медленнее cloud API.  
+> <img src="https://lucide.dev/api/icons/zap" alt="" width="20" height="20" style="vertical-align:middle"> **Что будет при swap:** генерация падает до **0.3–2.2 tok/s**. На M1 8 GB 8B-модель выдаёт 0.4 tok/s — в 200× медленнее cloud API.  
 > **Проверка:** `ollama ps` показывает занятую память. Если Memory (MB) близко к RAM → закрывайте приложения или берите модель меньше.
 
 ---
@@ -90,7 +90,7 @@ EOF
 | 3 | **Llama 3.2 3B** | 2.0 GB | Самый быстрый, 128K |
 | 4 | **Gemma 3 4B** | 2.5 GB | Multimodal (vision!) |
 
-### 16 GB RAM ⭐ — универсальный вариант
+### 16 GB RAM <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> — универсальный вариант
 
 | # | Модель | Запуск | Вес (Q4) | tok/s (M1) | Почему |
 |---|--------|--------|----------|-----------|--------|

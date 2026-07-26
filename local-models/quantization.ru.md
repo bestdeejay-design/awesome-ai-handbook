@@ -1,4 +1,4 @@
-# ⚖️ Квантизация
+# <img src="https://lucide.dev/api/icons/scale" alt="" width="20" height="20" style="vertical-align:middle"> Квантизация
 
 Подробно о методах сжатия языковых моделей для запуска на ограниченном железе.
 

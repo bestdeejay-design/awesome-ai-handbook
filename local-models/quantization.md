@@ -1,4 +1,4 @@
-# ⚖️ Quantization
+# <img src="https://lucide.dev/api/icons/scale" alt="" width="20" height="20" style="vertical-align:middle"> Quantization
 
 > Detailed guide to model compression methods: GGUF K-quants, GPTQ, AWQ, MLX — and how to choose the right one.
 

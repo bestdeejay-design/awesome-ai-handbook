@@ -1,4 +1,4 @@
-# 👥 Multi-Agent Systems
+# <img src="https://lucide.dev/api/icons/users" alt="" width="20" height="20" style="vertical-align:middle"> Multi-Agent Systems
 
 > How multiple agents work together: architectures, communication, coordination.
 

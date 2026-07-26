@@ -1,4 +1,4 @@
-# 🧠 Agent Memory: Short-term, Long-term, Vector
+# <img src="https://lucide.dev/api/icons/brain" alt="" width="20" height="20" style="vertical-align:middle"> Agent Memory: Short-term, Long-term, Vector
 
 > How agents store, retrieve, and manage context — from simple message history to semantic search with vector databases.
 

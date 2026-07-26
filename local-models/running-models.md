@@ -1,4 +1,4 @@
-# 🚀 How to Find and Run a Model
+# <img src="https://lucide.dev/api/icons/rocket" alt="" width="20" height="20" style="vertical-align:middle"> How to Find and Run a Model
 
 > Practical guide: from first command to advanced HuggingFace workflows.
 

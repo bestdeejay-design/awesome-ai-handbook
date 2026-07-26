@@ -1,4 +1,4 @@
-# 🌍 Англоязычные ресурсы
+# <img src="https://lucide.dev/api/icons/globe" alt="" width="20" height="20" style="vertical-align:middle"> Англоязычные ресурсы
 
 > Курсы, сообщества, рассылки, awesome-списки и подкасты на английском.
 
@@ -19,7 +19,7 @@
 
 ## 1. Awesome-списки
 
-| Список | О чём | ⭐ |
+| Список | О чём | <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> |
 |--------|-------|-----|
 | [**awesome-llm**](https://github.com/Hannibal046/Awesome-LLM) | LLM: статьи, модели, инструменты | 20K+ |
 | [**awesome-ai-agents**](https://github.com/LucasHuls/awesome-ai-agents) | AI-агенты: фреймворки, туториалы | 5K+ |
@@ -70,7 +70,7 @@
 
 ## 5. GitHub-репозитории
 
-| Репозиторий | Описание | ⭐ |
+| Репозиторий | Описание | <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> |
 |-------------|----------|------|
 | [**ollama/ollama**](https://github.com/ollama/ollama) | Локальный запуск LLM | 148K+ |
 | [**open-webui/open-webui**](https://github.com/open-webui/open-webui) | Веб-интерфейс для LLM | 70K+ |

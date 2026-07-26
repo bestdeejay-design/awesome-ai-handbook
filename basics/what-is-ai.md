@@ -1,4 +1,4 @@
-# 🤖 What is AI, ML, and LLM?
+# <img src="https://lucide.dev/api/icons/bot" alt="" width="20" height="20" style="vertical-align:middle"> What is AI, ML, and LLM?
 
 > Explained in plain language, without jargon or formulas.
 
@@ -103,7 +103,7 @@ When looking at a model, you see: `Qwen 3.5 7B`, `Llama 3.1 70B`. The number wit
 | **1–3B** | 🐭 mouse brain | Any laptop, 8 GB RAM | Phi-3-mini, Qwen 2.5 1.5B |
 | **7–9B** | 🐕 sweet spot | MacBook / PC, 16 GB RAM | Qwen 3.5 7B, Llama 3.1 8B |
 | **14–30B** | 🐒 needs hardware | 32 GB RAM or GPU | Qwen 3.5 14B, DeepSeek-R1 14B |
-| **70B+** | 🧠 human | Server, 64 GB+ RAM | Llama 3 70B, DeepSeek-R1 671B |
+| **70B+** | <img src="https://lucide.dev/api/icons/brain" alt="" width="20" height="20" style="vertical-align:middle"> human | Server, 64 GB+ RAM | Llama 3 70B, DeepSeek-R1 671B |
 
 > **Golden rule:** more parameters = smarter model, but proportionally more memory needed. On MacBook Air 16 GB — your ceiling is 7–9B. On MacBook Pro 48 GB — you can run 30B.
 

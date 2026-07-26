@@ -1,4 +1,4 @@
-# 👥 Мульти-агентные системы
+# <img src="https://lucide.dev/api/icons/users" alt="" width="20" height="20" style="vertical-align:middle"> Мульти-агентные системы
 
 > Как несколько агентов работают вместе: архитектуры, коммуникация, координация.  
 > **Этот раздел — ключевой для построения команды агентов твоего проекта.**
@@ -606,9 +606,9 @@ result = crew.kickoff()
 
 ### 8.5 Когда НЕ нужно делать мульти-агент
 
-- ✅ Задача решается одним агентом за 1-2 шага
-- ✅ Нет чёткого разделения на разные экспертизы
-- ❌ Кажется, что «больше агентов = круче» (нет, больше агентов = больше проблем)
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Задача решается одним агентом за 1-2 шага
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Нет чёткого разделения на разные экспертизы
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Кажется, что «больше агентов = круче» (нет, больше агентов = больше проблем)
 
 ---
 

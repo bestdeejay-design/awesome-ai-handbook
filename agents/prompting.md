@@ -1,4 +1,4 @@
-# 🎯 Prompting for AI Agents
+# <img src="https://lucide.dev/api/icons/target" alt="" width="20" height="20" style="vertical-align:middle"> Prompting for AI Agents
 
 > Writing system prompts, tool descriptions, and role definitions for agents.
 > 80% of agent success is prompt quality, not the model.

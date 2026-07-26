@@ -1,4 +1,4 @@
-# 🎯 Ollama for Agents
+# <img src="https://lucide.dev/api/icons/target" alt="" width="20" height="20" style="vertical-align:middle"> Ollama for Agents
 
 > Ollama API capabilities for building agents: tool calling, JSON mode, structured output, streaming, and integration with agent frameworks.
 
@@ -73,12 +73,12 @@ curl http://localhost:11434/api/chat -d '{
 
 | Model | Tool calling quality | Notes |
 |-------|---------------------|-------|
-| Qwen 2.5 Coder (7B, 14B) | ⭐⭐⭐ | Best for coding tools |
-| Qwen 3.5 (4B, 8B) | ⭐⭐⭐ | Best all-rounder |
-| DeepSeek Coder V2 | ⭐⭐ | Good but slower |
-| Llama 3.1 (8B) | ⭐⭐ | Acceptable |
-| Mistral (7B) | ⭐ | Limited |
-| Phi-4 (14B) | ⭐⭐ | Good with function calling |
+| Qwen 2.5 Coder (7B, 14B) | <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"><img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"><img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> | Best for coding tools |
+| Qwen 3.5 (4B, 8B) | <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"><img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"><img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> | Best all-rounder |
+| DeepSeek Coder V2 | <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"><img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> | Good but slower |
+| Llama 3.1 (8B) | <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"><img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> | Acceptable |
+| Mistral (7B) | <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> | Limited |
+| Phi-4 (14B) | <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"><img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> | Good with function calling |
 
 ---
 

@@ -1,4 +1,4 @@
-# 📚 Open-Weight LLM Catalog
+# <img src="https://lucide.dev/api/icons/library" alt="" width="20" height="20" style="vertical-align:middle"> Open-Weight LLM Catalog
 
 > Complete catalog of open-weight models for local inference — coding, chat, reasoning, vision, and MoE.
 
@@ -30,15 +30,15 @@
 
 | Model | Params | Context | FIM | HumanEval | Where to run | Ollama |
 |-------|--------|---------|-----|-----------|--------------|--------|
-| **Stable Code 3B** | 2.7B | 16K | ✅ | ~55% | 4GB VRAM, CPU | `ollama run stable-code:3b` |
-| **CodeGemma 2B** | 2B | 8K | ✅ | ~50% | 2GB VRAM | `ollama run codegemma:2b` |
-| **Qwen 2.5 Coder 1.5B** | 1.5B | 32K | ✅ | ~45% | 2GB, CPU | `ollama run qwen2.5-coder:1.5b` |
-| **Yi-Coder 1.5B** | 1.5B | 128K | ✅ | ~48% | 2GB, CPU | `ollama run yi-coder:1.5b` |
-| **Phi-4-mini (3.8B)** | 3.8B | 128K | ❌ | **74.4%** | 3GB | `ollama run phi4-mini` |
-| **Qwen 2.5 Coder 7B** | 7B | 128K | ✅ | **82%** | 6GB | `ollama run qwen2.5-coder:7b` |
-| **CodeGemma 7B** | 7B | 8K | ✅ | ~65% | 8GB | `ollama run codegemma:7b` |
-| **DeepSeek R1 Distill Qwen 7B** | 7B | 32K | ❌ | ~58% | 6GB | `ollama run deepseek-r1:7b` |
-| **Yi-Coder 9B** | 9B | 128K | ✅ | ~70% | 8GB | `ollama run yi-coder:9b` |
+| **Stable Code 3B** | 2.7B | 16K | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | ~55% | 4GB VRAM, CPU | `ollama run stable-code:3b` |
+| **CodeGemma 2B** | 2B | 8K | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | ~50% | 2GB VRAM | `ollama run codegemma:2b` |
+| **Qwen 2.5 Coder 1.5B** | 1.5B | 32K | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | ~45% | 2GB, CPU | `ollama run qwen2.5-coder:1.5b` |
+| **Yi-Coder 1.5B** | 1.5B | 128K | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | ~48% | 2GB, CPU | `ollama run yi-coder:1.5b` |
+| **Phi-4-mini (3.8B)** | 3.8B | 128K | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | **74.4%** | 3GB | `ollama run phi4-mini` |
+| **Qwen 2.5 Coder 7B** | 7B | 128K | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | **82%** | 6GB | `ollama run qwen2.5-coder:7b` |
+| **CodeGemma 7B** | 7B | 8K | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | ~65% | 8GB | `ollama run codegemma:7b` |
+| **DeepSeek R1 Distill Qwen 7B** | 7B | 32K | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | ~58% | 6GB | `ollama run deepseek-r1:7b` |
+| **Yi-Coder 9B** | 9B | 128K | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | ~70% | 8GB | `ollama run yi-coder:9b` |
 
 **Bottom line:** For coding on 16 GB Mac — **Qwen 2.5 Coder 7B** (FIM, 82% HumanEval). For autocomplete (FIM) — **CodeGemma 2B** or **Qwen 2.5 Coder 1.5B** (lightning fast).
 
@@ -58,13 +58,13 @@
 
 | Model | Params | SWE-bench | LiveCodeBench | License |
 |-------|--------|-----------|---------------|---------|
-| **Qwen3.6-27B dense** | 27B | **77.2%** | **83.9%** | Apache 2.0 ⭐ **best consumer coding model 2026** |
+| **Qwen3.6-27B dense** | 27B | **77.2%** | **83.9%** | Apache 2.0 <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> **best consumer coding model 2026** |
 | **DeepSeek-V4-Flash** | 284B / 13B active | ~78% | ~80% | MIT |
 | **Devstral 2 (123B)** | 123B dense | 72.2% | — | Modified MIT |
 | **Kimi K2.6** | 1T / 38B active | **80.2%** | 72.4% | Modified MIT |
 | **Kimi K3** | **2.8T / ~50B active** | — | — | Modified MIT |
 | **GLM-5.1** | 744B / 40B active | — | 73.9% | MIT |
-| **DeepSeek-V4-Pro** | 1.6T / 49B active | **80.6%** | **93.5%** | MIT ⭐ **best open-weight coder** |
+| **DeepSeek-V4-Pro** | 1.6T / 49B active | **80.6%** | **93.5%** | MIT <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> **best open-weight coder** |
 
 ---
 
@@ -121,12 +121,12 @@
 
 | Model | Params | Context | Where to run |
 |-------|--------|---------|--------------|
-| **Phi-4-reasoning** | 14B | 16K | 16GB ✅ |
-| **Qwen QwQ-32B** | 32B | 32K | 24GB ✅ |
-| **DeepSeek-R1-Distill-Qwen-1.5B** | 1.5B | 32K | 4GB ✅ |
-| **DeepSeek-R1-Distill-Qwen-7B** | 7B | 32K | 8GB ✅ |
-| **DeepSeek-R1-Distill-Qwen-14B** | 14B | 32K | 16GB ✅ |
-| **DeepSeek-R1-Distill-Qwen-32B** | 32B | 32K | 24GB ✅ |
+| **Phi-4-reasoning** | 14B | 16K | 16GB <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **Qwen QwQ-32B** | 32B | 32K | 24GB <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **DeepSeek-R1-Distill-Qwen-1.5B** | 1.5B | 32K | 4GB <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **DeepSeek-R1-Distill-Qwen-7B** | 7B | 32K | 8GB <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **DeepSeek-R1-Distill-Qwen-14B** | 14B | 32K | 16GB <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **DeepSeek-R1-Distill-Qwen-32B** | 32B | 32K | 24GB <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
 | **DeepSeek-R1** (full) | 671B / 37B active | 128K | **97.3%** MATH | Cloud / cluster |
 
 **How to choose:**
@@ -175,11 +175,11 @@ For 8GB RAM, CPU inference, edge devices.
 
 | Model | Total / Active | Experts | Context | Quality | Where to run |
 |-------|---------------|---------|---------|---------|--------------|
-| **Qwen3.5-35B-A3B** | 35B / 3B | — | 262K | ~9B level | 16-24GB ✅ |
-| **Qwen3-Coder-30B-A3B** | 30B / 3.3B | — | 256K | coding leader | 24GB ✅ |
-| **Gemma 4 26B A4B** | 25.2B / 3.8B | 128 (8+1) | 256K | 97% of 31B | **24GB ✅** |
-| **gpt-oss-20b** | 20B / ~5B | — | 128K | ~o3-mini | 16GB ✅ |
-| **Mixtral 8×7B** | 47B / 13B | 8 | 32K | solid | 32GB ✅ |
+| **Qwen3.5-35B-A3B** | 35B / 3B | — | 262K | ~9B level | 16-24GB <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **Qwen3-Coder-30B-A3B** | 30B / 3.3B | — | 256K | coding leader | 24GB <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **Gemma 4 26B A4B** | 25.2B / 3.8B | 128 (8+1) | 256K | 97% of 31B | **24GB <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle">** |
+| **gpt-oss-20b** | 20B / ~5B | — | 128K | ~o3-mini | 16GB <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **Mixtral 8×7B** | 47B / 13B | 8 | 32K | solid | 32GB <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
 | **Qwen3.5-122B-A10B** | 122B / 10B | — | 262K | frontier | 48GB+ |
 | **DeepSeek-V4-Flash** | 284B / 13B | — | 1M | budget frontier | 64GB+ |
 | **Llama 4 Scout** | 109B / 17B | — | **10M** | solid | 48GB+ |
@@ -193,11 +193,11 @@ For 8GB RAM, CPU inference, edge devices.
 
 | Model | Context | Params | Real long-context work |
 |-------|---------|--------|------------------------|
-| **Llama 4 Scout** | **10M** | 109B / 17B | ✅ RULER strong |
-| **Kimi K2.6** | **2M** | ~1.2T / 38B | ✅ Agent swarm |
-| **DeepSeek-V4-Pro** | **1M** | 1.6T / 49B | ✅ MIT |
-| **GLM-5.2** | **1M** | 753B / 40B | ✅ MIT |
-| **Qwen3.6-27B** | 262K | 27B dense | ✅ Apache 2.0, 24GB |
+| **Llama 4 Scout** | **10M** | 109B / 17B | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> RULER strong |
+| **Kimi K2.6** | **2M** | ~1.2T / 38B | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Agent swarm |
+| **DeepSeek-V4-Pro** | **1M** | 1.6T / 49B | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> MIT |
+| **GLM-5.2** | **1M** | 753B / 40B | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> MIT |
+| **Qwen3.6-27B** | 262K | 27B dense | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Apache 2.0, 24GB |
 
 ---
 
@@ -222,13 +222,13 @@ For 8GB RAM, CPU inference, edge devices.
 
 | RAM Mac | What to run | tok/s | Quality |
 |---------|-------------|-------|---------|
-| **8GB** | Phi-4-mini (3.8B) or Qwen3.5-4B | 25-35 🟢 | Basic-good |
-| **16GB** | Qwen 2.5 Coder 7B or Gemma 3 9B | 15-25 🟡 | Good |
-| **24GB** | Qwen3.6-27B (Q4) or Gemma 4 26B MoE | 18-28 🟡 | Excellent |
-| **32GB** | Llama 3.1 70B (Q3) | 20-40 🟢 | Excellent |
-| **48GB** | Llama 3.3 70B (Q4) | 10-20 🟡 | Superior |
-| **64GB** | Gemma 4 31B (Q8) | 8-15 🟠 | Near FP16 |
-| **128GB** | DeepSeek-V4-Flash | 15-30 🟢 | Maximum |
+| **8GB** | Phi-4-mini (3.8B) or Qwen3.5-4B | 25-35 <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Basic-good |
+| **16GB** | Qwen 2.5 Coder 7B or Gemma 3 9B | 15-25 <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Good |
+| **24GB** | Qwen3.6-27B (Q4) or Gemma 4 26B MoE | 18-28 <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Excellent |
+| **32GB** | Llama 3.1 70B (Q3) | 20-40 <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Excellent |
+| **48GB** | Llama 3.3 70B (Q4) | 10-20 <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Superior |
+| **64GB** | Gemma 4 31B (Q8) | 8-15 <img src="assets/icons/level-orange.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Near FP16 |
+| **128GB** | DeepSeek-V4-Flash | 15-30 <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Maximum |
 
 ---
 
@@ -236,10 +236,10 @@ For 8GB RAM, CPU inference, edge devices.
 
 | License | Models | Commercial use |
 |---------|--------|----------------|
-| **Apache 2.0** | Qwen 3/3.5/3.6, Gemma 4, Granite Code | ✅ Unlimited |
-| **MIT** | DeepSeek V3/V4/R1, GLM-5, Phi-4 | ✅ Unlimited |
-| **Llama Community** | Llama 3.x/4 | ✅ >700M MAU — pay |
-| **Modified MIT** | Kimi K2/K3 | ⚠️ Check model card |
+| **Apache 2.0** | Qwen 3/3.5/3.6, Gemma 4, Granite Code | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Unlimited |
+| **MIT** | DeepSeek V3/V4/R1, GLM-5, Phi-4 | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Unlimited |
+| **Llama Community** | Llama 3.x/4 | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> >700M MAU — pay |
+| **Modified MIT** | Kimi K2/K3 | <img src="https://lucide.dev/api/icons/alert-triangle" alt="" width="20" height="20" style="vertical-align:middle"> Check model card |
 
 ---
 

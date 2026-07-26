@@ -1,4 +1,4 @@
-# 🔴 Tutorial 3: Coding Agent
+# <img src="assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> Tutorial 3: Coding Agent
 
 > Build a coding agent using LangGraph that reads code, finds bugs, writes tests, and makes PRs.
 

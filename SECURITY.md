@@ -45,4 +45,4 @@ We accept reports in **English** and **Russian**.
 
 You can also directly contribute fixes by submitting a pull request – see our [Contributing Guide](CONTRIBUTING.md).
 
-**Navigation:** [← Awesome AI Handbook](README.md) · [📖 Catalog](catalog.md)
+**Navigation:** [← Awesome AI Handbook](README.md) · [<img src="https://lucide.dev/api/icons/book-open" alt="" width="20" height="20" style="vertical-align:middle"> Catalog](catalog.md)

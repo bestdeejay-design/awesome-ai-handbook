@@ -1,4 +1,4 @@
-# ☁️ Облачные AI vs локальные модели
+# <img src="https://lucide.dev/api/icons/cloud" alt="" width="20" height="20" style="vertical-align:middle"> Облачные AI vs локальные модели
 
 > Что выбрать: ChatGPT в браузере или модель на своём компьютере?
 
@@ -41,7 +41,7 @@
 
 ## 2. Сценарии: что когда выбирать
 
-### 🟢 Однозначно локально
+### <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Однозначно локально
 
 | Ситуация | Почему |
 |----------|--------|
@@ -51,7 +51,7 @@
 | **Эксперименты и обучение** | Можно пробовать разные модели, настройки |
 | **Кастомизация под свою задачу** | Fine-tuning, Modelfile, системные промпты |
 
-### 🟡 Однозначно облако
+### <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Однозначно облако
 
 | Ситуация | Почему |
 |----------|--------|
@@ -64,25 +64,25 @@
 
 ## 3. Пять железных аргументов за локальный AI
 
-### 1. 🔒 Конфиденциальность
+### 1. <img src="https://lucide.dev/api/icons/lock" alt="" width="20" height="20" style="vertical-align:middle"> Конфиденциальность
 Когда вы печатаете вопрос в ChatGPT, он уходит на сервера OpenAI в США. Корпоративный код, личные данные, коммерческая тайна — всё это покидает ваш компьютер.
 
 С локальной моделью **ничего никуда не уходит**. Все данные — на вашем Mac/ПК. Даже если вы отключите интернет, модель продолжает работать.
 
-### 2. 💰 Бесплатно
+### 2. <img src="https://lucide.dev/api/icons/dollar-sign" alt="" width="20" height="20" style="vertical-align:middle"> Бесплатно
 ChatGPT Plus стоит $20/мес ($240/год). Claude Pro — $20/мес. GitHub Copilot — $10/мес.
 
 Локальная модель стоит **один раз** (стоимость железа, если у вас его нет) и работает бесплатно вечно. Электричество обходится в копейки.
 
-### 3. 📡 Не нужен интернет
+### 3. <img src="https://lucide.dev/api/icons/satellite" alt="" width="20" height="20" style="vertical-align:middle"> Не нужен интернет
 Локальная модель работает где угодно: в метро, в самолёте, на даче, в командировке, в зоне с плохой связью.
 
-### 4. 🔧 Полный контроль
+### 4. <img src="https://lucide.dev/api/icons/wrench" alt="" width="20" height="20" style="vertical-align:middle"> Полный контроль
 Вы выбираете модель под свою задачу. Настраиваете её поведение. Можете дообучить на своих данных. В любой момент можете заменить модель на другую.
 
 Облачный сервис может изменить тарифы, запретить определённые запросы, или просто закрыться.
 
-### 5. ♾️ Нет лимитов
+### 5. <img src="https://lucide.dev/api/icons/infinity" alt="" width="20" height="20" style="vertical-align:middle"> Нет лимитов
 ChatGPT бесплатный — 50 сообщений в 3 часа. ChatGPT Plus — 80 сообщений в 3 часа. С локальной моделью вы можете общаться часами без ограничений.
 
 ---
@@ -93,12 +93,12 @@ ChatGPT бесплатный — 50 сообщений в 3 часа. ChatGPT Pl
 
 | Задача | Локально | Облако |
 |--------|----------|--------|
-| Написать сложный SQL-запрос | 🟡 Можно | ✅ Отлично |
-| Объяснить код новичку | ✅ Отлично | ✅ Отлично |
-| Рефакторинг legacy-проекта | 🟡 Тяжеловато | ✅ Отлично |
-| Чат на русском | ✅ Qwen 3.5 отлично | ✅ Хорошо |
-| Перевод | ✅ Хорошо | ✅ Отлично |
-| Генерация идей, мозговой штурм | ✅ Хорошо | ✅ Отлично |
+| Написать сложный SQL-запрос | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Можно | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Отлично |
+| Объяснить код новичку | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Отлично | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Отлично |
+| Рефакторинг legacy-проекта | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Тяжеловато | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Отлично |
+| Чат на русском | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Qwen 3.5 отлично | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Хорошо |
+| Перевод | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Хорошо | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Отлично |
+| Генерация идей, мозговой штурм | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Хорошо | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Отлично |
 
 **Вывод:** для повседневных задач (кодинг, чат, перевод, анализ) локальных моделей **достаточно**. Для максимального качества в сложных задачах — облако.
 

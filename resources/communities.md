@@ -1,4 +1,4 @@
-# 👥 Communities
+# <img src="https://lucide.dev/api/icons/users" alt="" width="20" height="20" style="vertical-align:middle"> Communities
 
 **🇷🇺 Russian version:** [communities.ru.md](communities.ru.md)
 
@@ -47,11 +47,11 @@
 
 ## 3. Telegram (Russian)
 
-> 🚧 Section is community-driven. Know good chats? [Add them](../CONTRIBUTING.md).
+> <img src="https://lucide.dev/api/icons/triangle-alert" alt="" width="20" height="20" style="vertical-align:middle"> Section is community-driven. Know good chats? [Add them](../CONTRIBUTING.md).
 
 | Channel / Chat | Focus | Status |
 |----------------|-------|--------|
-| *(list being formed)* | | 🚧 |
+| *(list being formed)* | | <img src="https://lucide.dev/api/icons/triangle-alert" alt="" width="20" height="20" style="vertical-align:middle"> |
 
 Planned categories:
 - AI and ML news

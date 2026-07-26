@@ -1,8 +1,8 @@
-# ✍️ Письмо и контент
+# <img src="https://lucide.dev/api/icons/pen-tool" alt="" width="20" height="20" style="vertical-align:middle"> Письмо и контент
 
 > Генерация текстов, копирайтинг, переводы и контент-пайплайны на локальных моделях.
 
-🟢 **Впервые с AI?** [basics/](../basics/README.ru.md) — что такое модели, как их выбирать и настраивать.
+<img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> **Впервые с AI?** [basics/](../basics/README.ru.md) — что такое модели, как их выбирать и настраивать.
 
 [← Практические кейсы](README.ru.md) · [Reflection-паттерн →](../agents/patterns.ru.md#3-reflection--self-correction)
 

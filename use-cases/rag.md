@@ -1,4 +1,4 @@
-# 📄 RAG on Your Documents
+# <img src="https://lucide.dev/api/icons/file-text" alt="" width="20" height="20" style="vertical-align:middle"> RAG on Your Documents
 
 > Retrieval-Augmented Generation: Q&A over your files without cloud upload.
 

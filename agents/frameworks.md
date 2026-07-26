@@ -1,4 +1,4 @@
-# 🏗 AI Agent Frameworks: LangGraph, CrewAI, Agno
+# <img src="https://lucide.dev/api/icons/building-2" alt="" width="20" height="20" style="vertical-align:middle"> AI Agent Frameworks: LangGraph, CrewAI, Agno
 
 > Frameworks for building agents — from simple single-agent to multi-agent teams with local models via Ollama.
 
@@ -24,14 +24,14 @@
 
 ## 1. Comparison table
 
-| Framework | ⭐ | Level | Multi-agent | Ollama | When to use |
+| Framework | <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> | Level | Multi-agent | Ollama | When to use |
 |-----------|-----|---------|-------------|--------|-------------|
-| **Agno** | 15K+ | Beginner | Team | ✅ | Quick prototype, first agent |
-| **CrewAI** | 25K+ | Intermediate | Crew | ✅ | Agent team with roles |
-| **LangGraph** | 10K+ | Advanced | Graphs | ✅ | Maximum control |
-| **OpenAI Agents SDK** | — | Beginner | Handoff | ✅ | If you know OpenAI API |
-| **AutoGen** | 48K+ | Intermediate | GroupChat | ⚠️ | Multi-agent dialogues |
-| **Mastra** | 10K+ | Intermediate | Yes | ✅ | TypeScript projects |
+| **Agno** | 15K+ | Beginner | Team | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | Quick prototype, first agent |
+| **CrewAI** | 25K+ | Intermediate | Crew | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | Agent team with roles |
+| **LangGraph** | 10K+ | Advanced | Graphs | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | Maximum control |
+| **OpenAI Agents SDK** | — | Beginner | Handoff | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | If you know OpenAI API |
+| **AutoGen** | 48K+ | Intermediate | GroupChat | <img src="https://lucide.dev/api/icons/alert-triangle" alt="" width="20" height="20" style="vertical-align:middle"> | Multi-agent dialogues |
+| **Mastra** | 10K+ | Intermediate | Yes | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | TypeScript projects |
 
 > All examples below use Ollama with `qwen3.5:4b`. Make sure Ollama is running (`ollama serve`).
 
@@ -243,10 +243,10 @@ graph.add_edge("writer", "supervisor")
 ```
 
 **When LangGraph:**
-- ✅ Complex workflows with conditions and loops
-- ✅ Need checkpointing (save state between runs)
-- ✅ Human-in-the-loop
-- ❌ Simple tasks (Agno or CrewAI are easier)
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Complex workflows with conditions and loops
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Need checkpointing (save state between runs)
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Human-in-the-loop
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Simple tasks (Agno or CrewAI are easier)
 
 ---
 

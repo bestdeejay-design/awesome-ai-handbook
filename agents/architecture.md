@@ -1,4 +1,4 @@
-# 🏗 Agent Architecture
+# <img src="https://lucide.dev/api/icons/building-2" alt="" width="20" height="20" style="vertical-align:middle"> Agent Architecture
 
 > Core components, agent loop, state management, and orchestration — what makes an agent work.
 

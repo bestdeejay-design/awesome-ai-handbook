@@ -1,4 +1,4 @@
-# 🗺 Learning Path: From Chat to Agent
+# <img src="https://lucide.dev/api/icons/map" alt="" width="20" height="20" style="vertical-align:middle"> Learning Path: From Chat to Agent
 
 > A step-by-step plan from first model run to a working multi-agent team.
 

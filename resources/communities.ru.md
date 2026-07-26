@@ -1,4 +1,4 @@
-# 👥 Сообщества
+# <img src="https://lucide.dev/api/icons/users" alt="" width="20" height="20" style="vertical-align:middle"> Сообщества
 
 > Форумы, Discord, Telegram и другие площадки для обсуждения AI.
 
@@ -45,11 +45,11 @@
 
 ## 3. Telegram (русскоязычные)
 
-> 🚧 Раздел наполняется сообществом. Знаете хорошие чаты — [добавьте](../CONTRIBUTING.md).
+> <img src="https://lucide.dev/api/icons/triangle-alert" alt="" width="20" height="20" style="vertical-align:middle"> Раздел наполняется сообществом. Знаете хорошие чаты — [добавьте](../CONTRIBUTING.md).
 
 | Канал / Чат | Фокус | Статус |
 |-------------|-------|--------|
-| *(список формируется)* | | 🚧 |
+| *(список формируется)* | | <img src="https://lucide.dev/api/icons/triangle-alert" alt="" width="20" height="20" style="vertical-align:middle"> |
 
 Планируемые категории:
 - AI и ML новости

@@ -1,4 +1,4 @@
-# 🛠 Tools Comparison
+# <img src="https://lucide.dev/api/icons/wrench" alt="" width="20" height="20" style="vertical-align:middle"> Tools Comparison
 
 > Complete comparison of local inference tools: Ollama, LM Studio, MLX, llama.cpp, vLLM, GPT4All.
 
@@ -160,13 +160,13 @@ pip install gpt4all
 |---------|--------|-----------|-----------|-----|------|---------|
 | Setup | 1 command | Download | Build from source | pip install | pip/Docker | pip install |
 | Platform | Mac/Lin/Win | Mac/Lin/Win | Mac/Lin/Win | Mac only | Linux | Mac/Lin/Win |
-| GPU support | ✅ CUDA+Metal | ✅ CUDA+Metal | ✅ CUDA+Metal | ✅ (M only) | ✅ (CUDA) | ❌ (CPU only) |
+| GPU support | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> CUDA+Metal | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> CUDA+Metal | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> CUDA+Metal | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> (M only) | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> (CUDA) | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> (CPU only) |
 | Quantizations | K-quants | K-quants | K-quants | 2-6 bit | AWQ/GPTQ | K-quants |
-| Tool calling | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| OpenAI API | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
-| Docker | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ |
-| Parallel req. | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ |
-| Multi-model | ✅ | ✅ | Manual | Manual | ✅ | ✅ |
+| Tool calling | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> |
+| OpenAI API | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
+| Docker | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> |
+| Parallel req. | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> |
+| Multi-model | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | Manual | Manual | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
 | Speed (M1 7B) | 22-25 t/s | 22-28 t/s | 20-25 t/s | 28-35 t/s | N/A | 10-15 t/s |
 
 ---

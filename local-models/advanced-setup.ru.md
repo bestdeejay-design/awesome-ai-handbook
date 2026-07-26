@@ -1,4 +1,4 @@
-# ⚙️ Продвинутая настройка Ollama
+# <img src="https://lucide.dev/api/icons/cog" alt="" width="20" height="20" style="vertical-align:middle"> Продвинутая настройка Ollama
 
 > Modelfile, переменные окружения, API, несколько моделей — всё, что нужно,
 > чтобы выжать максимум из локальных моделей.

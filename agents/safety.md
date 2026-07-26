@@ -1,4 +1,4 @@
-# 🛡 AI Agent Safety
+# <img src="https://lucide.dev/api/icons/shield" alt="" width="20" height="20" style="vertical-align:middle"> AI Agent Safety
 
 > How to protect your system from agent errors: guardrails, limits, human control, isolation.
 

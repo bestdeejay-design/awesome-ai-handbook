@@ -45,4 +45,4 @@
 
 Вы также можете напрямую предложить исправления через pull request — см. наше [Руководство по внесению вклада](CONTRIBUTING.ru.md).
 
-**Навигация:** [← Awesome AI Handbook](README.ru.md) · [📖 Каталог](catalog.ru.md)
+**Навигация:** [← Awesome AI Handbook](README.ru.md) · [<img src="https://lucide.dev/api/icons/book-open" alt="" width="20" height="20" style="vertical-align:middle"> Каталог](catalog.ru.md)

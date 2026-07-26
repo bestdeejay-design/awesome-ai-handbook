@@ -1,4 +1,4 @@
-# 🏗 Архитектура AI-агента
+# <img src="https://lucide.dev/api/icons/building-2" alt="" width="20" height="20" style="vertical-align:middle"> Архитектура AI-агента
 
 > Из чего состоит агент, как работает цикл принятия решений и почему оркестрация — это главный навык.
 

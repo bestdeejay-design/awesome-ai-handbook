@@ -1,4 +1,4 @@
-# 💻 Какое нужно железо для локального AI
+# <img src="https://lucide.dev/api/icons/monitor" alt="" width="20" height="20" style="vertical-align:middle"> Какое нужно железо для локального AI
 
 > Разрушаем мифы: от 5-летнего ноутбука до専сервера.
 
@@ -34,7 +34,7 @@
 |--------|----------------|-------------|
 | Qwen 3.5 4B | ~3.5 GB | 8 GB |
 | Qwen 2.5 Coder 7B | ~4.5 GB | 8-16 GB |
-| **Llama 3.1 8B** | **~5.5 GB** | **16 GB ⭐** |
+| **Llama 3.1 8B** | **~5.5 GB** | **16 GB <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle">** |
 | Qwen 3.5 14B | ~9 GB | 16-32 GB |
 | Qwen 3 Coder 30B | ~18 GB | 32-48 GB |
 | Llama 3 70B | ~40 GB | 64 GB+ |
@@ -45,7 +45,7 @@
 
 ## 2. Три уровня железа
 
-### 🟢 Начальный: 8 GB RAM, любой процессор
+### <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Начальный: 8 GB RAM, любой процессор
 
 **Что можно запускать:** модели до 3B параметров (Qwen 2.5 1.5B, Phi-3-mini, Gemma 2B).
 
@@ -62,7 +62,7 @@
 └─────────────────────────────────────┘
 ```
 
-### 🟡 Комфортный: 16 GB RAM, Apple Silicon или entry GPU
+### <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Комфортный: 16 GB RAM, Apple Silicon или entry GPU
 
 **Что можно запускать:** модели до 7-9B (Qwen 3.5 7B, Llama 3.1 8B, Qwen 2.5 Coder 7B).
 
@@ -80,7 +80,7 @@
 └─────────────────────────────────────┘
 ```
 
-### 🔵 Мощный: 32 GB+ RAM, RTX 3090/4090 или Mac с 48 GB+
+### <img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Мощный: 32 GB+ RAM, RTX 3090/4090 или Mac с 48 GB+
 
 **Что можно запускать:** модели 14-30B (Qwen 3 Coder 30B, DeepSeek-R1 14B, Qwen 3.5 14B).
 
@@ -111,11 +111,11 @@
 
 | Чип | 7-8B | 14B | 30B | 70B |
 |-----|------|-----|-----|-----|
-| **M1 8 GB** | 12-14 | ❌ | ❌ | ❌ |
-| **M1 16 GB** | 18-24 | 11-12 | ❌ | ❌ |
-| **M2 16 GB** | 22-28 | 12-14 | ❌ | ❌ |
-| **M3 16 GB** | 22-33 | 12-15 | ❌ | ❌ |
-| **M4 16 GB** | 25-35 | 14-17 | ❌ | ❌ |
+| **M1 8 GB** | 12-14 | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **M1 16 GB** | 18-24 | 11-12 | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **M2 16 GB** | 22-28 | 12-14 | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **M3 16 GB** | 22-33 | 12-15 | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **M4 16 GB** | 25-35 | 14-17 | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> |
 | **M3 Max 128 GB** | 65-75 | 40-45 | 25-30 | 10-14 |
 | **M4 Max 128 GB** | 75-95 | 45-55 | 30-40 | 15-22 |
 
@@ -158,7 +158,7 @@ CPU-инференс работает, но медленнее. Для моде�
 В мире моделей:
 - **FP16** (оригинал) — 100% качества, 2 байта на параметр
 - **Q8_0** — 99% качества, 1 байт на параметр
-- **Q4_K_M** — 95-97% качества, 0.5 байта на параметр ⭐ рекомендуемый
+- **Q4_K_M** — 95-97% качества, 0.5 байта на параметр <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> рекомендуемый
 - **Q3_K** — 90% качества, 0.375 байта на параметр
 - **Q2_K** — 85% качества, 0.25 байта на параметр (не рекомендую для кода)
 
@@ -171,19 +171,19 @@ CPU-инференс работает, но медленнее. Для моде�
 ## 6. Мой компьютер тянет? — чеклист
 
 ### У меня Mac на Apple Silicon
-✅ Отлично. Установите Ollama → [`../local-models/getting-started.ru.md`](../local-models/getting-started.ru.md)
+<img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Отлично. Установите Ollama → [`../local-models/getting-started.ru.md`](../local-models/getting-started.ru.md)
 
 ### У меня 16+ GB RAM
-✅ Отлично, золотая середина. Работайте с моделями 7-9B.
+<img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Отлично, золотая середина. Работайте с моделями 7-9B.
 
 ### У меня 8 GB RAM
-🟡 Можно, но придётся выбирать маленькие модели (1-3B). Начните с Phi-3-mini или Qwen 2.5 1.5B.
+<img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Можно, но придётся выбирать маленькие модели (1-3B). Начните с Phi-3-mini или Qwen 2.5 1.5B.
 
 ### У меня есть GPU с 8+ GB VRAM
-✅ Отлично. Используйте Ollama с CUDA — будет быстро.
+<img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Отлично. Используйте Ollama с CUDA — будет быстро.
 
 ### У меня старый ноутбук (5+ лет, Intel)
-🟡 Можно, но модели только 1-3B и медленно. Рекомендую временно использовать облачные сервисы или купить MacBook Air M1 б/у ($500-700).
+<img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Можно, но модели только 1-3B и медленно. Рекомендую временно использовать облачные сервисы или купить MacBook Air M1 б/у ($500-700).
 
 ### Я не знаю, что у меня
 ```bash

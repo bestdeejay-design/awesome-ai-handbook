@@ -1,4 +1,4 @@
-# 🗺 Пошаговый план: от чата до своего агента
+# <img src="https://lucide.dev/api/icons/map" alt="" width="20" height="20" style="vertical-align:middle"> Пошаговый план: от чата до своего агента
 
 > 10 шагов от полного нуля до работающего локального AI-ассистента.
 
@@ -26,7 +26,7 @@
 
 ---
 
-## 🟢 Шаг 1. LM Studio — просто попробовать
+## <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Шаг 1. LM Studio — просто попробовать
 
 **Время:** 5 минут  
 **Результат:** вы впервые общаетесь с локальной AI-моделью.
@@ -41,7 +41,7 @@
 
 ---
 
-## 🟢 Шаг 2. Ollama — установка и первая модель
+## <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Шаг 2. Ollama — установка и первая модель
 
 **Время:** 10 минут  
 **Результат:** вы установили Ollama и запускаете модели через терминал.
@@ -60,7 +60,7 @@ ollama run qwen3.5:4b
 
 ---
 
-## 🟡 Шаг 3. Разобраться в моделях
+## <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Шаг 3. Разобраться в моделях
 
 **Время:** 15 минут  
 **Результат:** вы понимаете, чем отличаются модели и какую выбрать.
@@ -77,7 +77,7 @@ ollama run llama3.3:8b      # побольше (4.9 GB)
 
 ---
 
-## 🟡 Шаг 4. Контекст и квантование
+## <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Шаг 4. Контекст и квантование
 
 **Время:** 15 минут  
 **Результат:** вы понимаете, почему модели тормозят и как это исправить.
@@ -94,7 +94,7 @@ OLLAMA_CONTEXT_LENGTH=16384 ollama run qwen3.5:4b
 
 ---
 
-## 🟡 Шаг 5. Выбрать модель под задачу
+## <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Шаг 5. Выбрать модель под задачу
 
 **Время:** 10 минут  
 **Результат:** вы знаете, какую модель использовать для кодинга, чата, перевода, RAG.
@@ -109,7 +109,7 @@ ollama pull qwen2.5-coder:7b
 
 ---
 
-## 🔵 Шаг 6. Локальный кодинг-ассистент
+## <img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Шаг 6. Локальный кодинг-ассистент
 
 **Время:** 20 минут  
 **Результат:** AI помогает вам писать код прямо в редакторе.
@@ -126,7 +126,7 @@ ollama pull qwen2.5-coder:7b
 
 ---
 
-## 🔵 Шаг 7. Aider — кодинг AI в терминале
+## <img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Шаг 7. Aider — кодинг AI в терминале
 
 **Время:** 15 минут  
 **Результат:** вы можете давать AI задачи по кодингу, и он сам меняет код.
@@ -149,7 +149,7 @@ aider --model ollama_chat/qwen2.5-coder:7b
 
 ---
 
-## 🔵 Шаг 8. Создать первого AI-агента
+## <img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Шаг 8. Создать первого AI-агента
 
 **Время:** 30 минут  
 **Результат:** вы написали программу, в которой модель сама решает, когда вызвать инструмент.
@@ -165,7 +165,7 @@ aider --model ollama_chat/qwen2.5-coder:7b
 
 ---
 
-## 🔵 Шаг 9. Open WebUI — красивый веб-чат
+## <img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Шаг 9. Open WebUI — красивый веб-чат
 
 **Время:** 15 минут  
 **Результат:** у вас веб-интерфейс для моделей, как ChatGPT, но локально.
@@ -187,7 +187,7 @@ open-webui serve
 
 ---
 
-## 🔵 Шаг 10. Команда агентов для проекта
+## <img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Шаг 10. Команда агентов для проекта
 
 **Время:** 30-60 минут  
 **Результат:** у вас несколько AI-агентов, работающих вместе: один планирует, второй пишет код, третий тестирует.

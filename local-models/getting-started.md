@@ -1,8 +1,8 @@
-# 🚀 Getting Started
+# <img src="https://lucide.dev/api/icons/rocket" alt="" width="20" height="20" style="vertical-align:middle"> Getting Started
 
 > Step-by-step guide for first-time local AI users. No special knowledge required — everything explained from scratch.
 
-🟢 **Complete beginner?** Start with [basics/](../basics/README.md) — what AI is, how models work, what hardware you need.
+<img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> **Complete beginner?** Start with [basics/](../basics/README.md) — what AI is, how models work, what hardware you need.
 
 **🇷🇺 Russian version:** [getting-started.ru.md](getting-started.ru.md)
 
@@ -109,7 +109,7 @@ system_profiler SPHardwareDataType | grep -E "Chip|Memory|Processor"
 | Your RAM | Suitable models |
 |----------|----------------|
 | 8 GB | Small models (up to 4B params) — Qwen 3.5 4B |
-| **16 GB** ⭐ | **Mid-size (7B–9B)** — universal choice |
+| **16 GB** <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> | **Mid-size (7B–9B)** — universal choice |
 | 24–32 GB | Large models (14B–32B) |
 | 48+ GB | Very large (70B+) |
 

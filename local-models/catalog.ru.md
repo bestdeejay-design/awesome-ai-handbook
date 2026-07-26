@@ -1,4 +1,4 @@
-# 📚 Полный каталог open-weight LLM для локального запуска
+# <img src="https://lucide.dev/api/icons/library" alt="" width="20" height="20" style="vertical-align:middle"> Полный каталог open-weight LLM для локального запуска
 
 > Дата данных: 23 июля 2026. Все модели — open-weight, доступные для скачивания и локального запуска.
 
@@ -25,18 +25,18 @@
 
 | Модель | Параметры | Контекст | FIM | HumanEval | Где запускать | Ollama |
 |--------|-----------|----------|-----|-----------|--------------|--------|
-| **Stable Code 3B** | 2.7B | 16K | ✅ | ~55% | 4GB VRAM, CPU | `ollama run stable-code:3b` |
-| **CodeGemma 2B** | 2B | 8K | ✅ | ~50% | 2GB VRAM | `ollama run codegemma:2b` |
-| **Qwen 2.5 Coder 1.5B** | 1.5B | 32K | ✅ | ~45% | 2GB, CPU | `ollama run qwen2.5-coder:1.5b` |
-| **Yi-Coder 1.5B** | 1.5B | 128K | ✅ | ~48% | 2GB, CPU | `ollama run yi-coder:1.5b` |
-| **Granite Code 3B** | 3B | 4K | ✅ | ~52% | 4GB | Community |
-| **Phi-4-mini (3.8B)** | 3.8B | 128K | ❌ | **74.4%** | 3GB | `ollama run phi4-mini` |
-| **Qwen 2.5 Coder 7B** | 7B | 128K | ✅ | **82%** | 6GB | `ollama run qwen2.5-coder:7b` |
-| **CodeGemma 7B** | 7B | 8K | ✅ | ~65% | 8GB | `ollama run codegemma:7b` |
-| **StarCoder2 7B** | 7B | 16K | ✅ | ~60% | 7GB | Community |
-| **DeepSeek R1 Distill Qwen 7B** | 7B | 32K | ❌ | ~58% | 6GB | `ollama run deepseek-r1:7b` |
-| **Mistral Small 3 (7B)** | 7B | 128K | ❌ | ~60% | 6GB | `ollama run mistral-small:7b` |
-| **Yi-Coder 9B** | 9B | 128K | ✅ | ~70% | 8GB | `ollama run yi-coder:9b` |
+| **Stable Code 3B** | 2.7B | 16K | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | ~55% | 4GB VRAM, CPU | `ollama run stable-code:3b` |
+| **CodeGemma 2B** | 2B | 8K | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | ~50% | 2GB VRAM | `ollama run codegemma:2b` |
+| **Qwen 2.5 Coder 1.5B** | 1.5B | 32K | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | ~45% | 2GB, CPU | `ollama run qwen2.5-coder:1.5b` |
+| **Yi-Coder 1.5B** | 1.5B | 128K | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | ~48% | 2GB, CPU | `ollama run yi-coder:1.5b` |
+| **Granite Code 3B** | 3B | 4K | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | ~52% | 4GB | Community |
+| **Phi-4-mini (3.8B)** | 3.8B | 128K | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | **74.4%** | 3GB | `ollama run phi4-mini` |
+| **Qwen 2.5 Coder 7B** | 7B | 128K | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | **82%** | 6GB | `ollama run qwen2.5-coder:7b` |
+| **CodeGemma 7B** | 7B | 8K | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | ~65% | 8GB | `ollama run codegemma:7b` |
+| **StarCoder2 7B** | 7B | 16K | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | ~60% | 7GB | Community |
+| **DeepSeek R1 Distill Qwen 7B** | 7B | 32K | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | ~58% | 6GB | `ollama run deepseek-r1:7b` |
+| **Mistral Small 3 (7B)** | 7B | 128K | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | ~60% | 6GB | `ollama run mistral-small:7b` |
+| **Yi-Coder 9B** | 9B | 128K | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | ~70% | 8GB | `ollama run yi-coder:9b` |
 
 **Вывод:** Для кодинга на 16GB Mac — **Qwen 2.5 Coder 7B** (FIM, 82% HumanEval). Если влезает — **Yi-Coder 9B** (128K контекст). Для автодополнения (FIM) — **CodeGemma 2B** или **Qwen 2.5 Coder 1.5B** (молниеносно).
 
@@ -59,7 +59,7 @@
 
 | Модель | Параметры | SWE-bench | LiveCodeBench | Лицензия |
 |--------|-----------|-----------|---------------|----------|
-| **Qwen3.6-27B dense** | 27B | **77.2%** | **83.9%** | Apache 2.0 ⭐ **лучшая consumer coding model 2026** |
+| **Qwen3.6-27B dense** | 27B | **77.2%** | **83.9%** | Apache 2.0 <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> **лучшая consumer coding model 2026** |
 | **DeepSeek-V4-Flash** | 284B / 13B active | ~78% | ~80% | MIT |
 | **Devstral 2 (123B)** | 123B dense | 72.2% | — | Modified MIT |
 | **Qwen3-Coder-480B** | 480B | 69.6% | — | Apache 2.0 |
@@ -67,7 +67,7 @@
 | **Kimi K2.7 Code** | 1T+ / ~38B active | — | — | Modified MIT |
 | **Kimi K3** | **2.8T / ~50B active** | — | — | Modified MIT (веса 27 июля) |
 | **GLM-5.1** | 744B / 40B active | — | 73.9% | MIT |
-| **DeepSeek-V4-Pro** | 1.6T / 49B active | **80.6%** | **93.5%** | MIT ⭐ **лучший open-weight coder** |
+| **DeepSeek-V4-Pro** | 1.6T / 49B active | **80.6%** | **93.5%** | MIT <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> **лучший open-weight coder** |
 
 ---
 
@@ -139,14 +139,14 @@
 
 | Модель | Параметры | Контекст | MATH-500 | AIME 2024 | Где запускать |
 |--------|-----------|----------|----------|-----------|---------------|
-| **Phi-4-reasoning** | 14B | 16K | — | — | 16GB ✅ |
-| **Qwen QwQ-32B** | 32B | 32K | — | — | 24GB ✅ |
-| **DeepSeek-R1-Distill-Qwen-1.5B** | 1.5B | 32K | — | — | 4GB ✅ |
-| **DeepSeek-R1-Distill-Qwen-7B** | 7B | 32K | — | — | 8GB ✅ |
-| **DeepSeek-R1-Distill-Llama-8B** | 8B | 32K | — | — | 8GB ✅ |
-| **DeepSeek-R1-Distill-Qwen-14B** | 14B | 32K | — | — | 16GB ✅ |
-| **DeepSeek-R1-Distill-Qwen-32B** | 32B | 32K | — | — | 24GB ✅ |
-| **DeepSeek-R1-Distill-Llama-70B** | 70B | 32K | — | — | 48GB ✅ |
+| **Phi-4-reasoning** | 14B | 16K | — | — | 16GB <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **Qwen QwQ-32B** | 32B | 32K | — | — | 24GB <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **DeepSeek-R1-Distill-Qwen-1.5B** | 1.5B | 32K | — | — | 4GB <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **DeepSeek-R1-Distill-Qwen-7B** | 7B | 32K | — | — | 8GB <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **DeepSeek-R1-Distill-Llama-8B** | 8B | 32K | — | — | 8GB <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **DeepSeek-R1-Distill-Qwen-14B** | 14B | 32K | — | — | 16GB <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **DeepSeek-R1-Distill-Qwen-32B** | 32B | 32K | — | — | 24GB <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **DeepSeek-R1-Distill-Llama-70B** | 70B | 32K | — | — | 48GB <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
 | **DeepSeek-R1** (full) | 671B / 37B active | 128K | **97.3%** | **79.8%** | Cloud / кластер |
 
 **Как выбрать:**
@@ -213,12 +213,12 @@ MoE активирует только часть параметров на ка�
 
 | Модель | Total / Active | Эксперты | Контекст | Качество | Где запускать |
 |--------|---------------|----------|----------|----------|---------------|
-| **Qwen3.5-35B-A3B** | 35B / 3B | — | 262K | ~9B level | 16-24GB ✅ |
-| **Qwen3-Coder-30B-A3B** | 30B / 3.3B | — | 256K | coding leader | 24GB ✅ |
-| **Gemma 4 26B A4B** | 25.2B / 3.8B | 128 (8+1) | 256K | 97% of 31B | **24GB ✅** |
-| **gpt-oss-20b** | 20B / ~5B | — | 128K | ~o3-mini | 16GB ✅ |
-| **Mixtral 8x7B** | 47B / 13B | 8 | 32K | solid | 32GB ✅ |
-| **Mixtral 8x22B** | 141B / 39B | 8 | 65K | мощный | 64GB ✅ |
+| **Qwen3.5-35B-A3B** | 35B / 3B | — | 262K | ~9B level | 16-24GB <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **Qwen3-Coder-30B-A3B** | 30B / 3.3B | — | 256K | coding leader | 24GB <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **Gemma 4 26B A4B** | 25.2B / 3.8B | 128 (8+1) | 256K | 97% of 31B | **24GB <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle">** |
+| **gpt-oss-20b** | 20B / ~5B | — | 128K | ~o3-mini | 16GB <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **Mixtral 8x7B** | 47B / 13B | 8 | 32K | solid | 32GB <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **Mixtral 8x22B** | 141B / 39B | 8 | 65K | мощный | 64GB <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
 | **Qwen3.5-122B-A10B** | 122B / 10B | — | 262K | frontier | 48GB+ |
 | **gpt-oss-120b** | 117B / 5.1B | 128 | 128K | Codeforces 2622 | 48GB+ |
 | **Nemotron 3 Super** | 120B / 12B | 512 (top-22) | 1M | hybrid Mamba | 64GB+ |
@@ -238,17 +238,17 @@ MoE активирует только часть параметров на ка�
 
 | Модель | Контекст | Параметры | Реальная работа на длинном |
 |--------|----------|-----------|---------------------------|
-| **Llama 4 Scout** | **10M** | 109B / 17B | ✅ RULER strong |
-| **Kimi K2.6** | **2M** | ~1.2T / 38B | ✅ Agent swarm |
-| **Kimi K3** | **1M** | 2.8T / 50B | ✅ Frontier |
-| **DeepSeek-V4-Pro** | **1M** | 1.6T / 49B | ✅ MIT |
-| **DeepSeek-V4-Flash** | **1M** | 284B / 13B | ✅ MIT, budget |
-| **GLM-5.2** | **1M** | 753B / 40B | ✅ MIT |
-| **Nemotron 3 Ultra** | **1M** | 550B / 55B | ✅ Hybrid Mamba |
-| **Qwen3.5-397B-A17B** | 262K (ext. ~1M YaRN) | 397B / 17B | ✅ Apache 2.0 |
-| **Qwen3.6-27B** | 262K | 27B dense | ✅ Apache 2.0, 24GB |
-| **Gemma 4 31B** | 256K | 31B | ✅ RULER 66.4% @128K |
-| **Llama 4 Maverick** | 1M | 400B / 17B | ✅ Multimodal |
+| **Llama 4 Scout** | **10M** | 109B / 17B | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> RULER strong |
+| **Kimi K2.6** | **2M** | ~1.2T / 38B | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Agent swarm |
+| **Kimi K3** | **1M** | 2.8T / 50B | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Frontier |
+| **DeepSeek-V4-Pro** | **1M** | 1.6T / 49B | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> MIT |
+| **DeepSeek-V4-Flash** | **1M** | 284B / 13B | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> MIT, budget |
+| **GLM-5.2** | **1M** | 753B / 40B | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> MIT |
+| **Nemotron 3 Ultra** | **1M** | 550B / 55B | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Hybrid Mamba |
+| **Qwen3.5-397B-A17B** | 262K (ext. ~1M YaRN) | 397B / 17B | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Apache 2.0 |
+| **Qwen3.6-27B** | 262K | 27B dense | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Apache 2.0, 24GB |
+| **Gemma 4 31B** | 256K | 31B | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> RULER 66.4% @128K |
+| **Llama 4 Maverick** | 1M | 400B / 17B | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Multimodal |
 
 **Важно:** Длинный контекст ≠ качество на длинном контексте. Gemma 4 получила RULER 66.4% на 128K — в 5× лучше Gemma 3. Qwen 3.5/3.6 поддерживают YaRN для расширения контекста.
 
@@ -301,7 +301,7 @@ MoE активирует только часть параметров на ка�
 | **Gemma 3 9B** | «Apple Silicon sweet spot» |
 | **Llama 4 Scout** | «Недооценён — 100% accuracy в batch-тестах» |
 | **DeepSeek R1 Distills** | «Reasoning качество конкурентно с моделями в 10× больше» |
-| **Stable Code 3B** | ⭐ **Лучшая hidden gem** — качество 7B при 3B |
+| **Stable Code 3B** | <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> **Лучшая hidden gem** — качество 7B при 3B |
 
 ---
 
@@ -309,15 +309,15 @@ MoE активирует только часть параметров на ка�
 
 | RAM Mac | Что запускать | tok/s | Качество |
 |---------|--------------|-------|----------|
-| **8GB** | Phi-4-mini (3.8B) или Qwen3.5-4B | 25-35 🟢 | Базовое-хорошее |
-| **16GB** | Qwen 2.5 Coder 7B или Gemma 3 9B | 15-25 🟡 | Хорошее |
-| **24GB** | Qwen3.6-27B (Q4) или Gemma 4 26B MoE | 18-28 🟡 | Отличное |
-| **32GB** | Qwen3.6-35B-A3B MoE или Llama 3.1 70B (Q3) | 20-40 🟢 | Отличное |
-| **48GB** | Llama 3.3 70B (Q4) или Qwen3.5-397B MoE (Q4) | 10-20 🟡 | Превосходное |
-| **64GB** | Llama 3.3 70B (Q6) или Gemma 4 31B (Q8) | 8-15 🟠 | Почти FP16 |
-| **128GB** | DeepSeek-V4-Flash или Qwen3.5-397B (Q8) | 15-30 🟢 | Максимальное |
+| **8GB** | Phi-4-mini (3.8B) или Qwen3.5-4B | 25-35 <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Базовое-хорошее |
+| **16GB** | Qwen 2.5 Coder 7B или Gemma 3 9B | 15-25 <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Хорошее |
+| **24GB** | Qwen3.6-27B (Q4) или Gemma 4 26B MoE | 18-28 <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Отличное |
+| **32GB** | Qwen3.6-35B-A3B MoE или Llama 3.1 70B (Q3) | 20-40 <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Отличное |
+| **48GB** | Llama 3.3 70B (Q4) или Qwen3.5-397B MoE (Q4) | 10-20 <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Превосходное |
+| **64GB** | Llama 3.3 70B (Q6) или Gemma 4 31B (Q8) | 8-15 <img src="assets/icons/level-orange.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Почти FP16 |
+| **128GB** | DeepSeek-V4-Flash или Qwen3.5-397B (Q8) | 15-30 <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Максимальное |
 
-> 🟢 Быстро | 🟡 Нормально | 🟠 Медленно, но терпимо
+> <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Быстро | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Нормально | <img src="assets/icons/level-orange.svg" alt="" width="12" height="12" style="vertical-align:middle"> Медленно, но терпимо
 
 ---
 
@@ -325,12 +325,12 @@ MoE активирует только часть параметров на ка�
 
 | Лицензия | Модели | Коммерция |
 |----------|--------|-----------|
-| **Apache 2.0** | Qwen 3/3.5/3.6, Gemma 4, gpt-oss, Granite Code | ✅ Без ограничений |
-| **MIT** | DeepSeek V3/V4/R1, GLM-5, Phi-4, Stable Code | ✅ Без ограничений |
-| **Llama Community** | Llama 3.x/4 | ✅ >700M MAU — плати |
-| **Modified MIT** | Kimi K2/K3, Devstral 2 (123B) | ⚠️ Читайте карту модели |
-| **Mistral Non-Prod** | Codestral | ❌ Только некоммерческое |
-| **Gemma Terms** | Gemma 3 | ⚠️ Не OSI-совместимая |
+| **Apache 2.0** | Qwen 3/3.5/3.6, Gemma 4, gpt-oss, Granite Code | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Без ограничений |
+| **MIT** | DeepSeek V3/V4/R1, GLM-5, Phi-4, Stable Code | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Без ограничений |
+| **Llama Community** | Llama 3.x/4 | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> >700M MAU — плати |
+| **Modified MIT** | Kimi K2/K3, Devstral 2 (123B) | <img src="https://lucide.dev/api/icons/alert-triangle" alt="" width="20" height="20" style="vertical-align:middle"> Читайте карту модели |
+| **Mistral Non-Prod** | Codestral | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Только некоммерческое |
+| **Gemma Terms** | Gemma 3 | <img src="https://lucide.dev/api/icons/alert-triangle" alt="" width="20" height="20" style="vertical-align:middle"> Не OSI-совместимая |
 
 ---
 

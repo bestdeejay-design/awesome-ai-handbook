@@ -10,7 +10,7 @@
 
 | Раздел | Файл | Статус | Время |
 |--------|------|--------|-------|
-| **Русскоязычные** | [ru.ru.md](ru.ru.md) | 🚧 собираем сообществом | 3 мин |
+| **Русскоязычные** | [ru.ru.md](ru.ru.md) | <img src="https://lucide.dev/api/icons/triangle-alert" alt="" width="20" height="20" style="vertical-align:middle"> собираем сообществом | 3 мин |
 | **Англоязычные** | [en.ru.md](en.ru.md) | Reddit, рассылки, подкасты | 3 мин |
 | **Курсы** | [courses.ru.md](courses.ru.md) | DeepLearning.AI, HF, fast.ai | 3 мин |
 | **Сообщества** | [communities.ru.md](communities.ru.md) | Discord, Reddit, Telegram | 3 мин |

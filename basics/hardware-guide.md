@@ -1,4 +1,4 @@
-# 💻 What Hardware You Need for Local AI
+# <img src="https://lucide.dev/api/icons/monitor" alt="" width="20" height="20" style="vertical-align:middle"> What Hardware You Need for Local AI
 
 > Busting myths: from a 5-year-old laptop to a dedicated server.
 
@@ -34,7 +34,7 @@
 |-------|---------------|-------------|
 | Qwen 3.5 4B | ~3.5 GB | 8 GB |
 | Qwen 2.5 Coder 7B | ~4.5 GB | 8-16 GB |
-| **Llama 3.1 8B** | **~5.5 GB** | **16 GB ⭐** |
+| **Llama 3.1 8B** | **~5.5 GB** | **16 GB <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle">** |
 | Qwen 3.5 14B | ~9 GB | 16-32 GB |
 | Qwen 3 Coder 30B | ~18 GB | 32-48 GB |
 | Llama 3 70B | ~40 GB | 64 GB+ |
@@ -45,7 +45,7 @@
 
 ## 2. Three Hardware Tiers
 
-### 🟢 Entry: 8 GB RAM, any processor
+### <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Entry: 8 GB RAM, any processor
 
 **What you can run:** models up to 3B params (Qwen 2.5 1.5B, Phi-3-mini, Gemma 2B).
 
@@ -62,7 +62,7 @@
 └─────────────────────────────────────┘
 ```
 
-### 🟡 Comfortable: 16 GB RAM, Apple Silicon or entry GPU
+### <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Comfortable: 16 GB RAM, Apple Silicon or entry GPU
 
 **What you can run:** models up to 7-9B (Qwen 3.5 7B, Llama 3.1 8B, Qwen 2.5 Coder 7B).
 
@@ -80,7 +80,7 @@
 └─────────────────────────────────────┘
 ```
 
-### 🔵 Powerful: 32 GB+ RAM, RTX 3090/4090 or Mac with 48 GB+
+### <img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Powerful: 32 GB+ RAM, RTX 3090/4090 or Mac with 48 GB+
 
 **What you can run:** models 14-30B (Qwen 3 Coder 30B, DeepSeek-R1 14B, Qwen 3.5 14B).
 
@@ -111,11 +111,11 @@
 
 | Chip | 7-8B | 14B | 30B | 70B |
 |------|------|-----|-----|-----|
-| **M1 8 GB** | 12-14 | ❌ | ❌ | ❌ |
-| **M1 16 GB** | 18-24 | 11-12 | ❌ | ❌ |
-| **M2 16 GB** | 22-28 | 12-14 | ❌ | ❌ |
-| **M3 16 GB** | 22-33 | 12-15 | ❌ | ❌ |
-| **M4 16 GB** | 25-35 | 14-17 | ❌ | ❌ |
+| **M1 8 GB** | 12-14 | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **M1 16 GB** | 18-24 | 11-12 | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **M2 16 GB** | 22-28 | 12-14 | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **M3 16 GB** | 22-33 | 12-15 | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **M4 16 GB** | 25-35 | 14-17 | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> |
 | **M3 Max 128 GB** | 65-75 | 40-45 | 25-30 | 10-14 |
 | **M4 Max 128 GB** | 75-95 | 45-55 | 30-40 | 15-22 |
 
@@ -158,7 +158,7 @@ CPU inference works, but slower. For models up to 7B — quite usable:
 In model world:
 - **FP16** (original) — 100% quality, 2 bytes per parameter
 - **Q8_0** — 99% quality, 1 byte per parameter
-- **Q4_K_M** — 95-97% quality, 0.5 bytes per parameter ⭐ recommended
+- **Q4_K_M** — 95-97% quality, 0.5 bytes per parameter <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> recommended
 - **Q3_K** — 90% quality, 0.375 bytes per parameter
 - **Q2_K** — 85% quality, 0.25 bytes per parameter (not recommended for code)
 
@@ -171,19 +171,19 @@ Details: [`../local-models/quantization.md`](../local-models/quantization.md)
 ## 6. Will My Computer Handle It? — Checklist
 
 ### I have Mac on Apple Silicon
-✅ Excellent. Install Ollama → [`../local-models/getting-started.md`](../local-models/getting-started.md)
+<img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Excellent. Install Ollama → [`../local-models/getting-started.md`](../local-models/getting-started.md)
 
 ### I have 16+ GB RAM
-✅ Excellent, sweet spot. Work with 7-9B models.
+<img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Excellent, sweet spot. Work with 7-9B models.
 
 ### I have 8 GB RAM
-🟡 Possible, but must pick small models (1-3B). Start with Phi-3-mini or Qwen 2.5 1.5B.
+<img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Possible, but must pick small models (1-3B). Start with Phi-3-mini or Qwen 2.5 1.5B.
 
 ### I have GPU with 8+ GB VRAM
-✅ Excellent. Use Ollama with CUDA — will be fast.
+<img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Excellent. Use Ollama with CUDA — will be fast.
 
 ### I have old laptop (5+ years, Intel)
-🟡 Possible, but only 1-3B models and slow. Recommend temporarily using cloud services or buying used MacBook Air M1 ($500-700).
+<img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Possible, but only 1-3B models and slow. Recommend temporarily using cloud services or buying used MacBook Air M1 ($500-700).
 
 ### I don't know what I have
 ```bash

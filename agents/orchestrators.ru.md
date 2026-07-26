@@ -1,4 +1,4 @@
-# 🎼 Оркестраторы с субагентами: каталог и установка
+# <img src="https://lucide.dev/api/icons/music" alt="" width="20" height="20" style="vertical-align:middle"> Оркестраторы с субагентами: каталог и установка
 
 > Оркестратор с субагентами — это система, где один «главный» агент управляет командой специализированных агентов, каждый со своей моделью и ролью.  
 > Это не фреймворк (LangGraph, CrewAI), а **готовая конфигурация**, которая работает «из коробки».
@@ -50,7 +50,7 @@
 
 ## 2. OhMyOpenAgent (Sisyphus)
 
-[GitHub →](https://github.com/code-yeongyu/oh-my-openagent) · ⭐ 66K+ · TypeScript
+[GitHub →](https://github.com/code-yeongyu/oh-my-openagent) · <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 66K+ · TypeScript
 
 **Автор:** [@code-yeongyu](https://github.com/code-yeongyu)  
 **Компания:** [Sisyphus Labs](https://sisyphuslabs.ai)  
@@ -71,13 +71,13 @@ OhMyOpenAgent содержит **11 встроенных агентов** в т�
 #### Слой исполнения (Execution Layer)
 | Агент | Роль | Модели |
 |-------|------|--------|
-| **Atlas** 🏆 | Дирижёр выполнения. Читает план, делегирует задачи субагентам, аккумулирует знания | `claude-sonnet-4-6`, `kimi-k3` |
+| **Atlas** <img src="https://lucide.dev/api/icons/trophy" alt="" width="20" height="20" style="vertical-align:middle"> | Дирижёр выполнения. Читает план, делегирует задачи субагентам, аккумулирует знания | `claude-sonnet-4-6`, `kimi-k3` |
 | **Sisyphus** | Главный оркестратор. `ultrawork` — вход в режим полной автономной работы | `claude-opus-4-8`, `kimi-k3` |
 
 #### Слой исполнителей (Worker Layer)
 | Агент | Роль | Модели |
 |-------|------|--------|
-| **Hephaestus** 🏆 | Глубокий исполнитель. Получает цель → сам исследует, планирует, пишет код | `gpt-5.6-sol` |
+| **Hephaestus** <img src="https://lucide.dev/api/icons/trophy" alt="" width="20" height="20" style="vertical-align:middle"> | Глубокий исполнитель. Получает цель → сам исследует, планирует, пишет код | `gpt-5.6-sol` |
 | **Sisyphus-Junior** | Фокусированный исполнитель. Получает детальный промпт → выполняет | `claude-sonnet-4-6`, `kimi-k3` |
 | **Oracle** | Архитектура и отладка. Read-only консультант | `gpt-5.6-sol`, `gemini-3.1-pro` |
 | **Explore** | Исследователь кода. Contextual grep | `gpt-5.4-mini-fast` |
@@ -110,8 +110,8 @@ OhMyOpenAgent содержит **11 встроенных агентов** в т�
 |---|---|---|
 | **Агенты** | 11 агентов с оркестрацией | 8 компонентов, без оркестрации |
 | **Модели** | Своя модель на каждого агента | Модель Codex CLI |
-| **Team Mode** | ✅ До 8 участников | ❌ |
-| **Lifecycle-хуки** | 54+ | ✅ (ограниченно) |
+| **Team Mode** | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> До 8 участников | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **Lifecycle-хуки** | 54+ | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> (ограниченно) |
 | **MCP** | 5 встроенных + свои | Plugin-scoped MCP |
 | **Установка** | `bunx oh-my-openagent install` | `npx lazycodex-ai install` |
 | **Требования** | Bun + OpenCode | Node.js + Codex CLI |
@@ -132,7 +132,7 @@ OhMyOpenAgent содержит **11 встроенных агентов** в т�
 
 ### Claude Code (sub-agents)
 
-[GitHub →](https://github.com/anthropics/claude-code) · ⭐ 139K+
+[GitHub →](https://github.com/anthropics/claude-code) · <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 139K+
 
 **Что есть:** Claude Code поддерживает sub-agents — может создавать дочерних агентов для параллельного выполнения задач. Есть `CLAUDE.md` для инструкций, MCP-серверы.
 
@@ -140,7 +140,7 @@ OhMyOpenAgent содержит **11 встроенных агентов** в т�
 
 ### Cline — Kanban mode
 
-[GitHub →](https://github.com/cline/cline) · ⭐ 65K+
+[GitHub →](https://github.com/cline/cline) · <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 65K+
 
 **Что есть:** Kanban-доска (`npx kanban`) для параллельного запуска нескольких агентов. Каждый агент работает над своей задачей независимо. Поддержка MCP-серверов.
 
@@ -148,7 +148,7 @@ OhMyOpenAgent содержит **11 встроенных агентов** в т�
 
 ### Aider — Architect/Editor mode
 
-[GitHub →](https://github.com/paul-gauthier/aider) · ⭐ 48K+
+[GitHub →](https://github.com/paul-gauthier/aider) · <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 48K+
 
 **Что есть:** Режим двух моделей: одна (architect) планирует изменения, вторая (editor) пишет код. Поддержка Ollama.
 
@@ -156,7 +156,7 @@ OhMyOpenAgent содержит **11 встроенных агентов** в т�
 
 ### OpenHands — Agent Canvas
 
-[GitHub →](https://github.com/All-Hands-AI/OpenHands) · ⭐ 82K+
+[GitHub →](https://github.com/All-Hands-AI/OpenHands) · <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 82K+
 
 **Что есть:** Web UI для запуска нескольких агентов. ACP-протокол для координации. Поддержка разных моделей.
 
@@ -166,15 +166,15 @@ OhMyOpenAgent содержит **11 встроенных агентов** в т�
 
 ## 4. Сравнительная таблица
 
-| Система | Агентов | Ролевое разделение | Разные модели | Планировщик | Редакции | ⭐ |
+| Система | Агентов | Ролевое разделение | Разные модели | Планировщик | Редакции | <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> |
 |---------|:-------:|:------------------:|:-------------:|:-----------:|:--------:|:--:|
-| **OhMyOpenAgent** | **11** | ✅ Да | ✅ Да | ✅ Prometheus | 2 (OpenCode/Codex CLI) | 66K |
-| Claude Code | sub-agents | ❌ Нет | ❌ Нет | ❌ Нет | 1 | 139K |
-| Cline | N (kanban) | ❌ Нет | ❌ Нет | ❌ Нет | 1 | 65K |
-| Aider | 2 | ⚠️ Две роли | ⚠️ Две модели | ❌ Нет | 1 | 48K |
-| OpenHands | N (UI) | ❌ Нет | ✅ Разные | ❌ Нет | 1 | 82K |
-| CrewAI* | N (код) | ✅ Роли | ✅ Разные | ⚠️ Через код | Фреймворк | 25K |
-| AutoGen* | N (код) | ✅ Роли | ✅ Разные | ⚠️ Через код | Фреймворк | 38K |
+| **OhMyOpenAgent** | **11** | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Да | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Да | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Prometheus | 2 (OpenCode/Codex CLI) | 66K |
+| Claude Code | sub-agents | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Нет | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Нет | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Нет | 1 | 139K |
+| Cline | N (kanban) | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Нет | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Нет | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Нет | 1 | 65K |
+| Aider | 2 | <img src="https://lucide.dev/api/icons/alert-triangle" alt="" width="20" height="20" style="vertical-align:middle"> Две роли | <img src="https://lucide.dev/api/icons/alert-triangle" alt="" width="20" height="20" style="vertical-align:middle"> Две модели | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Нет | 1 | 48K |
+| OpenHands | N (UI) | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Нет | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Разные | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Нет | 1 | 82K |
+| CrewAI* | N (код) | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Роли | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Разные | <img src="https://lucide.dev/api/icons/alert-triangle" alt="" width="20" height="20" style="vertical-align:middle"> Через код | Фреймворк | 25K |
+| AutoGen* | N (код) | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Роли | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Разные | <img src="https://lucide.dev/api/icons/alert-triangle" alt="" width="20" height="20" style="vertical-align:middle"> Через код | Фреймворк | 38K |
 
 > *CrewAI и AutoGen — фреймворки, а не готовые системы. Они требуют написания кода для настройки команды.
 

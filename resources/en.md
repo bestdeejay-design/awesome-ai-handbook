@@ -1,4 +1,4 @@
-# 🌍 English-Language Resources
+# <img src="https://lucide.dev/api/icons/globe" alt="" width="20" height="20" style="vertical-align:middle"> English-Language Resources
 
 **🇷🇺 Russian version:** [en.ru.md](en.ru.md)
 
@@ -21,7 +21,7 @@
 
 ## 1. Awesome Lists
 
-| List | About | ⭐ |
+| List | About | <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> |
 |------|-------|-----|
 | [**awesome-llm**](https://github.com/Hannibal046/Awesome-LLM) | LLM: papers, models, tools | 20K+ |
 | [**awesome-ai-agents**](https://github.com/LucasHuls/awesome-ai-agents) | AI agents: frameworks, tutorials | 5K+ |
@@ -72,7 +72,7 @@
 
 ## 5. GitHub Repositories
 
-| Repository | Description | ⭐ |
+| Repository | Description | <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> |
 |------------|-------------|------|
 | [**ollama/ollama**](https://github.com/ollama/ollama) | Local LLM inference | 148K+ |
 | [**open-webui/open-webui**](https://github.com/open-webui/open-webui) | Web UI for LLMs | 70K+ |

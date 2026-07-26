@@ -1,4 +1,4 @@
-# 🧩 Скиллы для AI-агентов: что это, где взять, как создать
+# <img src="https://lucide.dev/api/icons/puzzle" alt="" width="20" height="20" style="vertical-align:middle"> Скиллы для AI-агентов: что это, где взять, как создать
 
 > Скиллы (skills, плагины, MCP-серверы) — это модульные расширения, которые дают агенту новые возможности: работу с файлами, поиск в интернете, доступ к базам данных, генерацию изображений и многое другое.
 >
@@ -154,14 +154,14 @@ MCP поддерживают:
 
 | Платформа | Статус MCP |
 |-----------|------------|
-| Claude Desktop | ✅ Нативно |
-| Claude Code | ✅ Нативно |
-| Cursor | ✅ Нативно |
-| Continue.dev | ✅ Experimental |
-| Cline | ✅ Нативно |
-| VS Code (GitHub Copilot) | ✅ Через расширение |
-| OpenCode / Codex CLI | ✅ Через MCP-конфиг |
-| Windsurf | ✅ Нативно |
+| Claude Desktop | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Нативно |
+| Claude Code | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Нативно |
+| Cursor | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Нативно |
+| Continue.dev | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Experimental |
+| Cline | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Нативно |
+| VS Code (GitHub Copilot) | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Через расширение |
+| OpenCode / Codex CLI | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Через MCP-конфиг |
+| Windsurf | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Нативно |
 
 **Где брать MCP-серверы:**
 
@@ -174,14 +174,14 @@ MCP поддерживают:
 | findarepo MCP | 256+ | [findarepo.com/skills/mcp/](https://findarepo.com/skills/mcp/) |
 
 **Категории MCP-серверов:**
-- 🗄️ **Базы данных** — Postgres, SQLite, MySQL, Turso
-- 🌐 **Поиск и Web** — DuckDuckGo, Brave, Jina, Context7
-- 🧰 **Инструменты разработчика** — GitHub, Git, Docker, Kubernetes
-- 🤖 **AI/ML** — Ollama, embeddings, RAG
-- 🗂️ **Файлы и хранилища** — Local filesystem, Google Drive, S3
-- 🌍 **Браузеры** — Playwright, Puppeteer
-- 💬 **Коммуникации** — Slack, Telegram, Email
-- 📊 **Аналитика** — BigQuery, Prometheus, Datadog
+- <img src="https://lucide.dev/api/icons/archive" alt="" width="20" height="20" style="vertical-align:middle"> **Базы данных** — Postgres, SQLite, MySQL, Turso
+- <img src="https://lucide.dev/api/icons/globe" alt="" width="20" height="20" style="vertical-align:middle"> **Поиск и Web** — DuckDuckGo, Brave, Jina, Context7
+- <img src="https://lucide.dev/api/icons/folder-tree" alt="" width="20" height="20" style="vertical-align:middle"> **Инструменты разработчика** — GitHub, Git, Docker, Kubernetes
+- <img src="https://lucide.dev/api/icons/bot" alt="" width="20" height="20" style="vertical-align:middle"> **AI/ML** — Ollama, embeddings, RAG
+- <img src="https://lucide.dev/api/icons/folder-tree" alt="" width="20" height="20" style="vertical-align:middle"> **Файлы и хранилища** — Local filesystem, Google Drive, S3
+- <img src="https://lucide.dev/api/icons/globe" alt="" width="20" height="20" style="vertical-align:middle"> **Браузеры** — Playwright, Puppeteer
+- <img src="https://lucide.dev/api/icons/message-circle" alt="" width="20" height="20" style="vertical-align:middle"> **Коммуникации** — Slack, Telegram, Email
+- <img src="https://lucide.dev/api/icons/bar-chart-3" alt="" width="20" height="20" style="vertical-align:middle"> **Аналитика** — BigQuery, Prometheus, Datadog
 
 ---
 
@@ -372,12 +372,12 @@ requests>=2.31.0
 
 | Критерий | Уровень 1 | Уровень 2 | Уровень 3 | Уровень 4 | Уровень 5 |
 |----------|-----------|-----------|-----------|-----------|-----------|
-| Нужен API-ключ | ❌ | ❌ | ⚠️ | ✅ | ✅ |
-| Состояние между вызовами | ❌ | ⚠️ | ✅ | ✅ | ✅ |
-| Работает офлайн | ✅ | ✅ | ⚠️ | ❌ | ❌ |
-| Стандарт MCP | ❌ | ❌ | ✅ | ✅ | ✅ |
-| Версионирование | ❌ | ❌ | ⚠️ | ✅ | ✅ |
-| Зависимости от других скиллов | ❌ | ❌ | ❌ | ⚠️ | ✅ |
+| Нужен API-ключ | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/alert-triangle" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
+| Состояние между вызовами | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/alert-triangle" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
+| Работает офлайн | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/alert-triangle" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> |
+| Стандарт MCP | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
+| Версионирование | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/alert-triangle" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
+| Зависимости от других скиллов | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/alert-triangle" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
 
 ### Рекомендация: начните с Уровня 1
 

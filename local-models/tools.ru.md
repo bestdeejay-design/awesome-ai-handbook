@@ -1,4 +1,4 @@
-# 🛠 Полное сравнение инструментов локального инференса
+# <img src="https://lucide.dev/api/icons/wrench" alt="" width="20" height="20" style="vertical-align:middle"> Полное сравнение инструментов локального инференса
 
 > Дата данных: 23 июля 2026. Все инструменты актуальны, версии указаны.
 
@@ -19,12 +19,12 @@
 
 ## 1. Каталог инструментов
 
-### 1.1 Ollama ⭐ — стандарт для разработчиков
+### 1.1 Ollama <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> — стандарт для разработчиков
 
 | Параметр | Значение |
 |----------|----------|
 | **Интерфейс** | CLI + HTTP API |
-| **Open Source** | ✅ MIT |
+| **Open Source** | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> MIT |
 | **Звёзд** | 148K+ |
 | **Apple Silicon** | Metal (native) + MLX (c v0.19, 32GB+ Mac) |
 | **GPU support** | Metal (Mac), CUDA, ROCm, Vulkan |
@@ -40,14 +40,14 @@
 
 | Платформа | Backend | Статус |
 |-----------|---------|--------|
-| Apple Silicon | Metal | ✅ Нативный |
-| Apple Silicon | MLX | ✅ (v0.19+, только 32GB+ RAM, не все модели) |
-| NVIDIA Linux | CUDA | ✅ |
-| NVIDIA Windows | CUDA | ✅ |
-| AMD Linux | ROCm | ✅ |
-| AMD Windows | ROCm | ⚠️ Экспериментальный |
-| Intel GPU | Vulkan | ⚠️ Ограниченно |
-| CPU only | llama.cpp | ✅ Всегда fallback |
+| Apple Silicon | Metal | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Нативный |
+| Apple Silicon | MLX | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> (v0.19+, только 32GB+ RAM, не все модели) |
+| NVIDIA Linux | CUDA | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
+| NVIDIA Windows | CUDA | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
+| AMD Linux | ROCm | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
+| AMD Windows | ROCm | <img src="https://lucide.dev/api/icons/alert-triangle" alt="" width="20" height="20" style="vertical-align:middle"> Экспериментальный |
+| Intel GPU | Vulkan | <img src="https://lucide.dev/api/icons/alert-triangle" alt="" width="20" height="20" style="vertical-align:middle"> Ограниченно |
+| CPU only | llama.cpp | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Всегда fallback |
 
 **Ключевые возможности:**
 - `Modelfile` — кастомные модели (температура, системный промпт, template)
@@ -59,13 +59,13 @@
 - `OLLAMA_MAX_LOADED_MODELS` — несколько моделей в памяти
 
 **Когда выбрать Ollama:**
-- ✅ Нужен простой API для интеграции (Continue.dev, Aider, Open WebUI)
-- ✅ Хотите одну команду `ollama run <model>` без конфигов
-- ✅ Нужна кроссплатформенность (Mac + Linux + Windows)
-- ❌ Нужна максимальная скорость (MLX быстрее на 20-40%)
-- ❌ Нужна тонкая настройка инференса (llama.cpp даёт больше контроля)
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Нужен простой API для интеграции (Continue.dev, Aider, Open WebUI)
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Хотите одну команду `ollama run <model>` без конфигов
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Нужна кроссплатформенность (Mac + Linux + Windows)
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Нужна максимальная скорость (MLX быстрее на 20-40%)
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Нужна тонкая настройка инференса (llama.cpp даёт больше контроля)
 
-#### 📡 API Endpoints
+#### <img src="https://lucide.dev/api/icons/satellite" alt="" width="20" height="20" style="vertical-align:middle"> API Endpoints
 
 Ollama предоставляет HTTP API на порту 11434. Все запросы — POST, ответы в JSON.
 
@@ -151,7 +151,7 @@ curl http://localhost:11434/api/chat -d '{
 }'
 ```
 
-#### 🤖 OpenAI-совместимые эндпоинты
+#### <img src="https://lucide.dev/api/icons/bot" alt="" width="20" height="20" style="vertical-align:middle"> OpenAI-совместимые эндпоинты
 
 Любая библиотека для OpenAI подключается к Ollama сменой `base_url`:
 
@@ -185,7 +185,7 @@ curl http://localhost:11434/v1/chat/completions -d '{
 }'
 ```
 
-#### 📝 Modelfile Parameters
+#### <img src="https://lucide.dev/api/icons/file-text" alt="" width="20" height="20" style="vertical-align:middle"> Modelfile Parameters
 
 Modelfile — конфигурация модели в Ollama (аналог Dockerfile для LLM):
 
@@ -230,7 +230,7 @@ SYSTEM "Ты профессиональный Python-разработчик."
 | `DRAFT` | Draft-модель (speculative decoding) |
 | `REQUIRES` | Минимальная версия Ollama |
 
-#### 🔧 Environment Variables
+#### <img src="https://lucide.dev/api/icons/wrench" alt="" width="20" height="20" style="vertical-align:middle"> Environment Variables
 
 Ключевые `OLLAMA_*` переменные для настройки:
 
@@ -257,7 +257,7 @@ SYSTEM "Ты профессиональный Python-разработчик."
 | Параметр | Значение |
 |----------|----------|
 | **Интерфейс** | GUI + Headless daemon |
-| **Open Source** | ❌ Закрытый исходник |
+| **Open Source** | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Закрытый исходник |
 | **Apple Silicon** | MLX (автоопределение) + llama.cpp |
 | **OS** | macOS, Windows, Linux |
 | **Сайт** | [lmstudio.ai](https://lmstudio.ai) |
@@ -283,11 +283,11 @@ SYSTEM "Ты профессиональный Python-разработчик."
 *(Источник: asiai.dev)*
 
 **Когда выбрать LM Studio:**
-- ✅ Только начинаете — не хотите CLI
-- ✅ Хотите быстро тестировать разные модели
-- ✅ Нужна максимальная скорость на Mac (MLX)
-- ❌ Нужна автоматизация / CI (нет CLI)
-- ❌ Нужен полный open source
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Только начинаете — не хотите CLI
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Хотите быстро тестировать разные модели
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Нужна максимальная скорость на Mac (MLX)
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Нужна автоматизация / CI (нет CLI)
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Нужен полный open source
 
 ---
 
@@ -296,10 +296,10 @@ SYSTEM "Ты профессиональный Python-разработчик."
 | Параметр | Значение |
 |----------|----------|
 | **Интерфейс** | Python API + CLI |
-| **Open Source** | ✅ Apache 2.0 |
+| **Open Source** | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Apache 2.0 |
 | **Apple Silicon** | Нативный (создан Apple) |
 | **OS** | macOS только |
-| **GitHub** | [ml-explore/mlx](https://github.com/ml-explore/mlx) ⭐ 18K+ |
+| **GitHub** | [ml-explore/mlx](https://github.com/ml-explore/mlx) <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 18K+ |
 
 **Что такое MLX:**
 MLX — это **фреймворк машинного обучения от Apple** для Apple Silicon. Он включает:
@@ -338,11 +338,11 @@ lora.train_lora(
 ```
 
 **Когда выбрать MLX:**
-- ✅ Максимальная скорость на Mac
-- ✅ Нужен fine-tuning / LoRA / QLoRA
-- ✅ Python-экосистема
-- ❌ Только Mac (не кроссплатформенный)
-- ❌ Нужен GUI
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Максимальная скорость на Mac
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Нужен fine-tuning / LoRA / QLoRA
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Python-экосистема
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Только Mac (не кроссплатформенный)
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Нужен GUI
 
 ---
 
@@ -351,10 +351,10 @@ lora.train_lora(
 | Параметр | Значение |
 |----------|----------|
 | **Интерфейс** | CLI + Server |
-| **Open Source** | ✅ MIT |
+| **Open Source** | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> MIT |
 | **Apple Silicon** | Metal (нативный) |
 | **OS** | Все платформы |
-| **GitHub** | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) ⭐ 70K+ |
+| **GitHub** | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 70K+ |
 
 **Уникальные возможности:**
 - GGUF формат: K-quants (Q4_K_M, Q5_K_M) и I-quants (IQ2_XXS, IQ3_XXS)
@@ -373,10 +373,10 @@ lora.train_lora(
 | **Speculative (70B+8B)** | **15.1** | **1.6×** |
 
 **Когда выбрать llama.cpp:**
-- ✅ Нужна кроссплатформенность (везде GGUF)
-- ✅ Хотите полный контроль над инференсом
-- ✅ Используете нестандартные квантизации
-- ❌ Хотите простоту «одной команды»
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Нужна кроссплатформенность (везде GGUF)
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Хотите полный контроль над инференсом
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Используете нестандартные квантизации
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Хотите простоту «одной команды»
 
 ---
 
@@ -385,9 +385,9 @@ lora.train_lora(
 | Параметр | Значение |
 |----------|----------|
 | **Интерфейс** | HTTP API (OpenAI-совместимый) |
-| **Open Source** | ✅ Apache 2.0 |
-| **Apple Silicon** | ❌ Не поддерживает (только NVIDIA/AMD) |
-| **GitHub** | [vllm-project/vllm](https://github.com/vllm-project/vllm) ⭐ 45K+ |
+| **Open Source** | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Apache 2.0 |
+| **Apple Silicon** | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Не поддерживает (только NVIDIA/AMD) |
+| **GitHub** | [vllm-project/vllm](https://github.com/vllm-project/vllm) <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 45K+ |
 
 **Ключевые технологии:**
 - **PagedAttention** — эффективное управление KV cache (избавляет от фрагментации)
@@ -400,7 +400,7 @@ lora.train_lora(
 - Production-сервер с высокой нагрузкой (10+ concurrent users)
 - Batch-обработка тысяч промптов
 - Multi-GPU кластер
-- ❌ **Не для Mac** (только NVIDIA/AMD Linux)
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> **Не для Mac** (только NVIDIA/AMD Linux)
 
 ---
 
@@ -409,9 +409,9 @@ lora.train_lora(
 | Параметр | Значение |
 |----------|----------|
 | **Интерфейс** | GUI + Python API + CLI |
-| **Open Source** | ✅ MIT |
+| **Open Source** | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> MIT |
 | **Apple Silicon** | Metal |
-| **GitHub** | [nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all) ⭐ 72K+ |
+| **GitHub** | [nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all) <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 72K+ |
 
 **LocalDocs (RAG):**
 - Встроенная индексация документов (PDF, TXT, MD, DOCX)
@@ -425,16 +425,16 @@ lora.train_lora(
 |----------|---------|------------|
 | Установка | Один `.dmg` | Docker / pip |
 | Документы | LocalDocs | 9 векторных БД |
-| Мультипользователь | ❌ | ✅ |
+| Мультипользователь | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
 | API | Local | OpenAI-совместимый |
 | Ресурсы | Лёгкий | Тяжелее (Python) |
 | Форматы | PDF, TXT, MD, DOCX | Любые через доки |
 
 **Когда выбрать GPT4All:**
-- ✅ Только RAG на локальных документах
-- ✅ Минимальная установка (один клик)
-- ❌ Нужен API сервер / интеграции
-- ❌ Мультипользовательский доступ
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Только RAG на локальных документах
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Минимальная установка (один клик)
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Нужен API сервер / интеграции
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Мультипользовательский доступ
 
 ---
 
@@ -443,9 +443,9 @@ lora.train_lora(
 | Параметр | Значение |
 |----------|----------|
 | **Интерфейс** | GUI (Electron) |
-| **Open Source** | ❌ AGPL (ядро), GUI закрыт |
+| **Open Source** | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> AGPL (ядро), GUI закрыт |
 | **Apple Silicon** | Metal |
-| **GitHub** | [janhq/jan](https://github.com/janhq/jan) ⭐ 35K+ |
+| **GitHub** | [janhq/jan](https://github.com/janhq/jan) <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 35K+ |
 
 **Особенности:**
 - Model Hub — поиск и скачивание моделей
@@ -455,9 +455,9 @@ lora.train_lora(
 - Local server mode
 
 **Когда выбрать Jan:**
-- ✅ Нужен красивый десктопный клиент
-- ✅ Хотите совмещать локальные и cloud-модели
-- ❌ Нужна лёгкость (Electron жрёт RAM)
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Нужен красивый десктопный клиент
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Хотите совмещать локальные и cloud-модели
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Нужна лёгкость (Electron жрёт RAM)
 
 ---
 
@@ -466,9 +466,9 @@ lora.train_lora(
 | Параметр | Значение |
 |----------|----------|
 | **Интерфейс** | Веб (Python + Svelte) |
-| **Open Source** | ✅ MIT |
+| **Open Source** | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> MIT |
 | **Установка** | `docker run` |
-| **GitHub** | [open-webui/open-webui](https://github.com/open-webui/open-webui) ⭐ 70K+ |
+| **GitHub** | [open-webui/open-webui](https://github.com/open-webui/open-webui) <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 70K+ |
 
 **Возможности:**
 - Подключение к Ollama, OpenAI, Anthropic, Google, AWS Bedrock
@@ -479,10 +479,10 @@ lora.train_lora(
 - Темы, кастомизация
 
 **Когда выбрать Open WebUI:**
-- ✅ Нужен веб-интерфейс для команды
-- ✅ Продвинутый RAG с агентским поиском
-- ✅ Нужна поддержка 9+ векторных БД
-- ❌ Только для одного пользователя (избыточно)
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Нужен веб-интерфейс для команды
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Продвинутый RAG с агентским поиском
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Нужна поддержка 9+ векторных БД
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Только для одного пользователя (избыточно)
 
 ---
 
@@ -491,9 +491,9 @@ lora.train_lora(
 | Параметр | Значение |
 |----------|----------|
 | **Интерфейс** | CLI |
-| **Open Source** | ✅ Apache 2.0 |
+| **Open Source** | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Apache 2.0 |
 | **Локальные модели** | Да (через Ollama) |
-| **GitHub** | [paul-gauthier/aider](https://github.com/paul-gauthier/aider) ⭐ 25K+ |
+| **GitHub** | [paul-gauthier/aider](https://github.com/paul-gauthier/aider) <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 25K+ |
 
 **Архитектура:**
 - **Архитектор/Редактор (architect/editor)** — split: один планирует, второй пишет код
@@ -514,9 +514,9 @@ aider --model ollama/qwen2.5-coder:7b
 ```
 
 **Когда выбрать Aider:**
-- ✅ Нужен автономный кодинг-агент в CLI
-- ✅ Рефакторинг через промпты
-- ❌ Нужен GUI / визуальный интерфейс
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Нужен автономный кодинг-агент в CLI
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Рефакторинг через промпты
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Нужен GUI / визуальный интерфейс
 
 ---
 
@@ -525,9 +525,9 @@ aider --model ollama/qwen2.5-coder:7b
 | Параметр | Значение |
 |----------|----------|
 | **Интерфейс** | IDE плагин (VS Code, JetBrains) |
-| **Open Source** | ✅ Apache 2.0 |
+| **Open Source** | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Apache 2.0 |
 | **Локальные модели** | Да (через Ollama) |
-| **GitHub** | [continuedev/continue](https://github.com/continuedev/continue) ⭐ 25K+ |
+| **GitHub** | [continuedev/continue](https://github.com/continuedev/continue) <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 25K+ |
 
 **Как работает:**
 - Подключается к любому OpenAI-совместимому API (Ollama, LM Studio, vLLM)
@@ -560,10 +560,10 @@ aider --model ollama/qwen2.5-coder:7b
 ```
 
 **Когда выбрать Continue.dev:**
-- ✅ Работаете в VS Code / JetBrains
-- ✅ Хотите AI-ассистента без подписки Copilot
-- ✅ Нужен tab autocomplete с локальной моделью
-- ❌ Не используете IDE
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Работаете в VS Code / JetBrains
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Хотите AI-ассистента без подписки Copilot
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Нужен tab autocomplete с локальной моделью
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Не используете IDE
 
 ---
 
@@ -572,7 +572,7 @@ aider --model ollama/qwen2.5-coder:7b
 | Параметр | Значение |
 |----------|----------|
 | **Интерфейс** | macOS + iOS GUI (SwiftUI) |
-| **Open Source** | ✅ MIT |
+| **Open Source** | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> MIT |
 | **Apple Silicon** | Нативный, подключается к Ollama |
 | **GitHub** | [gluonfield/enchanted](https://github.com/gluonfield/enchanted) |
 
@@ -584,9 +584,9 @@ aider --model ollama/qwen2.5-coder:7b
 - Markdown-рендеринг, поддержка изображений
 
 **Когда выбрать:**
-- ✅ Нужен клиент для iPhone/iPad в дополнение к Mac
-- ✅ Нравится минималистичный дизайн
-- ❌ Не нужна iOS-версия — Ollama CLI или Open WebUI проще
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Нужен клиент для iPhone/iPad в дополнение к Mac
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Нравится минималистичный дизайн
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Не нужна iOS-версия — Ollama CLI или Open WebUI проще
 
 ---
 
@@ -595,9 +595,9 @@ aider --model ollama/qwen2.5-coder:7b
 | Параметр | Значение |
 |----------|----------|
 | **Интерфейс** | HTTP API (OpenAI-совместимый) |
-| **Open Source** | ✅ MIT |
+| **Open Source** | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> MIT |
 | **Установка** | Docker, binaries |
-| **GitHub** | [mudler/LocalAI](https://github.com/mudler/LocalAI) ⭐ 30K+ |
+| **GitHub** | [mudler/LocalAI](https://github.com/mudler/LocalAI) <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 30K+ |
 
 **Поддержка бэкендов (60+):**
 - llama.cpp, transformers, diffusers, whisper, piper-tts, stable-audio
@@ -613,9 +613,9 @@ docker run -p 8080:8080 \
 ```
 
 **Когда выбрать LocalAI:**
-- ✅ Нужен полный OpenAI API (включая TTS, STT, images)
-- ✅ Docker-инфраструктура
-- ❌ Просто LLM (избыточно)
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Нужен полный OpenAI API (включая TTS, STT, images)
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Docker-инфраструктура
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Просто LLM (избыточно)
 
 ---
 
@@ -624,9 +624,9 @@ docker run -p 8080:8080 \
 | Параметр | Значение |
 |----------|----------|
 | **Интерфейс** | GUI (macOS, Windows, Linux) |
-| **Open Source** | ✅ FSL-1.1-MIT (→ MIT через 2 года) |
+| **Open Source** | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> FSL-1.1-MIT (→ MIT через 2 года) |
 | **Apple Silicon** | Нативный |
-| **GitHub** | [MindWorkAI/AI-Studio](https://github.com/MindWorkAI/AI-Studio) ⭐ 529 |
+| **GitHub** | [MindWorkAI/AI-Studio](https://github.com/MindWorkAI/AI-Studio) <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 529 |
 
 **Поддержка провайдеров:**
 
@@ -645,11 +645,11 @@ docker run -p 8080:8080 \
 - Бесплатно, даже для коммерческого использования
 
 **Когда выбрать:**
-- ✅ Нужен один GUI для всех провайдеров (локальных и облачных)
-- ✅ Хотите быстро переключаться между моделями без настройки
-- ✅ Нужны ассистенты для бизнес-задач
-- ❌ Нужен только локальный запуск — Ollama или LM Studio проще
-- ❌ Нужен CLI/API для автоматизации — не замена Ollama
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Нужен один GUI для всех провайдеров (локальных и облачных)
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Хотите быстро переключаться между моделями без настройки
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Нужны ассистенты для бизнес-задач
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Нужен только локальный запуск — Ollama или LM Studio проще
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Нужен CLI/API для автоматизации — не замена Ollama
 
 ---
 
@@ -678,7 +678,7 @@ docker run -p 8080:8080 \
 
 | Бэкенд | tok/s | Память | Отставание |
 |--------|-------|--------|-----------|
-| **MLX** | **18** | ~39 GB | 🥇 |
+| **MLX** | **18** | ~39 GB | <img src="https://lucide.dev/api/icons/medal" alt="" width="20" height="20" style="vertical-align:middle"> |
 | llama.cpp Metal | 14 | ~41 GB | -22% |
 | Ollama (CPU) | 12 | ~41 GB | -33% |
 
@@ -753,25 +753,25 @@ Gemma 4 26B MoE на M3 Max 128GB:
 
 | Инструмент | Docker | Известный образ |
 |-----------|--------|----------------|
-| **Ollama** | ✅ | `ollama/ollama` |
-| **LM Studio** | ❌ | — |
-| **MLX** | ⚠️ (только Mac) | `mlx-community` |
-| **llama.cpp** | ✅ | `ghcr.io/ggml-org/llama.cpp` |
-| **vLLM** | ✅ | `vllm/vllm-openai` |
-| **GPT4All** | ❌ | — |
-| **Jan** | ❌ | — |
-| **Open WebUI** | ✅ | `ghcr.io/open-webui/open-webui` |
-| **LocalAI** | ✅ | `localai/localai` |
-| **Aider** | ⚠️ | Community |
+| **Ollama** | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | `ollama/ollama` |
+| **LM Studio** | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | — |
+| **MLX** | <img src="https://lucide.dev/api/icons/alert-triangle" alt="" width="20" height="20" style="vertical-align:middle"> (только Mac) | `mlx-community` |
+| **llama.cpp** | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | `ghcr.io/ggml-org/llama.cpp` |
+| **vLLM** | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | `vllm/vllm-openai` |
+| **GPT4All** | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | — |
+| **Jan** | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | — |
+| **Open WebUI** | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | `ghcr.io/open-webui/open-webui` |
+| **LocalAI** | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | `localai/localai` |
+| **Aider** | <img src="https://lucide.dev/api/icons/alert-triangle" alt="" width="20" height="20" style="vertical-align:middle"> | Community |
 
 ### 4.3 GPU memory management
 
 | Инструмент | Unload | Offload | KV cache control | Multi-GPU |
 |-----------|--------|---------|-----------------|-----------|
-| **Ollama** | ✅ При бездействии | `OLLAMA_GPU_LAYERS` | `OLLAMA_KV_CACHE_TYPE` | ❌ |
-| **MLX** | ❌ (вручную) | N/A (всегда GPU) | ❌ | ❌ |
-| **llama.cpp** | ✅ | `-ngl` | `--cache-type-k`, `--cache-type-v` | ✅ |
-| **vLLM** | ✅ | `--gpu-memory-utilization` | `--kv-cache-dtype` | ✅ |
+| **Ollama** | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> При бездействии | `OLLAMA_GPU_LAYERS` | `OLLAMA_KV_CACHE_TYPE` | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **MLX** | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> (вручную) | N/A (всегда GPU) | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **llama.cpp** | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | `-ngl` | `--cache-type-k`, `--cache-type-v` | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **vLLM** | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | `--gpu-memory-utilization` | `--kv-cache-dtype` | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
 
 ---
 

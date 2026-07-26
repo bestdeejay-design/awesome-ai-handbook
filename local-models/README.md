@@ -1,4 +1,4 @@
-# 🖥 Local Models
+# <img src="https://lucide.dev/api/icons/monitor" alt="" width="20" height="20" style="vertical-align:middle"> Local Models
 
 > Running LLMs on your own hardware — from first installation to advanced tuning.
 
@@ -22,7 +22,7 @@ Or skip the terminal entirely: **LM Studio** (described in [running-models.md](r
 
 1. [<img src="https://lucide.dev/api/icons/play" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> How to find and run a model](running-models.md) — hands-on guide
 2. [<img src="https://lucide.dev/api/icons/target" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Choosing a model for your task](models.md) — what to pick for coding / chat / RAG
-3. [💾 Memory and context](memory-and-context.md) — why models dont fit and how to fix it
+3. [<img src="https://lucide.dev/api/icons/save" alt="" width="20" height="20" style="vertical-align:middle"> Memory and context](memory-and-context.md) — why models dont fit and how to fix it
 
 ### <img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Advanced User
 > Want maximum performance, API tuning, tool comparison.
@@ -48,7 +48,7 @@ Or skip the terminal entirely: **LM Studio** (described in [running-models.md](r
 | 1 | [<img src="https://lucide.dev/api/icons/rocket" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> getting-started.md](getting-started.md) | Beginners | 10 min |
 | 2 | [<img src="https://lucide.dev/api/icons/play" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> running-models.md](running-models.md) | Everyone | 15 min |
 | 3 | [<img src="https://lucide.dev/api/icons/target" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> models.md](models.md) | Everyone | 10 min |
-| 4 | [💾 memory-and-context.md](memory-and-context.md) | Everyone | 10 min |
+| 4 | [<img src="https://lucide.dev/api/icons/save" alt="" width="20" height="20" style="vertical-align:middle"> memory-and-context.md](memory-and-context.md) | Everyone | 10 min |
 | 5 | [<img src="https://lucide.dev/api/icons/cog" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> advanced-setup.md](advanced-setup.md) | Advanced | 15 min |
 | 6 | [<img src="https://lucide.dev/api/icons/wrench" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> tools.md](tools.md) | Everyone | 20 min |
 | 7 | [<img src="https://lucide.dev/api/icons/scale" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> quantization.md](quantization.md) | Advanced | 10 min |

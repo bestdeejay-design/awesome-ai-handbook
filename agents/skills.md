@@ -1,4 +1,4 @@
-# 🧩 Skills for AI Agents: What They Are, Where to Get Them, How to Create Them
+# <img src="https://lucide.dev/api/icons/puzzle" alt="" width="20" height="20" style="vertical-align:middle"> Skills for AI Agents: What They Are, Where to Get Them, How to Create Them
 
 > Skills (plugins, MCP servers) are modular extensions that give an agent new capabilities: file operations, web search, database access, image generation, and much more.
 >
@@ -154,14 +154,14 @@ MCP is supported by:
 
 | Platform | MCP Status |
 |----------|------------|
-| Claude Desktop | ✅ Native |
-| Claude Code | ✅ Native |
-| Cursor | ✅ Native |
-| Continue.dev | ✅ Experimental |
-| Cline | ✅ Native |
-| VS Code (GitHub Copilot) | ✅ Via extension |
-| OpenCode / Codex CLI | ✅ Via MCP config |
-| Windsurf | ✅ Native |
+| Claude Desktop | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Native |
+| Claude Code | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Native |
+| Cursor | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Native |
+| Continue.dev | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Experimental |
+| Cline | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Native |
+| VS Code (GitHub Copilot) | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Via extension |
+| OpenCode / Codex CLI | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Via MCP config |
+| Windsurf | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Native |
 
 **Where to get MCP servers:**
 
@@ -174,14 +174,14 @@ MCP is supported by:
 | findarepo MCP | 256+ | [findarepo.com/skills/mcp/](https://findarepo.com/skills/mcp/) |
 
 **MCP Server Categories:**
-- 🗄️ **Databases** — Postgres, SQLite, MySQL, Turso
-- 🌐 **Search & Web** — DuckDuckGo, Brave, Jina, Context7
-- 🧰 **Dev Tools** — GitHub, Git, Docker, Kubernetes
-- 🤖 **AI/ML** — Ollama, embeddings, RAG
-- 🗂️ **Files & Storage** — Local filesystem, Google Drive, S3
-- 🌍 **Browsers** — Playwright, Puppeteer
-- 💬 **Communications** — Slack, Telegram, Email
-- 📊 **Analytics** — BigQuery, Prometheus, Datadog
+- <img src="https://lucide.dev/api/icons/archive" alt="" width="20" height="20" style="vertical-align:middle"> **Databases** — Postgres, SQLite, MySQL, Turso
+- <img src="https://lucide.dev/api/icons/globe" alt="" width="20" height="20" style="vertical-align:middle"> **Search & Web** — DuckDuckGo, Brave, Jina, Context7
+- <img src="https://lucide.dev/api/icons/folder-tree" alt="" width="20" height="20" style="vertical-align:middle"> **Dev Tools** — GitHub, Git, Docker, Kubernetes
+- <img src="https://lucide.dev/api/icons/bot" alt="" width="20" height="20" style="vertical-align:middle"> **AI/ML** — Ollama, embeddings, RAG
+- <img src="https://lucide.dev/api/icons/folder-tree" alt="" width="20" height="20" style="vertical-align:middle"> **Files & Storage** — Local filesystem, Google Drive, S3
+- <img src="https://lucide.dev/api/icons/globe" alt="" width="20" height="20" style="vertical-align:middle"> **Browsers** — Playwright, Puppeteer
+- <img src="https://lucide.dev/api/icons/message-circle" alt="" width="20" height="20" style="vertical-align:middle"> **Communications** — Slack, Telegram, Email
+- <img src="https://lucide.dev/api/icons/bar-chart-3" alt="" width="20" height="20" style="vertical-align:middle"> **Analytics** — BigQuery, Prometheus, Datadog
 
 ---
 
@@ -372,12 +372,12 @@ Skills can evolve through complexity levels:
 
 | Criterion | Level 1 | Level 2 | Level 3 | Level 4 | Level 5 |
 |-----------|---------|---------|---------|---------|---------|
-| Needs API key | ❌ | ❌ | ⚠️ | ✅ | ✅ |
-| State between calls | ❌ | ⚠️ | ✅ | ✅ | ✅ |
-| Works offline | ✅ | ✅ | ⚠️ | ❌ | ❌ |
-| MCP standard | ❌ | ❌ | ✅ | ✅ | ✅ |
-| Versioning | ❌ | ❌ | ⚠️ | ✅ | ✅ |
-| Dependencies on other skills | ❌ | ❌ | ❌ | ⚠️ | ✅ |
+| Needs API key | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/alert-triangle" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
+| State between calls | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/alert-triangle" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
+| Works offline | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/alert-triangle" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> |
+| MCP standard | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
+| Versioning | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/alert-triangle" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
+| Dependencies on other skills | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/alert-triangle" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
 
 ### Recommendation: Start with Level 1
 

@@ -1,13 +1,13 @@
-# 📖 Словарь терминов
+# <img src="https://lucide.dev/api/icons/book-open" alt="" width="20" height="20" style="vertical-align:middle"> Словарь терминов
 
 > Все важные понятия, с которыми вы столкнётесь в мире локального AI.  
-> Уровни: 🟢 выживание → 🟡 комфортное чтение → 🔵 продвинутый новичок.
+> Уровни: <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> выживание → <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> комфортное чтение → <img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> продвинутый новичок.
 
 [← Нулевой уровень](README.ru.md) · [FAQ →](faq.ru.md) · [🇬🇧 English](glossary.md)
 
 ---
 
-## 🟢 Уровень 1: Выживание (10 терминов)
+## <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Уровень 1: Выживание (10 терминов)
 
 Знать обязательно, чтобы понимать 90% статей и диалогов.
 
@@ -26,7 +26,7 @@
 
 ---
 
-## 🟡 Уровень 2: Комфортное чтение (15 терминов)
+## <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Уровень 2: Комфортное чтение (15 терминов)
 
 Нужны, чтобы понимать технические статьи и документацию.
 
@@ -50,7 +50,7 @@
 
 ---
 
-## 🔵 Уровень 3: Продвинутый новичок (10 терминов)
+## <img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Уровень 3: Продвинутый новичок (10 терминов)
 
 Понадобятся, когда начнёте настраивать агентов и разбираться глубже.
 
