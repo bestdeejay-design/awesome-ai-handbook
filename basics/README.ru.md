@@ -1,4 +1,4 @@
-# <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Нулевой уровень: с чего начать
+# <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Нулевой уровень: с чего начать
 
 > Раздел для тех, кто никогда не пробовал AI, но хочет понять и начать использовать.
 > Никаких специальных знаний не требуется.
@@ -9,7 +9,7 @@
 
 ## Три дорожки — выберите свою
 
-### <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Просто попробовать (5 минут)
+### <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Просто попробовать (5 минут)
 
 «Хочу понять, что это вообще такое, без установок и терминала.»
 
@@ -20,7 +20,7 @@
 | 3 | Скачайте модель Qwen 3.5 4B прямо в LM Studio |
 | 4 | Просто печатайте вопросы — как в ChatGPT, но бесплатно и локально |
 
-### <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Разобраться (30 минут)
+### <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Разобраться (30 минут)
 
 «Хочу понять, как это работает, и установить всё сам.»
 
@@ -32,13 +32,13 @@
 | 4 | [Установить Ollama](../local-models/getting-started.ru.md) | 10 мин |
 | 5 | Задать вопросы первой модели | ∞ |
 
-### <img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Стать профи (от 2 часов)
+### <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Стать профи (от 2 часов)
 
 «Хочу собрать полноценную локальную систему для кодинга и автоматизации.»
 
 | Шаг | Куда идти | Время |
 |-----|-----------|-------|
-| 1–3 | Дорожка <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> выше | 20 мин |
+| 1–3 | Дорожка <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> выше | 20 мин |
 | 4 | [Какое нужно железо?](hardware-guide.ru.md) | 5 мин |
 | 5 | **Установка:** [Mac](../local-models/getting-started.ru.md) · [Windows](setup-windows.ru.md) · [Linux](setup-linux.ru.md) | 15 мин |
 | 6 | [Как запускать модели](../local-models/running-models.ru.md) | 15 мин |
@@ -67,7 +67,7 @@
 
 ## Связанные разделы
 
-- [<img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Локальные модели](../local-models/README.ru.md) — запуск, выбор, настройка моделей
+- [<img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Локальные модели](../local-models/README.ru.md) — запуск, выбор, настройка моделей
 - [<img src="https://lucide.dev/api/icons/bot" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> AI-агенты](../agents/README.ru.md) — создание автономных агентов
 - [<img src="https://lucide.dev/api/icons/briefcase" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Use Cases](../use-cases/README.ru.md) — применение AI на практике
 

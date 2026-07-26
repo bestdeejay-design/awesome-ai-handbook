@@ -2,7 +2,7 @@
 
 Практикум: от первой команды до продвинутых сценариев с HuggingFace.
 
-<img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> **Новичок?** Разберитесь с основами в [`basics/`](../basics/README.ru.md): AI-термины, железо, установка.
+<img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> **Новичок?** Разберитесь с основами в [`basics/`](../basics/README.ru.md): AI-термины, железо, установка.
 
 [← Локальные модели](README.ru.md)
 

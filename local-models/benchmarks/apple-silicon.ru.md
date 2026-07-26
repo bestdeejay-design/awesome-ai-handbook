@@ -39,12 +39,12 @@
 | Задача | Модель | tok/s | Примечание |
 |-----|--------|-------|------------|
 | Автодополнение (FIM) | Qwen 2.5 Coder 1.5B | 30+ | <img src="https://lucide.dev/api/icons/zap" alt="" width="20" height="20" style="vertical-align:middle"> |
-| Основной кодер | Qwen 2.5 Coder 7B | 22–25 | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> |
-| Быстрый чат | Qwen 3.5 4B | 28–35 | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> |
-| Сбалансированный чат | Qwen 3.5 9B | 10–13 | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> |
-| Reasoning | DeepSeek R1 Distill 14B | 8–10 | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> |
+| Основной кодер | Qwen 2.5 Coder 7B | 22–25 | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> |
+| Быстрый чат | Qwen 3.5 4B | 28–35 | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> |
+| Сбалансированный чат | Qwen 3.5 9B | 10–13 | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> |
+| Reasoning | DeepSeek R1 Distill 14B | 8–10 | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> |
 
-<img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Быстро · <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Нормально · <img src="assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> Медленно
+<img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Быстро · <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Нормально · <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> Медленно
 
 ---
 

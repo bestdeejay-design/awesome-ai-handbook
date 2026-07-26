@@ -41,7 +41,7 @@
 
 ## 2. Scenarios: What to Choose When
 
-### <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Definitely Local
+### <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Definitely Local
 
 | Situation | Why |
 |-----------|-----|
@@ -51,7 +51,7 @@
 | **Experiments and learning** | Can try different models, settings |
 | **Customization for your task** | Fine-tuning, Modelfile, system prompts |
 
-### <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Definitely Cloud
+### <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Definitely Cloud
 
 | Situation | Why |
 |-----------|-----|
@@ -93,9 +93,9 @@ Let's be honest: local models still lag behind cloud giants in quality.
 
 | Task | Local | Cloud |
 |------|-------|-------|
-| Write complex SQL query | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Possible | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Excellent |
+| Write complex SQL query | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Possible | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Excellent |
 | Explain code to beginner | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Excellent | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Excellent |
-| Refactor legacy project | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Struggles | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Excellent |
+| Refactor legacy project | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Struggles | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Excellent |
 | Chat in Russian | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Qwen 3.5 great | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Good |
 | Translation | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Good | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Excellent |
 | Idea generation, brainstorming | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Good | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Excellent |

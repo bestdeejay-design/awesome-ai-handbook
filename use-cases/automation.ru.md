@@ -2,7 +2,7 @@
 
 > Связка локальных моделей с бизнес-процессами, скриптами и расписаниями.
 
-<img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> **Нужны основы?** [basics/](../basics/README.ru.md) — AI-термины, железо, установка Ollama.
+<img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> **Нужны основы?** [basics/](../basics/README.ru.md) — AI-термины, железо, установка Ollama.
 
 [← Практические кейсы](README.ru.md) · [Мульти-агентные системы →](../agents/multi-agent.ru.md)
 

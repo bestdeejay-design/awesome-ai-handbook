@@ -34,9 +34,9 @@ All agents are divided into **5 categories** by usage style:
 | **Orchestrator Agents** | Sisyphus, CrewAI, AutoGen, LangGraph, Dify | Those building multi-agent teams "out of the box" |
 
 **Local Model Integration Levels:**
-- <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> **Full** — agent works with any model via Ollama / OpenAI-compatible API
-- <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> **Limited** — local models connect, but not all features available
-- <img src="assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> **Cloud Only** — agent requires a proprietary model
+- <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> **Full** — agent works with any model via Ollama / OpenAI-compatible API
+- <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> **Limited** — local models connect, but not all features available
+- <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> **Cloud Only** — agent requires a proprietary model
 
 ---
 
@@ -44,19 +44,19 @@ All agents are divided into **5 categories** by usage style:
 
 | Agent | Type | Local | Install | Stars <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> |
 |-------|------|-------|---------|:-------:|
-| [**Aider**](https://github.com/paul-gauthier/aider) | CLI <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Full | `pip install aider-install` | 25K+ |
-| [**Codex CLI**](https://github.com/openai/codex) | CLI <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | <img src="assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> Cloud | `npm install -g @openai/codex` | 15K+ |
-| [**Claude Code**](https://github.com/anthropics/claude-code) | CLI <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | <img src="assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> Cloud | `npm install -g @anthropic-ai/claude-code` | 10K+ |
-| [**Codebuff**](https://github.com/richardschneider/codebuff) | CLI <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Full | `brew install codebuff` | 1K+ |
-| [**Continue**](https://github.com/continuedev/continue) | IDE <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Full | Install from VS Code Marketplace | 25K+ |
-| [**Cline**](https://github.com/cline/cline) | IDE <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Full | Install from VS Code Marketplace | 15K+ |
-| [**Cody**](https://github.com/sourcegraph/cody) | IDE <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Limited | Install from VS Code Marketplace | 5K+ |
-| [**Cursor**](https://cursor.sh/) | IDE <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Limited | Download from website | — |
-| [**Windsurf**](https://codeium.com/windsurf) | IDE <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Limited | Download from website | — |
-| [**OpenHands**](https://github.com/All-Hands-AI/OpenHands) | Autonomous <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Full | `docker pull` | 40K+ |
-| [**AutoCodeRover**](https://github.com/nus-apr/auto-code-rover) | Autonomous <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Full | `pip install auto-code-rover` | 3K+ |
-| [**Sisyphus / OhMyOpenAgent**](https://github.com/code-yeongyu/oh-my-openagent) | Orchestrator <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Full | `bunx oh-my-openagent install` | 66K+ |
-| [**Copilot**](https://github.com/features/copilot) | IDE <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | <img src="assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> Cloud | Install from Marketplace | — |
+| [**Aider**](https://github.com/paul-gauthier/aider) | CLI <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Full | `pip install aider-install` | 25K+ |
+| [**Codex CLI**](https://github.com/openai/codex) | CLI <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> Cloud | `npm install -g @openai/codex` | 15K+ |
+| [**Claude Code**](https://github.com/anthropics/claude-code) | CLI <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> Cloud | `npm install -g @anthropic-ai/claude-code` | 10K+ |
+| [**Codebuff**](https://github.com/richardschneider/codebuff) | CLI <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Full | `brew install codebuff` | 1K+ |
+| [**Continue**](https://github.com/continuedev/continue) | IDE <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Full | Install from VS Code Marketplace | 25K+ |
+| [**Cline**](https://github.com/cline/cline) | IDE <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Full | Install from VS Code Marketplace | 15K+ |
+| [**Cody**](https://github.com/sourcegraph/cody) | IDE <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Limited | Install from VS Code Marketplace | 5K+ |
+| [**Cursor**](https://cursor.sh/) | IDE <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Limited | Download from website | — |
+| [**Windsurf**](https://codeium.com/windsurf) | IDE <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Limited | Download from website | — |
+| [**OpenHands**](https://github.com/All-Hands-AI/OpenHands) | Autonomous <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Full | `docker pull` | 40K+ |
+| [**AutoCodeRover**](https://github.com/nus-apr/auto-code-rover) | Autonomous <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Full | `pip install auto-code-rover` | 3K+ |
+| [**Sisyphus / OhMyOpenAgent**](https://github.com/code-yeongyu/oh-my-openagent) | Orchestrator <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Full | `bunx oh-my-openagent install` | 66K+ |
+| [**Copilot**](https://github.com/features/copilot) | IDE <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> Cloud | Install from Marketplace | — |
 
 ---
 
@@ -66,7 +66,7 @@ Work in the terminal, edit files, work with git. Perfect for those who don't wan
 
 ### Aider <img src="https://lucide.dev/api/icons/medal" alt="" width="20" height="20" style="vertical-align:middle">
 
-[GitHub →](https://github.com/paul-gauthier/aider) · <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 25K+ · <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Full local model support
+[GitHub →](https://github.com/paul-gauthier/aider) · <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 25K+ · <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Full local model support
 
 **What it does:** Edits code in a git repository via text commands. Makes edits itself, runs tests, creates commits.
 
@@ -87,7 +87,7 @@ aider --model ollama/qwen2.5-coder:7b --editor-model ollama/qwen3:4b
 
 ### Codex CLI
 
-[GitHub →](https://github.com/openai/codex) · <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 15K+ · <img src="assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> Cloud only (OpenAI)
+[GitHub →](https://github.com/openai/codex) · <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 15K+ · <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> Cloud only (OpenAI)
 
 **What it does:** Official CLI agent from OpenAI. Runs code in sandbox environment, edits files.
 
@@ -100,7 +100,7 @@ codex "add sorting to task list"
 
 ### Claude Code
 
-[GitHub →](https://github.com/anthropics/claude-code) · <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 10K+ · <img src="assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> Cloud only (Anthropic)
+[GitHub →](https://github.com/anthropics/claude-code) · <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 10K+ · <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> Cloud only (Anthropic)
 
 **What it does:** CLI agent from Anthropic. Works with Claude.
 
@@ -108,7 +108,7 @@ codex "add sorting to task list"
 
 ### Codebuff
 
-[GitHub →](https://github.com/richardschneider/codebuff) · <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 1K+ · <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Full local model support
+[GitHub →](https://github.com/richardschneider/codebuff) · <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 1K+ · <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Full local model support
 
 **What it does:** Lightweight CLI agent for file operations.
 
@@ -122,7 +122,7 @@ Extensions for VS Code, JetBrains, and other editors. Add AI features directly t
 
 ### Continue <img src="https://lucide.dev/api/icons/medal" alt="" width="20" height="20" style="vertical-align:middle">
 
-[GitHub →](https://github.com/continuedev/continue) · <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 25K+ · <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Full local model support
+[GitHub →](https://github.com/continuedev/continue) · <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 25K+ · <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Full local model support
 
 **What it does:** Free Copilot with local model. Tab autocomplete, chat, inline editing, @codebase.
 
@@ -147,7 +147,7 @@ Extensions for VS Code, JetBrains, and other editors. Add AI features directly t
 
 ### Cline
 
-[GitHub →](https://github.com/cline/cline) · <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 15K+ · <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Full local model support
+[GitHub →](https://github.com/cline/cline) · <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 15K+ · <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Full local model support
 
 **What it does:** Autonomous agent inside VS Code. Reads files, writes code, runs commands itself.
 
@@ -157,7 +157,7 @@ Extensions for VS Code, JetBrains, and other editors. Add AI features directly t
 
 ### Cody
 
-[GitHub →](https://github.com/sourcegraph/cody) · <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 5K+ · <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Limited local model support
+[GitHub →](https://github.com/sourcegraph/cody) · <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 5K+ · <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Limited local model support
 
 **What it does:** AI assistant from Sourcegraph. Chat, autocomplete, commands.
 
@@ -171,7 +171,7 @@ Full-featured IDEs with AI built into every corner of the interface.
 
 ### Cursor
 
-[Website →](https://cursor.sh/) · <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Limited local model support
+[Website →](https://cursor.sh/) · <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Limited local model support
 
 **What it does:** VS Code fork with built-in AI at every level. Tab, chat, agent, terminal.
 
@@ -181,7 +181,7 @@ Full-featured IDEs with AI built into every corner of the interface.
 
 ### Windsurf
 
-[Website →](https://codeium.com/windsurf) · <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Limited local model support
+[Website →](https://codeium.com/windsurf) · <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Limited local model support
 
 **What it does:** IDE from Codeium. Cascade — mode where AI sees the entire project.
 
@@ -195,7 +195,7 @@ Run in isolated environments and execute tasks from start to finish without huma
 
 ### OpenHands <img src="https://lucide.dev/api/icons/medal" alt="" width="20" height="20" style="vertical-align:middle">
 
-[GitHub →](https://github.com/All-Hands-AI/OpenHands) · <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 40K+ · <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Full local model support
+[GitHub →](https://github.com/All-Hands-AI/OpenHands) · <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 40K+ · <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Full local model support
 
 **What it does:** Autonomous software engineer in a Docker container. Creates plan → writes code → runs → fixes bugs → makes PR.
 
@@ -214,7 +214,7 @@ docker run -it --rm \
 
 ### AutoCodeRover
 
-[GitHub →](https://github.com/nus-apr/auto-code-rover) · <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 3K+ · <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Full local model support
+[GitHub →](https://github.com/nus-apr/auto-code-rover) · <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 3K+ · <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Full local model support
 
 **What it does:** Autonomous agent for bug fixing and feature implementation.
 
@@ -228,7 +228,7 @@ Manage teams of specialized subagents — don't write code themselves, but coord
 
 ### Sisyphus (OhMyOpenAgent)
 
-[GitHub →](https://github.com/code-yeongyu/oh-my-openagent) · <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 66K+ · <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Full local model support
+[GitHub →](https://github.com/code-yeongyu/oh-my-openagent) · <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 66K+ · <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Full local model support
 
 **What it does:** Plugin for OpenCode / Codex CLI adding multi-agent architecture. **11 agents**, 54+ lifecycle hooks, 5 built-in MCPs, Team Mode. Exists in two editions:
 

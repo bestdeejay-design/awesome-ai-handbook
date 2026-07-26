@@ -1,4 +1,4 @@
-# <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Zero Level: Getting Started
+# <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Zero Level: Getting Started
 
 > For those who have never tried AI but want to learn — from basic concepts to running your first model.
 > No prior knowledge required.
@@ -9,7 +9,7 @@
 
 ## Three Learning Paths
 
-### <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Quick Start (5 min)
+### <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Quick Start (5 min)
 
 "Just want to try it — no terminal, no setup."
 
@@ -20,7 +20,7 @@
 | 3 | Download Qwen 3.5 4B directly inside LM Studio |
 | 4 | Start chatting — free, local, no cloud |
 
-### <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Understand It (30 min)
+### <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Understand It (30 min)
 
 "Want to learn how it works and set things up myself."
 
@@ -32,13 +32,13 @@
 | 4 | [Install Ollama](../local-models/getting-started.md) | 10 min |
 | 5 | Ask your first model questions | ∞ |
 
-### <img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Go Pro (2+ hours)
+### <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Go Pro (2+ hours)
 
 "Want to build a full local system for coding and automation."
 
 | Step | Where To Go | Time |
 |-----|-----------|-------|
-| 1–3 | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Track above | 20 min |
+| 1–3 | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Track above | 20 min |
 | 4 | [What hardware do I need?](hardware-guide.md) | 5 min |
 | 5 | **Install:** [Mac](../local-models/getting-started.md) · [Windows](setup-windows.md) · [Linux](setup-linux.md) | 15 min |
 | 6 | [How to run models](../local-models/running-models.md) | 15 min |
@@ -67,7 +67,7 @@
 
 ## Related Sections
 
-- [<img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Local Models](../local-models/README.md) — running, choosing, tuning models
+- [<img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Local Models](../local-models/README.md) — running, choosing, tuning models
 - [<img src="https://lucide.dev/api/icons/bot" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> AI Agents](../agents/README.md) — building autonomous agents
 - [<img src="https://lucide.dev/api/icons/briefcase" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Use Cases](../use-cases/README.md) — practical AI applications
 

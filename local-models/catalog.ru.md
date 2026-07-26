@@ -309,15 +309,15 @@ MoE активирует только часть параметров на ка�
 
 | RAM Mac | Что запускать | tok/s | Качество |
 |---------|--------------|-------|----------|
-| **8GB** | Phi-4-mini (3.8B) или Qwen3.5-4B | 25-35 <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Базовое-хорошее |
-| **16GB** | Qwen 2.5 Coder 7B или Gemma 3 9B | 15-25 <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Хорошее |
-| **24GB** | Qwen3.6-27B (Q4) или Gemma 4 26B MoE | 18-28 <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Отличное |
-| **32GB** | Qwen3.6-35B-A3B MoE или Llama 3.1 70B (Q3) | 20-40 <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Отличное |
-| **48GB** | Llama 3.3 70B (Q4) или Qwen3.5-397B MoE (Q4) | 10-20 <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Превосходное |
-| **64GB** | Llama 3.3 70B (Q6) или Gemma 4 31B (Q8) | 8-15 <img src="assets/icons/level-orange.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Почти FP16 |
-| **128GB** | DeepSeek-V4-Flash или Qwen3.5-397B (Q8) | 15-30 <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Максимальное |
+| **8GB** | Phi-4-mini (3.8B) или Qwen3.5-4B | 25-35 <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Базовое-хорошее |
+| **16GB** | Qwen 2.5 Coder 7B или Gemma 3 9B | 15-25 <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Хорошее |
+| **24GB** | Qwen3.6-27B (Q4) или Gemma 4 26B MoE | 18-28 <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Отличное |
+| **32GB** | Qwen3.6-35B-A3B MoE или Llama 3.1 70B (Q3) | 20-40 <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Отличное |
+| **48GB** | Llama 3.3 70B (Q4) или Qwen3.5-397B MoE (Q4) | 10-20 <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Превосходное |
+| **64GB** | Llama 3.3 70B (Q6) или Gemma 4 31B (Q8) | 8-15 <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-orange.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Почти FP16 |
+| **128GB** | DeepSeek-V4-Flash или Qwen3.5-397B (Q8) | 15-30 <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Максимальное |
 
-> <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Быстро | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Нормально | <img src="assets/icons/level-orange.svg" alt="" width="12" height="12" style="vertical-align:middle"> Медленно, но терпимо
+> <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Быстро | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Нормально | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-orange.svg" alt="" width="12" height="12" style="vertical-align:middle"> Медленно, но терпимо
 
 ---
 

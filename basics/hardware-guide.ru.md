@@ -45,7 +45,7 @@
 
 ## 2. Три уровня железа
 
-### <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Начальный: 8 GB RAM, любой процессор
+### <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Начальный: 8 GB RAM, любой процессор
 
 **Что можно запускать:** модели до 3B параметров (Qwen 2.5 1.5B, Phi-3-mini, Gemma 2B).
 
@@ -62,7 +62,7 @@
 └─────────────────────────────────────┘
 ```
 
-### <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Комфортный: 16 GB RAM, Apple Silicon или entry GPU
+### <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Комфортный: 16 GB RAM, Apple Silicon или entry GPU
 
 **Что можно запускать:** модели до 7-9B (Qwen 3.5 7B, Llama 3.1 8B, Qwen 2.5 Coder 7B).
 
@@ -80,7 +80,7 @@
 └─────────────────────────────────────┘
 ```
 
-### <img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Мощный: 32 GB+ RAM, RTX 3090/4090 или Mac с 48 GB+
+### <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Мощный: 32 GB+ RAM, RTX 3090/4090 или Mac с 48 GB+
 
 **Что можно запускать:** модели 14-30B (Qwen 3 Coder 30B, DeepSeek-R1 14B, Qwen 3.5 14B).
 
@@ -177,13 +177,13 @@ CPU-инференс работает, но медленнее. Для моде�
 <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Отлично, золотая середина. Работайте с моделями 7-9B.
 
 ### У меня 8 GB RAM
-<img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Можно, но придётся выбирать маленькие модели (1-3B). Начните с Phi-3-mini или Qwen 2.5 1.5B.
+<img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Можно, но придётся выбирать маленькие модели (1-3B). Начните с Phi-3-mini или Qwen 2.5 1.5B.
 
 ### У меня есть GPU с 8+ GB VRAM
 <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Отлично. Используйте Ollama с CUDA — будет быстро.
 
 ### У меня старый ноутбук (5+ лет, Intel)
-<img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Можно, но модели только 1-3B и медленно. Рекомендую временно использовать облачные сервисы или купить MacBook Air M1 б/у ($500-700).
+<img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Можно, но модели только 1-3B и медленно. Рекомендую временно использовать облачные сервисы или купить MacBook Air M1 б/у ($500-700).
 
 ### Я не знаю, что у меня
 ```bash

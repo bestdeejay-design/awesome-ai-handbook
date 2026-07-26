@@ -1,4 +1,4 @@
-# <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Tutorial 1: First Agent in 30 Minutes
+# <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Tutorial 1: First Agent in 30 Minutes
 
 > Build a ReAct agent with search capabilities using Python + Ollama. No frameworks needed.
 

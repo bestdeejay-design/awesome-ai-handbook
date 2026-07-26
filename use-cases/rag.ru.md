@@ -3,7 +3,7 @@
 > Retrieval-Augmented Generation: Q&A по вашим файлам без отправки данных в облако.  
 > От готовых решений до собственного RAG-пайплайна на Python.
 
-<img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> **Не знакомы с AI?** [basics/](../basics/README.ru.md) — основы: что такое модели, как их запускать.
+<img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> **Не знакомы с AI?** [basics/](../basics/README.ru.md) — основы: что такое модели, как их запускать.
 
 [← Практические кейсы](README.ru.md) · [Memory агента →](../agents/memory.ru.md)
 

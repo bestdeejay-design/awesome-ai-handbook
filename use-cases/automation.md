@@ -2,7 +2,7 @@
 
 > Connecting local models with business processes, scripts, and schedules.
 
-<img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> **Need the basics?** [basics/](../basics/README.md) — AI terms, hardware, Ollama installation.
+<img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> **Need the basics?** [basics/](../basics/README.md) — AI terms, hardware, Ollama installation.
 
 **🇷🇺 Russian version:** [automation.ru.md](automation.ru.md)
 

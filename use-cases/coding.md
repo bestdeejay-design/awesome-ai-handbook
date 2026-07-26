@@ -2,7 +2,7 @@
 
 > Local models and tools for software development: from autocomplete to autonomous agents.
 
-<img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> **Need the basics first?** Start with [basics/](../basics/README.md) — what AI is, how to pick a model, and install Ollama.
+<img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> **Need the basics first?** Start with [basics/](../basics/README.md) — what AI is, how to pick a model, and install Ollama.
 
 **🇷🇺 Russian version:** [coding.ru.md](coding.ru.md)
 

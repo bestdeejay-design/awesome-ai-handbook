@@ -222,13 +222,13 @@ For 8GB RAM, CPU inference, edge devices.
 
 | RAM Mac | What to run | tok/s | Quality |
 |---------|-------------|-------|---------|
-| **8GB** | Phi-4-mini (3.8B) or Qwen3.5-4B | 25-35 <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Basic-good |
-| **16GB** | Qwen 2.5 Coder 7B or Gemma 3 9B | 15-25 <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Good |
-| **24GB** | Qwen3.6-27B (Q4) or Gemma 4 26B MoE | 18-28 <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Excellent |
-| **32GB** | Llama 3.1 70B (Q3) | 20-40 <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Excellent |
-| **48GB** | Llama 3.3 70B (Q4) | 10-20 <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Superior |
-| **64GB** | Gemma 4 31B (Q8) | 8-15 <img src="assets/icons/level-orange.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Near FP16 |
-| **128GB** | DeepSeek-V4-Flash | 15-30 <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Maximum |
+| **8GB** | Phi-4-mini (3.8B) or Qwen3.5-4B | 25-35 <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Basic-good |
+| **16GB** | Qwen 2.5 Coder 7B or Gemma 3 9B | 15-25 <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Good |
+| **24GB** | Qwen3.6-27B (Q4) or Gemma 4 26B MoE | 18-28 <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Excellent |
+| **32GB** | Llama 3.1 70B (Q3) | 20-40 <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Excellent |
+| **48GB** | Llama 3.3 70B (Q4) | 10-20 <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Superior |
+| **64GB** | Gemma 4 31B (Q8) | 8-15 <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-orange.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Near FP16 |
+| **128GB** | DeepSeek-V4-Flash | 15-30 <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Maximum |
 
 ---
 

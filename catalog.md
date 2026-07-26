@@ -7,7 +7,7 @@
 
 ---
 
-## <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Zero Level — `basics/`
+## <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Zero Level — `basics/`
 
 | # | File | Description | Time |
 |---|------|-------------|------|
@@ -22,48 +22,48 @@
 | 9 | [setup-windows](basics/setup-windows.md) | Installing Ollama on Windows (native / WSL2) | 10 min |
 | 10 | [setup-linux](basics/setup-linux.md) | Installing Ollama on Linux (CPU / CUDA / Docker) | 10 min |
 
-## <img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Local Models — `local-models/`
+## <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Local Models — `local-models/`
 
 | # | File | Description | Level | Time |
 |---|------|-------------|-------|------|
 | 11 | [README](local-models/README.md) | Scenarios: beginner → advanced | — | — |
-| 12 | [getting-started](local-models/getting-started.md) | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Full Mac guide: Homebrew, Ollama, first model | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 10 min |
-| 13 | [running-models](local-models/running-models.md) | Finding and running models: Ollama, LM Studio, HuggingFace | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"><img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 15 min |
-| 14 | [models](local-models/models.md) | Choosing a model for your task: coding, chat, RAG | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 10 min |
-| 15 | [catalog](local-models/catalog.md) | 50+ open-weight LLMs with specs | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | — |
-| 16 | [quantization](local-models/quantization.md) | Quantization: Q4, Q5, Q8 — compression without quality loss | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 10 min |
-| 17 | [memory-and-context](local-models/memory-and-context.md) | RAM, KV cache, context — which model fits your hardware | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 10 min |
-| 18 | [tools](local-models/tools.md) | Engine comparison: Ollama, LM Studio, MLX, llama.cpp | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 20 min |
-| 19 | [advanced-setup](local-models/advanced-setup.md) | Modelfile, API, parallel requests, env vars | <img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 15 min |
-| 20 | [troubleshooting](local-models/troubleshooting.md) | Common issues and solutions | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 5 min |
-| 21 | [apple-silicon](local-models/benchmarks/apple-silicon.md) | Apple Silicon benchmarks: tok/s on M1–M4 | <img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 5 min |
+| 12 | [getting-started](local-models/getting-started.md) | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Full Mac guide: Homebrew, Ollama, first model | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 10 min |
+| 13 | [running-models](local-models/running-models.md) | Finding and running models: Ollama, LM Studio, HuggingFace | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"><img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 15 min |
+| 14 | [models](local-models/models.md) | Choosing a model for your task: coding, chat, RAG | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 10 min |
+| 15 | [catalog](local-models/catalog.md) | 50+ open-weight LLMs with specs | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | — |
+| 16 | [quantization](local-models/quantization.md) | Quantization: Q4, Q5, Q8 — compression without quality loss | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 10 min |
+| 17 | [memory-and-context](local-models/memory-and-context.md) | RAM, KV cache, context — which model fits your hardware | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 10 min |
+| 18 | [tools](local-models/tools.md) | Engine comparison: Ollama, LM Studio, MLX, llama.cpp | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 20 min |
+| 19 | [advanced-setup](local-models/advanced-setup.md) | Modelfile, API, parallel requests, env vars | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 15 min |
+| 20 | [troubleshooting](local-models/troubleshooting.md) | Common issues and solutions | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 5 min |
+| 21 | [apple-silicon](local-models/benchmarks/apple-silicon.md) | Apple Silicon benchmarks: tok/s on M1–M4 | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 5 min |
 
 ## <img src="https://lucide.dev/api/icons/bot" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> AI Agents — `agents/`
 
 | # | File | Description | Level | Time |
 |---|------|-------------|-------|------|
 | 22 | [README](agents/README.md) | Section overview + minimal agent code | — | — |
-| 23 | [ready-made](agents/ready-made.md) | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Ready-made AI agents: Aider, Cline, Cursor, OpenHands | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 7 min |
-| 24 | [orchestrators](agents/orchestrators.md) | Sub-agent orchestrators: Sisyphus, Atlas, Prometheus | <img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 6 min |
-| 25 | [skills](agents/skills.md) | Skills, MCP servers, plugins — extending agents | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 6 min |
-| 26 | [architecture](agents/architecture.md) | Agent architecture: LLM → tools → loop → memory | <img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 11 min |
-| 27 | [patterns](agents/patterns.md) | Architectural patterns: ReAct, Plan-and-Execute, Reflection | <img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 14 min |
-| 28 | [frameworks](agents/frameworks.md) | Framework comparison: LangGraph, CrewAI, Agno | <img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 12 min |
-| 29 | [multi-agent](agents/multi-agent.md) | Multi-agent communication and coordination | <img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 18 min |
-| 30 | [memory](agents/memory.md) | Long-term memory: context, storage, retrieval | <img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 9 min |
-| 31 | [prompting](agents/prompting.md) | System prompts for agent behavior control | <img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 11 min |
-| 32 | [ollama-for-agents](agents/ollama-for-agents.md) | Tool calling, JSON schema, structured output via Ollama | <img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 10 min |
-| 33 | [safety](agents/safety.md) | Safety: guardrails, limits, isolation, validation | <img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 16 min |
-| 34 | [evaluation](agents/evaluation.md) | Agent quality evaluation, regression testing | <img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 10 min |
+| 23 | [ready-made](agents/ready-made.md) | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Ready-made AI agents: Aider, Cline, Cursor, OpenHands | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 7 min |
+| 24 | [orchestrators](agents/orchestrators.md) | Sub-agent orchestrators: Sisyphus, Atlas, Prometheus | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 6 min |
+| 25 | [skills](agents/skills.md) | Skills, MCP servers, plugins — extending agents | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 6 min |
+| 26 | [architecture](agents/architecture.md) | Agent architecture: LLM → tools → loop → memory | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 11 min |
+| 27 | [patterns](agents/patterns.md) | Architectural patterns: ReAct, Plan-and-Execute, Reflection | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 14 min |
+| 28 | [frameworks](agents/frameworks.md) | Framework comparison: LangGraph, CrewAI, Agno | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 12 min |
+| 29 | [multi-agent](agents/multi-agent.md) | Multi-agent communication and coordination | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 18 min |
+| 30 | [memory](agents/memory.md) | Long-term memory: context, storage, retrieval | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 9 min |
+| 31 | [prompting](agents/prompting.md) | System prompts for agent behavior control | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 11 min |
+| 32 | [ollama-for-agents](agents/ollama-for-agents.md) | Tool calling, JSON schema, structured output via Ollama | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 10 min |
+| 33 | [safety](agents/safety.md) | Safety: guardrails, limits, isolation, validation | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 16 min |
+| 34 | [evaluation](agents/evaluation.md) | Agent quality evaluation, regression testing | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 10 min |
 
 ### Tutorials — `agents/tutorials/`
 
 | # | File | Description | Level | Time |
 |---|------|-------------|-------|------|
 | 35 | [README](agents/tutorials/README.md) | Tutorial index | — | — |
-| 36 | [01-first-agent](agents/tutorials/01-first-agent.md) | <img src="https://lucide.dev/api/icons/wrench" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> ReAct agent in Python + Ollama | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 30 min |
-| 37 | [02-agent-team](agents/tutorials/02-agent-team.md) | <img src="https://lucide.dev/api/icons/wrench" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Multi-agent team (CrewAI) | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 60 min |
-| 38 | [03-coding-agent](agents/tutorials/03-coding-agent.md) | <img src="https://lucide.dev/api/icons/wrench" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Coding agent (LangGraph) | <img src="assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 45 min |
+| 36 | [01-first-agent](agents/tutorials/01-first-agent.md) | <img src="https://lucide.dev/api/icons/wrench" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> ReAct agent in Python + Ollama | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 30 min |
+| 37 | [02-agent-team](agents/tutorials/02-agent-team.md) | <img src="https://lucide.dev/api/icons/wrench" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Multi-agent team (CrewAI) | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 60 min |
+| 38 | [03-coding-agent](agents/tutorials/03-coding-agent.md) | <img src="https://lucide.dev/api/icons/wrench" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Coding agent (LangGraph) | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 45 min |
 
 ## <img src="https://lucide.dev/api/icons/briefcase" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Use Cases — `use-cases/`
 
@@ -80,10 +80,10 @@
 | # | File | Description | Audience | Time |
 |---|------|-------------|----------|------|
 | 44 | [README](resources/README.md) | Resource index | — | — |
-| 45 | [ru](resources/ru.md) | Russian AI resources | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> All | 3 min |
-| 46 | [en](resources/en.md) | English resources | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 3 min |
-| 47 | [courses](resources/courses.md) | Free AI courses | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"><img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 3 min |
-| 48 | [communities](resources/communities.md) | Discord, Reddit, Telegram chats | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> All | 3 min |
+| 45 | [ru](resources/ru.md) | Russian AI resources | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> All | 3 min |
+| 46 | [en](resources/en.md) | English resources | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 3 min |
+| 47 | [courses](resources/courses.md) | Free AI courses | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"><img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 3 min |
+| 48 | [communities](resources/communities.md) | Discord, Reddit, Telegram chats | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> All | 3 min |
 
 ## Root Files
 

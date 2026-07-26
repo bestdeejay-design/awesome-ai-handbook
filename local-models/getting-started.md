@@ -2,7 +2,7 @@
 
 > Step-by-step guide for first-time local AI users. No special knowledge required — everything explained from scratch.
 
-<img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> **Complete beginner?** Start with [basics/](../basics/README.md) — what AI is, how models work, what hardware you need.
+<img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> **Complete beginner?** Start with [basics/](../basics/README.md) — what AI is, how models work, what hardware you need.
 
 **🇷🇺 Russian version:** [getting-started.ru.md](getting-started.ru.md)
 

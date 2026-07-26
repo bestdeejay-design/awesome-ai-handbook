@@ -19,7 +19,7 @@
 
 ## Рекомендуемый порядок
 
-0. <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> **Новичок?** → [basics/](../basics/README.ru.md) — основы AI, выбор железа, установка
+0. <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> **Новичок?** → [basics/](../basics/README.ru.md) — основы AI, выбор железа, установка
 1. **Запустить Ollama** → [local-models/running-models.ru.md](../local-models/running-models.ru.md)
 2. Выберите кейс выше
 3. Для многошаговых сценариев — [agents/](../agents/)
@@ -28,9 +28,9 @@
 
 ## Связанные разделы
 
-- [<img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Локальные модели](../local-models/README.ru.md) — подбор и настройка моделей
+- [<img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Локальные модели](../local-models/README.ru.md) — подбор и настройка моделей
 - [<img src="https://lucide.dev/api/icons/bot" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> AI-агенты](../agents/README.ru.md) — создание агентов для сложных кейсов
-- [<img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Нулевой уровень](../basics/README.ru.md) — основы AI, установка
+- [<img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Нулевой уровень](../basics/README.ru.md) — основы AI, установка
 
 ---
 

@@ -1,4 +1,4 @@
-# <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Tutorial 2: Agent Team for Your Project
+# <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Tutorial 2: Agent Team for Your Project
 
 > Build a multi-agent team: PM, analyst, developer, and QA working together using CrewAI + Ollama.
 

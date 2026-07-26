@@ -45,7 +45,7 @@
 
 ## 2. Three Hardware Tiers
 
-### <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Entry: 8 GB RAM, any processor
+### <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Entry: 8 GB RAM, any processor
 
 **What you can run:** models up to 3B params (Qwen 2.5 1.5B, Phi-3-mini, Gemma 2B).
 
@@ -62,7 +62,7 @@
 └─────────────────────────────────────┘
 ```
 
-### <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Comfortable: 16 GB RAM, Apple Silicon or entry GPU
+### <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Comfortable: 16 GB RAM, Apple Silicon or entry GPU
 
 **What you can run:** models up to 7-9B (Qwen 3.5 7B, Llama 3.1 8B, Qwen 2.5 Coder 7B).
 
@@ -80,7 +80,7 @@
 └─────────────────────────────────────┘
 ```
 
-### <img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Powerful: 32 GB+ RAM, RTX 3090/4090 or Mac with 48 GB+
+### <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Powerful: 32 GB+ RAM, RTX 3090/4090 or Mac with 48 GB+
 
 **What you can run:** models 14-30B (Qwen 3 Coder 30B, DeepSeek-R1 14B, Qwen 3.5 14B).
 
@@ -177,13 +177,13 @@ Details: [`../local-models/quantization.md`](../local-models/quantization.md)
 <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Excellent, sweet spot. Work with 7-9B models.
 
 ### I have 8 GB RAM
-<img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Possible, but must pick small models (1-3B). Start with Phi-3-mini or Qwen 2.5 1.5B.
+<img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Possible, but must pick small models (1-3B). Start with Phi-3-mini or Qwen 2.5 1.5B.
 
 ### I have GPU with 8+ GB VRAM
 <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Excellent. Use Ollama with CUDA — will be fast.
 
 ### I have old laptop (5+ years, Intel)
-<img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Possible, but only 1-3B models and slow. Recommend temporarily using cloud services or buying used MacBook Air M1 ($500-700).
+<img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Possible, but only 1-3B models and slow. Recommend temporarily using cloud services or buying used MacBook Air M1 ($500-700).
 
 ### I don't know what I have
 ```bash

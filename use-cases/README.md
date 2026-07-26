@@ -19,7 +19,7 @@
 
 ## Recommended Order
 
-0. <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> **Beginner?** → [basics/](../basics/README.md) — AI basics, hardware, installation
+0. <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> **Beginner?** → [basics/](../basics/README.md) — AI basics, hardware, installation
 1. **Run Ollama** → [local-models/running-models.md](../local-models/running-models.md)
 2. Pick a case above
 3. For multi-step scenarios — [agents/](../agents/)
@@ -28,9 +28,9 @@
 
 ## Related Sections
 
-- [<img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Local Models](../local-models/README.md) — choosing and tuning models
+- [<img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Local Models](../local-models/README.md) — choosing and tuning models
 - [<img src="https://lucide.dev/api/icons/bot" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> AI Agents](../agents/README.md) — building agents for complex cases
-- [<img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Zero Level](../basics/README.md) — AI basics, installation
+- [<img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Zero Level](../basics/README.md) — AI basics, installation
 
 ---
 

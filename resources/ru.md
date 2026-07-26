@@ -85,7 +85,7 @@ Entry format:
 |-------------|-------|
 | **Find AI courses** | [courses.md](courses.md) |
 | **Join communities** | [communities.md](communities.md) |
-| **Start from scratch** <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | [basics/README.md](../basics/README.md) |
+| **Start from scratch** <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | [basics/README.md](../basics/README.md) |
 | **Start practicing** | [../local-models/README.md](../local-models/README.md) |
 | **Return to resources list** | [README.md](README.md) |
 

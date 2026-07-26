@@ -3,7 +3,7 @@
 > Пошаговое руководство для тех, кто впервые запускает AI-модель на своём компьютере.
 > Никаких специальных знаний не требуется — всё объясняю с самого начала.
 
-<img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> **Совсем новичок?** Начните с раздела [`basics/`](../basics/README.ru.md) — там объясняется, что такое AI, как работают модели и какое нужно железо.
+<img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> **Совсем новичок?** Начните с раздела [`basics/`](../basics/README.ru.md) — там объясняется, что такое AI, как работают модели и какое нужно железо.
 
 [← Локальные модели](README.ru.md)
 

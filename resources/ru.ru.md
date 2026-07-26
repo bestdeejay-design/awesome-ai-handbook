@@ -83,7 +83,7 @@
 |-------------|-----------|
 | **Найти курсы** по AI | [courses.ru.md](courses.ru.md) |
 | **Присоединиться к сообществам** | [communities.ru.md](communities.ru.md) |
-| **Начать с нуля** <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | [basics/README.ru.md](../basics/README.ru.md) |
+| **Начать с нуля** <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | [basics/README.ru.md](../basics/README.ru.md) |
 | **Начать практику** | [../local-models/README.ru.md](../local-models/README.ru.md) |
 | **Вернуться к списку ресурсов** | [README.ru.md](README.ru.md) |
 

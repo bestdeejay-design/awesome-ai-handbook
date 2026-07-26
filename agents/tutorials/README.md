@@ -10,9 +10,9 @@
 
 | # | Tutorial | Description | Difficulty | Time |
 |---|----------|-------------|------------|------|
-| 1 | [First Agent in 30 Minutes](01-first-agent.md) | ReAct agent with search, no frameworks | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Beginner | 30 min |
-| 2 | [Agent Team for a Project](02-agent-team.md) | Multi-agent system: PM, analyst, developer, tester | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Intermediate | 60 min |
-| 3 | [Coding Agent](03-coding-agent.md) | Coding agent: reads code, writes tests, creates PRs | <img src="assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> Advanced | 45 min |
+| 1 | [First Agent in 30 Minutes](01-first-agent.md) | ReAct agent with search, no frameworks | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Beginner | 30 min |
+| 2 | [Agent Team for a Project](02-agent-team.md) | Multi-agent system: PM, analyst, developer, tester | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Intermediate | 60 min |
+| 3 | [Coding Agent](03-coding-agent.md) | Coding agent: reads code, writes tests, creates PRs | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> Advanced | 45 min |
 
 ---
 
@@ -35,7 +35,7 @@ To understand how agents work before diving into tutorials:
 
 ## Related Sections
 
-- [<img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Local Models](../../local-models/README.md) — Ollama setup, models
+- [<img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Local Models](../../local-models/README.md) — Ollama setup, models
 - [<img src="https://lucide.dev/api/icons/briefcase" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Use Cases](../../use-cases/README.md) — real-world agent applications
 
 ---

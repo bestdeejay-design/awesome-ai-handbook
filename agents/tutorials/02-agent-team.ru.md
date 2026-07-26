@@ -1,4 +1,4 @@
-# <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Туториал 2: Команда агентов для проекта
+# <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Туториал 2: Команда агентов для проекта
 
 > Строим мульти-агентную систему: PM, аналитик, разработчик и тестировщик работают вместе.  
 > **CrewAI + Ollama** — идеально для твоей цели.

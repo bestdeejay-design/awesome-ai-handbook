@@ -41,7 +41,7 @@
 
 ## 2. Сценарии: что когда выбирать
 
-### <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Однозначно локально
+### <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Однозначно локально
 
 | Ситуация | Почему |
 |----------|--------|
@@ -51,7 +51,7 @@
 | **Эксперименты и обучение** | Можно пробовать разные модели, настройки |
 | **Кастомизация под свою задачу** | Fine-tuning, Modelfile, системные промпты |
 
-### <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Однозначно облако
+### <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Однозначно облако
 
 | Ситуация | Почему |
 |----------|--------|
@@ -93,9 +93,9 @@ ChatGPT бесплатный — 50 сообщений в 3 часа. ChatGPT Pl
 
 | Задача | Локально | Облако |
 |--------|----------|--------|
-| Написать сложный SQL-запрос | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Можно | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Отлично |
+| Написать сложный SQL-запрос | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Можно | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Отлично |
 | Объяснить код новичку | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Отлично | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Отлично |
-| Рефакторинг legacy-проекта | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Тяжеловато | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Отлично |
+| Рефакторинг legacy-проекта | <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Тяжеловато | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Отлично |
 | Чат на русском | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Qwen 3.5 отлично | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Хорошо |
 | Перевод | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Хорошо | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Отлично |
 | Генерация идей, мозговой штурм | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Хорошо | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Отлично |

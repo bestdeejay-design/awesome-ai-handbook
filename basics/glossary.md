@@ -1,7 +1,7 @@
 # <img src="https://lucide.dev/api/icons/book-open" alt="" width="20" height="20" style="vertical-align:middle"> Glossary
 
 > All key concepts you'll encounter in the local AI world.  
-> Levels: <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> survival → <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> comfortable reading → <img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> advanced beginner.
+> Levels: <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> survival → <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> comfortable reading → <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> advanced beginner.
 
 **[🇷🇺 Russian version: [glossary.ru.md](glossary.ru.md)]**
 
@@ -9,7 +9,7 @@
 
 ---
 
-## <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Level 1: Survival (10 Terms)
+## <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Level 1: Survival (10 Terms)
 
 Must know to understand 90% of articles and conversations.
 
@@ -28,7 +28,7 @@ Must know to understand 90% of articles and conversations.
 
 ---
 
-## <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Level 2: Comfortable Reading (15 Terms)
+## <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Level 2: Comfortable Reading (15 Terms)
 
 Needed to understand technical articles and documentation.
 
@@ -52,7 +52,7 @@ Needed to understand technical articles and documentation.
 
 ---
 
-## <img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Level 3: Advanced Beginner (10 Terms)
+## <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Level 3: Advanced Beginner (10 Terms)
 
 Will be needed when you start configuring agents and digging deeper.
 

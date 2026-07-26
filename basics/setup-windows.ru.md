@@ -23,8 +23,8 @@
 
 | Способ | Сложность | GPU-ускорение | Для кого |
 |--------|-----------|---------------|----------|
-| **Нативный** <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Просто (одна команда) | NVIDIA CUDA | Большинство пользователей |
-| **Через WSL2** <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Средне | NVIDIA CUDA | Разработчики, Continue.dev |
+| **Нативный** <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Просто (одна команда) | NVIDIA CUDA | Большинство пользователей |
+| **Через WSL2** <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | Средне | NVIDIA CUDA | Разработчики, Continue.dev |
 
 Если у вас **видеокарта NVIDIA** — оба способа дадут GPU-ускорение (модели будут работать быстро).  
 Если у вас **AMD** или **встроенная графика** — Ollama будет работать на CPU (медленнее, но работает).
