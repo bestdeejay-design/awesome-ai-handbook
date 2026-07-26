@@ -1,4 +1,4 @@
-# <img src="https://lucide.dev/api/icons/book-open" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Resources
+# <img src="https://lucide.dev/api/icons/book-open" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Resources
 
 > Communities, courses, and materials for learning AI.
 
@@ -29,8 +29,8 @@ Add a resource: [CONTRIBUTING.md](../CONTRIBUTING.md).
 
 - [<img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Zero Level](../basics/README.md) — start from zero
 - [<img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Local Models](../local-models/README.md) — jump into practice
-- [<img src="https://lucide.dev/api/icons/bot" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> AI Agents](../agents/README.md) — build an agent
+- [<img src="https://lucide.dev/api/icons/bot" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> AI Agents](../agents/README.md) — build an agent
 
 ---
 
-**Navigation:** [← Back to main](../README.md) · [<img src="https://lucide.dev/api/icons/book-open" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Catalog](../catalog.md)
+**Navigation:** [← Back to main](../README.md) · [<img src="https://lucide.dev/api/icons/book-open" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Catalog](../catalog.md)

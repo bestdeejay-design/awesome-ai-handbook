@@ -1,4 +1,4 @@
-# <img src="https://lucide.dev/api/icons/book-open" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> File Catalog
+# <img src="https://lucide.dev/api/icons/book-open" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> File Catalog
 
 > Full list of all 52 handbook files.  
 > Press `Cmd+F` / `Ctrl+F` and type a keyword to find any topic.
@@ -38,7 +38,7 @@
 | 20 | [troubleshooting](local-models/troubleshooting.md) | Common issues and solutions | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 5 min |
 | 21 | [apple-silicon](local-models/benchmarks/apple-silicon.md) | Apple Silicon benchmarks: tok/s on M1–M4 | <img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 5 min |
 
-## <img src="https://lucide.dev/api/icons/bot" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> AI Agents — `agents/`
+## <img src="https://lucide.dev/api/icons/bot" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> AI Agents — `agents/`
 
 | # | File | Description | Level | Time |
 |---|------|-------------|-------|------|
@@ -61,11 +61,11 @@
 | # | File | Description | Level | Time |
 |---|------|-------------|-------|------|
 | 35 | [README](agents/tutorials/README.md) | Tutorial index | — | — |
-| 36 | [01-first-agent](agents/tutorials/01-first-agent.md) | <img src="https://lucide.dev/api/icons/wrench" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> ReAct agent in Python + Ollama | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 30 min |
-| 37 | [02-agent-team](agents/tutorials/02-agent-team.md) | <img src="https://lucide.dev/api/icons/wrench" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Multi-agent team (CrewAI) | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 60 min |
-| 38 | [03-coding-agent](agents/tutorials/03-coding-agent.md) | <img src="https://lucide.dev/api/icons/wrench" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Coding agent (LangGraph) | <img src="assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 45 min |
+| 36 | [01-first-agent](agents/tutorials/01-first-agent.md) | <img src="https://lucide.dev/api/icons/wrench" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> ReAct agent in Python + Ollama | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 30 min |
+| 37 | [02-agent-team](agents/tutorials/02-agent-team.md) | <img src="https://lucide.dev/api/icons/wrench" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Multi-agent team (CrewAI) | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 60 min |
+| 38 | [03-coding-agent](agents/tutorials/03-coding-agent.md) | <img src="https://lucide.dev/api/icons/wrench" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Coding agent (LangGraph) | <img src="assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 45 min |
 
-## <img src="https://lucide.dev/api/icons/briefcase" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Use Cases — `use-cases/`
+## <img src="https://lucide.dev/api/icons/briefcase" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Use Cases — `use-cases/`
 
 | # | File | Description | Stack | Time |
 |---|------|-------------|-------|------|
@@ -75,7 +75,7 @@
 | 42 | [automation](use-cases/automation.md) | AI + business processes | n8n, cron, Telegram bot | 7 min |
 | 43 | [writing](use-cases/writing.md) | Content pipeline: generation, reflection | Qwen, Reflection | 6 min |
 
-## <img src="https://lucide.dev/api/icons/book-open" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Resources — `resources/`
+## <img src="https://lucide.dev/api/icons/book-open" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Resources — `resources/`
 
 | # | File | Description | Audience | Time |
 |---|------|-------------|----------|------|

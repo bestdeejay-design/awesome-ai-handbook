@@ -1,4 +1,4 @@
-# <img src="https://lucide.dev/api/icons/book-open" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Туториалы по AI-агентам
+# <img src="https://lucide.dev/api/icons/book-open" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Туториалы по AI-агентам
 
 > Пошаговые гайды: от первого агента до production-команды.
 
@@ -36,8 +36,8 @@
 ## Связанные разделы
 
 - [<img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Локальные модели](../../local-models/README.ru.md) — установка Ollama, модели
-- [<img src="https://lucide.dev/api/icons/briefcase" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Use Cases](../../use-cases/README.ru.md) — применение агентов на практике
+- [<img src="https://lucide.dev/api/icons/briefcase" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Use Cases](../../use-cases/README.ru.md) — применение агентов на практике
 
 ---
 
-**Навигация:** [← AI-агенты](../README.ru.md) · [↑ На главную](../../README.ru.md) · [<img src="https://lucide.dev/api/icons/book-open" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Каталог](../../catalog.ru.md)
+**Навигация:** [← AI-агенты](../README.ru.md) · [↑ На главную](../../README.ru.md) · [<img src="https://lucide.dev/api/icons/book-open" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Каталог](../../catalog.ru.md)

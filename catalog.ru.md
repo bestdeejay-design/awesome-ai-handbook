@@ -1,4 +1,4 @@
-# <img src="https://lucide.dev/api/icons/book-open" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Каталог файлов
+# <img src="https://lucide.dev/api/icons/book-open" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Каталог файлов
 
 > Полный список всех 52 файлов справочника.  
 > Чтобы найти конкретную тему — нажмите `Cmd+F` / `Ctrl+F` и введите ключевое слово.
@@ -38,7 +38,7 @@
 | 20 | [troubleshooting](local-models/troubleshooting.ru.md) | Частые проблемы и их решения | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 5 мин |
 | 21 | [apple-silicon](local-models/benchmarks/apple-silicon.ru.md) | Бенчмарки Apple Silicon: tok/s на M1–M4 | <img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 5 мин |
 
-## <img src="https://lucide.dev/api/icons/bot" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> AI-агенты — `agents/`
+## <img src="https://lucide.dev/api/icons/bot" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> AI-агенты — `agents/`
 
 | # | Файл | Описание | Уровень | Время |
 |---|------|----------|---------|-------|
@@ -61,11 +61,11 @@
 | # | Файл | Описание | Уровень | Время |
 |---|------|----------|---------|-------|
 | 35 | [README](agents/tutorials/README.ru.md) | Индекс туториалов | — | — |
-| 36 | [01-first-agent](agents/tutorials/01-first-agent.ru.md) | <img src="https://lucide.dev/api/icons/wrench" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> ReAct-агент на Python + Ollama | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 30 мин |
-| 37 | [02-agent-team](agents/tutorials/02-agent-team.ru.md) | <img src="https://lucide.dev/api/icons/wrench" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Мульти-агентная команда (CrewAI) | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 60 мин |
-| 38 | [03-coding-agent](agents/tutorials/03-coding-agent.ru.md) | <img src="https://lucide.dev/api/icons/wrench" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Coding-агент (LangGraph) | <img src="assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 45 мин |
+| 36 | [01-first-agent](agents/tutorials/01-first-agent.ru.md) | <img src="https://lucide.dev/api/icons/wrench" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> ReAct-агент на Python + Ollama | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 30 мин |
+| 37 | [02-agent-team](agents/tutorials/02-agent-team.ru.md) | <img src="https://lucide.dev/api/icons/wrench" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Мульти-агентная команда (CrewAI) | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 60 мин |
+| 38 | [03-coding-agent](agents/tutorials/03-coding-agent.ru.md) | <img src="https://lucide.dev/api/icons/wrench" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Coding-агент (LangGraph) | <img src="assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 45 мин |
 
-## <img src="https://lucide.dev/api/icons/briefcase" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Use Cases — `use-cases/`
+## <img src="https://lucide.dev/api/icons/briefcase" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Use Cases — `use-cases/`
 
 | # | Файл | Описание | Стек | Время |
 |---|------|----------|------|-------|
@@ -75,7 +75,7 @@
 | 42 | [automation](use-cases/automation.ru.md) | AI + бизнес-процессы | n8n, cron, Telegram-бот | 7 мин |
 | 43 | [writing](use-cases/writing.ru.md) | Контент-пайплайн: генерация, рефлексия | Qwen, Reflection | 6 мин |
 
-## <img src="https://lucide.dev/api/icons/book-open" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Ресурсы — `resources/`
+## <img src="https://lucide.dev/api/icons/book-open" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Ресурсы — `resources/`
 
 | # | Файл | Описание | Для кого | Время |
 |---|------|----------|----------|-------|

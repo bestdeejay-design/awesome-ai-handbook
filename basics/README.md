@@ -68,9 +68,9 @@
 ## Related Sections
 
 - [<img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Local Models](../local-models/README.md) — running, choosing, tuning models
-- [<img src="https://lucide.dev/api/icons/bot" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> AI Agents](../agents/README.md) — building autonomous agents
-- [<img src="https://lucide.dev/api/icons/briefcase" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Use Cases](../use-cases/README.md) — practical AI applications
+- [<img src="https://lucide.dev/api/icons/bot" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> AI Agents](../agents/README.md) — building autonomous agents
+- [<img src="https://lucide.dev/api/icons/briefcase" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Use Cases](../use-cases/README.md) — practical AI applications
 
 ---
 
-**Navigation:** [← Back to main](../README.md) · [<img src="https://lucide.dev/api/icons/book-open" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Catalog](../catalog.md)
+**Navigation:** [← Back to main](../README.md) · [<img src="https://lucide.dev/api/icons/book-open" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Catalog](../catalog.md)

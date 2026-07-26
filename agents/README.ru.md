@@ -1,4 +1,4 @@
-# <img src="https://lucide.dev/api/icons/bot" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> AI-агенты
+# <img src="https://lucide.dev/api/icons/bot" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> AI-агенты
 
 > Создание и использование автономных AI-агентов на локальных и облачных моделях.
 
@@ -47,9 +47,9 @@
 | Файл | Описание | Уровень | Время |
 |------|----------|---------|-------|
 | [README](tutorials/README.ru.md) | Индекс туториалов | — | — |
-| [01-first-agent.ru.md](tutorials/01-first-agent.ru.md) | <img src="https://lucide.dev/api/icons/wrench" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> ReAct-агент на Python + Ollama | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 30 мин |
-| [02-agent-team.ru.md](tutorials/02-agent-team.ru.md) | <img src="https://lucide.dev/api/icons/wrench" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Команда агентов (CrewAI) | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 60 мин |
-| [03-coding-agent.ru.md](tutorials/03-coding-agent.ru.md) | <img src="https://lucide.dev/api/icons/wrench" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Coding-агент (LangGraph) | <img src="assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 45 мин |
+| [01-first-agent.ru.md](tutorials/01-first-agent.ru.md) | <img src="https://lucide.dev/api/icons/wrench" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> ReAct-агент на Python + Ollama | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 30 мин |
+| [02-agent-team.ru.md](tutorials/02-agent-team.ru.md) | <img src="https://lucide.dev/api/icons/wrench" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Команда агентов (CrewAI) | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 60 мин |
+| [03-coding-agent.ru.md](tutorials/03-coding-agent.ru.md) | <img src="https://lucide.dev/api/icons/wrench" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Coding-агент (LangGraph) | <img src="assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 45 мин |
 
 ---
 
@@ -57,8 +57,8 @@
 
 - [<img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Локальные модели](../local-models/README.ru.md) — Ollama, модели, tool calling
 - [<img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Нулевой уровень](../basics/README.ru.md) — основы AI, установка
-- [<img src="https://lucide.dev/api/icons/briefcase" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Use Cases](../use-cases/README.ru.md) — применение агентов
+- [<img src="https://lucide.dev/api/icons/briefcase" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Use Cases](../use-cases/README.ru.md) — применение агентов
 
 ---
 
-**Навигация:** [← На главную](../README.ru.md) · [<img src="https://lucide.dev/api/icons/book-open" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Каталог](../catalog.ru.md)
+**Навигация:** [← На главную](../README.ru.md) · [<img src="https://lucide.dev/api/icons/book-open" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Каталог](../catalog.ru.md)

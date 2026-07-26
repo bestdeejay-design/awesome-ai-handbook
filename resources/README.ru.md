@@ -1,4 +1,4 @@
-# <img src="https://lucide.dev/api/icons/book-open" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Ресурсы
+# <img src="https://lucide.dev/api/icons/book-open" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Ресурсы
 
 > Сообщества, курсы и материалы для изучения AI.
 
@@ -29,8 +29,8 @@
 
 - [<img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Нулевой уровень](../basics/README.ru.md) — начать с нуля
 - [<img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Локальные модели](../local-models/README.ru.md) — перейти к практике
-- [<img src="https://lucide.dev/api/icons/bot" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> AI-агенты](../agents/README.ru.md) — построить агента
+- [<img src="https://lucide.dev/api/icons/bot" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> AI-агенты](../agents/README.ru.md) — построить агента
 
 ---
 
-**Навигация:** [← На главную](../README.ru.md) · [<img src="https://lucide.dev/api/icons/book-open" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Каталог](../catalog.ru.md)
+**Навигация:** [← На главную](../README.ru.md) · [<img src="https://lucide.dev/api/icons/book-open" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Каталог](../catalog.ru.md)

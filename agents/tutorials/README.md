@@ -1,4 +1,4 @@
-# <img src="https://lucide.dev/api/icons/book-open" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> AI Agent Tutorials
+# <img src="https://lucide.dev/api/icons/book-open" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> AI Agent Tutorials
 
 > Step-by-step guides: from your first agent to a production team.
 
@@ -36,8 +36,8 @@ To understand how agents work before diving into tutorials:
 ## Related Sections
 
 - [<img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Local Models](../../local-models/README.md) — Ollama setup, models
-- [<img src="https://lucide.dev/api/icons/briefcase" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Use Cases](../../use-cases/README.md) — real-world agent applications
+- [<img src="https://lucide.dev/api/icons/briefcase" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Use Cases](../../use-cases/README.md) — real-world agent applications
 
 ---
 
-**Navigation:** [← AI Agents](../README.md) · [↑ Back to main](../../README.md) · [<img src="https://lucide.dev/api/icons/book-open" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Catalog](../../catalog.md)
+**Navigation:** [← AI Agents](../README.md) · [↑ Back to main](../../README.md) · [<img src="https://lucide.dev/api/icons/book-open" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Catalog](../../catalog.md)

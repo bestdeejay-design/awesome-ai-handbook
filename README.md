@@ -1,4 +1,4 @@
-# <img src="https://lucide.dev/api/icons/brain" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Awesome AI Handbook
+# <img src="https://lucide.dev/api/icons/brain" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Awesome AI Handbook
 
 > A practical guide to AI: from running your first local model to building your own agents.  
 > **52 files** · **~6 hours reading** · **Levels: <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> beginner → <img src="assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> advanced**
@@ -7,7 +7,7 @@
 
 ---
 
-## <img src="https://lucide.dev/api/icons/rocket" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Quick Start
+## <img src="https://lucide.dev/api/icons/rocket" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Quick Start
 
 ```bash
 brew install ollama            # macOS
@@ -19,21 +19,21 @@ ollama run qwen3.5:4b          # chat (~3.4 GB) — ready!
 
 ---
 
-## <img src="https://lucide.dev/api/icons/book-open" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Sections
+## <img src="https://lucide.dev/api/icons/book-open" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Sections
 
 | Section | Description | Entry | Files | Level |
 |---------|-------------|-------|-------|-------|
 | [<img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Zero Level](basics/README.md) | AI basics: terms, setup, hardware choice | `basics/` | 9 | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> |
 | [<img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Local Models](local-models/README.md) | Running, choosing, tuning and optimizing models | `local-models/` | 11 | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle">→<img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> |
-| [<img src="https://lucide.dev/api/icons/bot" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> AI Agents](agents/README.md) | Architecture, patterns, frameworks, tutorials | `agents/` | 17 | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle">→<img src="assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> |
-| [<img src="https://lucide.dev/api/icons/briefcase" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Use Cases](use-cases/README.md) | Coding, RAG, automation, writing | `use-cases/` | 5 | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> |
-| [<img src="https://lucide.dev/api/icons/book-open" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Resources](resources/README.md) | Communities, courses, RU and EN materials | `resources/` | 5 | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle">→<img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> |
+| [<img src="https://lucide.dev/api/icons/bot" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> AI Agents](agents/README.md) | Architecture, patterns, frameworks, tutorials | `agents/` | 17 | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle">→<img src="assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> |
+| [<img src="https://lucide.dev/api/icons/briefcase" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Use Cases](use-cases/README.md) | Coding, RAG, automation, writing | `use-cases/` | 5 | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> |
+| [<img src="https://lucide.dev/api/icons/book-open" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Resources](resources/README.md) | Communities, courses, RU and EN materials | `resources/` | 5 | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle">→<img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> |
 
-> <img src="https://lucide.dev/api/icons/search" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> **Looking for a specific file?** [Open catalog →](catalog.md) — full list of all 52 files with descriptions.
+> <img src="https://lucide.dev/api/icons/search" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> **Looking for a specific file?** [Open catalog →](catalog.md) — full list of all 52 files with descriptions.
 
 ---
 
-## <img src="https://lucide.dev/api/icons/folder-tree" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Project Structure
+## <img src="https://lucide.dev/api/icons/folder-tree" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Project Structure
 
 ```
 awesome-ai-handbook/
@@ -108,12 +108,12 @@ awesome-ai-handbook/
 
 ---
 
-## <img src="https://lucide.dev/api/icons/handshake" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Contributing
+## <img src="https://lucide.dev/api/icons/handshake" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Contributing
 
 Benchmarks, RU resources, tutorials, and fixes are welcome.  
 Details: [CONTRIBUTING.md](CONTRIBUTING.md) · [Code of Conduct](CODE_OF_CONDUCT.md)
 
-## <img src="https://lucide.dev/api/icons/file-text" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> License
+## <img src="https://lucide.dev/api/icons/file-text" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> License
 
 [MIT](LICENSE)
 

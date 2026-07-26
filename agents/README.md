@@ -1,4 +1,4 @@
-# <img src="https://lucide.dev/api/icons/bot" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> AI Agents
+# <img src="https://lucide.dev/api/icons/bot" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> AI Agents
 
 > Building and using autonomous AI agents on local and cloud models.
 
@@ -47,9 +47,9 @@ Agent: Question → Agent decides to call a tool → Gets data → Formulates an
 | File | Description | Level | Time |
 |------|-------------|-------|------|
 | [README](tutorials/README.md) | Tutorial index | — | — |
-| [01-first-agent.md](tutorials/01-first-agent.md) | <img src="https://lucide.dev/api/icons/wrench" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> ReAct agent in Python + Ollama | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 30 min |
-| [02-agent-team.md](tutorials/02-agent-team.md) | <img src="https://lucide.dev/api/icons/wrench" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Multi-agent team (CrewAI) | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 60 min |
-| [03-coding-agent.md](tutorials/03-coding-agent.md) | <img src="https://lucide.dev/api/icons/wrench" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Coding agent (LangGraph) | <img src="assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 45 min |
+| [01-first-agent.md](tutorials/01-first-agent.md) | <img src="https://lucide.dev/api/icons/wrench" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> ReAct agent in Python + Ollama | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 30 min |
+| [02-agent-team.md](tutorials/02-agent-team.md) | <img src="https://lucide.dev/api/icons/wrench" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Multi-agent team (CrewAI) | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 60 min |
+| [03-coding-agent.md](tutorials/03-coding-agent.md) | <img src="https://lucide.dev/api/icons/wrench" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Coding agent (LangGraph) | <img src="assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> | 45 min |
 
 ---
 
@@ -57,8 +57,8 @@ Agent: Question → Agent decides to call a tool → Gets data → Formulates an
 
 - [<img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Local Models](../local-models/README.md) — Ollama, models, tool calling
 - [<img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Zero Level](../basics/README.md) — AI basics, installation
-- [<img src="https://lucide.dev/api/icons/briefcase" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Use Cases](../use-cases/README.md) — applying agents
+- [<img src="https://lucide.dev/api/icons/briefcase" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Use Cases](../use-cases/README.md) — applying agents
 
 ---
 
-**Navigation:** [← Back to main](../README.md) · [<img src="https://lucide.dev/api/icons/book-open" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Catalog](../catalog.md)
+**Navigation:** [← Back to main](../README.md) · [<img src="https://lucide.dev/api/icons/book-open" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Catalog](../catalog.md)

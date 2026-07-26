@@ -1,4 +1,4 @@
-# <img src="https://lucide.dev/api/icons/brain" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Awesome AI Handbook
+# <img src="https://lucide.dev/api/icons/brain" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Awesome AI Handbook
 
 > Практический справочник по AI: от запуска первой локальной модели до своего агента.  
 > **52 файла** · **~6 часов чтения** · **Уровни: <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> новичок → <img src="assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> профи**
@@ -7,7 +7,7 @@
 
 ---
 
-## <img src="https://lucide.dev/api/icons/rocket" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Быстрый старт
+## <img src="https://lucide.dev/api/icons/rocket" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Быстрый старт
 
 ```bash
 brew install ollama            # macOS
@@ -19,21 +19,21 @@ ollama run qwen3.5:4b          # чат (~3.4 GB) — готово!
 
 ---
 
-## <img src="https://lucide.dev/api/icons/book-open" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Разделы
+## <img src="https://lucide.dev/api/icons/book-open" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Разделы
 
 | Раздел | Описание | Вход | Файлов | Уровень |
 |--------|----------|------|--------|---------|
 | [<img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Нулевой уровень](basics/README.ru.md) | Основы AI: термины, установка, выбор железа | `basics/` | 9 | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> |
 | [<img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Локальные модели](local-models/README.ru.md) | Запуск, выбор, настройка и оптимизация моделей | `local-models/` | 11 | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle">→<img src="assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> |
-| [<img src="https://lucide.dev/api/icons/bot" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> AI-агенты](agents/README.ru.md) | Архитектура, паттерны, фреймворки, туториалы | `agents/` | 17 | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle">→<img src="assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> |
-| [<img src="https://lucide.dev/api/icons/briefcase" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Use Cases](use-cases/README.ru.md) | Кодинг, RAG, автоматизация, контент | `use-cases/` | 5 | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> |
-| [<img src="https://lucide.dev/api/icons/book-open" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Ресурсы](resources/README.ru.md) | Сообщества, курсы, русско- и англоязычные материалы | `resources/` | 5 | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle">→<img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> |
+| [<img src="https://lucide.dev/api/icons/bot" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> AI-агенты](agents/README.ru.md) | Архитектура, паттерны, фреймворки, туториалы | `agents/` | 17 | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle">→<img src="assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> |
+| [<img src="https://lucide.dev/api/icons/briefcase" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Use Cases](use-cases/README.ru.md) | Кодинг, RAG, автоматизация, контент | `use-cases/` | 5 | <img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> |
+| [<img src="https://lucide.dev/api/icons/book-open" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Ресурсы](resources/README.ru.md) | Сообщества, курсы, русско- и англоязычные материалы | `resources/` | 5 | <img src="assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle">→<img src="assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> |
 
-> <img src="https://lucide.dev/api/icons/search" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> **Ищете конкретный файл?** [Открыть каталог →](catalog.ru.md) — полный список всех 52 файлов с описаниями.
+> <img src="https://lucide.dev/api/icons/search" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> **Ищете конкретный файл?** [Открыть каталог →](catalog.ru.md) — полный список всех 52 файлов с описаниями.
 
 ---
 
-## <img src="https://lucide.dev/api/icons/folder-tree" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Структура проекта
+## <img src="https://lucide.dev/api/icons/folder-tree" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Структура проекта
 
 ```
 awesome-ai-handbook/
@@ -108,12 +108,12 @@ awesome-ai-handbook/
 
 ---
 
-## <img src="https://lucide.dev/api/icons/handshake" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Контрибьютинг
+## <img src="https://lucide.dev/api/icons/handshake" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Контрибьютинг
 
 Приветствуются бенчмарки, RU-ресурсы, туториалы и исправления.  
 Подробности — [CONTRIBUTING.md](CONTRIBUTING.md) · [Кодекс поведения](CODE_OF_CONDUCT.md)
 
-## <img src="https://lucide.dev/api/icons/file-text" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Лицензия
+## <img src="https://lucide.dev/api/icons/file-text" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Лицензия
 
 [MIT](LICENSE)
 
