@@ -1,13 +1,13 @@
-# 🧠 Awesome AI Handbook
+# <img src="https://lucide.dev/api/icons/brain" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Awesome AI Handbook
 
 > A practical guide to AI: from running your first local model to building your own agents.  
-> **52 files** · **~6 hours reading** · **Levels: 🟢 beginner → 🔴 advanced**
+> **52 files** · **~6 hours reading** · **Levels: <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#22c55e" stroke="#16a34a" stroke-width="0.5"/></svg> beginner → <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#ef4444" stroke="#dc2626" stroke-width="0.5"/></svg> advanced**
 
 **[Русский](README.ru.md)** · **English**
 
 ---
 
-## 🚀 Quick Start
+## <img src="https://lucide.dev/api/icons/rocket" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Quick Start
 
 ```bash
 brew install ollama            # macOS
@@ -19,21 +19,21 @@ ollama run qwen3.5:4b          # chat (~3.4 GB) — ready!
 
 ---
 
-## 📚 Sections
+## <img src="https://lucide.dev/api/icons/book-open" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Sections
 
 | Section | Description | Entry | Files | Level |
 |---------|-------------|-------|-------|-------|
-| [🟢 Zero Level](basics/README.md) | AI basics: terms, setup, hardware choice | `basics/` | 9 | 🟢 |
-| [🔵 Local Models](local-models/README.md) | Running, choosing, tuning and optimizing models | `local-models/` | 11 | 🟢→🔵 |
-| [🤖 AI Agents](agents/README.md) | Architecture, patterns, frameworks, tutorials | `agents/` | 17 | 🟢→🔴 |
-| [💼 Use Cases](use-cases/README.md) | Coding, RAG, automation, writing | `use-cases/` | 5 | 🟡 |
-| [📖 Resources](resources/README.md) | Communities, courses, RU and EN materials | `resources/` | 5 | 🟢→🟡 |
+| [<svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#22c55e" stroke="#16a34a" stroke-width="0.5"/></svg> Zero Level](basics/README.md) | AI basics: terms, setup, hardware choice | `basics/` | 9 | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#22c55e" stroke="#16a34a" stroke-width="0.5"/></svg> |
+| [<svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5"/></svg> Local Models](local-models/README.md) | Running, choosing, tuning and optimizing models | `local-models/` | 11 | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#22c55e" stroke="#16a34a" stroke-width="0.5"/></svg>→<svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5"/></svg> |
+| [<img src="https://lucide.dev/api/icons/bot" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> AI Agents](agents/README.md) | Architecture, patterns, frameworks, tutorials | `agents/` | 17 | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#22c55e" stroke="#16a34a" stroke-width="0.5"/></svg>→<svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#ef4444" stroke="#dc2626" stroke-width="0.5"/></svg> |
+| [<img src="https://lucide.dev/api/icons/briefcase" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Use Cases](use-cases/README.md) | Coding, RAG, automation, writing | `use-cases/` | 5 | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#eab308" stroke="#ca8a04" stroke-width="0.5"/></svg> |
+| [<img src="https://lucide.dev/api/icons/book-open" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Resources](resources/README.md) | Communities, courses, RU and EN materials | `resources/` | 5 | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#22c55e" stroke="#16a34a" stroke-width="0.5"/></svg>→<svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#eab308" stroke="#ca8a04" stroke-width="0.5"/></svg> |
 
-> 🔍 **Looking for a specific file?** [Open catalog →](catalog.md) — full list of all 52 files with descriptions.
+> <img src="https://lucide.dev/api/icons/search" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> **Looking for a specific file?** [Open catalog →](catalog.md) — full list of all 52 files with descriptions.
 
 ---
 
-## 🗂️ Project Structure
+## <img src="https://lucide.dev/api/icons/folder-tree" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Project Structure
 
 ```
 awesome-ai-handbook/
@@ -108,12 +108,12 @@ awesome-ai-handbook/
 
 ---
 
-## 🤝 Contributing
+## <img src="https://lucide.dev/api/icons/handshake" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Contributing
 
 Benchmarks, RU resources, tutorials, and fixes are welcome.  
 Details: [CONTRIBUTING.md](CONTRIBUTING.md) · [Code of Conduct](CODE_OF_CONDUCT.md)
 
-## 📄 License
+## <img src="https://lucide.dev/api/icons/file-text" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> License
 
 [MIT](LICENSE)
 

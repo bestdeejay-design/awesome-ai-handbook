@@ -1,4 +1,4 @@
-# 🤖 AI Agents
+# <img src="https://lucide.dev/api/icons/bot" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> AI Agents
 
 > Building and using autonomous AI agents on local and cloud models.
 
@@ -29,36 +29,36 @@ Agent: Question → Agent decides to call a tool → Gets data → Formulates an
 
 | File | Description | Level | Time |
 |------|-------------|-------|------|
-| [ready-made.md](ready-made.md) | 🟢 Ready-made AI agents catalog | 🟢 | 7 min |
-| [orchestrators.md](orchestrators.md) | 🔵 Sub-agent orchestrators | 🔵 | 6 min |
-| [skills.md](skills.md) | 🟡 Skills, MCP servers, plugins | 🟡 | 6 min |
-| [architecture.md](architecture.md) | 🔵 AI agent architecture | 🔵 | 11 min |
-| [patterns.md](patterns.md) | 🔵 Patterns: ReAct, Multi-Agent, Reflection | 🔵 | 14 min |
-| [frameworks.md](frameworks.md) | 🔵 LangGraph, CrewAI, Agno comparison | 🔵 | 12 min |
-| [multi-agent.md](multi-agent.md) | 🔵 Multi-agent systems | 🔵 | 18 min |
-| [memory.md](memory.md) | 🔵 Long-term agent memory | 🔵 | 9 min |
-| [prompting.md](prompting.md) | 🔵 System prompts for agents | 🔵 | 11 min |
-| [ollama-for-agents.md](ollama-for-agents.md) | 🔵 Tool calling, JSON schema | 🔵 | 10 min |
-| [safety.md](safety.md) | 🔵 Safety, guardrails | 🔵 | 16 min |
-| [evaluation.md](evaluation.md) | 🔵 Testing, regression | 🔵 | 10 min |
+| [ready-made.md](ready-made.md) | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#22c55e" stroke="#16a34a" stroke-width="0.5"/></svg> Ready-made AI agents catalog | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#22c55e" stroke="#16a34a" stroke-width="0.5"/></svg> | 7 min |
+| [orchestrators.md](orchestrators.md) | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5"/></svg> Sub-agent orchestrators | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5"/></svg> | 6 min |
+| [skills.md](skills.md) | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#eab308" stroke="#ca8a04" stroke-width="0.5"/></svg> Skills, MCP servers, plugins | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#eab308" stroke="#ca8a04" stroke-width="0.5"/></svg> | 6 min |
+| [architecture.md](architecture.md) | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5"/></svg> AI agent architecture | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5"/></svg> | 11 min |
+| [patterns.md](patterns.md) | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5"/></svg> Patterns: ReAct, Multi-Agent, Reflection | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5"/></svg> | 14 min |
+| [frameworks.md](frameworks.md) | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5"/></svg> LangGraph, CrewAI, Agno comparison | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5"/></svg> | 12 min |
+| [multi-agent.md](multi-agent.md) | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5"/></svg> Multi-agent systems | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5"/></svg> | 18 min |
+| [memory.md](memory.md) | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5"/></svg> Long-term agent memory | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5"/></svg> | 9 min |
+| [prompting.md](prompting.md) | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5"/></svg> System prompts for agents | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5"/></svg> | 11 min |
+| [ollama-for-agents.md](ollama-for-agents.md) | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5"/></svg> Tool calling, JSON schema | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5"/></svg> | 10 min |
+| [safety.md](safety.md) | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5"/></svg> Safety, guardrails | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5"/></svg> | 16 min |
+| [evaluation.md](evaluation.md) | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5"/></svg> Testing, regression | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5"/></svg> | 10 min |
 
 ### Tutorials — `agents/tutorials/`
 
 | File | Description | Level | Time |
 |------|-------------|-------|------|
 | [README](tutorials/README.md) | Tutorial index | — | — |
-| [01-first-agent.md](tutorials/01-first-agent.md) | 🛠️ ReAct agent in Python + Ollama | 🟢 | 30 min |
-| [02-agent-team.md](tutorials/02-agent-team.md) | 🛠️ Multi-agent team (CrewAI) | 🟡 | 60 min |
-| [03-coding-agent.md](tutorials/03-coding-agent.md) | 🛠️ Coding agent (LangGraph) | 🔴 | 45 min |
+| [01-first-agent.md](tutorials/01-first-agent.md) | <img src="https://lucide.dev/api/icons/wrench" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> ReAct agent in Python + Ollama | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#22c55e" stroke="#16a34a" stroke-width="0.5"/></svg> | 30 min |
+| [02-agent-team.md](tutorials/02-agent-team.md) | <img src="https://lucide.dev/api/icons/wrench" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Multi-agent team (CrewAI) | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#eab308" stroke="#ca8a04" stroke-width="0.5"/></svg> | 60 min |
+| [03-coding-agent.md](tutorials/03-coding-agent.md) | <img src="https://lucide.dev/api/icons/wrench" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Coding agent (LangGraph) | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#ef4444" stroke="#dc2626" stroke-width="0.5"/></svg> | 45 min |
 
 ---
 
 ## Related Sections
 
-- [🔵 Local Models](../local-models/README.md) — Ollama, models, tool calling
-- [🟢 Zero Level](../basics/README.md) — AI basics, installation
-- [💼 Use Cases](../use-cases/README.md) — applying agents
+- [<svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5"/></svg> Local Models](../local-models/README.md) — Ollama, models, tool calling
+- [<svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#22c55e" stroke="#16a34a" stroke-width="0.5"/></svg> Zero Level](../basics/README.md) — AI basics, installation
+- [<img src="https://lucide.dev/api/icons/briefcase" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Use Cases](../use-cases/README.md) — applying agents
 
 ---
 
-**Navigation:** [← Back to main](../README.md) · [📖 Catalog](../catalog.md)
+**Navigation:** [← Back to main](../README.md) · [<img src="https://lucide.dev/api/icons/book-open" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Catalog](../catalog.md)

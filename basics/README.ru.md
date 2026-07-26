@@ -1,4 +1,4 @@
-# 🟢 Нулевой уровень: с чего начать
+# <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#22c55e" stroke="#16a34a" stroke-width="0.5"/></svg> Нулевой уровень: с чего начать
 
 > Раздел для тех, кто никогда не пробовал AI, но хочет понять и начать использовать.
 > Никаких специальных знаний не требуется.
@@ -9,7 +9,7 @@
 
 ## Три дорожки — выберите свою
 
-### 🟢 Просто попробовать (5 минут)
+### <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#22c55e" stroke="#16a34a" stroke-width="0.5"/></svg> Просто попробовать (5 минут)
 
 «Хочу понять, что это вообще такое, без установок и терминала.»
 
@@ -20,7 +20,7 @@
 | 3 | Скачайте модель Qwen 3.5 4B прямо в LM Studio |
 | 4 | Просто печатайте вопросы — как в ChatGPT, но бесплатно и локально |
 
-### 🟡 Разобраться (30 минут)
+### <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#eab308" stroke="#ca8a04" stroke-width="0.5"/></svg> Разобраться (30 минут)
 
 «Хочу понять, как это работает, и установить всё сам.»
 
@@ -32,13 +32,13 @@
 | 4 | [Установить Ollama](../local-models/getting-started.ru.md) | 10 мин |
 | 5 | Задать вопросы первой модели | ∞ |
 
-### 🔵 Стать профи (от 2 часов)
+### <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5"/></svg> Стать профи (от 2 часов)
 
 «Хочу собрать полноценную локальную систему для кодинга и автоматизации.»
 
 | Шаг | Куда идти | Время |
 |-----|-----------|-------|
-| 1–3 | Дорожка 🟡 выше | 20 мин |
+| 1–3 | Дорожка <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#eab308" stroke="#ca8a04" stroke-width="0.5"/></svg> выше | 20 мин |
 | 4 | [Какое нужно железо?](hardware-guide.ru.md) | 5 мин |
 | 5 | **Установка:** [Mac](../local-models/getting-started.ru.md) · [Windows](setup-windows.ru.md) · [Linux](setup-linux.ru.md) | 15 мин |
 | 6 | [Как запускать модели](../local-models/running-models.ru.md) | 15 мин |
@@ -67,10 +67,10 @@
 
 ## Связанные разделы
 
-- [🔵 Локальные модели](../local-models/README.ru.md) — запуск, выбор, настройка моделей
-- [🤖 AI-агенты](../agents/README.ru.md) — создание автономных агентов
-- [💼 Use Cases](../use-cases/README.ru.md) — применение AI на практике
+- [<svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5"/></svg> Локальные модели](../local-models/README.ru.md) — запуск, выбор, настройка моделей
+- [<img src="https://lucide.dev/api/icons/bot" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> AI-агенты](../agents/README.ru.md) — создание автономных агентов
+- [<img src="https://lucide.dev/api/icons/briefcase" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Use Cases](../use-cases/README.ru.md) — применение AI на практике
 
 ---
 
-**Навигация:** [← На главную](../README.ru.md) · [📖 Каталог](../catalog.ru.md)
+**Навигация:** [← На главную](../README.ru.md) · [<img src="https://lucide.dev/api/icons/book-open" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Каталог](../catalog.ru.md)

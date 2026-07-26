@@ -8,36 +8,36 @@
 
 ## Where to Start — Choose Your Scenario
 
-### 🟢 Absolute Beginner
+### <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#22c55e" stroke="#16a34a" stroke-width="0.5"/></svg> Absolute Beginner
 > Never ran a model, not familiar with the terminal.
 
 **First:** [basics/README.md](../basics/README.md) — what AI is, how models work, what hardware you need.
 
-**Then install:** [📖 Environment setup and installation](getting-started.md) — Homebrew, Ollama, first model in 10 minutes.
+**Then install:** [<img src="https://lucide.dev/api/icons/book-open" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Environment setup and installation](getting-started.md) — Homebrew, Ollama, first model in 10 minutes.
 
 Or skip the terminal entirely: **LM Studio** (described in [running-models.md](running-models.md)).
 
-### 🟡 I Want to Understand
+### <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#eab308" stroke="#ca8a04" stroke-width="0.5"/></svg> I Want to Understand
 > Already installed Ollama, ran a model, but want to know how it works.
 
-1. [▶️ How to find and run a model](running-models.md) — hands-on guide
-2. [🎯 Choosing a model for your task](models.md) — what to pick for coding / chat / RAG
+1. [<img src="https://lucide.dev/api/icons/play" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> How to find and run a model](running-models.md) — hands-on guide
+2. [<img src="https://lucide.dev/api/icons/target" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Choosing a model for your task](models.md) — what to pick for coding / chat / RAG
 3. [💾 Memory and context](memory-and-context.md) — why models dont fit and how to fix it
 
-### 🔵 Advanced User
+### <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5"/></svg> Advanced User
 > Want maximum performance, API tuning, tool comparison.
 
-1. [⚙️ Advanced Ollama setup](advanced-setup.md) — Modelfile, API, env vars
-2. [🛠 Tool comparison](tools.md) — Ollama vs LM Studio vs MLX vs llama.cpp
-3. [⚖️ Quantization](quantization.md) — Q4, Q5, Q8 — what to choose
-4. [📊 Apple Silicon benchmarks](benchmarks/apple-silicon.md) — tok/s on M1–M4
+1. [<img src="https://lucide.dev/api/icons/cog" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Advanced Ollama setup](advanced-setup.md) — Modelfile, API, env vars
+2. [<img src="https://lucide.dev/api/icons/wrench" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Tool comparison](tools.md) — Ollama vs LM Studio vs MLX vs llama.cpp
+3. [<img src="https://lucide.dev/api/icons/scale" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Quantization](quantization.md) — Q4, Q5, Q8 — what to choose
+4. [<img src="https://lucide.dev/api/icons/bar-chart-3" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Apple Silicon benchmarks](benchmarks/apple-silicon.md) — tok/s on M1–M4
 
-### 📚 Reference (for Everyone)
+### <img src="https://lucide.dev/api/icons/book-open" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Reference (for Everyone)
 
 | Section | About |
 |---------|-------|
-| [📚 Model catalog](catalog.md) | 50+ models with specs |
-| [⚠️ Common problems](troubleshooting.md) | Diagnostics and fixes |
+| [<img src="https://lucide.dev/api/icons/book-open" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Model catalog](catalog.md) | 50+ models with specs |
+| [<img src="https://lucide.dev/api/icons/alert-triangle" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Common problems](troubleshooting.md) | Diagnostics and fixes |
 
 ---
 
@@ -45,25 +45,25 @@ Or skip the terminal entirely: **LM Studio** (described in [running-models.md](r
 
 | # | File | Audience | Time |
 |---|------|----------|------|
-| 1 | [🚀 getting-started.md](getting-started.md) | Beginners | 10 min |
-| 2 | [▶️ running-models.md](running-models.md) | Everyone | 15 min |
-| 3 | [🎯 models.md](models.md) | Everyone | 10 min |
+| 1 | [<img src="https://lucide.dev/api/icons/rocket" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> getting-started.md](getting-started.md) | Beginners | 10 min |
+| 2 | [<img src="https://lucide.dev/api/icons/play" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> running-models.md](running-models.md) | Everyone | 15 min |
+| 3 | [<img src="https://lucide.dev/api/icons/target" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> models.md](models.md) | Everyone | 10 min |
 | 4 | [💾 memory-and-context.md](memory-and-context.md) | Everyone | 10 min |
-| 5 | [⚙️ advanced-setup.md](advanced-setup.md) | Advanced | 15 min |
-| 6 | [🛠 tools.md](tools.md) | Everyone | 20 min |
-| 7 | [⚖️ quantization.md](quantization.md) | Advanced | 10 min |
-| 8 | [📊 benchmarks/apple-silicon.md](benchmarks/apple-silicon.md) | Everyone | 5 min |
-| 9 | [⚠️ troubleshooting.md](troubleshooting.md) | When needed | 5 min |
-| 10 | [📚 catalog.md](catalog.md) | Reference | — |
+| 5 | [<img src="https://lucide.dev/api/icons/cog" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> advanced-setup.md](advanced-setup.md) | Advanced | 15 min |
+| 6 | [<img src="https://lucide.dev/api/icons/wrench" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> tools.md](tools.md) | Everyone | 20 min |
+| 7 | [<img src="https://lucide.dev/api/icons/scale" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> quantization.md](quantization.md) | Advanced | 10 min |
+| 8 | [<img src="https://lucide.dev/api/icons/bar-chart-3" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> benchmarks/apple-silicon.md](benchmarks/apple-silicon.md) | Everyone | 5 min |
+| 9 | [<img src="https://lucide.dev/api/icons/alert-triangle" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> troubleshooting.md](troubleshooting.md) | When needed | 5 min |
+| 10 | [<img src="https://lucide.dev/api/icons/book-open" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> catalog.md](catalog.md) | Reference | — |
 
 ---
 
 ## Related Sections
 
-- [🟢 Zero Level](../basics/README.md) — AI basics, installation
-- [🤖 AI Agents](../agents/README.md) — agents on local models
-- [💼 Use Cases](../use-cases/README.md) — coding, RAG, automation
+- [<svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#22c55e" stroke="#16a34a" stroke-width="0.5"/></svg> Zero Level](../basics/README.md) — AI basics, installation
+- [<img src="https://lucide.dev/api/icons/bot" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> AI Agents](../agents/README.md) — agents on local models
+- [<img src="https://lucide.dev/api/icons/briefcase" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Use Cases](../use-cases/README.md) — coding, RAG, automation
 
 ---
 
-**Navigation:** [← Back to main](../README.md) · [📖 Catalog](../catalog.md)
+**Navigation:** [← Back to main](../README.md) · [<img src="https://lucide.dev/api/icons/book-open" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Catalog](../catalog.md)

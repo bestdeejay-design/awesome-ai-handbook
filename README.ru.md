@@ -1,13 +1,13 @@
-# 🧠 Awesome AI Handbook
+# <img src="https://lucide.dev/api/icons/brain" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Awesome AI Handbook
 
 > Практический справочник по AI: от запуска первой локальной модели до своего агента.  
-> **52 файла** · **~6 часов чтения** · **Уровни: 🟢 новичок → 🔴 профи**
+> **52 файла** · **~6 часов чтения** · **Уровни: <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#22c55e" stroke="#16a34a" stroke-width="0.5"/></svg> новичок → <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#ef4444" stroke="#dc2626" stroke-width="0.5"/></svg> профи**
 
 **[English](README.md)** · **Русский**
 
 ---
 
-## 🚀 Быстрый старт
+## <img src="https://lucide.dev/api/icons/rocket" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Быстрый старт
 
 ```bash
 brew install ollama            # macOS
@@ -19,21 +19,21 @@ ollama run qwen3.5:4b          # чат (~3.4 GB) — готово!
 
 ---
 
-## 📚 Разделы
+## <img src="https://lucide.dev/api/icons/book-open" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Разделы
 
 | Раздел | Описание | Вход | Файлов | Уровень |
 |--------|----------|------|--------|---------|
-| [🟢 Нулевой уровень](basics/README.ru.md) | Основы AI: термины, установка, выбор железа | `basics/` | 9 | 🟢 |
-| [🔵 Локальные модели](local-models/README.ru.md) | Запуск, выбор, настройка и оптимизация моделей | `local-models/` | 11 | 🟢→🔵 |
-| [🤖 AI-агенты](agents/README.ru.md) | Архитектура, паттерны, фреймворки, туториалы | `agents/` | 17 | 🟢→🔴 |
-| [💼 Use Cases](use-cases/README.ru.md) | Кодинг, RAG, автоматизация, контент | `use-cases/` | 5 | 🟡 |
-| [📖 Ресурсы](resources/README.ru.md) | Сообщества, курсы, русско- и англоязычные материалы | `resources/` | 5 | 🟢→🟡 |
+| [<svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#22c55e" stroke="#16a34a" stroke-width="0.5"/></svg> Нулевой уровень](basics/README.ru.md) | Основы AI: термины, установка, выбор железа | `basics/` | 9 | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#22c55e" stroke="#16a34a" stroke-width="0.5"/></svg> |
+| [<svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5"/></svg> Локальные модели](local-models/README.ru.md) | Запуск, выбор, настройка и оптимизация моделей | `local-models/` | 11 | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#22c55e" stroke="#16a34a" stroke-width="0.5"/></svg>→<svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#3b82f6" stroke="#2563eb" stroke-width="0.5"/></svg> |
+| [<img src="https://lucide.dev/api/icons/bot" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> AI-агенты](agents/README.ru.md) | Архитектура, паттерны, фреймворки, туториалы | `agents/` | 17 | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#22c55e" stroke="#16a34a" stroke-width="0.5"/></svg>→<svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#ef4444" stroke="#dc2626" stroke-width="0.5"/></svg> |
+| [<img src="https://lucide.dev/api/icons/briefcase" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Use Cases](use-cases/README.ru.md) | Кодинг, RAG, автоматизация, контент | `use-cases/` | 5 | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#eab308" stroke="#ca8a04" stroke-width="0.5"/></svg> |
+| [<img src="https://lucide.dev/api/icons/book-open" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Ресурсы](resources/README.ru.md) | Сообщества, курсы, русско- и англоязычные материалы | `resources/` | 5 | <svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#22c55e" stroke="#16a34a" stroke-width="0.5"/></svg>→<svg width="0.8em" height="0.8em" viewBox="0 0 12 12" style="display:inline;vertical-align:middle"><circle cx="6" cy="6" r="5" fill="#eab308" stroke="#ca8a04" stroke-width="0.5"/></svg> |
 
-> 🔍 **Ищете конкретный файл?** [Открыть каталог →](catalog.ru.md) — полный список всех 52 файлов с описаниями.
+> <img src="https://lucide.dev/api/icons/search" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> **Ищете конкретный файл?** [Открыть каталог →](catalog.ru.md) — полный список всех 52 файлов с описаниями.
 
 ---
 
-## 🗂️ Структура проекта
+## <img src="https://lucide.dev/api/icons/folder-tree" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Структура проекта
 
 ```
 awesome-ai-handbook/
@@ -108,12 +108,12 @@ awesome-ai-handbook/
 
 ---
 
-## 🤝 Контрибьютинг
+## <img src="https://lucide.dev/api/icons/handshake" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Контрибьютинг
 
 Приветствуются бенчмарки, RU-ресурсы, туториалы и исправления.  
 Подробности — [CONTRIBUTING.md](CONTRIBUTING.md) · [Кодекс поведения](CODE_OF_CONDUCT.md)
 
-## 📄 Лицензия
+## <img src="https://lucide.dev/api/icons/file-text" alt="" width="1em" height="1em" style="display:inline;vertical-align:middle"> Лицензия
 
 [MIT](LICENSE)
 
