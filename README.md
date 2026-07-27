@@ -1,10 +1,4 @@
-<p align="center">
-  <img alt="Awesome AI Handbook" src="assets/banner.png" width="80%">
-</p>
-
-<h1 align="center">
-  <img src="https://lucide.dev/api/icons/brain" alt="" width="28" height="28" style="display:inline;vertical-align:middle"> Awesome AI Handbook
-</h1>
+# <img src="https://lucide.dev/api/icons/brain" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Awesome AI Handbook
 
 > A practical guide to AI: from running your first local model to building your own agents.  
 > **52 files** · **~6 hours reading** · **Levels: <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> beginner → <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> advanced**
