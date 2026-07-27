@@ -1,8 +1,10 @@
 <p align="center">
-  <img alt="Awesome AI Handbook" src="assets/banner.png" width="100%">
+  <img alt="Awesome AI Handbook" src="assets/banner.png" width="80%">
 </p>
 
-# <img src="https://lucide.dev/api/icons/brain" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Awesome AI Handbook
+<h1 align="center">
+  <img src="https://lucide.dev/api/icons/brain" alt="" width="28" height="28" style="display:inline;vertical-align:middle"> Awesome AI Handbook
+</h1>
 
 > Практический справочник по AI: от запуска первой локальной модели до своего агента.  
 > **52 файла** · **~6 часов чтения** · **Уровни: <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> новичок → <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> профи**
