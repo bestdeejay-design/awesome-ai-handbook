@@ -4,12 +4,21 @@ authors:
 - family-names: "SERGEI K."
   given-names: "BESTDEEJAY"
 title: "awesome-ai-handbook"
-version: 1.0.0
-date-released: 2026-07-23
+version: 1.0.1
+date-released: 2026-07-27
 url: "https://github.com/bestdeejay-design/awesome-ai-handbook"
 
 keywords:
   - artificial intelligence
   - machine learning
+  - llm
+  - large language model
+  - local ai
+  - ollama
+  - prompt engineering
+  - rag
+  - ai agents
   - handbook
+  - tutorial
+  - awesome list
   - open-source
