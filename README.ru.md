@@ -1,3 +1,7 @@
+<p align="center">
+  <img alt="Awesome AI Handbook" src="assets/banner.png" width="100%">
+</p>
+
 # <img src="https://lucide.dev/api/icons/brain" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Awesome AI Handbook
 
 > Практический справочник по AI: от запуска первой локальной модели до своего агента.  

@@ -1,8 +1,5 @@
 <p align="center">
-  <picture>
-    <source media="" srcset="/assets/Banner.png">
-    <img alt="Awesome-Ai-Handbook Banner" src="/assets/Banner.png" width="100%">
-  </picture>
+  <img alt="Awesome AI Handbook" src="assets/banner.png" width="100%">
 </p>
 # <img src="https://lucide.dev/api/icons/brain" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Awesome AI Handbook
 
