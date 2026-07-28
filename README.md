@@ -4,6 +4,7 @@
 > **52 files** · **~6 hours reading** · **Levels: <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> beginner → <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-red.svg" alt="" width="12" height="12" style="vertical-align:middle"> advanced**
 
 <p align="center">
+  <a href="https://bestdeejay-design.github.io/awesome-ai-handbook/"><img src="https://img.shields.io/badge/GitHub_Pages-site-22272e?style=flat-square&logo=githubpages" alt="GitHub Pages"></a>
   <a href="https://github.com/bestdeejay-design/awesome-ai-handbook"><img src="https://img.shields.io/badge/GitHub-repo-181717?style=flat-square&logo=github" alt="GitHub"></a>
   <a href="https://github.com/bestdeejay-design/awesome-ai-handbook/stargazers"><img src="https://img.shields.io/github/stars/bestdeejay-design/awesome-ai-handbook?style=flat-square&logo=github" alt="Stars"></a>
 </p>
