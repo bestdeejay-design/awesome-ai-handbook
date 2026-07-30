@@ -42,6 +42,33 @@ Without memory, every agent call starts from scratch. The model doesnt remember 
 | **Long-term (vectors)** | Indefinitely | Chroma, Qdrant | Medium |
 | **Episodic** | Per task | Structured logs | Fast |
 
+```
+┌────────────────────────────────────────────────────┐
+│                  AGENT MEMORY                       │
+│                                                     │
+│  ┌──────────────────────────────────────────┐       │
+│  │         SHORT-TERM (working)             │       │
+│  │  · Current dialog with LLM               │       │
+│  │  · All messages in the cycle             │       │
+│  │  · Limited by context window             │       │
+│  └──────────────────────────────────────────┘       │
+│                                                     │
+│  ┌──────────────────────────────────────────┐       │
+│  │         LONG-TERM (persistent)           │       │
+│  │  · Between work sessions                 │       │
+│  │  · Vector DB / files / DB                │       │
+│  │  · Not limited by context                │       │
+│  └──────────────────────────────────────────┘       │
+│                                                     │
+│  ┌──────────────────────────────────────────┐       │
+│  │         WORKING (task state)             │       │
+│  │  · Current plan and progress             │       │
+│  │  · What's done, what's left              │       │
+│  │  · Intermediate results                  │       │
+│  └──────────────────────────────────────────┘       │
+└────────────────────────────────────────────────────┘
+```
+
 ---
 
 ## 3. Short-term memory (working)
@@ -57,6 +84,10 @@ messages = [
     # each new message is added here
 ]
 ```
+
+### The problem: context overflow
+
+Each step of the agent loop adds ~500-5000 tokens. After 10 steps, the context can grow to 50000 tokens, exceeding the model limit.
 
 ### Context compression
 
@@ -95,9 +126,9 @@ def compress_messages(messages, max_messages=10, model="qwen3.5:4b"):
 ```
 
 ### When to compress
-- Agent loop exceeds 5 steps
-- Total message size > 70% of context window
-- At 2-3 steps unnecessary
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Agent loop exceeds 5 steps
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Total message size > 70% of context window
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> At 2-3 steps — unnecessary
 
 ---
 
@@ -152,6 +183,17 @@ class FileMemory:
             self.data["projects"][project] = {}
         self.data["projects"][project][key] = value
         self.save()
+
+
+# Usage in an agent
+memory = FileMemory()
+
+# PM agent remembers a decision
+memory.remember_fact("We decided to use FastAPI for the backend")
+memory.update_project("awesome-ai-handbook", "status", "in development")
+
+# Another agent reads
+print(memory.get_project_state("awesome-ai-handbook"))
 ```
 
 ### Example: vector memory (ChromaDB)
@@ -185,6 +227,18 @@ class VectorMemory:
             n_results=n_results
         )
         return results["documents"][0]
+
+
+# Agent remembers context
+memory = VectorMemory()
+memory.add(
+    "The user asked to build a TODO app with a web interface",
+    {"project": "todo-app", "type": "requirement"}
+)
+
+# Later another agent searches
+relevant = memory.search("What did the user want?")
+print(relevant)
 ```
 
 ---
@@ -258,6 +312,7 @@ agent.run("Remember: we are making an AI handbook")
 | **Context growth** | Too many messages exceed limit | Compression, delete old messages |
 | **Conflicting memory** | Agents write different data | Centralized storage, versioning |
 | **Data leakage** | Sensitive data in history | Scoping, clear after completion |
+| **Embedding dependency** | Vector search may not find what you expect | Always verify relevance of results |
 
 ---
 

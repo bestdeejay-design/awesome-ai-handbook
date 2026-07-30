@@ -26,6 +26,8 @@
 
 **The most popular pattern.** The agent alternates between reasoning (Reason) and action (Act) in a loop.
 
+### How it works
+
 ```
 Thought:  The user is asking about weather. I need to find information.
 Action:   call search_web(query="weather Tokyo")
@@ -37,10 +39,10 @@ Answer:   Its currently +22C and clear in Tokyo.
 Each cycle: model **thinks** what to do **does** (calls a tool or responds) receives **result** thinks again.
 
 ### When ReAct
-- Tasks that need information search
-- Questions requiring calculations
-- Simple action chains (find analyze answer)
-- Long-plan tasks (use Plan-and-Execute instead)
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Tasks that need information search
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Questions requiring calculations
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Simple action chains (find → analyze → answer)
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Long-plan tasks (use Plan-and-Execute instead)
 
 ### Implementation
 
@@ -107,6 +109,8 @@ ReAct fits **executor agents**: analyst finds data, developer reads docs, tester
 
 Separates planning from execution in two phases.
 
+### How it works
+
 ```
 STEP 1 Planning:
 Plan:
@@ -123,10 +127,10 @@ STEP 2 Execution:
 ```
 
 ### When Plan-and-Execute
-- Complex tasks with 3+ steps
-- Code migration, refactoring
-- Research tasks
-- Simple questions (ReAct is faster)
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Complex tasks with 3+ steps
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Code migration, refactoring
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Research tasks
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Simple questions (ReAct is faster)
 
 ### Implementation
 
@@ -204,6 +208,8 @@ Plan-and-Execute is ideal for **project manager agents**: create plan, distribut
 
 The agent generates a response, critiques it, and improves it.
 
+### How it works
+
 ```
 PASS 1 Generation:
   Answer: Python was created in 1991 by Guido van Rossum
@@ -218,10 +224,10 @@ PASS 3 Improvement:
 ```
 
 ### When Reflection
-- Writing text (articles, docs)
-- Code that needs review before use
-- Complex reasoning
-- Simple answers (overkill)
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Writing text (articles, docs)
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Code that needs review before use
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Complex reasoning
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Simple answers (overkill)
 
 ### Implementation
 
@@ -286,7 +292,7 @@ def reflection_agent(task: str, iterations: int = 2):
 | Catches errors the model missed | Can over-improve and break |
 | Useful for important answers | Not needed for simple tasks |
 
-Reflection is a pattern for **reviewer agents**: check code, text, decisions before they go further.
+Reflection is a pattern for **reviewer agents**. They check code, text, and decisions before they go further. In your team: developer writes code → QA tests → reviewer evaluates quality.
 
 ---
 
@@ -303,10 +309,10 @@ A single tool invocation without the ReAct thinking loop.
 | Simpler fewer tokens | More complex but flexible |
 
 ### When Tool Use
-- Extracting data from text
-- Classification (choose a category)
-- JSON conversion
-- Guaranteed output format needed
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Extracting data from text
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Classification (choose a category)
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> JSON conversion
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> When guaranteed output format is needed
 
 ### Implementation
 
@@ -333,24 +339,41 @@ Multiple agents working together on a single task.
 ### Architectures
 
 ```
+Supervisor (hierarchical):
+  ┌────────────┐
+  │ Supervisor │  ← manages
+  └───┬───┬────┘
+      │   │
+  ┌───┘   └───┐
+  ▼           ▼
+┌──────┐  ┌──────┐
+│Agent │  │Agent │
+│  A   │  │  B   │
+└──────┘  └──────┘
+
 Peer-to-Peer (horizontal):
-  Agent A Agent B
-       ^       ^
-       |       |
-       +-------+
-           |
-      Shared task
+  ┌──────┐     ┌──────┐
+  │Agent │◄───►│Agent │
+  │  A   │     │  B   │
+  └──────┘     └──────┘
+       ▲           ▲
+       └─────┬─────┘
+             ▼
+        ┌────────┐
+        │ Shared │
+        │ task   │
+        └────────┘
 
 Swarm:
   Agents dynamically hand off tasks
-  Agent A (cant) Agent B (done) Agent C ...
+  Agent A → (can't) → Agent B → (done) → Agent C → ...
 ```
 
 ### When Multi-Agent
-- Tasks requiring different expertise (coding + design + DevOps)
-- Large projects needing decomposition
-- When review and balance is needed (one writes another checks)
-- Simple tasks (single agent is faster)
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Tasks requiring different expertise (coding + design + DevOps)
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Large projects needing decomposition
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> When review and balance is needed (one writes, another checks)
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Simple tasks (single agent is faster)
 
 ### Implementation
 

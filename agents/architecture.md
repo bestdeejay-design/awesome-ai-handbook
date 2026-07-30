@@ -23,6 +23,29 @@
 
 ## 1. Agent components
 
+Any AI agent, regardless of complexity, consists of four mandatory components:
+
+```
+┌──────────────────────────────────────────────────────────┐
+│                      AI AGENT                             │
+│                                                          │
+│  ┌──────────────┐  ┌──────────────┐  ┌────────────────┐  │
+│  │     LLM      │  │   Tools      │  │  Orchestrator  │  │
+│  │   (brain)    │  │   (hands)    │  │  (control)     │  │
+│  └──────┬───────┘  └──────┬───────┘  └───────┬─────────┘  │
+│         │                 │                   │           │
+│         ▼                 ▼                   ▼           │
+│  Makes decisions    Calls functions,     Manages loop,    │
+│                     API, reads files,    state, memory    │
+│                     searches the web                      │
+│                                                          │
+│  ┌──────────────────────────────────────────────────┐    │
+│  │              Memory (state)                       │    │
+│  │  Step history · Context · Results                │    │
+│  └──────────────────────────────────────────────────┘    │
+└──────────────────────────────────────────────────────────┘
+```
+
 ### 1.1 LLM — decision making model
 
 | Role | What it does | Example |
@@ -31,12 +54,16 @@
 | **Decider** | Chooses next step | "I have API result — I can answer" |
 | **Generator** | Formulates final response | "Its currently +22C and clear in Tokyo" |
 
+For local agents, the same models are used for chatting, but there are nuances:
+
 Requirements:
 - **Tool calling** — model must support function calling (Qwen 3.5+, Llama 3.1+)
 - **Structured output** — model must return JSON by schema
 - **Long context** — agent loop quickly fills context, need 32K+ tokens
 
 ### 1.2 Tools
+
+Tools are functions the model can call. They extend the model's capabilities beyond its knowledge.
 
 | Type | Example | Purpose |
 |-----|--------|---------|
@@ -68,6 +95,8 @@ tool = {
 
 ### 1.3 Orchestrator (control loop)
 
+The orchestrator is the code that manages the sequence: send request to model → get decision → execute tool → return result to model → repeat.
+
 **This is my job as Sisyphus.** The orchestrator decides:
 - When to hand control to a tool
 - When to return response to user
@@ -95,6 +124,39 @@ The fundamental cycle:
 3. **LLM decides:** answer text OR call a tool
 4. **If tool:** system executes function → result added as observation → back to step 2
 5. **If answer:** text returned to user
+
+### Basic cycle
+
+```
+  ┌──────────┐
+  │  START   │
+  └────┬─────┘
+       │
+       ▼
+  ┌──────────┐     ┌─────────────┐
+  │ LLM      │────▶│ Need a      │
+  │ decides  │     │ tool?       │
+  └──────────┘     └──────┬──────┘
+       ▲                  │         ┌──────────┐
+       │           ┌──────┤  YES ───▶  Call    │
+       │           │      │         │ tool     │
+       │           │      │         └────┬─────┘
+       │           │      │              │
+       │           │      │              ▼
+       │           │      │         ┌──────────┐
+       │           │      │         │ Result   │
+       │           │      │         └────┬─────┘
+       │           │      │              │
+       │           │      └──────────────┘
+       │           │
+       │      ┌────┴────┐
+       │      │   NO    │
+       │      ▼         │
+       │  ┌────────┐    │
+       └──┤ANSWER  │◄───┘
+          │ user   │
+          └────────┘
+```
 
 ### Implementation in Python (no frameworks)
 
@@ -139,6 +201,14 @@ def agent_loop(model: str, user_input: str, tools: list, max_steps: int = 10):
 ```
 
 This is literally the core of any agent. LangGraph, CrewAI, Agno all do the same thing internally.
+
+### Why go framework-free?
+
+Writing the loop manually at least once is **critically important** because:
+- You understand what happens "under the hood" of the framework
+- You can debug when something goes wrong
+- You are not dependent on abstractions that hide important details
+- You can add your own logic (pauses, conditions, logging)
 
 ---
 
@@ -218,6 +288,22 @@ def compress_if_needed(messages, max_messages=20):
 ## 5. Orchestration
 
 **This is what I do as Sisyphus.** One agent is just a loop. Multiple agents working together is orchestration.
+
+```
+┌─────────────────────────────────────────────────────┐
+│                   ORCHESTRATOR                       │
+│                                                      │
+│  ┌──────────┐  ┌──────────┐  ┌──────────────────┐   │
+│  │ Agent 1  │  │ Agent 2  │  │    Agent 3       │   │
+│  │ PM       │  │ Analyst  │  │  Developer       │   │
+│  └────┬─────┘  └────┬─────┘  └───────┬──────────┘   │
+│       │              │                │              │
+│       └──────────────┴────────────────┘              │
+│                      │                               │
+│               Solve tasks,                            │
+│               exchange results                        │
+└─────────────────────────────────────────────────────┘
+```
 
 **What the orchestrator decides:**
 - Which agent takes the task

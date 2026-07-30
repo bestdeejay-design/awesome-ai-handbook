@@ -39,6 +39,12 @@
 
 ## 2. Agno — quick start
 
+```bash
+pip install agno
+```
+
+### Agent with web search
+
 ```python
 from agno.agent import Agent
 from agno.models.ollama import Ollama
@@ -53,6 +59,8 @@ agent = Agent(
 
 agent.run("What are the trends in AI agents in 2026?")
 ```
+
+### Agent with custom tools
 
 ```python
 def get_server_status(host: str) -> str:
@@ -70,31 +78,50 @@ def get_server_status(host: str) -> str:
 agent.run("Check the status of google.com")
 ```
 
+### Team of two agents
+
 ```python
+from agno.agent import Agent
+from agno.models.ollama import Ollama
 from agno.team import Team
 
 researcher = Agent(
     name="Researcher",
+    model=Ollama(id="qwen3.5:4b"),
     instructions="Find information and pass it to the editor",
 )
 
 writer = Agent(
     name="Editor",
+    model=Ollama(id="qwen3.5:4b"),
     instructions="Write a brief report based on the data received",
 )
 
 team = Team(
     name="Content team",
     members=[researcher, writer],
+    model=Ollama(id="qwen3.5:4b"),
     instructions="Coordinate the team's work to create content",
 )
+
+team.run("Write a brief overview of the latest AI news")
 ```
+
+**When Agno:**
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> First agent in 5 minutes
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Quick prototyping
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Simple scenarios with tools
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Complex graphs and workflows
 
 ---
 
 ## 3. CrewAI — agent team
 
 CrewAI is built around **roles**: each agent has a role, goal, and backstory. Agents join a Crew and execute Tasks.
+
+```bash
+pip install crewai
+```
 
 ```python
 from crewai import Agent, Task, Crew, Process, LLM
@@ -141,7 +168,16 @@ crew = Crew(
     process=Process.sequential,
     verbose=True
 )
+
+result = crew.kickoff()
+print(result)
 ```
+
+**When CrewAI:**
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Agent team with clear roles
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Sequential or hierarchical processes
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Quick multi-agent system creation
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Need full graph control (use LangGraph)
 
 ```python
     process=Process.hierarchical,  # 👈 manager delegates
@@ -149,9 +185,17 @@ crew = Crew(
 )
 ```
 
+With `Process.hierarchical` the manager decides who gets which task and in what order.
+
 ---
 
 ## 4. LangGraph — maximum control
+
+LangGraph gives you **full control** over the agent's transition graph. You describe nodes (what the agent does) and edges (when to transition).
+
+```bash
+pip install langgraph langchain-ollama
+```
 
 ```python
 from typing import TypedDict, Annotated
@@ -201,6 +245,9 @@ print(result["messages"][-1].content)
 
 ```python
 from langgraph.graph import StateGraph, START, END, MessagesState
+from langchain_ollama import ChatOllama
+
+llm = ChatOllama(model="qwen3.5:4b", base_url="http://localhost:11434")
 
 # Researcher agent
 def researcher(state: MessagesState):
@@ -310,14 +357,27 @@ user.initiate_chat(agent, message="Analyze AI trends in 2026")
 
 ## 6. How to choose
 
-| Situation | Framework |
-|-----------|-----------|
-| First agent, quick prototype | **Agno** |
-| Team with roles (PM + dev + QA) | **CrewAI** |
-| Complex conditional workflows | **LangGraph** |
-| Know OpenAI API, want local | **OpenAI Agents SDK + forge** |
-| Multi-agent dialogues | **AutoGen (GroupChat)** |
-| TypeScript ecosystem | **Mastra** |
+```
+Beginner, first agent
+  → Agno (5 lines of code, everything clear)
+
+Need agent team with roles
+  → CrewAI (roles, tasks, processes)
+
+Maximum control over logic
+  → LangGraph (graphs, state, cycles)
+
+Know OpenAI API, want local
+  → OpenAI Agents SDK + forge proxy
+
+Write in TypeScript
+  → Mastra
+
+Multi-agent dialogues
+  → AutoGen (GroupChat)
+```
+
+### For your project (agent team)
 
 ```
 CrewAI (Process.hierarchical)

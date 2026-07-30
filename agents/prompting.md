@@ -76,18 +76,22 @@ You can build prompts programmatically:
 
 ```python
 def build_agent_prompt(role: str, tools: list[str], rules: list[str]) -> str:
+    """Assembles an agent system prompt from components."""
+    tools_str = "\n".join(f"- {t}" for t in tools)
+    rules_str = "\n".join(f"- {r}" for r in rules)
+
     return f"""
 ## ROLE
 {role}
 
 ## TOOLS
-{chr(10).join(f'- {t}' for t in tools)}
+{tools_str}
 
 ## RULES
-{chr(10).join(f'- {r}' for r in rules)}
+{rules_str}
 
 ## OUTPUT FORMAT
-First explain, then execute, then show results.
+First explain what you'll do, then execute, then show results.
 """
 ```
 
@@ -245,6 +249,10 @@ User: What is the weather in Moscow?
 You should call search_web(query="weather Moscow today")
 and return the result.
 
+Incorrect:
+> It's about 20 degrees in Moscow
+(You didn't call the tool — this is guessing!)
+
 Correct:
 > Let me check...
 > [calls search_web]
@@ -270,6 +278,10 @@ def calculate_total(items):
         return 0
     return sum(items)
 ```
+
+## Tests
+- Added test for empty list
+- All tests pass ✅
 """
 ```
 
@@ -277,13 +289,50 @@ def calculate_total(items):
 
 ## 6. Anti-patterns
 
-| Anti-pattern | Why it fails | Fix |
-|---|---|---|
-| **Too long** | 2000+ word prompt, agent loses focus | Structure with ## sections, keep each under 300 words |
-| **Contradictory** | "Be creative" + "Strictly follow rules" | Be unambiguous. Choose one mode |
-| **Vague triggers** | "Use tools when needed" | Specify exact conditions |
-| **No boundaries** | "Make the project better" | "Improve test coverage. Do NOT change app logic" |
-| **Conflicting instructions** | "Tell the user" + "Keep it secret" | Resolve contradictions before deploying |
+### <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Too long
+
+```python
+# Bad: 2000+ words, agent loses focus
+PROMPT = "You must... (very long text)... also don't forget..."
+
+# Good: structured, concise
+PROMPT = """
+## ROLE
+## TASK
+## TOOLS
+## RULES
+"""
+```
+
+### <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Contradictory
+
+```python
+# Bad: "be creative" AND "strictly follow rules"
+PROMPT = "Be creative but always follow the rules..."
+
+# Good: unambiguous
+PROMPT = "Strictly follow instructions. Creativity is not required."
+```
+
+### <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Vague triggers
+
+```python
+# Bad: unclear when to call a tool
+PROMPT = "You have tools. Use them."
+
+# Good: clear triggers
+PROMPT = "Call search_web ONLY when you need current (today) data."
+```
+
+### <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> No boundaries
+
+```python
+# Bad: agent can do anything
+PROMPT = "Make the project better."
+
+# Good: clear boundaries
+PROMPT = "Improve test coverage. Do NOT change application logic."
+```
 
 ---
 
