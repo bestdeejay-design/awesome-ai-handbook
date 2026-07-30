@@ -12,21 +12,65 @@
 
 ## Содержание
 
-1. [Каталог инструментов](#1-каталог-инструментов)
-2. [Сравнительная таблица](#2-сравнительная-таблица)
-3. [Сценарии: какой инструмент выбрать](#3-сценарии-какой-инструмент-выбрать)
-4. [Бенчмарки на Apple Silicon](#4-бенчмарки-на-apple-silicon)
-5. [Масштабирование и production](#5-масштабирование)
-6. [Гайды по установке](#6-гайды-по-установке)
-7. [Decision Tree](#7-decision-tree)
-8. [Глоссарий терминов](#8-глоссарий-терминов)
-9. [Что дальше](#9-что-дальше)
+1. [Обзор](#1-обзор)
+2. [Сценарии: какой инструмент выбрать](#2-сценарии-какой-инструмент-выбрать)
+3. [Ollama](#3-ollama)
+4. [LM Studio](#4-lm-studio)
+5. [llama.cpp](#5-llamacpp)
+6. [MLX (Apple Silicon)](#6-mlx-apple-silicon)
+7. [vLLM](#7-vllm)
+8. [GPT4All](#8-gpt4all)
+9. [Jan](#9-jan)
+10. [Open WebUI](#10-open-webui)
+11. [Aider](#11-aider)
+12. [Continue.dev](#12-continuedev)
+13. [Enchanted](#13-enchanted)
+14. [LocalAI](#14-localai)
+15. [MindWork AI Studio](#15-mindwork-ai-studio)
+16. [Сравнительная таблица](#16-сравнительная-таблица)
+17. [Бенчмарки на Apple Silicon](#17-бенчмарки-на-apple-silicon)
+18. [Масштабирование и production](#18-масштабирование-и-production)
+19. [Decision Tree](#19-decision-tree)
+20. [Гайды по установке](#20-гайды-по-установке)
+21. [Глоссарий терминов](#21-глоссарий-терминов)
+22. [Что дальше](#22-что-дальше)
 
 ---
 
-## 1. Каталог инструментов
+## 1. Обзор
 
-### 1.1 Ollama <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> — стандарт для разработчиков
+Существует множество инструментов для запуска локальных LLM. Они различаются по:
+- **Поддерживаемым форматам** (GGUF, MLX, AWQ)
+- **Поддержке оборудования** (CPU, CUDA, Metal)
+- **Опциям квантизации** (Q4, Q5, Q8 и т.д.)
+- **Совместимости с API** (OpenAI, кастомные)
+- **Простоте настройки**
+
+---
+
+## 2. Сценарии: какой инструмент выбрать
+
+| Сценарий | Инструмент | Почему |
+|----------|-----------|--------|
+| **Хочу скачать и тестировать модели** (discovery) | **LM Studio** | Встроенный поиск HF по категориям, визуальный |
+| **Нужен API для моего приложения** (integration) | **Ollama** | 3 команды, OpenAI API, любой язык |
+| **Максимальная скорость на Mac** (performance) | **MLX** (mlx-lm) или LM Studio | +20-40% tok/s, -50% RAM |
+| **Нужен fine-tuning модели** (training) | **MLX** (mlx-lm) | LoRA/QLoRA, нативный Apple, Python API |
+| **Приватный RAG на документах** (RAG) | **GPT4All** (один пользователь) или **Open WebUI** (команда) | LocalDocs / 9 векторных БД |
+| **AI-ассистент в VS Code** (coding-IDE) | **Continue.dev + Ollama** | Tab autocomplete, inline editing, @codebase |
+| **Автономный кодинг-агент в CLI** (coding-agent) | **Aider + Ollama** | architect/editor split, repo map |
+| **Production server** (deployment) | **vLLM** (Linux) или **LM Studio** (Mac) | Continuous batching, PagedAttention |
+| **Полный новичок** (beginner) | **LM Studio** | GUI, ни одной команды в терминале |
+| **Максимальная приватность** (privacy) | **Ollama + GPT4All** | Всё локально, 0 соединений наружу |
+| **Длинный контекст 100K+** (context) | **llama.cpp** (raw) | Speculative decoding, KV cache контроль |
+| **Batch-обработка тысяч промптов** (batch) | **vLLM** (Linux) или **llama.cpp** (Mac) | Continuous batching |
+
+---
+
+
+---
+
+## 3. Ollama <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> — стандарт для разработчиков
 
 | Параметр | Значение |
 |----------|----------|
@@ -259,7 +303,10 @@ SYSTEM "Ты профессиональный Python-разработчик."
 
 ---
 
-### 1.2 LM Studio — лучший GUI
+
+---
+
+## 4. LM Studio — лучший GUI
 
 | Параметр | Значение |
 |----------|----------|
@@ -298,7 +345,47 @@ SYSTEM "Ты профессиональный Python-разработчик."
 
 ---
 
-### 1.3 MLX (mlx-lm) — фреймворк Apple
+
+---
+
+## 5. llama.cpp — полный контроль
+
+| Параметр | Значение |
+|----------|----------|
+| **Интерфейс** | CLI + Server |
+| **Open Source** | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> MIT |
+| **Apple Silicon** | Metal (нативный) |
+| **OS** | Все платформы |
+| **GitHub** | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 70K+ |
+
+**Уникальные возможности:**
+- GGUF формат: K-quants (Q4_K_M, Q5_K_M) и I-quants (IQ2_XXS, IQ3_XXS)
+- Speculative decoding (в 1.5-2× быстрее)
+- KV cache квантизация (q8_0, q4_0)
+- Встроенный embedding endpoint
+- Batch processing
+- LoRA адаптеры на лету
+
+**Speculative decoding (M3 Ultra 192GB, Llama 3.1 70B Q4):**
+
+| Режим | tok/s | Ускорение |
+|-------|-------|-----------|
+| Direct | 9.4 | 1× |
+| **Speculative (70B+70B)** | **11.3** | **1.2×** |
+| **Speculative (70B+8B)** | **15.1** | **1.6×** |
+
+**Когда выбрать llama.cpp:**
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Нужна кроссплатформенность (везде GGUF)
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Хотите полный контроль над инференсом
+- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Используете нестандартные квантизации
+- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Хотите простоту «одной команды»
+
+---
+
+
+---
+
+## 6. MLX (mlx-lm) — фреймворк Apple
 
 | Параметр | Значение |
 |----------|----------|
@@ -353,41 +440,10 @@ lora.train_lora(
 
 ---
 
-### 1.4 llama.cpp — полный контроль
-
-| Параметр | Значение |
-|----------|----------|
-| **Интерфейс** | CLI + Server |
-| **Open Source** | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> MIT |
-| **Apple Silicon** | Metal (нативный) |
-| **OS** | Все платформы |
-| **GitHub** | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) <img src="https://lucide.dev/api/icons/star" alt="" width="20" height="20" style="vertical-align:middle"> 70K+ |
-
-**Уникальные возможности:**
-- GGUF формат: K-quants (Q4_K_M, Q5_K_M) и I-quants (IQ2_XXS, IQ3_XXS)
-- Speculative decoding (в 1.5-2× быстрее)
-- KV cache квантизация (q8_0, q4_0)
-- Встроенный embedding endpoint
-- Batch processing
-- LoRA адаптеры на лету
-
-**Speculative decoding (M3 Ultra 192GB, Llama 3.1 70B Q4):**
-
-| Режим | tok/s | Ускорение |
-|-------|-------|-----------|
-| Direct | 9.4 | 1× |
-| **Speculative (70B+70B)** | **11.3** | **1.2×** |
-| **Speculative (70B+8B)** | **15.1** | **1.6×** |
-
-**Когда выбрать llama.cpp:**
-- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Нужна кроссплатформенность (везде GGUF)
-- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Хотите полный контроль над инференсом
-- <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Используете нестандартные квантизации
-- <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> Хотите простоту «одной команды»
 
 ---
 
-### 1.5 vLLM — production serving
+## 7. vLLM — production serving
 
 | Параметр | Значение |
 |----------|----------|
@@ -411,7 +467,10 @@ lora.train_lora(
 
 ---
 
-### 1.6 GPT4All — RAG и документы
+
+---
+
+## 8. GPT4All — RAG и документы
 
 | Параметр | Значение |
 |----------|----------|
@@ -445,7 +504,10 @@ lora.train_lora(
 
 ---
 
-### 1.7 Jan — десктопный AI
+
+---
+
+## 9. Jan — десктопный AI
 
 | Параметр | Значение |
 |----------|----------|
@@ -468,7 +530,10 @@ lora.train_lora(
 
 ---
 
-### 1.8 Open WebUI — веб-интерфейс для Ollama
+
+---
+
+## 10. Open WebUI — веб-интерфейс для Ollama
 
 | Параметр | Значение |
 |----------|----------|
@@ -493,7 +558,10 @@ lora.train_lora(
 
 ---
 
-### 1.9 Aider — CLI-агент для кодинга
+
+---
+
+## 11. Aider — CLI-агент для кодинга
 
 | Параметр | Значение |
 |----------|----------|
@@ -527,7 +595,10 @@ aider --model ollama/qwen2.5-coder:7b
 
 ---
 
-### 1.10 Continue.dev — IDE-плагин
+
+---
+
+## 12. Continue.dev — IDE-плагин
 
 | Параметр | Значение |
 |----------|----------|
@@ -574,7 +645,10 @@ aider --model ollama/qwen2.5-coder:7b
 
 ---
 
-### 1.11 Enchanted — клиент для macOS и iOS
+
+---
+
+## 13. Enchanted — клиент для macOS и iOS
 
 | Параметр | Значение |
 |----------|----------|
@@ -597,7 +671,10 @@ aider --model ollama/qwen2.5-coder:7b
 
 ---
 
-### 1.12 LocalAI — OpenAI API drop-in
+
+---
+
+## 14. LocalAI — OpenAI API drop-in
 
 | Параметр | Значение |
 |----------|----------|
@@ -626,7 +703,10 @@ docker run -p 8080:8080 \
 
 ---
 
-### 1.13 MindWork AI Studio — универсальный мульти-провайдер
+
+---
+
+## 15. MindWork AI Studio — универсальный мульти-провайдер
 
 | Параметр | Значение |
 |----------|----------|
@@ -660,7 +740,10 @@ docker run -p 8080:8080 \
 
 ---
 
-## 2. Сравнительная таблица
+
+---
+
+## 16. Сравнительная таблица
 
 | Характеристика | Ollama | LM Studio | llama.cpp | MLX | vLLM | GPT4All | Jan | Open WebUI | Aider | Continue.dev | Enchanted | LocalAI | MindWork AI Studio |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -680,28 +763,12 @@ docker run -p 8080:8080 \
 
 ---
 
-## 3. Сценарии: какой инструмент выбрать
-
-| Сценарий | Инструмент | Почему |
-|----------|-----------|--------|
-| **Хочу скачать и тестировать модели** (discovery) | **LM Studio** | Встроенный поиск HF по категориям, визуальный |
-| **Нужен API для моего приложения** (integration) | **Ollama** | 3 команды, OpenAI API, любой язык |
-| **Максимальная скорость на Mac** (performance) | **MLX** (mlx-lm) или LM Studio | +20-40% tok/s, -50% RAM |
-| **Нужен fine-tuning модели** (training) | **MLX** (mlx-lm) | LoRA/QLoRA, нативный Apple, Python API |
-| **Приватный RAG на документах** (RAG) | **GPT4All** (один пользователь) или **Open WebUI** (команда) | LocalDocs / 9 векторных БД |
-| **AI-ассистент в VS Code** (coding-IDE) | **Continue.dev + Ollama** | Tab autocomplete, inline editing, @codebase |
-| **Автономный кодинг-агент в CLI** (coding-agent) | **Aider + Ollama** | architect/editor split, repo map |
-| **Production server** (deployment) | **vLLM** (Linux) или **LM Studio** (Mac) | Continuous batching, PagedAttention |
-| **Полный новичок** (beginner) | **LM Studio** | GUI, ни одной команды в терминале |
-| **Максимальная приватность** (privacy) | **Ollama + GPT4All** | Всё локально, 0 соединений наружу |
-| **Длинный контекст 100K+** (context) | **llama.cpp** (raw) | Speculative decoding, KV cache контроль |
-| **Batch-обработка тысяч промптов** (batch) | **vLLM** (Linux) или **llama.cpp** (Mac) | Continuous batching |
 
 ---
 
-## 4. Бенчмарки на Apple Silicon
+## 17. Бенчмарки на Apple Silicon
 
-### 3.1 MLX vs llama.cpp vs Ollama (M5 Max 128GB, Llama 3.1 70B Q4)
+### 17.1 MLX vs llama.cpp vs Ollama (M5 Max 128GB, Llama 3.1 70B Q4)
 
 | Бэкенд | tok/s | Память | Отставание |
 |--------|-------|--------|-----------|
@@ -711,7 +778,7 @@ docker run -p 8080:8080 \
 
 *(Источник: CraftRigs)*
 
-### 3.2 MLX vs llama.cpp (M4 Max 36GB, Llama 3 8B Q4)
+### 17.2 MLX vs llama.cpp (M4 Max 36GB, Llama 3 8B Q4)
 
 | Бэкенд | Prefill (tok/s) | Генерация (tok/s) | Память |
 |--------|----------------|-------------------|--------|
@@ -720,7 +787,7 @@ docker run -p 8080:8080 \
 
 *(Источник: Contra Collective)*
 
-### 3.3 MLX vs llama.cpp (M3 Ultra 192GB, Llama 3.1 70B Q4)
+### 17.3 MLX vs llama.cpp (M3 Ultra 192GB, Llama 3.1 70B Q4)
 
 | Бэкенд | Prefill (tok/s) | Генерация (tok/s) | Память |
 |--------|----------------|-------------------|--------|
@@ -729,7 +796,7 @@ docker run -p 8080:8080 \
 
 *(Источник: Contra Collective)*
 
-### 3.4 Systematic comparison (arXiv, M2 Ultra 192GB, Qwen-2.5)
+### 17.4 Systematic comparison (arXiv, M2 Ultra 192GB, Qwen-2.5)
 
 | Фреймворк | Макс. tok/s | TTFT | Пропускная способность |
 |-----------|------------|------|----------------------|
@@ -741,14 +808,14 @@ docker run -p 8080:8080 \
 
 *(Источник: arXiv:2511.05502)*
 
-### 3.5 Speculative decoding ускорение
+### 17.5 Speculative decoding ускорение
 
 | Инструмент | Модель | Без SD (tok/s) | Со SD (tok/s) | Ускорение |
 |-----------|--------|---------------|--------------|-----------|
 | **mlx-lm** | Llama 3.3 70B | 11.2 | **23.5** | **2.1×** |
 | llama.cpp | Llama 3.3 70B + 8B draft | 9.4 | **15.1** | **1.6×** |
 
-### 3.6 Влияние контекста на скорость
+### 17.6 Влияние контекста на скорость
 
 Gemma 4 26B MoE на M3 Max 128GB:
 
@@ -761,7 +828,7 @@ Gemma 4 26B MoE на M3 Max 128GB:
 
 *(Источник: PubliVault)*
 
-### 3.7 M4 Pro 24 GB, Qwen3-Coder-30B MoE
+### 17.7 M4 Pro 24 GB, Qwen3-Coder-30B MoE
 
 | Метрика | LM Studio (MLX) | Ollama (llama.cpp) | Разница |
 |---------|----------------|-------------------|---------|
@@ -770,7 +837,7 @@ Gemma 4 26B MoE на M3 Max 128GB:
 | GPU Power | **12.4 W** | 15.4 W | **–20%** |
 | Память | **21.4 GB** | 41.6 GB | **–49%** |
 
-### 3.8 MLX backend в Ollama
+### 17.8 MLX backend в Ollama
 
 С марта 2026 года Ollama может использовать MLX backend на Mac с 32 ГБ+ RAM:
 - Qwen 3.5-35B-A3B: 58 → **112 tok/s** на M5 Max (+93%)
@@ -778,9 +845,12 @@ Gemma 4 26B MoE на M3 Max 128GB:
 
 ---
 
-## 5. Масштабирование
 
-### 4.1 Concurrent users
+---
+
+## 18. Масштабирование и production
+
+### 18.1 Concurrent users
 
 | Инструмент | Макс. concurrent | Зависит от | Механизм |
 |-----------|-----------------|-----------|----------|
@@ -791,7 +861,7 @@ Gemma 4 26B MoE на M3 Max 128GB:
 | **MLX** | 1-2 | RAM | Нет серверного режима |
 | **GPT4All** | 1 | — | Только локально |
 
-### 4.2 Docker support
+### 18.2 Docker support
 
 | Инструмент | Docker | Известный образ |
 |-----------|--------|----------------|
@@ -806,7 +876,7 @@ Gemma 4 26B MoE на M3 Max 128GB:
 | **LocalAI** | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | `localai/localai` |
 | **Aider** | <img src="https://lucide.dev/api/icons/alert-triangle" alt="" width="20" height="20" style="vertical-align:middle"> | Community |
 
-### 4.3 GPU memory management
+### 18.3 GPU memory management
 
 | Инструмент | Unload | Offload | KV cache control | Multi-GPU |
 |-----------|--------|---------|-----------------|-----------|
@@ -817,7 +887,56 @@ Gemma 4 26B MoE на M3 Max 128GB:
 
 ---
 
-## 6. Гайды по установке
+
+---
+
+## 19. Decision Tree
+
+```
+Хочу запускать LLM локально
+│
+├─ Я полный новичок, не хочу терминал
+│  └─ LM Studio ─────────────────────────────── GUI, авто-MLX, поиск моделей
+│
+├─ Нужна одна команда и API
+│  └─ Ollama ─────────────────────────────────── brew install + ollama run
+│     │
+│     ├─ Хочу GUI сверху → Open WebUI ───────── Docker, RAG, multi-user
+│     ├─ Хочу IDE assistant → Continue.dev ──── VS Code, tab autocomplete
+│     └─ Хочу CLI agent → Aider ─────────────── architect/editor, repo map
+│
+├─ Mac, нужно максимально быстро
+│  └─ MLX (через LM Studio или mlx-lm) ─────── +20-40%, -50% RAM
+│
+├─ Нужен production server на Linux
+│  └─ vLLM ───────────────────────────────────── Continuous batching, multi-GPU
+│
+├─ Нужен RAG на документах
+│  ├─ Одному пользователю → GPT4All
+│  └─ Команде → Open WebUI
+│
+├─ Нужно обучение / fine-tuning
+│  └─ MLX (mlx-lm) ──────────────────────────── LoRA/QLoRA на Apple Silicon
+│
+├─ Нужен полный контроль и гибкость
+│  └─ llama.cpp (raw) ──────────────────────── GGUF, speculative decoding
+│
+├─ Нужен полный OpenAI API (TTS, STT, images)
+│  └─ LocalAI ───────────────────────────────── 60+ бэкендов, Docker
+│
+├─ Нужен десктопный клиент для локальных + облачных моделей
+│  └─ Jan ───────────────────────────────────── Model Hub, remote support
+│
+└─ Нужен один GUI для всех провайдеров
+   └─ MindWork AI Studio ────────────────────── Локальные + облачные, плагины, RAG
+```
+
+---
+
+
+---
+
+## 20. Гайды по установке
 
 ### Ollama
 
@@ -1035,50 +1154,10 @@ git clone https://github.com/MindWorkAI/AI-Studio.git
 
 ---
 
-## 7. Decision Tree
-
-```
-Хочу запускать LLM локально
-│
-├─ Я полный новичок, не хочу терминал
-│  └─ LM Studio ─────────────────────────────── GUI, авто-MLX, поиск моделей
-│
-├─ Нужна одна команда и API
-│  └─ Ollama ─────────────────────────────────── brew install + ollama run
-│     │
-│     ├─ Хочу GUI сверху → Open WebUI ───────── Docker, RAG, multi-user
-│     ├─ Хочу IDE assistant → Continue.dev ──── VS Code, tab autocomplete
-│     └─ Хочу CLI agent → Aider ─────────────── architect/editor, repo map
-│
-├─ Mac, нужно максимально быстро
-│  └─ MLX (через LM Studio или mlx-lm) ─────── +20-40%, -50% RAM
-│
-├─ Нужен production server на Linux
-│  └─ vLLM ───────────────────────────────────── Continuous batching, multi-GPU
-│
-├─ Нужен RAG на документах
-│  ├─ Одному пользователю → GPT4All
-│  └─ Команде → Open WebUI
-│
-├─ Нужно обучение / fine-tuning
-│  └─ MLX (mlx-lm) ──────────────────────────── LoRA/QLoRA на Apple Silicon
-│
-├─ Нужен полный контроль и гибкость
-│  └─ llama.cpp (raw) ──────────────────────── GGUF, speculative decoding
-│
-├─ Нужен полный OpenAI API (TTS, STT, images)
-│  └─ LocalAI ───────────────────────────────── 60+ бэкендов, Docker
-│
-├─ Нужен десктопный клиент для локальных + облачных моделей
-│  └─ Jan ───────────────────────────────────── Model Hub, remote support
-│
-└─ Нужен один GUI для всех провайдеров
-   └─ MindWork AI Studio ────────────────────── Локальные + облачные, плагины, RAG
-```
 
 ---
 
-## 8. Глоссарий терминов
+## 21. Глоссарий терминов
 
 | Термин | Значение |
 |--------|---------|
@@ -1092,7 +1171,10 @@ git clone https://github.com/MindWorkAI/AI-Studio.git
 
 ---
 
-## 9. Что дальше
+
+---
+
+## 22. Что дальше
 
 | Если хотите | Переходите |
 |-------------|-----------|
