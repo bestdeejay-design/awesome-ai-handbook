@@ -23,6 +23,17 @@
 
 ---
 
+## What affects model choice
+
+When choosing a model, consider:
+
+1. **Task** — coding, chat, text analysis, image processing
+2. **Available VRAM/RAM** — how much memory you have
+3. **Quality needed** — maximum quality or "good enough"
+4. **Speed requirements** — real-time response or batch processing
+
+---
+
 ## 1. Quick picks by task
 
 | Task | Recommended model | RAM needed | Ollama command |
@@ -109,6 +120,146 @@ For Macs with 8 GB RAM or CPU-only inference:
 | Llama 3.2 3B | 2.0 GB | 30-40 | Fast chat |
 | CodeGemma 2B | 1.5 GB | 35+ | Code autocomplete |
 | Qwen 2.5 Coder 1.5B | 1.1 GB | 40+ | Fast coding |
+
+---
+
+## MacBook Air M1 16GB reference
+
+Models that work well on 16GB unified memory (M1/M2 chips):
+
+| Task | Model | Size | Quant | Speed (tok/s) | HuggingFace / Ollama |
+|------|-------|------|-------|---------------|----------------------|
+| **Everyday chat** | Qwen 3.5 9B | 6.6 GB | Q4_K_M | 10-13 | [HF](https://huggingface.co/Qwen/Qwen3.5-9B) / [Ollama](https://ollama.com/library/qwen3.5) |
+| **Max speed** | Qwen 3.5 4B | 3.4 GB | Q4_K_M | 28-35 | [HF](https://huggingface.co/Qwen/Qwen3.5-4B) / [Ollama](https://ollama.com/library/qwen3.5) |
+| **Coding** | Qwen 2.5 Coder 7B | 4.7 GB | Q4_K_M | 22-25 | [HF](https://huggingface.co/Qwen/Qwen2.5-Coder-7B) / [Ollama](https://ollama.com/library/qwen2.5-coder:7b) |
+| **Writing/content** | Llama 3.3 8B | 4.9 GB | Q4_K_M | 14-18 | [HF](https://huggingface.co/meta-llama/Llama-3.3-8B-Instruct) / [Ollama](https://ollama.com/library/llama3.3:8b) |
+| **Math/reasoning** | Phi-4 Mini | 2.3 GB | Q4_K_M | 25-30 | [HF](https://huggingface.co/microsoft/Phi-4-mini-instruct) / [Ollama](https://ollama.com/library/phi4-mini) |
+| **Vision** | Gemma 4 E4B | 2.5 GB | Q4_K_M | 30-38 | [HF](https://huggingface.co/google/gemma-3-4b-it) / [Ollama](https://ollama.com/library/gemma3:4b) |
+| **Tool calling / agents** | LFM2.5 8B-A1B | 5.5 GB | Q4_K_M | 35-45 | [HF](https://huggingface.co/LiquidAI/LFM2-8B-A1B) |
+| **Long context** | Qwen 3.5 9B | 6.6 GB | Q4_K_M | 10-13 | [HF](https://huggingface.co/Qwen/Qwen3.5-9B) / [Ollama](https://ollama.com/library/qwen3.5) |
+
+## Estimating RAM usage
+
+### Formula
+```
+Model memory ≈ (Parameters in billions) × (Bytes per parameter) + KV cache + overhead
+```
+
+### Example calculations
+
+| Available RAM | Example model | Calculation |
+|--------------|---------------|-------------|
+| **4-6 GB** (swap possible) | Qwen 2.5 1.5B Q4_K_M (~1.1 GB) | 1.5B × 0.55 ≈ 0.8 GB + KV (~0.3GB) ≈ 1.1-1.4 GB |
+| **8 GB** | Qwen 2.5 3B Q4_K_M (~2.0 GB) | 3B × 0.55 ≈ 1.65 GB + KV (~0.3GB) ≈ 2.0 GB |
+| **16 GB** | Qwen 3.5 9B Q4_K_M (~7.0 GB) | 9B × 0.55 ≈ 4.95 GB + KV (~1.0GB) + overhead ≈ 7.0 GB |
+| **24 GB** | Llama 3 14B Q4_K_M (~8.7 GB) | 14B × 0.55 ≈ 7.7 GB + KV (~1.5GB) ≈ 9.2 GB |
+| **32 GB** | Mixtral 8x7B Q4_K_M (~24 GB MoE) | ~6B active params × 0.55 ≈ 3.3 GB + KV (~2GB) ≈ 8-10 GB effective |
+| **48+ GB** | Llama 3 70B Q3_K_M (~39 GB) | 70B × 0.41 ≈ 28.7 GB + KV (~8GB) ≈ 36-40 GB |
+
+### RAM recommendations
+
+| RAM | Best choice | Alternative |
+|-----|-------------|-------------|
+| **4-6 GB** | TinyLlama 1.1B, Phi-2 2.7B, Qwen 1.5-1.8B | Chat and simple tasks |
+| **8 GB** | Qwen 2.5 3B, Phi-3 Mini 3.8B, Mistral 7B | Speed and quality balance |
+| **16 GB** | Qwen 3.5 9B, Llama 3.1 8B, Qwen 2.5 Coder 7B | Universal choice |
+| **24-32 GB** | Llama 3 14B, Mixtral 8x7B, Command R | Complex tasks and agents |
+| **48+ GB** | Llama 3 70B, Mixtral 8x22B | Maximum quality, complex reasoning |
+
+## Specialized models
+
+### Vision / Image understanding
+- **Gemma 4** (4B) — great balance of size and quality
+- **Llama 3.2 Vision** (11B/90B) — maximum quality
+- **Pixtral** (12B) — from Mistral, strong multimodal capabilities
+- **InternVL2** (2B/4B/8B) — excellent quality for size
+
+### Long context
+- **Qwen 3.5** series (8B/14B/32B) — up to 32K tokens
+- **Yi** series (6B/9B/34B) — up to 200K tokens
+- **GLM-4** (9B) — up to 128K tokens
+- **Phi-3-mini-128k** — special version with 128K context
+
+## How to read model names
+
+### Example: `Qwen 2.5 Coder 7B Instruct Q4_K_M`
+- **Qwen 2.5** — model family and version
+- **Coder** — specialization (can be omitted for general models)
+- **7B** — parameter count (7 billion)
+- **Instruct** — instruction-tuned version (vs base)
+- **Q4_K_M** — quantization type (see quantization guide)
+
+### Main quantization types (GGUF)
+
+| Type | Bits/weight | Quality | Size | When to use |
+|------|-------------|---------|------|-------------|
+| Q2_K | ~2 | Very low | Very small | Only with critical memory shortage |
+| Q3_K_S/M | ~3-3.5 | Low-medium | Small | Limited resources |
+| Q4_0 | 4.0 | Satisfactory | Medium | When predictability matters |
+| Q4_K_S/M | ~4.3-4.8 | Good-excellent | Medium | Best balance of quality and size |
+| Q5_0 | 5.0 | Very good | Above medium | When you have some extra memory |
+| Q5_K_S/M | ~5.3-5.5 | Excellent | Above medium | High quality at moderate size |
+| Q6_K | ~6.0 | High | Large | For code and critical tasks |
+| Q8_0 | 8.0 | Almost FP16 | Large | When memory allows, max quality |
+| F16 | 16.0 | Maximum | Very large | Experiments and baseline comparison |
+
+> **Tip**: Start with **Q4_K_M** for most tasks — best balance of quality, size and speed. Need more quality? Go Q5_K_M or Q6_K. Need speed or very low memory? Try Q3_K_M or Q2_K.
+
+## Hardware-specific recommendations
+
+### Apple Silicon (M1/M2/M3/M4)
+- Best in GGUF format
+- Via Ollama or LM Studio (auto-uses Metal)
+- For max speed — mlx-lm (MLX format)
+- Avoid large context windows (>16K) on M1/M2 due to limited memory bandwidth
+
+### NVIDIA GPU
+- Best via llama.cpp with CUDA or inference frameworks
+- GGUF and GPTQ formats work well
+- Watch VRAM (not system RAM)
+- 8GB VRAM: models up to 7B Q4/Q5
+- 12GB VRAM: up to 13B Q4/Q5
+- 16GB VRAM: up to 20-24B Q4
+- 24GB+ VRAM: try 30-70B with appropriate quantization
+
+### AMD GPU
+- Support via ROCm (limited)
+- Use llama.cpp or frameworks with CPU fallback
+- Similar memory recommendations as NVIDIA
+
+### CPU only
+- Stick to models up to 3-4B for acceptable speed
+- Use aggressive quantization (Q2_K/Q3_K)
+- Expect 1-5 tok/s on modern CPUs
+- Best for experiments and light tasks
+
+## Where to get models
+
+### Ollama library
+Simplest way to start:
+```bash
+ollama pull qwen3:8b
+ollama run qwen3:8b
+```
+Browse models at [ollama.com/library](https://ollama.com/library)
+
+### Hugging Face
+For advanced users:
+- Look for `.gguf` suffix in model names (ready for llama.cpp)
+- Or download original models and convert via `llama.cpp/convert_hf_to_gguf.py`
+- Popular orgs: `Qwen`, `meta-llama`, `microsoft`, `google`, `NousResearch`, `TheBloke`, `lmstudio-community`
+
+### Top HF collections
+- **TheBloke** — almost all popular models in various GGUF quantizations
+- **lmstudio-community** — optimized for LM Studio
+- **unsloth** — optimized for fast fine-tuning
+
+## Stay updated
+
+Models evolve fast. Recommended:
+1. Follow releases from major labs (Meta, Mistral, Qwen, Microsoft, Google)
+2. Check favorite HF repos every 2-4 weeks
+3. Join r/LocalLLaMA and relevant Discord communities
 
 ---
 
