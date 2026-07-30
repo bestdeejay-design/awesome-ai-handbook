@@ -98,6 +98,8 @@ When choosing a model, consider:
 
 ## 6. Reasoning models
 
+For reasoning and math: **Phi-4 Mini** (3.8B) — surprisingly strong for its size; **Phi-4** (14B) — if you have resources, excellent at logic; **Qwen 2.5 Math** series — specifically tuned for mathematical tasks; **DeepSeek Math** 7B/7B-Instruct — strong math model.
+
 | Model | Size | Best for |
 |-------|------|----------|
 | DeepSeek R1 Distill 7B | 4.5 GB | 2-3x better reasoning than vanilla 7B |
@@ -167,6 +169,9 @@ Model memory ≈ (Parameters in billions) × (Bytes per parameter) + KV cache + 
 | **48+ GB** | Llama 3 70B, Mixtral 8x22B | Maximum quality, complex reasoning |
 
 ## Specialized models
+
+### Coding
+For coding the best choices are: **Qwen 2.5 Coder 7B** — best balance of quality and speed; **DeepSeek Coder V2 Lite** (16B MoE, ~2.4B active) — if you have more resources; **Stable Code 3B** — very fast for autocomplete; **CodeLlama 7B/13B** — good alternative with large ecosystem.
 
 ### Vision / Image understanding
 - **Gemma 4** (4B) — great balance of size and quality
