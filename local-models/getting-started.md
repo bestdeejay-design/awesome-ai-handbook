@@ -39,9 +39,19 @@ A **local AI model** is a program that runs directly on your computer. You downl
 | Message limits | No limits |
 | Cannot customize | Configurable |
 
+**What you will be able to do after this guide:**
+- Ask questions to the model directly in the terminal (like a chat)
+- Connect the model to a code editor for autocompletion
+- Use the model for translation, text analysis, writing code
+- All of this — for free and without internet
+
 ---
 
 ## 2. How to open the terminal
+
+The terminal is a window where you type commands as text instead of clicking buttons. Many commands in this guide need to be entered in the terminal.
+
+### Finding Terminal on Mac
 
 **Method 1 — Spotlight (fast):**
 1. Press `Cmd (⌘) + Space` — search appears
@@ -52,6 +62,8 @@ A **local AI model** is a program that runs directly on your computer. You downl
 1. Open Finder
 2. Go → Utilities
 3. Double-click "Terminal"
+
+### What the terminal looks like
 
 You will see something like:
 ```
@@ -64,12 +76,16 @@ user@MacBook-Air ~ %
 
 This is the **command prompt**. It means the terminal is ready for your command.
 
-Try this:
+### Your first command
+
+Type or paste this command into the terminal (right-click → Paste, or `Cmd+V`):
+
 ```bash
 echo "Hello, Im running an AI model!"
 ```
 
-You should see:
+Press `Enter`. The terminal should respond with:
+
 ```
 Hello, Im running an AI model!
 ```
@@ -104,6 +120,12 @@ Example output: `RAM: 16 GB`
 system_profiler SPHardwareDataType | grep -E "Chip|Memory|Processor"
 ```
 
+Example output:
+```
+Chip: Apple M1
+Memory: 16 GB
+```
+
 ### RAM guide
 
 | Your RAM | Suitable models |
@@ -128,7 +150,9 @@ brew --version
 ```
 
 - If you see `Homebrew 4.x.x` → skip to [Install Ollama](#5-install-ollama)
-- If you see `command not found: brew` → install it:
+- If you see `command not found: brew` → install it with the command below.
+
+### Install Homebrew
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -138,6 +162,17 @@ After pressing Enter:
 1. Terminal may ask for your Mac password — type it (characters wont show, thats normal). Press Enter.
 2. Installation takes 1–5 minutes.
 3. Wait for `Installation successful!`
+
+### Verify installation
+
+```bash
+brew --version
+```
+
+Should show:
+```
+Homebrew 4.x.x
+```
 
 ### Apple Silicon PATH fix
 
@@ -195,7 +230,9 @@ curl http://localhost:11434/api/version
 
 You should see: `{"version":"0.x.x"}`
 
-> **Tip:** After rebooting your Mac, start Ollama again, or search for "Ollama" in Spotlight and launch the app once — it will auto-start the server on every boot. You will see the Ollama icon in the menu bar.
+### Auto-start (convenient)
+
+After installation, the **Ollama** app appears in your Applications folder. Search for "Ollama" via Spotlight or in Applications and launch it once — it will automatically start the server on every boot. You will see the Ollama icon in the menu bar.
 
 ---
 
@@ -211,14 +248,20 @@ ollama run qwen3.5:4b
 1. If the model is not downloaded — Ollama starts downloading (shows a progress bar)
 2. Model size: ~3.4 GB (like one HD movie)
 3. Download time: 1–10 minutes depending on your internet
-4. After download, you will see the `>>>` prompt
+4. After download, you will see the `>>>` prompt — the model is ready for conversation.
 
-### Try these commands
+### How to chat with the model
+
+Simply type your questions and press Enter. The model will generate a response. After it finishes, the `>>>` prompt appears again — you can ask the next question.
+
+### What to try asking
 
 ```
 >>> Write a poem about a programmer
 >>> Explain recursion in simple terms
 >>> Write a Python function to check if a number is prime
+>>> Translate this to English: "Мне нужно запустить AI-модель локально"
+>>> Write a study plan for learning Python for a beginner
 >>> /bye  # exit the chat
 ```
 
@@ -249,6 +292,12 @@ ollama run phi4-mini           # small but smart
 > On a MacBook with **16 GB RAM** — all fit.
 > With **8 GB** — use only `qwen3.5:4b` or `phi4-mini`.
 
+### Where to find other models
+
+Browse the full model catalog: [ollama.com/search](https://ollama.com/search)
+
+Each model page shows its size (in the Size column) — use this to check if it fits your RAM.
+
 ### Download without running
 
 ```bash
@@ -256,19 +305,21 @@ ollama pull qwen3.5:9b    # download only, dont start chat
 ollama list               # see all downloaded models
 ```
 
-Browse all models: [ollama.com/search](https://ollama.com/search)
-
 ---
 
 ## 7. Install LM Studio (no terminal alternative)
 
-If you prefer a GUI over the command line, use **LM Studio**.
+If you prefer a GUI over the command line, use **LM Studio** — a desktop app with buttons and menus where everything is done with a mouse.
+
+### Installation
 
 1. Open [lmstudio.ai](https://lmstudio.ai) in your browser
-2. Click "Download for macOS"
-3. Open the downloaded `.dmg` file
+2. Click "Download for macOS" — downloads a `.dmg` file
+3. Open the downloaded file (usually in Downloads folder)
 4. Drag LM Studio to your Applications folder
 5. Open LM Studio via Launchpad or Spotlight
+
+### First run
 
 1. Search for "Qwen 3.5 4B"
 2. Click Download
@@ -297,6 +348,10 @@ If you prefer a GUI over the command line, use **LM Studio**.
 | **Something went wrong** | [troubleshooting.md](troubleshooting.md) |
 | **Browse all models** | [catalog.md](catalog.md) |
 | **Back** | [README.md](README.md) |
+
+---
+
+> **Tip:** Bookmark this page or save it in your browser — you will come back to it when setting up new models.
 
 ---
 

@@ -10,6 +10,11 @@
 
 ---
 
+## Route overview (2–3 hours)
+
+This plan takes you from installing your first program to building your own AI agent.
+Each step takes **10–30 minutes**. Follow them in order.
+
 ```
 Step 1  LM Studio — just try it
 Step 2  Install Ollama and run a model
@@ -25,7 +30,7 @@ Step 10 Build an agent team for your project
 
 ---
 
-## Step 1. LM Studio — just try it
+## <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Step 1. LM Studio — just try it
 
 **Time:** 5 minutes
 **Result:** you talk to a local AI model for the first time.
@@ -36,9 +41,16 @@ Step 10 Build an agent team for your project
 4. After download click Load Chat
 5. Type: "Hello! What can you do?"
 
+Done. You just ran an AI model on your computer. Free, offline, no registration.
+
 ---
 
-## Step 2. Ollama — install and run your first model
+## <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-green.svg" alt="" width="12" height="12" style="vertical-align:middle"> Step 2. Ollama — install and run your first model
+
+**Time:** 10 minutes  
+**Result:** you install Ollama and run models via the terminal.
+
+Choose your platform:
 
 - **Mac:** [`../local-models/getting-started.md`](../local-models/getting-started.md)
 - **Windows:** [setup-windows.md](setup-windows.md)
@@ -47,10 +59,14 @@ Step 10 Build an agent team for your project
 ```bash
 ollama run qwen3.5:4b
 ```
+Chat with the model. Try `/bye` to exit.
 
 ---
 
-## Step 3. Understand model types
+## <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Step 3. Understand model types
+
+**Time:** 15 minutes  
+**Result:** you understand how models differ and which to choose.
 
 Read:
 - [`../local-models/running-models.md`](../local-models/running-models.md)
@@ -64,7 +80,10 @@ ollama run llama3.3:8b      # larger (4.9 GB)
 
 ---
 
-## Step 4. Context and quantization
+## <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Step 4. Context and quantization
+
+**Time:** 15 minutes  
+**Result:** you understand why models are slow and how to fix it.
 
 Read:
 - [`../local-models/memory-and-context.md`](../local-models/memory-and-context.md)
@@ -77,7 +96,10 @@ OLLAMA_CONTEXT_LENGTH=16384 ollama run qwen3.5:4b
 
 ---
 
-## Step 5. Choose a model for your task
+## <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-yellow.svg" alt="" width="12" height="12" style="vertical-align:middle"> Step 5. Choose a model for your task
+
+**Time:** 10 minutes  
+**Result:** you know which model to use for coding, chat, translation, RAG.
 
 Read [`../local-models/models.md`](../local-models/models.md). Download a coding model:
 ```bash
@@ -86,46 +108,87 @@ ollama pull qwen2.5-coder:7b
 
 ---
 
-## Step 6. Set up local coding assistant
+## <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Step 6. Set up local coding assistant
+
+**Time:** 20 minutes  
+**Result:** AI helps you write code right in your editor.
 
 Follow [`../use-cases/coding.md`](../use-cases/coding.md):
 - Install VS Code + Continue.dev
 - Connect to Ollama
 - Start coding with AI
 
+**What to try:**
+- `Cmd+I` — open AI chat in your editor
+- Select code and ask "explain this function" or "find bugs"
+- Ask it to write a function: "write a function that sorts a list in descending order"
+
 ---
 
-## Step 7. Aider — terminal coding agent
+## <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Step 7. Aider — terminal coding agent
+
+**Time:** 15 minutes  
+**Result:** you can give AI coding tasks and it modifies code on its own.
 
 ```bash
+# Install
 pip install aider-chat
+
+# Run with a local model
 export OLLAMA_API_BASE=http://127.0.0.1:11434
 aider --model ollama_chat/qwen2.5-coder:7b
 ```
+
+**What to try:**
+1. Open any Python file
+2. Type: "add docstrings to all functions in this file"
+3. Aider reads the file, makes changes, and shows you the diff
 
 More: [`../use-cases/coding.md`](../use-cases/coding.md)
 
 ---
 
-## Step 8. Create your first AI agent
+## <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Step 8. Create your first AI agent
+
+**Time:** 30 minutes  
+**Result:** you wrote a program where the model decides when to call a tool on its own.
 
 Follow the tutorial: [`../agents/tutorials/01-first-agent.md`](../agents/tutorials/01-first-agent.md)
 
+You'll build an agent that:
+- Receives a task
+- Decides whether it needs to call a tool (calculator, search)
+- Executes and returns the result
+- Repeats until the task is solved
+
 ---
 
-## Step 9. Open WebUI — web chat interface
+## <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Step 9. Open WebUI — web chat interface
 
+**Time:** 15 minutes  
+**Result:** you get a web interface for models, like ChatGPT, but local.
+
+Via Docker:
 ```bash
 docker run -d -p 3000:8080 \
   -v open-webui:/app/backend/data \
   ghcr.io/open-webui/open-webui:main
 ```
 
+Or without Docker, via pip:
+```bash
+pip install open-webui
+open-webui serve
+```
+
 Open `http://localhost:3000`
 
 ---
 
-## Step 10. Multi-agent team
+## <img src="https://bestdeejay-design.github.io/awesome-ai-handbook/assets/icons/level-blue.svg" alt="" width="12" height="12" style="vertical-align:middle"> Step 10. Multi-agent team
+
+**Time:** 30–60 minutes  
+**Result:** you have several AI agents working together — one plans, another codes, a third tests.
 
 Follow tutorials:
 1. [`../agents/tutorials/02-agent-team.md`](../agents/tutorials/02-agent-team.md) — agent team
@@ -133,12 +196,16 @@ Follow tutorials:
 
 ---
 
+## After 10 steps
+
 Congratulations! You now have:
 - A working local AI on your computer
 - AI assistant in your code editor
 - Terminal coding agent (Aider)
 - Your first AI agent
 - Understanding of how it all works
+
+**Where to grow further:**
 
 | Topic | Section |
 |-------|---------|
@@ -150,6 +217,21 @@ Congratulations! You now have:
 | **All 50+ models catalog** | [`../local-models/catalog.md`](../local-models/catalog.md) |
 
 ---
+
+## Shortcut route (1 hour)
+
+If you're really short on time:
+
+```
+Step 1 → LM Studio (5 min)
+Step 2 → Ollama + model (10 min)
+Step 6 → Continue.dev + VS Code (20 min)
+Step 8 → First agent (30 min)
+```
+
+---
+
+## What's next
 
 | If you want | Go to |
 |-------------|-------|

@@ -24,16 +24,37 @@
 
 ## 1. Environment variables
 
-Tune Ollama behavior with environment variables.
+Environment variables are the simplest way to control how Ollama uses memory,
+CPU, and network. They must be set **before** starting the server.
+
+### How to set a variable
+
+**Method 1 — temporary (single run):**
 
 ```bash
-# Per session
+OLLAMA_KV_CACHE_TYPE=q4_0 ollama serve
+```
+
+**Method 2 — session-wide:**
+
+```bash
 export OLLAMA_KV_CACHE_TYPE=q4_0
 ollama serve
+```
 
-# Permanent (add to ~/.zshrc)
+**Method 3 — permanent (recommended):**
+
+Add lines to `~/.zshrc` (executed every time you open a terminal):
+
+```bash
 echo 'export OLLAMA_KV_CACHE_TYPE=q4_0' >> ~/.zshrc
 echo 'export OLLAMA_FLASH_ATTENTION=1' >> ~/.zshrc
+```
+
+Then apply changes (or open a new terminal):
+
+```bash
+source ~/.zshrc
 ```
 
 ### Variable reference
@@ -50,6 +71,7 @@ echo 'export OLLAMA_FLASH_ATTENTION=1' >> ~/.zshrc
 | `OLLAMA_LOAD_TIMEOUT` | `5m` | Model loading timeout | For large models |
 | `OLLAMA_NOHISTORY` | `false` | Dont save request history | Privacy |
 | `OLLAMA_DEBUG` | `false` | Verbose logs | Debugging |
+| `OLLAMA_MAX_QUEUE` | `512` | Maximum request queue length | Under high load |
 
 ### Recommended config for Mac 16 GB
 
@@ -63,14 +85,32 @@ export OLLAMA_NUM_PARALLEL=2         # 2 parallel requests
 export OLLAMA_KEEP_ALIVE=10m         # keep model 10 min
 export OLLAMA_GPU_OVERHEAD=536870912 # 512 MB system reserve
 EOF
+```
+
+Then apply:
+
+```bash
 source ~/.zshrc
 ```
+
+### Verify variables are applied
+
+```bash
+# Show all Ollama environment variables
+env | grep OLLAMA
+```
+
+Restart `ollama serve` (or the Ollama application) after changing variables.
 
 ---
 
 ## 2. Modelfile — custom models
 
-**Modelfile** is like a Dockerfile but for AI models. You can customize parameters, system prompts, and templates.
+**Modelfile** is like a Dockerfile but for AI models. With it you can:
+
+- Change the system prompt (how the model behaves)
+- Tune generation parameters (temperature, context window)
+- Create a specialized version of a model for your specific task
 
 ### Basic Modelfile
 
@@ -106,8 +146,10 @@ ollama run my-assistant
 | `num_predict` | -1 (∞) | Max tokens in response | `512` for short answers |
 | `top_k` | 40 | How many top options to consider | `10` for more precise answers |
 | `top_p` | 0.9 | Nucleus sampling (0-1) | `0.5` for more confident answers |
+| `min_p` | 0.0 | Minimum token probability | `0.05` to filter out garbage |
 | `seed` | 0 | Random seed (for reproducibility) | `42` for consistent answers |
 | `repeat_penalty` | 1.1 | Repetition penalty | `1.2` if model loops |
+| `stop` | — | Stop sequences | `"\n"` to stop at line break |
 
 ### Example: Translation model
 
@@ -134,6 +176,23 @@ PARAMETER temperature 1.5
 PARAMETER top_p 0.95
 SYSTEM "You are a creative copywriter. Generate unusual ideas, think outside the box."
 ```
+
+### TEMPLATE — prompt format
+
+Some models require a special message format:
+
+```dockerfile
+FROM llama3.3:8b
+
+TEMPLATE """<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+{{ .System }}<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+{{ .Prompt }}<|eot_id|><|start_header_id|>assistant<|end_header_id|>"""
+```
+
+You usually don't need to change the template — it's already built into the model.
+But if a model behaves oddly, you can override it.
 
 ### Inspect existing models
 
@@ -189,6 +248,11 @@ curl http://localhost:11434/api/chat -d '{
 }'
 ```
 
+**Result:** the model will infer the JSON format:
+```json
+{"name": "Ivan", "age": 25, "city": "Moscow"}
+```
+
 ### JSON Schema (structured output)
 
 ```bash
@@ -219,9 +283,29 @@ curl http://localhost:11434/api/embed -d '{
 }'
 ```
 
+### Memory management
+
+**View loaded models:**
+
+```bash
+curl http://localhost:11434/api/ps
+```
+
+**Unload a model from memory:**
+
+```bash
+curl http://localhost:11434/api/generate -d '{
+  "model": "qwen3.5:4b",
+  "keep_alive": 0
+}'
+```
+
+A value of `keep_alive: 0` means "unload immediately". By default, a model stays in memory for 5 minutes.
+
 ### Streaming (for chat apps)
 
-Without `"stream": false`, Ollama returns tokens one by one:
+Without `"stream": false`, Ollama returns the response token by token.
+This creates a "live typing" effect in chat applications:
 ```bash
 curl http://localhost:11434/api/chat -d '{
   "model": "qwen3.5:4b",
@@ -233,6 +317,23 @@ curl http://localhost:11434/api/chat -d '{
 
 ```bash
 curl http://localhost:11434/api/tags
+```
+
+### Python (requests library)
+
+```python
+import requests
+import json
+
+response = requests.post(
+    "http://localhost:11434/api/chat",
+    json={
+        "model": "qwen3.5:4b",
+        "messages": [{"role": "user", "content": "Hello!"}],
+        "stream": False
+    }
+)
+print(response.json()["message"]["content"])
 ```
 
 ---
@@ -249,6 +350,15 @@ Ollama supports OpenAI API format. Any program that works with OpenAI can work w
 | `/v1/completions` | `/v1/completions` | Text generation |
 | `/v1/embeddings` | `/v1/embeddings` | Embeddings |
 | `/v1/models` | `/v1/models` | Model list |
+
+### curl
+
+```bash
+curl http://localhost:11434/v1/chat/completions -d '{
+  "model": "qwen3.5:4b",
+  "messages": [{"role": "user", "content": "Hello!"}]
+}'
+```
 
 ### Python (OpenAI SDK)
 
@@ -281,9 +391,13 @@ const response = await client.chat.completions.create({
   model: 'qwen3.5:4b',
   messages: [{ role: 'user', content: 'Hello!' }],
 });
+
+console.log(response.choices[0].message.content);
 ```
 
 ### Using with Continue.dev
+
+In `~/.continue/config.json`:
 
 ```json
 {
@@ -292,6 +406,13 @@ const response = await client.chat.completions.create({
       "title": "Local chat",
       "provider": "openai",
       "model": "qwen3.5:4b",
+      "apiBase": "http://localhost:11434/v1",
+      "apiKey": "ollama"
+    },
+    {
+      "title": "Autocomplete",
+      "provider": "openai",
+      "model": "qwen2.5-coder:1.5b",
       "apiBase": "http://localhost:11434/v1",
       "apiKey": "ollama"
     }
@@ -306,32 +427,102 @@ export OLLAMA_API_BASE=http://localhost:11434
 aider --model ollama/qwen2.5-coder:7b
 ```
 
+### Important differences from real OpenAI API
+
+| Feature | OpenAI | Ollama |
+|---|---|---|
+| API key | Real key | Any string (or `ollama`) |
+| Streaming | Default | Default |
+| `max_tokens` | Works | Works |
+| `temperature` | Works | Works |
+| `tools` / `functions` | Works | Supported (tool calling) |
+| `response_format` | `json_object` | `format: "json"` or JSON Schema |
+| GPT-4 models | Yes | No (only local) |
+
 ---
 
 ## 5. Parallel requests and multiple models
+
+By default, Ollama processes requests sequentially: one request — one response.
+But you can enable parallel processing.
+
+### Parallel requests to one model
+
+Set `OLLAMA_NUM_PARALLEL` before starting the server:
 
 ```bash
 export OLLAMA_NUM_PARALLEL=2
 ollama serve
 ```
 
-Now two apps (e.g., Continue.dev + Open WebUI) can use the same model simultaneously.
+Now two apps (e.g., Continue.dev in VS Code + Open WebUI chat) can use the same model simultaneously.
+
+**How many can you set?** Depends on your RAM. If a model weighs 4 GB and you have 16 GB,
+2–3 is fine. If a model weighs 8 GB on a 16 GB machine — only 1.
+
+**Check how many requests are currently being processed:**
+
+```bash
+curl http://localhost:11434/api/ps
+```
+
+### Multiple models in memory
 
 ```bash
 export OLLAMA_MAX_LOADED_MODELS=3
 ollama serve
 ```
 
-Example with 3 models loaded:
+Now you can keep up to 3 different models in RAM simultaneously.
+Switching between them is instant (no reloading).
+
+Example scenario:
 1. `qwen3.5:4b` — fast chat (3.4 GB)
 2. `qwen2.5-coder:7b` — coding (4.7 GB)
 3. `all-minilm` — embeddings (0.1 GB)
+
+Total: ~8 GB used, which is fine for a 16 GB Mac.
+
+### Manually unload a model
+
+```bash
+# Via API
+curl http://localhost:11434/api/generate -d '{
+  "model": "qwen3.5:4b",
+  "keep_alive": 0
+}'
+```
+
+Or use `ollama ps` to see what's loaded first:
+
+```bash
+ollama ps
+```
+
+### How to tell a model has been unloaded
+
+Run `ollama ps` — it shows an empty list if no model is loaded.
+
+**Important:** If a model is not in use, Ollama unloads it automatically after
+`OLLAMA_KEEP_ALIVE` (default 5 minutes). You can reduce this:
+
+```bash
+export OLLAMA_KEEP_ALIVE=30s   # unload after 30 seconds of inactivity
+```
 
 ---
 
 ## 6. Speculative decoding (speedup)
 
-A **small fast model** drafts tokens, a **large model** validates them.
+A **small fast model** (draft model) drafts tokens, a **large model** validates them.
+
+**Result:** generation speeds up 1.5–2× without quality loss.
+
+### How it works
+
+1. The draft model (small) quickly guesses the next 5–10 tokens
+2. The large model checks them all at once (in parallel)
+3. If the draft guessed correctly — accept; if wrong — the large model corrects
 
 ### Setup via Modelfile
 
@@ -383,9 +574,9 @@ ollama pull llama3.2:3b
 | With draft (Qwen 2.5 Coder 1.5B) | 110–120 | **×1.6** |
 
 **When NOT to use:**
-- Low RAM (draft model takes extra space)
-- Model already fast (>50 tok/s)
-- Draft from a different family (low quality guesses)
+- Low RAM — the draft model takes extra space
+- Model is already fast (>50 tok/s) — speedup is negligible
+- Draft model from a different family — guess quality drops significantly
 
 ---
 

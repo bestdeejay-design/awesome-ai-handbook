@@ -25,9 +25,15 @@
 
 ## 1. Simple install (CPU)
 
+If you don't have a discrete NVIDIA GPU, Ollama will run on the CPU. Slower than a GPU setup, but perfectly usable for small models (up to 7B).
+
+### Install (one command)
+
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh
 ```
+
+After installation, Ollama runs as a system service:
 
 ```bash
 # Check status
@@ -36,6 +42,8 @@ systemctl status ollama
 # View logs
 journalctl -u ollama -f
 ```
+
+### Verification
 
 ```bash
 ollama --version
@@ -46,15 +54,47 @@ curl http://localhost:11434/api/version
 
 ## 2. Install with GPU (NVIDIA CUDA)
 
+### Step 1. Make sure NVIDIA drivers are installed
+
 ```bash
-# NVIDIA Container Toolkit
+nvidia-smi
+```
+
+This should show your graphics card, driver version, and VRAM size.
+
+### Step 2. Install Ollama
+
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+```
+
+The installer will automatically detect CUDA and enable GPU acceleration.
+
+### Step 3. Verify GPU is used
+
+```bash
+ollama ps
+```
+
+Should show `100% GPU` when a model is running. If it shows `0% GPU`, something is wrong.
+
+### If GPU is not detected
+
+```bash
+# NVIDIA Container Toolkit (required for Docker)
 sudo apt install nvidia-container-toolkit   # Debian/Ubuntu
 sudo dnf install nvidia-container-toolkit   # Fedora
+
+# Or check environment variables
+export OLLAMA_CUDA=1
+ollama serve
 ```
 
 ---
 
 ## 3. Install via Docker
+
+Recommended for servers and fine-tuning:
 
 ```bash
 # With GPU (NVIDIA)
@@ -68,6 +108,8 @@ docker run -d -p 11434:11434 \
   --name ollama ollama/ollama
 ```
 
+**Environment variables for Docker:**
+
 ```bash
 docker run -d --gpus all -p 11434:11434 \
   -e OLLAMA_CONTEXT_LENGTH=32768 \
@@ -80,6 +122,8 @@ docker run -d --gpus all -p 11434:11434 \
 ---
 
 ## 4. Server configuration (systemd)
+
+If Ollama is installed natively (not via Docker):
 
 ```bash
 sudo systemctl edit ollama.service
@@ -99,6 +143,8 @@ Restart:
 sudo systemctl daemon-reload
 sudo systemctl restart ollama
 ```
+
+> **Note:** `OLLAMA_HOST=0.0.0.0` opens Ollama to network access. If this is your personal machine, keep `127.0.0.1` (local access only).
 
 ---
 
@@ -121,6 +167,8 @@ Explain the difference between soft and hard links in Linux
 ## 6. Coding setup
 
 ### VS Code + Continue
+
+Install VS Code and the **Continue** extension. Configuration:
 
 ```json
 {
@@ -149,13 +197,20 @@ More: [`../use-cases/coding.md`](../use-cases/coding.md)
 
 ### Permission denied
 ```bash
+# Add your user to the docker group (if using Docker)
 sudo usermod -aG docker $USER
+
+# Or run Ollama as the current user
+ollama serve
 ```
 
 ### GPU not used in Docker
 ```bash
+# Install nvidia-container-toolkit
 sudo apt install nvidia-container-toolkit
 sudo systemctl restart docker
+
+# Use the --gpus all flag
 docker run -d --gpus all ...
 ```
 
@@ -172,8 +227,8 @@ sudo dnf install cuda                  # Fedora
 
 ### Stop the server
 ```bash
-sudo systemctl stop ollama
-docker stop ollama
+sudo systemctl stop ollama     # if installed as a service
+docker stop ollama             # if running in Docker
 ```
 
 ---

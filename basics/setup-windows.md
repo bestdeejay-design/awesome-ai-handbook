@@ -30,34 +30,55 @@
 | **Native** | Easy (one command) | NVIDIA CUDA | Most users |
 | **WSL2** | Medium | NVIDIA CUDA | Developers, Continue.dev |
 
+If you have an **NVIDIA GPU**, both methods give you GPU acceleration (models run fast).  
+If you have **AMD** or **integrated graphics**, Ollama runs on CPU (slower, but works).
+
 ---
 
 ## 2. Method 1: Native install (recommended)
+
+### Step 1. Install
 
 1. Download: [ollama.com/download/windows](https://ollama.com/download/windows)
 2. Run `OllamaSetup.exe`
 3. Wait (Ollama icon appears in system tray)
 
+### Step 2. Verify
+
 Open **PowerShell** or **Command Prompt**:
+
 ```powershell
 ollama --version
 ```
 
-Ollama starts automatically at login. Icon in system tray.
+Should show: `ollama version 0.x.x`
+
+### Step 3. Confirm the server is running
+
+Ollama starts automatically at login. Icon in system tray (bottom right) — an alpaca dog.
 
 Check:
 ```powershell
 curl http://localhost:11434/api/version
 ```
 
+Should return: `{"version":"0.x.x"}`
+
 ---
 
 ## 3. Method 2: Install via WSL2
 
+This method offers more capabilities (Docker, Linux tools, Continue.dev).
+
+### Step 1. Install WSL2
+
 Open PowerShell as Administrator:
+
 ```powershell
 wsl --install
 ```
+
+Reboot your computer. After reboot, a Linux window will open — create a user.
 
 ### Step 2. Install Ollama inside WSL2
 
@@ -73,6 +94,8 @@ VS Code, Continue.dev and other programs connect to it as local.
 ---
 
 ## 4. Verification
+
+Make sure everything works:
 
 ```powershell
 # Check version
@@ -93,7 +116,9 @@ ollama search qwen
 ollama run qwen3.5:4b
 ```
 
-Try:
+After downloading (~3.4 GB) you'll see the `>>>` prompt — the model is ready to chat.
+
+**What to try:**
 ```
 Write a Python function that checks if a number is prime
 Explain the difference between list and tuple in Python
@@ -111,9 +136,11 @@ Translate to Russian: "I need to install an AI model locally"
 
 ### VS Code + Continue
 
+After installing Ollama and running a model:
+
 1. Install [VS Code](https://code.visualstudio.com/)
-2. Install **Continue** extension
-3. Configure:
+2. Install **Continue** extension (from the marketplace)
+3. In Continue settings, add the model:
    ```json
    {
      "models": [{
@@ -126,6 +153,14 @@ Translate to Russian: "I need to install an AI model locally"
    ```
 
 More: [`../use-cases/coding.md`](../use-cases/coding.md)
+
+### Aider
+
+```powershell
+pip install aider-chat
+set OLLAMA_API_BASE=http://127.0.0.1:11434
+aider --model ollama_chat/qwen2.5-coder:7b
+```
 
 ---
 

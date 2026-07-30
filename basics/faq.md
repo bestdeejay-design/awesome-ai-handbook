@@ -35,7 +35,11 @@ ChatGPT is the tip of the iceberg. Below the surface lies an ocean of open model
 
 ### Will AI replace my job?
 
-Just like Excel did not replace accountants but made them more effective — AI is becoming a tool of augmentation, not replacement. Especially in many professions that require local knowledge and human contact — AI is still weak here.
+AI will not replace you. But a person who knows how to use AI will replace one who does not.
+
+Just like Excel did not replace accountants but made them more effective — AI is becoming a tool of augmentation, not replacement. Especially in professions that require local knowledge and human contact — AI is still weak here.
+
+**Learning AI now is not about fleeing replacement — it is an investment in your competitiveness.**
 
 ### Why run locally if ChatGPT exists?
 
@@ -52,6 +56,12 @@ More details: [cloud-vs-local.md](cloud-vs-local.md)
 ---
 
 ## 2. About hardware
+
+### How much does it cost to run local models?
+
+**It is free.** If you already have a computer, you only pay for electricity (pennies). Models are downloaded for free and run without subscriptions.
+
+The only expense would be if you decide to upgrade your hardware — but that is a one-time investment.
 
 ### I have 8 GB RAM — can I run anything?
 
@@ -96,15 +106,24 @@ ollama list              # see installed models
 
 ### Models give wrong answers (hallucinations). What to do?
 
+This is called **hallucination**. The model does not know the boundaries of its knowledge — it always outputs the most likely continuation. If a question falls outside its training data, it will still answer, but the answer may be incorrect.
+
+**What to do:**
 - Verify important facts
 - Use RAG (search your documents) — the model answers based on your data
 - Lower temperature (0 = fewer hallucinations)
 
 ### Which model is best for Russian?
 
-**Qwen 3.5** from Alibaba is the best for Russian among open-source models. Also good: **Llama 3.1** (worse, but can be improved with system prompts) and **DeepSeek-R1** (excellent reasoning, average Russian).
+**Qwen 3.5** from Alibaba is the best for Russian among open-source models. It was trained on a significant volume of Russian-language data and understands context, idioms, and cultural references.
 
-### How to update Ollama?
+Also good: **Llama 3.1** (worse, but can be improved with system prompts) and **DeepSeek-R1** (excellent reasoning, average Russian).
+
+### How to update models?
+
+Models do not update automatically. When a new version is released, simply download it as a new model. The old one can be removed.
+
+Ollama itself is updated via:
 
 ```bash
 brew upgrade ollama  # Mac
@@ -113,9 +132,9 @@ brew upgrade ollama  # Mac
 
 ### Can I run multiple models at the same time?
 
-Ollama keeps a model in RAM while you work with it. If you start a second one, the first gets unloaded.
+Ollama keeps a model in RAM while you work with it. If you start a second one, the first gets unloaded. You can configure `keep_alive` for both, but this will quickly fill up RAM.
 
-**Practical tip:** use one model for chat (Qwen 3.5 7B) and one small one for autocomplete (CodeGemma 2B).
+**Practical tip:** use one model for chat (Qwen 3.5 7B) and one small one for autocomplete (CodeGemma 2B). They fit in 16 GB RAM.
 
 ---
 
@@ -153,14 +172,33 @@ More: [`../use-cases/coding.md`](../use-cases/coding.md)
 
 ### Is it legal to use open-source models for commercial work?
 
-**Yes, in most cases.** Major open-source models have commercial licenses.
+**Yes, in most cases.** Major open-source models (Llama 3, Qwen, Mistral, Gemma) have commercial licenses — they can be used in business.
 
 **Nuances:**
-- Copyright on generated code is debatable
-- **Practical tip:** check each models license on its page
+- Copyright on generated code is debatable (same as for GitHub Copilot)
+- **Practical tip:** check each model's license on its page
 - For content — do not pass generated material off as your own without editing
 
 More: [`../agents/safety.md`](../agents/safety.md)
+
+### Are local models safe? Can they harm me?
+
+A local model is **safer than a cloud one** because:
+- No data leaves your computer
+- The model has no internet access (unless you give it one)
+- You control which prompts to send
+
+**But:** like any tool, a model can be used for harm. Do not ask the model to do illegal things, and do not blindly trust its medical or legal advice.
+
+More: [`../agents/safety.md`](../agents/safety.md)
+
+### Can my data be stolen through a local model?
+
+No. A local model runs entirely isolated on your computer. Ollama does not send telemetry containing the content of your requests. The only risk is if you connect the model to the internet yourself or install a suspicious extension.
+
+### Can a model "hack" my computer?
+
+No. A model is a program that generates text. It cannot execute code on your computer unless you explicitly give it the tools to do so. Even then, it only does what you allow.
 
 ---
 
@@ -171,6 +209,7 @@ More: [`../agents/safety.md`](../agents/safety.md)
 | **Step-by-step plan: from chat to agent** | [learning-path.md](learning-path.md) |
 | **Install Ollama** | [`../local-models/getting-started.md`](../local-models/getting-started.md) |
 | **Start coding** | [`../use-cases/coding.md`](../use-cases/coding.md) |
+| **#FAQ** | `git commit -m "add faq"` |
 | **Back to navigation** | [README.md](README.md) |
 
 ---
