@@ -125,6 +125,191 @@ ollama run qwen3.5:4b
 
 **Best for:** General use, agents, beginners, production
 
+#### <img src="https://lucide.dev/api/icons/satellite" alt="" width="20" height="20" style="vertical-align:middle"> API Endpoints
+
+Ollama provides an HTTP API on port 11434. All requests are POST, responses in JSON.
+
+| Endpoint | Method | Description |
+|---|---|---|
+| `/api/chat` | POST | Chat completion (streaming) |
+| `/api/generate` | POST | Text generation (completion) |
+| `/api/embed` | POST | Embeddings (new API, replaces `/api/embeddings`) |
+| `/api/embeddings` | POST | Embeddings (deprecated) |
+| `/api/tags` | GET | List local models |
+| `/api/ps` | GET | List loaded models |
+| `/api/show` | POST | Model info |
+| `/api/create` | POST | Create from Modelfile |
+| `/api/pull` | POST | Download model |
+| `/api/push` | POST | Upload to registry |
+| `/api/copy` | POST | Copy model |
+| `/api/delete` | DELETE | Delete model |
+| `/api/version` | GET | Ollama version |
+| `/api/blobs/:digest` | HEAD/POST | Check/create blob |
+| `/api/experimental/web_search` | POST | Web search (experimental) |
+| `/api/experimental/web_fetch` | POST | Fetch pages (experimental) |
+
+**Basic examples:**
+
+```bash
+# Generate (no streaming)
+curl http://localhost:11434/api/generate -d '{
+  "model": "qwen3.5:4b",
+  "prompt": "What is the meaning of life?",
+  "stream": false
+}'
+
+# Chat
+curl http://localhost:11434/api/chat -d '{
+  "model": "qwen3.5:4b",
+  "messages": [{"role": "user", "content": "Hello!"}],
+  "stream": false
+}'
+
+# JSON mode
+curl http://localhost:11434/api/chat -d '{
+  "model": "qwen3.5:4b",
+  "messages": [{"role": "user", "content": "Extract the name from: My name is John"}],
+  "format": "json",
+  "stream": false
+}'
+
+# List installed models
+curl http://localhost:11434/api/tags
+
+# Loaded models (memory, CPU)
+curl http://localhost:11434/api/ps
+
+# Unload model from memory
+curl http://localhost:11434/api/generate -d '{
+  "model": "qwen3.5:4b",
+  "keep_alive": 0
+}'
+
+# Embeddings
+curl http://localhost:11434/api/embed -d '{
+  "model": "all-minilm",
+  "input": ["text for vectorization"]
+}'
+```
+
+**Structured output (JSON Schema):**
+
+```bash
+curl http://localhost:11434/api/chat -d '{
+  "model": "qwen3.5:4b",
+  "messages": [{"role": "user", "content": "Extract data: John, 25, New York"}],
+  "format": {
+    "type": "object",
+    "properties": {
+      "name": {"type": "string"},
+      "age": {"type": "integer"},
+      "city": {"type": "string"}
+    },
+    "required": ["name", "age", "city"]
+  },
+  "stream": false
+}'
+```
+
+#### <img src="https://lucide.dev/api/icons/bot" alt="" width="20" height="20" style="vertical-align:middle"> OpenAI-compatible endpoints
+
+Any OpenAI library can connect to Ollama by changing `base_url`:
+
+| Endpoint | Description |
+|---|---|
+| `/v1/chat/completions` | Chat (OpenAI format) |
+| `/v1/completions` | Completion (OpenAI format) |
+| `/v1/embeddings` | Embeddings (OpenAI format) |
+| `/v1/models` | List models |
+
+```python
+from openai import OpenAI
+
+client = OpenAI(
+    base_url="http://localhost:11434/v1",
+    api_key="ollama"  # any value
+)
+
+response = client.chat.completions.create(
+    model="qwen3.5:4b",
+    messages=[{"role": "user", "content": "Hello!"}]
+)
+print(response.choices[0].message.content)
+```
+
+```bash
+# curl version
+curl http://localhost:11434/v1/chat/completions -d '{
+  "model": "qwen3.5:4b",
+  "messages": [{"role": "user", "content": "Hello!"}]
+}'
+```
+
+#### <img src="https://lucide.dev/api/icons/file-text" alt="" width="20" height="20" style="vertical-align:middle"> Modelfile Parameters
+
+Modelfile — model configuration in Ollama (analogous to Dockerfile for LLMs):
+
+```dockerfile
+FROM qwen3.5:4b
+PARAMETER temperature 0.7
+PARAMETER num_ctx 8192
+SYSTEM "You are a professional Python developer."
+```
+
+**All PARAMETER instructions:**
+
+| Parameter | Default | Description |
+|---|---|---|
+| `num_ctx` | 2048\* | Context window size |
+| `num_predict` | -1 (∞) | Max tokens to generate |
+| `temperature` | 0.8 | Response creativity |
+| `top_k` | 40 | Top-K sampling |
+| `top_p` | 0.9 | Nucleus sampling |
+| `min_p` | 0.0 | Min-P sampling |
+| `seed` | 0 | Seed (reproducibility) |
+| `stop` | — | Stop sequences |
+| `repeat_penalty` | 1.1 | Repeat penalty |
+| `repeat_last_n` | 64 | Penalty window (0=off) |
+| `num_batch` | auto | Batch size |
+| `num_thread` | auto | CPU threads |
+| `numa` | false | NUMA (Linux, multi-socket) |
+| `use_mmap` | true | Memory-mapped I/O |
+
+> \*`num_ctx` in Modelfile = 2048, but via API auto-selected based on VRAM. On M1 16GB → 4096 (see README).
+
+**Other Modelfile instructions:**
+
+| Instruction | Description |
+|---|---|
+| `FROM` | Base model (required) |
+| `TEMPLATE` | Prompt template (Go template) |
+| `SYSTEM` | System message |
+| `ADAPTER` | LoRA adapter |
+| `LICENSE` | License |
+| `MESSAGE` | Few-shot examples |
+| `DRAFT` | Draft model (speculative decoding) |
+| `REQUIRES` | Minimum Ollama version |
+
+#### <img src="https://lucide.dev/api/icons/wrench" alt="" width="20" height="20" style="vertical-align:middle"> Environment Variables
+
+Key `OLLAMA_*` variables for configuration:
+
+| Variable | Default | Description |
+|---|---|---|
+| `OLLAMA_HOST` | `127.0.0.1:11434` | Server IP and port |
+| `OLLAMA_MODELS` | `~/.ollama/models` | Models path |
+| `OLLAMA_KEEP_ALIVE` | `5m` | Model lifetime in memory |
+| `OLLAMA_NUM_PARALLEL` | `1` | Parallel requests |
+| `OLLAMA_MAX_LOADED_MODELS` | auto | Max models on GPU |
+| `OLLAMA_LOAD_TIMEOUT` | `5m` | Load timeout |
+| `OLLAMA_KV_CACHE_TYPE` | `f16` | KV cache quantization (`q8_0`, `q4_0`) |
+| `OLLAMA_FLASH_ATTENTION` | false | Flash attention (memory saving) |
+| `OLLAMA_GPU_OVERHEAD` | `0` | VRAM reserve (bytes) |
+| `OLLAMA_MAX_QUEUE` | `512` | Max request queue |
+| `OLLAMA_DEBUG` | false | Debug mode |
+| `OLLAMA_NOHISTORY` | false | Disable history |
+| `OLLAMA_NO_CLOUD` | false | No cloud functions |
+
 ---
 
 ## 4. LM Studio

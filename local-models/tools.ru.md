@@ -13,11 +13,14 @@
 ## Содержание
 
 1. [Каталог инструментов](#1-каталог-инструментов)
-2. [Сценарии: какой инструмент выбрать](#2-сценарии-какой-инструмент-выбрать)
-3. [Бенчмарки на Apple Silicon](#3-бенчмарки-на-apple-silicon)
-4. [Масштабирование и production](#4-масштабирование)
-5. [Гайды по установке](#5-гайды-по-установке)
-6. [Decision Tree](#6-decision-tree)
+2. [Сравнительная таблица](#2-сравнительная-таблица)
+3. [Сценарии: какой инструмент выбрать](#3-сценарии-какой-инструмент-выбрать)
+4. [Бенчмарки на Apple Silicon](#4-бенчмарки-на-apple-silicon)
+5. [Масштабирование и production](#5-масштабирование)
+6. [Гайды по установке](#6-гайды-по-установке)
+7. [Decision Tree](#7-decision-tree)
+8. [Глоссарий терминов](#8-глоссарий-терминов)
+9. [Что дальше](#9-что-дальше)
 
 ---
 
@@ -657,7 +660,27 @@ docker run -p 8080:8080 \
 
 ---
 
-## 2. Сценарии: какой инструмент выбрать
+## 2. Сравнительная таблица
+
+| Характеристика | Ollama | LM Studio | llama.cpp | MLX | vLLM | GPT4All | Jan | Open WebUI | Aider | Continue.dev | Enchanted | LocalAI | MindWork AI Studio |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| **Тип** | Движок | Движок+GUI | Движок | Движок | Движок | Движок+GUI | Десктоп UI | Веб UI | CLI-агент | IDE-плагин | Моб. UI | Движок+API | Мульти-GUI |
+| **Установка** | 1 команда | Скачать | Сборка из исходников | pip install | pip/Docker | pip install | Скачать | `docker run` | pip install | Установка в IDE | Скачать | Docker | Скачать |
+| **Платформа** | Mac/Lin/Win | Mac/Lin/Win | Mac/Lin/Win | Только Mac | Linux | Mac/Lin/Win | Mac/Lin/Win | Веб | Mac/Lin/Win | IDE | macOS/iOS | Mac/Lin/Win | Mac/Lin/Win |
+| **GPU поддержка** | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> CUDA+Metal | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> CUDA+Metal | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> CUDA+Metal | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> (только M) | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> (CUDA) | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> (только CPU) | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Metal | Через бэкенд | Через бэкенд | Через бэкенд | Через бэкенд | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | Через бэкенд |
+| **Open Source** | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> MIT | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> MIT | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Apache 2.0 | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Apache 2.0 | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> MIT | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> AGPL (ядро) | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> MIT | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Apache 2.0 | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> Apache 2.0 | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> MIT | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> MIT | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> FSL-1.1 |
+| **Квантизации** | K-quants | K-quants | K-quants + I-quants | 2–6 bit | AWQ/GPTQ | K-quants | Через бэкенд | N/A | N/A | N/A | N/A | Все форматы | N/A |
+| **Tool calling** | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **OpenAI API** | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **Docker** | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/alert-triangle" alt="" width="20" height="20" style="vertical-align:middle"> (только Mac) | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/alert-triangle" alt="" width="20" height="20" style="vertical-align:middle"> Community | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **Паралл. запросы** | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **Multi-model** | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | Вручную | Вручную | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> |
+| **RAG поддержка** | Вручную | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | Вручную | Вручную | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> (LocalDocs) | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> (9 БД) | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> (@codebase) | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/x" alt="" width="20" height="20" style="vertical-align:middle"> | <img src="https://lucide.dev/api/icons/check" alt="" width="20" height="20" style="vertical-align:middle"> (Qdrant) |
+| **Скорость (M1 7B)** | 22–25 t/s | 22–28 t/s | 20–25 t/s | 28–35 t/s | N/A | 10–15 t/s | Через бэкенд | N/A | N/A | N/A | N/A | Через бэкенд | N/A |
+
+---
+
+## 3. Сценарии: какой инструмент выбрать
 
 | Сценарий | Инструмент | Почему |
 |----------|-----------|--------|
@@ -676,7 +699,7 @@ docker run -p 8080:8080 \
 
 ---
 
-## 3. Бенчмарки на Apple Silicon
+## 4. Бенчмарки на Apple Silicon
 
 ### 3.1 MLX vs llama.cpp vs Ollama (M5 Max 128GB, Llama 3.1 70B Q4)
 
@@ -738,9 +761,24 @@ Gemma 4 26B MoE на M3 Max 128GB:
 
 *(Источник: PubliVault)*
 
+### 3.7 M4 Pro 24 GB, Qwen3-Coder-30B MoE
+
+| Метрика | LM Studio (MLX) | Ollama (llama.cpp) | Разница |
+|---------|----------------|-------------------|---------|
+| **Throughput** | **102 tok/s** | 70 tok/s | **+46%** |
+| TTFT | 291 ms | **175 ms** | Ollama быстрее |
+| GPU Power | **12.4 W** | 15.4 W | **–20%** |
+| Память | **21.4 GB** | 41.6 GB | **–49%** |
+
+### 3.8 MLX backend в Ollama
+
+С марта 2026 года Ollama может использовать MLX backend на Mac с 32 ГБ+ RAM:
+- Qwen 3.5-35B-A3B: 58 → **112 tok/s** на M5 Max (+93%)
+- Пока работает с моделями Qwen, Llama/Mistral скоро
+
 ---
 
-## 4. Масштабирование
+## 5. Масштабирование
 
 ### 4.1 Concurrent users
 
@@ -779,7 +817,7 @@ Gemma 4 26B MoE на M3 Max 128GB:
 
 ---
 
-## 5. Гайды по установке
+## 6. Гайды по установке
 
 ### Ollama
 
@@ -961,9 +999,43 @@ curl http://localhost:8080/v1/audio/speech -d '{
 }'
 ```
 
+### Jan
+
+```bash
+# Скачайте с https://jan.ai/
+# Или через Homebrew:
+brew install --cask jan
+
+# Откройте → Model Hub → Скачайте модель → Начинайте общение
+```
+
+### Enchanted
+
+```bash
+# Скачайте из App Store (macOS и iOS)
+# Или соберите из исходников:
+git clone https://github.com/gluonfield/enchanted.git
+# Откройте в Xcode → Build → Run
+
+# Убедитесь, что Ollama запущен на вашем Mac
+# Настройте URL сервера в параметрах
+# Начинайте общение с любого устройства в сети
+```
+
+### MindWork AI Studio
+
+```bash
+# Скачайте с https://mindwork.ai/
+# Доступно для macOS, Windows, Linux
+
+# Или соберите из исходников:
+git clone https://github.com/MindWorkAI/AI-Studio.git
+# Следуйте инструкциям по сборке в репозитории
+```
+
 ---
 
-## 6. Decision Tree
+## 7. Decision Tree
 
 ```
 Хочу запускать LLM локально
@@ -994,13 +1066,19 @@ curl http://localhost:8080/v1/audio/speech -d '{
 ├─ Нужен полный контроль и гибкость
 │  └─ llama.cpp (raw) ──────────────────────── GGUF, speculative decoding
 │
-└─ Нужен полный OpenAI API (TTS, STT, images)
-   └─ LocalAI ───────────────────────────────── 60+ бэкендов, Docker
+├─ Нужен полный OpenAI API (TTS, STT, images)
+│  └─ LocalAI ───────────────────────────────── 60+ бэкендов, Docker
+│
+├─ Нужен десктопный клиент для локальных + облачных моделей
+│  └─ Jan ───────────────────────────────────── Model Hub, remote support
+│
+└─ Нужен один GUI для всех провайдеров
+   └─ MindWork AI Studio ────────────────────── Локальные + облачные, плагины, RAG
 ```
 
 ---
 
-## Терминология
+## 8. Глоссарий терминов
 
 | Термин | Значение |
 |--------|---------|
@@ -1014,14 +1092,15 @@ curl http://localhost:8080/v1/audio/speech -d '{
 
 ---
 
-## Что дальше
+## 9. Что дальше
 
 | Если хотите | Переходите |
 |-------------|-----------|
-| **Выбрать модель** под свой инструмент | [models.md](models.ru.md) |
 | **Настроить Ollama** под свои задачи | [advanced-setup.md](advanced-setup.ru.md) |
+| **Выбрать модель** под свой инструмент | [models.md](models.ru.md) |
 | **Посмотреть бенчмарки** на разных чипах | [benchmarks/apple-silicon.md](benchmarks/apple-silicon.ru.md) |
 | **Разобраться с квантизацией** | [quantization.md](quantization.ru.md) |
+| **Начать с нуля** | [basics/](../basics/README.ru.md) |
 | **Вернуться к навигации** | [README.md](README.ru.md) |
 
 ---
