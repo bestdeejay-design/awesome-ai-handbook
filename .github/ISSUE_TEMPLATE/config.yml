@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: GitHub Discussions
+    url: https://github.com/bestdeejay-design/awesome-ai-handbook/discussions
+    about: Questions and community chat
+  - name: Support
+    url: https://github.com/bestdeejay-design/awesome-ai-handbook/blob/main/SUPPORT.md
+    about: Where to get help

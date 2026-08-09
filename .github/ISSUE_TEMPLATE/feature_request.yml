@@ -1,0 +1,31 @@
+name: ✨ Feature Request
+description: Suggest new content, section, or improvement for the handbook
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an improvement to **Awesome AI Handbook**.
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to add or change?
+      description: New topic, new section, better explanation, tool coverage…
+    validations:
+      required: true
+  - type: dropdown
+    id: audience
+    attributes:
+      label: Who is this for?
+      options:
+        - Beginners (Zero Level)
+        - Local models / Ollama users
+        - Agent builders
+        - Everyone
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: References (optional)
+      description: Links to resources, tutorials, or tools that support your idea

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="60" viewBox="0 0 1200 60" role="img" aria-label="@bestdeejay-design">
+  <defs>
+    <linearGradient id="fg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4">
+        <animate attributeName="stop-color" values="#06B6D4;#7C3AED;#06B6D4" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#7C3AED">
+        <animate attributeName="stop-color" values="#7C3AED;#06B6D4;#7C3AED" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <!-- Маска: чёрная волна морфится и вырезает цвет баннера сверху (фон наплывает на футер) -->
+    <mask id="wave">
+      <rect width="1200" height="60" fill="#FFFFFF"/>
+      <path fill="#000000" d="M0,-12 L0,21 Q200,29 400,21 T800,21 T1200,21 L1200,-12 Z">
+        <animate attributeName="d" dur="6s" repeatCount="indefinite" begin="-3.6s"
+          keyTimes="0;0.333;0.667;1" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1"
+          values="M0,-12 L0,21 Q200,29 400,21 T800,21 T1200,21 L1200,-12 Z;M0,-12 L0,23 Q200,32 400,23 T800,23 T1200,23 L1200,-12 Z;M0,-12 L0,19 Q200,26 400,19 T800,19 T1200,19 L1200,-12 Z;M0,-12 L0,21 Q200,29 400,21 T800,21 T1200,21 L1200,-12 Z"/>
+      </path>
+    </mask>
+    <!-- Блик среднего цвета: статичный градиент (узкий мягкий ореол), движется сам rect -->
+    <linearGradient id="flash" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="44%" stop-color="#FFFFFF" stop-opacity="0.10"/>
+      <stop offset="48%" stop-color="#FFFFFF" stop-opacity="0.20"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.25"/>
+      <stop offset="52%" stop-color="#FFFFFF" stop-opacity="0.20"/>
+      <stop offset="56%" stop-color="#FFFFFF" stop-opacity="0.10"/>
+      <stop offset="65%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <g mask="url(#wave)">
+    <rect width="1200" height="60" fill="url(#fg)"/>
+
+    <!-- Блик: первый проход сразу, затем раз в 16s; от края до края; гаснет и телепортируется невидимым -->
+    <rect width="1200" height="60" fill="url(#flash)">
+      <animateTransform attributeName="transform" type="translate" values="-600,0;-600,0;600,0;600,0" keyTimes="0;0.05;0.28;1" dur="16s" calcMode="linear" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;1;1;0;0" keyTimes="0;0.03;0.05;0.28;0.35;1" dur="16s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Средняя волна (0.25), морфинг d, сдвиг 30% (-1.8s), запас -12 -->
+    <path fill="#FFFFFF" opacity="0.25" d="M0,-12 L0,27 Q150,35 300,27 T600,27 T900,27 T1200,27 L1200,-12 Z">
+      <animate attributeName="d" dur="6s" repeatCount="indefinite" begin="-1.8s"
+        keyTimes="0;0.333;0.667;1" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1"
+        values="M0,-12 L0,27 Q150,35 300,27 T600,27 T900,27 T1200,27 L1200,-12 Z;M0,-12 L0,29 Q150,38 300,29 T600,29 T900,29 T1200,29 L1200,-12 Z;M0,-12 L0,25 Q150,32 300,25 T600,25 T900,25 T1200,25 L1200,-12 Z;M0,-12 L0,27 Q150,35 300,27 T600,27 T900,27 T1200,27 L1200,-12 Z"/>
+    </path>
+    <!-- Верхняя волна (0.5), морфинг d, сдвиг 0s, запас -16 -->
+    <path fill="#FFFFFF" opacity="0.5" d="M0,-16 L0,35 Q120,44 240,35 T480,35 T720,35 T960,35 T1200,35 L1200,-16 Z">
+      <animate attributeName="d" dur="6s" repeatCount="indefinite" begin="0s"
+        keyTimes="0;0.333;0.667;1" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1"
+        values="M0,-16 L0,35 Q120,44 240,35 T480,35 T720,35 T960,35 T1200,35 L1200,-16 Z;M0,-16 L0,38 Q120,48 240,38 T480,38 T720,38 T960,38 T1200,38 L1200,-16 Z;M0,-16 L0,32 Q120,40 240,32 T480,32 T720,32 T960,32 T1200,32 L1200,-16 Z;M0,-16 L0,35 Q120,44 240,35 T480,35 T720,35 T960,35 T1200,35 L1200,-16 Z"/>
+    </path>
+
+    <text x="602" y="51" font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-size="22" font-weight="bold" fill="#000000" opacity="0.30" text-anchor="middle">@bestdeejay-design</text>
+    <text x="600" y="49" font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+      @bestdeejay-design
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>

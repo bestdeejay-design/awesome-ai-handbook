@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://github.com/bestdeejay-design" target="_blank">
+    <img src="assets/header.svg" alt="header" />
+  </a>
+</p>
+
 # <img src="https://lucide.dev/api/icons/brain" alt="" width="20" height="20" style="display:inline;vertical-align:middle"> Awesome AI Handbook
 
 > Практический справочник по AI: от запуска первой локальной модели до своего агента.  
@@ -126,3 +132,9 @@ awesome-ai-handbook/
 ---
 
 *Awesome AI Handbook — чтобы каждый мог освоить AI, независимо от уровня и железа.*
+
+<p align="center">
+  <a href="https://github.com/bestdeejay-design" target="_blank">
+    <img src="assets/footer.svg" alt="footer" />
+  </a>
+</p>

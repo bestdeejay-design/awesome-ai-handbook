@@ -1,0 +1,40 @@
+name: 🐛 Bug Report
+description: Report a bug, broken link, or factual error in the handbook
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report an issue in **Awesome AI Handbook**.
+  - type: dropdown
+    id: type
+    attributes:
+      label: Issue type
+      options:
+        - Broken link (internal or external)
+        - Factual error / outdated information
+        - Rendering / formatting problem
+        - Missing content or file
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Where is the problem?
+      description: File name, section, or exact URL
+      placeholder: "e.g. basics/what-is-ai.md, section 'Neural networks'"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the problem
+      description: What is wrong, and what did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested fix (optional)
+      description: If possible, suggest a correction or replacement
