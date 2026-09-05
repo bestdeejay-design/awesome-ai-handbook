@@ -34,6 +34,7 @@
 | Название | Автор | О чём |
 |----------|-------|-------|
 | [**The Batch**](https://www.deeplearning.ai/the-batch/) | DeepLearning.AI | Еженедельный дайджест AI |
+| [**AI Weekly**](https://aiweekly.co/) | AI Weekly | Отслеживает, что сейчас читают и чем делятся AI-эксперты: модели, агенты, инвестиции, политика и исследования (проверено: 2026-09-05) |
 | [**Import AI**](https://importai.substack.com/) | Jack Clark | Аналитика индустрии |
 | [**The Gradient**](https://thegradient.pub/) | Сообщество | Глубокие разборы |
 | [**TLDR AI**](https://tldr.tech/ai) | TLDR | Короткие новости (5 мин чтения) |
