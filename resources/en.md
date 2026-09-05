@@ -36,6 +36,7 @@
 | Name | Author | About |
 |------|--------|-------|
 | [**The Batch**](https://www.deeplearning.ai/the-batch/) | DeepLearning.AI | Weekly AI digest |
+| [**AI Weekly**](https://aiweekly.co/) | AI Weekly | Tracks what AI experts are reading and sharing across models, agents, funding, policy, and research (last verified: 2026-09-05) |
 | [**Import AI**](https://importai.substack.com/) | Jack Clark | Industry analysis |
 | [**The Gradient**](https://thegradient.pub/) | Community | Deep dives |
 | [**TLDR AI**](https://tldr.tech/ai) | TLDR | Short news (5 min read) |
